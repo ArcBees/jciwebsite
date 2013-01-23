@@ -23,6 +23,8 @@ import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.user.client.ui.HTMLPanel;
 import com.google.gwt.user.client.ui.Widget;
+import com.jci.client.application.ui.FooterView;
+import com.jci.client.application.ui.HeaderView;
 
 public class ApplicationView extends ViewImpl implements ApplicationPresenter.MyView {
     public interface Binder extends UiBinder<Widget, ApplicationView> {
@@ -30,9 +32,17 @@ public class ApplicationView extends ViewImpl implements ApplicationPresenter.My
 
     @UiField
     HTMLPanel main;
+    @UiField(provided = true)
+    HeaderView header;
+    @UiField(provided = true)
+    FooterView footer;
 
     @Inject
-    public ApplicationView(final Binder uiBinder) {
+    public ApplicationView(Binder uiBinder,
+                           HeaderView headerView,
+                           FooterView footerView) {
+        this.header = headerView;
+        this.footer = footerView;
         initWidget(uiBinder.createAndBindUi(this));
     }
 
