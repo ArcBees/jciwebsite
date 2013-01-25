@@ -1,6 +1,7 @@
 <ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
              xmlns:g='urn:import:com.google.gwt.user.client.ui'>
     <ui:with field="res" type="com.jci.client.resource.CommonResource"/>
+    <ui:with field="headRes" type="com.jci.client.resource.header.HeaderResource"/>
     <g:HTMLPanel>
         <div class="{res.style.width}">
             LOL
