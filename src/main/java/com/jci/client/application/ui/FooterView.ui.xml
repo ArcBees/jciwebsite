@@ -1,6 +1,7 @@
 <ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
              xmlns:g='urn:import:com.google.gwt.user.client.ui'>
     <ui:with field="res" type="com.jci.client.resource.ClientResource"/>
+    <ui:with field="footRes" type="com.jci.client.resource.FooterResource"/>
     <g:HTMLPanel>
         <div class="{res.style.width}">
 
