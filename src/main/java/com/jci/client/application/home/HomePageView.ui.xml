@@ -6,7 +6,9 @@
         <div class="{res.style.width} {mainRes.style.dragUp}">
             <div class="{mainRes.style.sliderWrapper} {res.style.round}">
                 <div class="{mainRes.style.sliderPhoto}">
-                    <div class="{mainRes.style.aWonderfulCity}">...a wonderful city</div>
+                    <div class="{mainRes.style.aWonderfulCity}">
+                        <p class="bebas">... a wonderful city</p>
+                    </div>
                 </div>
                 <div class="{mainRes.style.sliderButtons}">
                     <div>
