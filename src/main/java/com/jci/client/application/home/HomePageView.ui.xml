@@ -32,7 +32,7 @@
                 </div>
             </div>
 
-            <div class="{mainRes.style.sponsorWrapper} {res.style.round} {res.style.white}">
+            <div class="{mainRes.style.sponsorWrapper} {res.style.round}">
 
             </div>
         </div>

@@ -10,6 +10,8 @@
 @sprite .sponsorWrapper {
     gwt-image: "partners";
     height: 100px;
+    background-color: #d4ebf6;
+    width: inherit;
 }
 
 @sprite .sliderPhoto {
