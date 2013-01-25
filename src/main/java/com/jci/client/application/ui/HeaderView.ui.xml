@@ -13,13 +13,13 @@
                 <div class="{headRes.style.subtitle}">September 18th to 21st, Hosted by JCI Quebec</div>
                 <div class="{headRes.style.blackbar}"/>
                 <div class="{headRes.style.right} {headRes.style.navbar}">
-                    <span>HOME</span>
-                    <span>REGISTER</span>
-                    <span>PROGRAMS</span>
-                    <span>PARTNERS</span>
-                    <span>ABOUT</span>
-                    <span>MEDIA</span>
-                    <span>CONTACT</span>
+                    <a>HOME</a>
+                    <a>REGISTER</a>
+                    <a>PROGRAMS</a>
+                    <a>PARTNERS</a>
+                    <a>ABOUT</a>
+                    <a>MEDIA</a>
+                    <a>CONTACT</a>
                 </div>
             </div>
         </div>

@@ -46,9 +46,16 @@
     margin-bottom: 8px;
 }
 
-.navbar span {
+.navbar a {
     font-size: 15px;
     font-family: Arial;
     font-weight: bold;
     margin-left: 25px;
+    padding-bottom: 7px;
+}
+
+@sprite .navbar a:hover {
+    gwt-image: "headMouseOver";
+    background-position: bottom;
+    cursor: pointer;
 }

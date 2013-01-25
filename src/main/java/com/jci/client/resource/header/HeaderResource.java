@@ -28,7 +28,10 @@ public interface HeaderResource extends ClientBundle {
     }
 
     ImageResource headLogoJCI_EN();
+
     ImageResource headLangue_EN();
+
+    ImageResource headMouseOver();
 
     Style style();
 }
