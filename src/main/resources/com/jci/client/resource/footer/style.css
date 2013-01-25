@@ -1,0 +1,21 @@
+.copy {
+    height: 30px;
+    background: #000;
+}
+
+.copy p {
+    font-size: 11px;
+    margin: 0px auto;
+    color: #6b7377;
+    line-height: 30px;
+    text-align: center;
+}
+
+.copy p a {
+    text-decoration: underline;
+    color: #6b7377;
+}
+.copy p a:hover {
+    text-decoration: underline;
+    color: #216a9e;
+}
