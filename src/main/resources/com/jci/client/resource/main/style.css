@@ -5,6 +5,7 @@
 .sliderWrapper {
     height: 347px;
     margin-bottom: 30px;
+    overflow:hidden;
 }
 
 @sprite .sponsorWrapper {
@@ -12,6 +13,7 @@
     height: 100px;
     background-color: #d4ebf6;
     width: inherit;
+    background-position:center;
 }
 
 @sprite .sliderPhoto {
