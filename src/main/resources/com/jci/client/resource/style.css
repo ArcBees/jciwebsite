@@ -16,3 +16,6 @@ div.round {
     gwt-image: "tuile";
 }
 
+body, body p{
+    color: #383839;
+}
