@@ -1,0 +1,55 @@
+.dragUp {
+    margin-top: -35px;
+}
+
+.sliderWrapper {
+    height: 347px;
+    margin-bottom: 30px;
+}
+
+.sponsorWrapper {
+    height: 100px;
+}
+
+@sprite .sliderPhoto {
+    gwt-image: "homeImage001";
+    float: left;
+    height: 100%;
+    width: 764px;
+}
+
+.sliderButtons {
+    float: left;
+    width: 236px;
+    height: 100%;
+}
+
+@sprite .sliderButtons div {
+    gwt-image: "degrade_bt";
+    text-align: center;
+    border-left: 1px solid #355b42;
+    border-bottom: 1px solid #355b42;
+    color: white;
+    font-style: italic;
+    font-family: verdana;
+    font-size: 22px;
+}
+
+.sliderButtons div:last-child {
+    border-bottom: none;
+}
+
+.aWonderfulCity {
+    width: 250px;
+    margin-top: 20px;
+    height: 50px;
+    background-color: #d7dcde;
+
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomright: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
