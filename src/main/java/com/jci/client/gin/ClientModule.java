@@ -17,12 +17,14 @@
 package com.jci.client.gin;
 
 
+import com.google.inject.Singleton;
 import com.jci.client.application.ApplicationModule;
 import com.jci.client.place.DefaultPlace;
 import com.jci.client.place.NameTokens;
 import com.jci.client.place.PlaceManager;
 import com.gwtplatform.mvp.client.gin.AbstractPresenterModule;
 import com.gwtplatform.mvp.client.gin.DefaultModule;
+import com.jci.client.resource.ClientResource;
 
 public class ClientModule extends AbstractPresenterModule {
     @Override
@@ -31,5 +33,9 @@ public class ClientModule extends AbstractPresenterModule {
         install(new ApplicationModule());
 
         bindConstant().annotatedWith(DefaultPlace.class).to(NameTokens.home);
+
+        bind(ClientResource.class).in(Singleton.class);
+
+        bind(ResourceLoader.class).asEagerSingleton();
     }
 }
