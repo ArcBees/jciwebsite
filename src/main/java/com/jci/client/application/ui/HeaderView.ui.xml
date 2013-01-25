@@ -2,9 +2,9 @@
              xmlns:g='urn:import:com.google.gwt.user.client.ui'>
     <ui:with field="res" type="com.jci.client.resource.CommonResource"/>
     <ui:with field="headRes" type="com.jci.client.resource.header.HeaderResource"/>
-    <g:HTMLPanel>
-        <div class="{headRes.style.testHead}">
-            LOL
+    <g:HTMLPanel addStyleNames="{headRes.style.bottomBorder}">
+        <div class="{res.style.width}">
+            <g:Image resource="{headRes.headLogoJCI_EN}"/>
         </div>
     </g:HTMLPanel>
 </ui:UiBinder>
