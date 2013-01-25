@@ -10,26 +10,34 @@
                 </div>
                 <div class="{mainRes.style.sliderButtons}">
                     <div>
-                        Register
-                        <br/>
-                        NOW!
+                        <p>Register
+                            <br/>
+                            NOW!
+                        </p>
                     </div>
+
                     <div>
-                        Getting to
-                        <br/>
-                        Quebec City
+                        <p>Getting to
+                            <br/>
+                            Quebec City
+                        </p>
                     </div>
+
                     <div>
-                        Some good
-                        <br/>
-                        Hotels
+                        <p>Some good
+                            <br/>
+                            Hotels
+                        </p>
                     </div>
+
                     <div>
-                        Look at the
-                        <br/>
-                        Programs
+                        <p>Look at the
+                            <br/>
+                            Programs
+                        </p>
                     </div>
                 </div>
+
             </div>
 
             <div class="{mainRes.style.sponsorWrapper} {res.style.round}">

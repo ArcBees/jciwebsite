@@ -23,19 +23,25 @@
 
 .sliderButtons {
     float: left;
-    width: 236px;
-    height: 100%;
 }
 
-@sprite .sliderButtons div {
+.sliderButtons div {
+    display: table;
+    width: 236px;
+}
+
+@sprite .sliderButtons div p {
     gwt-image: "degrade_bt";
     text-align: center;
     border-left: 1px solid #355b42;
     border-bottom: 1px solid #355b42;
     color: white;
     font-style: italic;
-    font-family: verdana;
+    font-family: Verdana;
     font-size: 22px;
+
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .sliderButtons div:last-child {
