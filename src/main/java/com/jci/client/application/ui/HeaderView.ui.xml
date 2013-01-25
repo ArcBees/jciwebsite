@@ -2,9 +2,26 @@
              xmlns:g='urn:import:com.google.gwt.user.client.ui'>
     <ui:with field="res" type="com.jci.client.resource.CommonResource"/>
     <ui:with field="headRes" type="com.jci.client.resource.header.HeaderResource"/>
-    <g:HTMLPanel addStyleNames="{headRes.style.bottomBorder}">
+    <g:HTMLPanel addStyleNames="{headRes.style.bottomBorder} {headRes.style.rootWrapper}">
         <div class="{res.style.width}">
-            <g:Image resource="{headRes.headLogoJCI_EN}"/>
+            <g:Image resource="{headRes.headLangue_EN}" addStyleNames="{headRes.style.headLangue}"/>
+            <div class="{headRes.style.left}">
+                <g:Image resource="{headRes.headLogoJCI_EN}"/>
+            </div>
+            <div class="{headRes.style.right} {headRes.style.rightColumn}">
+                <div class="{headRes.style.title}">2013 JCI Canada National Convention</div>
+                <div class="{headRes.style.subtitle}">September 18th to 21st, Hosted by JCI Quebec</div>
+                <div class="{headRes.style.blackbar}"/>
+                <div class="{headRes.style.right} {headRes.style.navbar}">
+                    <span>HOME</span>
+                    <span>REGISTER</span>
+                    <span>PROGRAMS</span>
+                    <span>PARTNERS</span>
+                    <span>ABOUT</span>
+                    <span>MEDIA</span>
+                    <span>CONTACT</span>
+                </div>
+            </div>
         </div>
     </g:HTMLPanel>
 </ui:UiBinder>

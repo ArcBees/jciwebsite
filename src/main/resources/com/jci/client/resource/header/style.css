@@ -1,3 +1,54 @@
+.rootWrapper {
+    height: 210px;
+}
+
 .bottomBorder {
     border-bottom: 1px solid black;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.rightColumn {
+    width: 725px;
+    height: 86px;
+    margin-top: 21px;
+}
+
+.headLangue {
+    float: right;
+}
+
+.title {
+    height: 20px;
+    text-align: right;
+    font-family: Verdana;
+    font-size: 22px;
+    margin-bottom: 5px;;
+}
+
+.subtitle {
+    height: 15px;
+    text-align: right;
+    font-family: Verdana;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.blackbar {
+    background-color: black;
+    height: 2px;
+    margin-bottom: 8px;
+}
+
+.navbar span {
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: bold;
+    margin-left: 25px;
 }
