@@ -33,33 +33,21 @@ table{
 	border-collapse:collapse;
 	border-spacing:0;
 }
-/*@font-face {*/
-    /*font-family: 'Arvo';*/
-    /*font-style: normal;*/
-    /*font-weight: 700;*/
-    /*src: local('Arvo Bold'), local('Arvo-Bold'), url(http://themes.googleusercontent.com/static/fonts/arvo/v5/0Aa8aBJcGN1n1zDNhqNrnQ.woff) format('woff');*/
-/*}*/
-/*@font-face {*/
-    /*font-family: 'Arvo';*/
-    /*font-style: normal;*/
-    /*font-weight: 400;*/
-    /*src: local('Arvo'), url(http://themes.googleusercontent.com/static/fonts/arvo/v5/WJ6D195CfbTRlIs49IbkFw.woff) format('woff');*/
-/*}*/
-/*@font-face {*/
-    /*font-family: 'Arvo';*/
-    /*font-style: italic;*/
-    /*font-weight: 400;*/
-    /*src: local('Arvo Italic'), local('Arvo-Italic'), url(http://themes.googleusercontent.com/static/fonts/arvo/v5/7solcx-ZQo6LBqJvZuxkkg.woff) format('woff');*/
-/*}*/
 
 @font-face {
     font-family: 'BebasNeueRegular';
-    src: url('../fonts/BebasNeue-webfont.eot');
-    src: url('../fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
-    /*url('../fonts/BebasNeue-webfont.woff') format('woff'),*/
-    url('../fonts/BebasNeue-webfont.ttf') format('truetype'),
-    url('../fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    src: url('BebasNeue-webfont.eot');
+    src: url('BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+    /*url('BebasNeue-webfont.woff') format('woff'),*/
+    url('BebasNeue-webfont.ttf') format('truetype'),
+    url('BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
     font-weight: normal;
     font-style: normal;
+}
+div.bebas a{
+    font-family: BebasNeueRegular;
+}
+div.bebas, div.bebas a,.bebas a, p.bebas, .bebas {
+    font-family: BebasNeueRegular;
 }
 
