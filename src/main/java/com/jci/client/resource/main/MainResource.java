@@ -17,11 +17,21 @@ public interface MainResource extends ClientBundle {
         String sliderButtons();
 
         String aWonderfulCity();
+
+        String button_visio();
+
+        String buttons_visio_off();
+
+        String buttons_visio_on();
     }
 
     Style style();
 
     ImageResource homeImage001();
+
+    ImageResource button_visio_off();
+
+    ImageResource button_visio_on();
 
     @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.Horizontal)
     ImageResource degrade_bt();

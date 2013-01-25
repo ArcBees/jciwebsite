@@ -13,6 +13,7 @@ public interface CommonResource extends ClientBundle {
         String round();
 
         String tuile();
+
     }
 
     @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.Both)

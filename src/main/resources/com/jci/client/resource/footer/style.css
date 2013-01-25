@@ -1,22 +1,29 @@
-.copy {
+@sprite .city{
+    gwt-image: "city";
+    background-position:bottom right;
+    height: 180px;
+    margin-top: 50px;
+}
+
+@sprite .copy{
+    gwt-image: "copy";
     height: 30px;
-    background: #000;
-    margin-top: 30px;
 }
 
 .copy p {
     font-size: 11px;
     margin: 0px auto;
-    color: #6b7377;
+    color: #747d81;
     line-height: 30px;
     text-align: center;
 }
 
 .copy p a {
     text-decoration: underline;
-    color: #6b7377;
+    color: #747d81;
 }
 .copy p a:hover {
     text-decoration: underline;
     color: #216a9e;
 }
+

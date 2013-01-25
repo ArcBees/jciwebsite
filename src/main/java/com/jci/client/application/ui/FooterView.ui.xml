@@ -3,7 +3,7 @@
     <ui:with field="res" type="com.jci.client.resource.CommonResource"/>
     <ui:with field="footRes" type="com.jci.client.resource.footer.FooterResource"/>
     <g:HTMLPanel>
-        <div class="{res.style.width}">
+        <div class="{res.style.width} {footRes.style.city}">
 
         </div>
         <div class="{footRes.style.copy}">

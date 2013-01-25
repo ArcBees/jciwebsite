@@ -9,6 +9,13 @@
                     <div class="{mainRes.style.aWonderfulCity}">
                         <p class="bebas">... a wonderful city</p>
                     </div>
+                    <div class="{mainRes.style.button_visio}">
+                        <g:Button addStyleNames="{mainRes.style.buttons_visio_off}"></g:Button>
+                        <g:Button addStyleNames="{mainRes.style.buttons_visio_off}"></g:Button>
+                        <g:Button addStyleNames="{mainRes.style.buttons_visio_on}"></g:Button>
+                        <g:Button addStyleNames="{mainRes.style.buttons_visio_off}"></g:Button>
+                        <g:Button addStyleNames="{mainRes.style.buttons_visio_off}"></g:Button>
+                    </div>
                 </div>
                 <div class="{mainRes.style.sliderButtons}">
                     <div>
