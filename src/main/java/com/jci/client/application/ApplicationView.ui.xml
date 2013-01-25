@@ -1,8 +1,8 @@
 <ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
              xmlns:g='urn:import:com.google.gwt.user.client.ui'
              xmlns:jci='urn:import:com.jci.client.application.ui'>
-
-    <g:HTMLPanel>
+    <ui:with field="res" type="com.jci.client.resource.CommonResource"/>
+    <g:HTMLPanel addStyleNames="{res.style.tuile}">
         <jci:HeaderView ui:field="header"/>
         <g:HTMLPanel ui:field="main"/>
         <jci:FooterView ui:field="footer"/>

@@ -2,6 +2,17 @@ div.width {
     width: 1000px;
 }
 
-body{
-
+div.white {
+    background: #d4ebf6;
 }
+
+div.round {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+@sprite .tuile {
+    gwt-image: "tuile";
+}
+
