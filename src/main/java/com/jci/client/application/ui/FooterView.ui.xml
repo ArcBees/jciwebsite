@@ -1,6 +1,9 @@
 <ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
              xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+    <ui:with field="res" type="com.jci.client.resource.ClientResource"/>
     <g:HTMLPanel>
-        This is the footer
+        <div class="{res.style.width}">
+
+        </div>
     </g:HTMLPanel>
 </ui:UiBinder>
