@@ -3,8 +3,38 @@
     <ui:with field="res" type="com.jci.client.resource.CommonResource"/>
     <ui:with field="mainRes" type="com.jci.client.resource.main.MainResource"/>
     <g:HTMLPanel>
-        <div class="{res.style.width}">
+        <div class="{res.style.width} {mainRes.style.dragUp}">
+            <div class="{mainRes.style.sliderWrapper} {res.style.round}">
+                <div class="{mainRes.style.sliderPhoto}">
+                    <div class="{mainRes.style.aWonderfulCity}">...a wonderful city</div>
+                </div>
+                <div class="{mainRes.style.sliderButtons}">
+                    <div>
+                        Register
+                        <br/>
+                        NOW!
+                    </div>
+                    <div>
+                        Getting to
+                        <br/>
+                        Quebec City
+                    </div>
+                    <div>
+                        Some good
+                        <br/>
+                        Hotels
+                    </div>
+                    <div>
+                        Look at the
+                        <br/>
+                        Programs
+                    </div>
+                </div>
+            </div>
 
+            <div class="{mainRes.style.sponsorWrapper} {res.style.round} {res.style.white}">
+
+            </div>
         </div>
     </g:HTMLPanel>
 </ui:UiBinder>

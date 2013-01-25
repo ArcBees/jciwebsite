@@ -25,6 +25,8 @@ public interface HeaderResource extends ClientBundle {
         String blackbar();
 
         String navbar();
+
+        String logoMargin();
     }
 
     ImageResource headLogoJCI_EN();

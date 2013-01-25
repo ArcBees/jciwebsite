@@ -60,3 +60,7 @@
     background-position: bottom;
     cursor: pointer;
 }
+
+.logoMargin {
+    margin-top: 17px;
+}
