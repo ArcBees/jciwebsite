@@ -1,11 +1,10 @@
-package com.jci.client.resource;
+package com.jci.client.resource.footer;
 
 import com.google.gwt.resources.client.ClientBundle;
 import com.google.gwt.resources.client.CssResource;
 
-public interface ClientResource extends ClientBundle {
+public interface FooterResource extends ClientBundle {
     public interface Style extends CssResource {
-        String test();
     }
 
     Style style();

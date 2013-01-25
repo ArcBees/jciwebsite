@@ -24,7 +24,7 @@ import com.jci.client.place.NameTokens;
 import com.jci.client.place.PlaceManager;
 import com.gwtplatform.mvp.client.gin.AbstractPresenterModule;
 import com.gwtplatform.mvp.client.gin.DefaultModule;
-import com.jci.client.resource.ClientResource;
+import com.jci.client.resource.CommonResource;
 
 public class ClientModule extends AbstractPresenterModule {
     @Override
@@ -34,7 +34,7 @@ public class ClientModule extends AbstractPresenterModule {
 
         bindConstant().annotatedWith(DefaultPlace.class).to(NameTokens.home);
 
-        bind(ClientResource.class).in(Singleton.class);
+        bind(CommonResource.class).in(Singleton.class);
 
         bind(ResourceLoader.class).asEagerSingleton();
     }
