@@ -3,7 +3,7 @@
     <ui:with field="res" type="com.jci.client.resource.CommonResource"/>
     <ui:with field="headRes" type="com.jci.client.resource.header.HeaderResource"/>
     <g:HTMLPanel>
-        <div class="{res.style.width}">
+        <div class="{headRes.style.testHead}">
             LOL
         </div>
     </g:HTMLPanel>

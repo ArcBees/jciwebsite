@@ -5,6 +5,7 @@ import com.google.gwt.resources.client.CssResource;
 
 public interface HeaderResource extends ClientBundle {
     public interface Style extends CssResource {
+        String testHead();
     }
 
     Style style();
