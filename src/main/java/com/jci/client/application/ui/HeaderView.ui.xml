@@ -2,7 +2,7 @@
              xmlns:g='urn:import:com.google.gwt.user.client.ui'>
     <ui:with field="res" type="com.jci.client.resource.CommonResource"/>
     <ui:with field="headRes" type="com.jci.client.resource.header.HeaderResource"/>
-    <g:HTMLPanel addStyleNames="{headRes.style.bottomBorder} {headRes.style.rootWrapper}">
+    <g:HTMLPanel addStyleNames="{headRes.style.bottomBorder} {headRes.style.rootWrapper} {res.style.white}">
         <div class="{res.style.width}">
             <g:Image resource="{headRes.headLangue_EN}" addStyleNames="{headRes.style.headLangue}"/>
             <div class="{headRes.style.left}">
