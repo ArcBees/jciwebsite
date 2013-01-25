@@ -26,4 +26,6 @@ public interface MainResource extends ClientBundle {
     @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.Horizontal)
     ImageResource degrade_bt();
 
+    ImageResource partners();
+
 }
