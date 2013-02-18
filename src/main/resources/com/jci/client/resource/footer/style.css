@@ -1,6 +1,6 @@
 @sprite .city{
     gwt-image: "city";
-    background-position:bottom right;
+    background-position: bottom right;
     height: 180px;
     margin-top: 50px;
 }
