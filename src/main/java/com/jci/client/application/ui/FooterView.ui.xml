@@ -4,16 +4,24 @@
     <ui:with field="footRes" type="com.jci.client.resource.footer.FooterResource"/>
     <g:HTMLPanel>
         <div class="{res.style.width} {footRes.style.city}">
-            <p>2013 JCI Canada National Convention</p>
+            <div class="{res.style.round} {res.style.white} {footRes.style.social}">
+                <a href="javascript:" class="{footRes.style.follow}">Follow Us</a>
+                <a href="javascript:" class="{footRes.style.share}">Share</a>
+            </div>
+
+            <h2>2013 JCI Canada National Convention</h2>
             <p>
                 September 18th to 21st, Hosted by JCI Québec
             </p>
-            <p>Hotel Pur,
-                <a href="tel:18004683261">1-800-468-3261</a>
-            </p>
-            <p>
-                395 Couronne Street, Québec (QC), G1K 7X4
-            </p>
+
+            <div  class="{footRes.style.location}">
+                <p>Hotel Pur,
+                    <a href="tel:18004683261">1-800-468-3261</a>
+                </p>
+                <p>
+                    395 Couronne Street, Québec (QC), G1K 7X4
+                </p>
+            </div>
         </div>
         <div class="{footRes.style.copy}">
             <div class="{res.style.width}">

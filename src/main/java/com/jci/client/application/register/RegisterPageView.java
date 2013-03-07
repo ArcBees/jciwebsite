@@ -1,5 +1,5 @@
 /**
- * Copyright 2012 ArcBees Inc.
+ * Copyright 2013 ArcBees Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not
  * use this file except in compliance with the License. You may obtain a copy of
@@ -14,17 +14,20 @@
  * the License.
  */
 
-package com.jci.client.place;
+package com.jci.client.application.register;
 
-public class NameTokens {
-    public static final String home = "home";
-    public static final String register = "register";
+import javax.inject.Inject;
 
-    public static String getHome() {
-        return home;
+import com.arcbees.core.client.mvp.ViewImpl;
+import com.google.gwt.uibinder.client.UiBinder;
+import com.google.gwt.user.client.ui.Widget;
+
+public class RegisterPageView extends ViewImpl implements RegisterPagePresenter.MyView {
+    interface Binder extends UiBinder<Widget, RegisterPageView> {
     }
 
-    public static String getRegister() {
-        return register;
+    @Inject
+    public RegisterPageView(Binder uiBinder) {
+        initWidget(uiBinder.createAndBindUi(this));
     }
 }

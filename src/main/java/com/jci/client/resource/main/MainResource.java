@@ -6,8 +6,6 @@ import com.google.gwt.resources.client.ImageResource;
 
 public interface MainResource extends ClientBundle {
     public interface Style extends CssResource {
-        String dragUp();
-
         String sliderWrapper();
 
         String sponsorWrapper();
