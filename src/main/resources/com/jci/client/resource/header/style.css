@@ -46,7 +46,7 @@
     margin-bottom: 8px;
 }
 
-.navbar a, .navbar a:link, .navbar a:visited, .navbar a:active {
+.navbar a, .navbar a:link, .navbar a:visited, .navbar a:active, .navbar a.active {
     color: #383839;
     font-size: 25px;
     margin-left: 5px;
@@ -54,7 +54,7 @@
     padding-bottom: 7px;
 }
 
-@sprite .navbar a:hover {
+@sprite .navbar a:hover, .navbar a.active {
     gwt-image: "headMouseOver";
     background-position: bottom;
     cursor: pointer;

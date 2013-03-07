@@ -9,12 +9,26 @@ public interface FooterResource extends ClientBundle {
         String copy();
 
         String city();
+
+        String social();
+
+        String follow();
+
+        String share();
+
+        String location();
     }
 
     @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.Both)
     ImageResource copy();
 
     ImageResource city();
+
+    ImageResource follow();
+
+    ImageResource share();
+
+    ImageResource pin();
 
     Style style();
 }

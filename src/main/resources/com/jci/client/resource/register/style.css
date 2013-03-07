@@ -1,0 +1,71 @@
+div.content {
+    width: 930px;
+    padding: 0 35px 5px;
+}
+
+.content h1 {
+    display: inline-block;
+
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+
+    margin: 15px 0 5px;
+    padding: 10px 15px;
+
+    background: #353537;
+}
+
+.content p, .content ul {
+    margin: 5px 0 20px;
+
+    color: #353537;
+    font-size: 14px;
+}
+
+.content p a, .content p a:hover, .content ul a, .content ul a:hover {
+    color: #353537;
+    text-decoration: underline;
+}
+
+.content ul {
+    list-style: disc;
+    padding: 0 1em;
+}
+
+.content li {
+    margin: 5px 0;
+}
+
+.actions {
+    text-align: right;
+    margin-bottom: 35px;
+}
+
+.register, .getThere {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 32px;
+
+    padding: 10px 30px;
+    margin-left: 15px;
+}
+
+.register:hover, .getThere:hover {
+    color: #ffffff;
+}
+
+.register {
+    background: rgb(166,182,111);
+    background: -moz-linear-gradient(top,  rgba(166,182,111,1) 0%, rgba(94,117,22,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(166,182,111,1)), color-stop(100%,rgba(94,117,22,1)));
+    background: -webkit-linear-gradient(top,  rgba(166,182,111,1) 0%,rgba(94,117,22,1) 100%);
+    background: -o-linear-gradient(top,  rgba(166,182,111,1) 0%,rgba(94,117,22,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(166,182,111,1) 0%,rgba(94,117,22,1) 100%);
+    background: linear-gradient(to bottom,  rgba(166,182,111,1) 0%,rgba(94,117,22,1) 100%);
+    filter: literal("progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6b66f', endColorstr='#5e7516',GradientType=0 )");
+}
+
+.getThere {
+    background: #353537;
+}

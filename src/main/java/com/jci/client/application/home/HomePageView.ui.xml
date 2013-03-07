@@ -3,7 +3,7 @@
     <ui:with field="res" type="com.jci.client.resource.CommonResource"/>
     <ui:with field="mainRes" type="com.jci.client.resource.main.MainResource"/>
     <g:HTMLPanel>
-        <div class="{res.style.width} {mainRes.style.dragUp}">
+        <div class="{res.style.width} {res.style.dragUp}">
             <div class="{mainRes.style.sliderWrapper} {res.style.round}">
                 <div class="{mainRes.style.sliderPhoto}">
                     <div class="{mainRes.style.aWonderfulCity}">

@@ -1,3 +1,7 @@
+.dragUp {
+    margin-top: -35px;
+}
+
 div.width {
     width: 1000px;
     margin-left: auto;
@@ -8,7 +12,7 @@ div.width {
     background: #d4ebf6;
 }
 
-div.round {
+.round {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
