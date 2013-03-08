@@ -1,11 +1,25 @@
-@sprite .city{
+@sprite .city {
     gwt-image: "city";
     background-position: bottom right;
-    height: 180px;
+    height: 170px;
     margin-top: 50px;
+
+    color: #202020;
 }
 
-@sprite .copy{
+.city h2 {
+    margin: 0;
+    padding: 0;
+
+    font-size: 19px;
+    font-weight: normal;
+}
+
+.city p {
+    color: #202020;
+}
+
+@sprite .copy {
     gwt-image: "copy";
     height: 30px;
 }
@@ -27,3 +41,48 @@
     color: #216a9e;
 }
 
+.social {
+    display: inline-block;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+}
+
+@sprite .follow {
+    padding-left: 30px;
+    gwt-image: "follow";
+}
+
+@sprite .share {
+    padding-left: 31px;
+    gwt-image: "share";
+}
+
+.follow, .share {
+    display: inline-block;
+    width: auto;
+
+    color: #4d5458;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 25px;
+    text-transform: uppercase;
+
+    margin: 0 10px;
+}
+
+.follow:hover, .follow:active, .share:hover, .share:active {
+    color: #4d5458;
+}
+
+@sprite .location {
+    gwt-image: "pin";
+
+    height: auto;
+    width: auto;
+
+    background-position: center left;
+
+    font-size: 13px;
+    padding: 12px 0 10px 35px;
+    margin-top: 5px;
+}

@@ -6,6 +6,8 @@ import com.google.gwt.resources.client.ImageResource;
 
 public interface CommonResource extends ClientBundle {
     public interface Style extends CssResource {
+        String dragUp();
+
         String width();
 
         String white();
