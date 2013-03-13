@@ -11,6 +11,37 @@
                 <a class="{registerRes.style.getThere} {res.style.round}">Getting to Quebec City</a>
             </div>
 
+            <h1 class="{res.style.round}">Convention Hotel</h1>
+            <p>
+                TRYP Quebec Hotel PUR is a recipient of the Trip Advisor 2012 Certificate of Excellence.
+            </p>
+            <p>
+                Find the best of everything at TRYP Quebec Hotel Pur, winner of a 2012 Trip Advisor Travelers' Choice
+                Award in the category Top 25 Trendiest Hotels in Canada.
+            </p>
+            <p>
+                In the heart of the revitalized Saint Roch historic district and steps from the fortified Old City, our
+                Quebec city hotel puts you near hip downtown shops, eateries, nightlife, and Quebec City’s technology
+                neighborhood.
+            </p>
+            <p>
+                After a multi-million dollar metamorphosis, TRYP Quebec Hotel Pur is a haven of minimalist design and
+                urban sophistication. Our rooms feature commanding views of the city with floor-to-ceiling windows and
+                premium comforts like fine linens, pillow top mattresses, European-style showers or invigorating
+                Japanese bathtubs, and flat screen LCD TVs. There is free Wi-Fi everywhere and plenty of ways to
+                indulge yourself right on the premises with a 24/7 gym, free Italian coffee in the lobby, and an indoor
+                heated pool and sauna.
+            </p>
+            <div>
+                <p>Hotel Pur,
+                    <a href="tel:18004683261">1-800-468-3261</a>
+                </p>
+                <p>
+                    395 Couronne Street, Québec (QC), G1K 7X4
+                </p>
+            </div>
+
+
             <h1 class="{res.style.round}">By plane</h1>
             <p>
                 Quebec City’s Jean Lesage International Airport (YQB)

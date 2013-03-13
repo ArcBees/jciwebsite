@@ -36,4 +36,5 @@ public interface MainResource extends ClientBundle {
 
     ImageResource partners();
 
+    ImageResource arcbees();
 }
