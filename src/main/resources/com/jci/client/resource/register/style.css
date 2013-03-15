@@ -42,7 +42,7 @@ div.content {
     margin-bottom: 35px;
 }
 
-.register, .getThere {
+a.register, a.getThere {
     display: inline-block;
     color: #ffffff;
     font-size: 32px;
@@ -51,7 +51,7 @@ div.content {
     margin-left: 15px;
 }
 
-.register:hover, .getThere:hover {
+a.register:hover, a.register:active, a.getThere:hover, a.getThere:active {
     color: #ffffff;
 }
 

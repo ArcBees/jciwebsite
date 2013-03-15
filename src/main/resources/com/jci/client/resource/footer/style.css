@@ -57,7 +57,7 @@
     gwt-image: "share";
 }
 
-.follow, .share {
+a.follow, a.share {
     display: inline-block;
     width: auto;
 
@@ -70,7 +70,7 @@
     margin: 0 10px;
 }
 
-.follow:hover, .follow:active, .share:hover, .share:active {
+a.follow:hover, a.follow:active, a.share:hover, a.share:active {
     color: #4d5458;
 }
 

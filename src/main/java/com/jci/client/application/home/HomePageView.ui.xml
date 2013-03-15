@@ -26,23 +26,23 @@
                     </div>
 
                     <div>
-                        <p>Getting to
+                        <p><a href="#register">Getting to
                             <br/>
-                            Quebec City
+                            Quebec City</a>
                         </p>
                     </div>
 
                     <div>
-                        <p>Some good
+                        <p><a href="#register">Convention
                             <br/>
-                            Hotels
+                            Hotel</a>
                         </p>
                     </div>
 
                     <div>
-                        <p>Look at the
+                        <p><a href="program.xlsx">Look at the
                             <br/>
-                            Programs
+                            Programs</a>
                         </p>
                     </div>
                 </div>
@@ -50,7 +50,9 @@
             </div>
 
             <div class="{mainRes.style.sponsorWrapper} {res.style.round}">
-
+                <a href="http://www.arcbees.com" target="_blank">
+                    <g:Image resource="{mainRes.arcbees}" altText="ArcBees"/>
+                </a>
             </div>
         </div>
     </g:HTMLPanel>
