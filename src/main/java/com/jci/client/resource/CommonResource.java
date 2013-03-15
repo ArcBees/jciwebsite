@@ -16,6 +16,13 @@ public interface CommonResource extends ClientBundle {
 
         String tuile();
 
+        String button_gray();
+
+        String active();
+
+        String content();
+
+        String actions();
     }
 
     @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.Both)
