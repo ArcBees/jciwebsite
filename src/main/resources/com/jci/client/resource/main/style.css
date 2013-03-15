@@ -4,12 +4,14 @@
     overflow: hidden;
 }
 
-@sprite .sponsorWrapper {
-    gwt-image: "partners";
-    height: 100px;
+.sponsorWrapper {
     background-color: #d4ebf6;
-    width: inherit;
-    background-position:center;
+
+    padding: 10px 30px;
+}
+
+.sponsorWrapper a {
+    margin: 5px 10px;
 }
 
 @sprite .sliderPhoto {

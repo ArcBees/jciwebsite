@@ -5,7 +5,8 @@
     <g:HTMLPanel>
         <div class="{res.style.width} {footRes.style.city}">
             <div class="{res.style.round} {res.style.white} {footRes.style.social}">
-                <a href="javascript:" class="{footRes.style.follow}">Follow Us</a>
+                <a href="https://www.facebook.com/Unlimited2013" target="_blank"
+                   class="{footRes.style.follow}">Follow Us</a>
                 <a href="javascript:" class="{footRes.style.share}">Share</a>
             </div>
 
