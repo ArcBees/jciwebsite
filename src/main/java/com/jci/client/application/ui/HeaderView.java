@@ -1,5 +1,6 @@
 package com.jci.client.application.ui;
 
+import com.google.gwt.dom.client.DivElement;
 import com.google.gwt.dom.client.Element;
 import com.google.gwt.query.client.Function;
 import com.google.gwt.uibinder.client.UiBinder;
@@ -18,7 +19,7 @@ public class HeaderView extends Composite {
     }
 
     @UiField
-    HTMLPanel menu;
+    DivElement menu;
 
     private final String activeStyleName;
 
