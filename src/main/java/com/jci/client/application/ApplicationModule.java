@@ -1,5 +1,5 @@
 /**
- * Copyright 2012 ArcBees Inc.
+ * Copyright 2013 ArcBees Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not
  * use this file except in compliance with the License. You may obtain a copy of
@@ -16,7 +16,7 @@
 
 package com.jci.client.application;
 
-
+import com.jci.client.application.about.AboutModule;
 import com.jci.client.application.home.HomeModule;
 import com.gwtplatform.mvp.client.gin.AbstractPresenterModule;
 import com.jci.client.application.register.RegisterModule;
@@ -26,6 +26,7 @@ public class ApplicationModule extends AbstractPresenterModule {
     protected void configure() {
         install(new HomeModule());
         install(new RegisterModule());
+        install(new AboutModule());
 
         bindPresenter(ApplicationPresenter.class, ApplicationPresenter.MyView.class, ApplicationView.class,
                 ApplicationPresenter.MyProxy.class);

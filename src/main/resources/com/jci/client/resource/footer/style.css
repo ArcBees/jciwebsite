@@ -7,7 +7,14 @@
     color: #202020;
 }
 
+.city {
+    font-size: 12px;
+}
+
 .city h2 {
+    display: block;
+    background: none;
+
     margin: 0;
     padding: 0;
 

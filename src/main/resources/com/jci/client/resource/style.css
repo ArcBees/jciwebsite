@@ -22,7 +22,91 @@ div.width {
     gwt-image: "tuile";
 }
 
-body, body p{
+body {
     color: #383839;
-    font-family: arial, sans-serif;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: normal;
+}
+
+h2 {
+    display: inline-block;
+
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+
+    margin: 15px 0 5px;
+    padding: 10px 15px;
+
+    background: #353537;
+}
+
+a.button_gray {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 32px;
+
+    padding: 10px 30px;
+    margin-left: 15px;
+
+    background: #7f7f7f;
+    background: -moz-linear-gradient(top,  #7f7f7f 0%, #353537 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7f7f7f), color-stop(100%,#353537));
+    background: -webkit-linear-gradient(top,  #7f7f7f 0%,#353537 100%);
+    background: -o-linear-gradient(top,  #7f7f7f 0%,#353537 100%);
+    background: -ms-linear-gradient(top,  #7f7f7f 0%,#353537 100%);
+    background: linear-gradient(to bottom,  #7f7f7f 0%,#353537 100%);
+    filter: literal("progid:DXImageTransform.Microsoft.gradient( startColorstr='#7f7f7f', endColorstr='#353537',GradientType=0 )")";
+
+}
+
+a.button_gray.active {
+    background: #0097da;
+    background: -moz-linear-gradient(top,  #0097da 0%, #085273 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0097da), color-stop(100%,#085273));
+    background: -webkit-linear-gradient(top,  #0097da 0%,#085273 100%);
+    background: -o-linear-gradient(top,  #0097da 0%,#085273 100%);
+    background: -ms-linear-gradient(top,  #0097da 0%,#085273 100%);
+    background: linear-gradient(to bottom,  #0097da 0%,#085273 100%);
+    filter: literal("progid:DXImageTransform.Microsoft.gradient( startColorstr='#0097da', endColorstr='#085273',GradientType=0 )");
+}
+
+a.button_gray:hover, a.button_gray:active {
+    color: #ffffff;
+}
+
+div.content {
+    width: 930px;
+    padding: 0 35px 5px;
+}
+
+.content p, .content ul {
+    margin: 5px 0 20px;
+
+    color: #353537;
+    font-size: 14px;
+}
+
+.content p a, .content p a:hover, .content ul a, .content ul a:hover {
+    color: #353537;
+    text-decoration: underline;
+}
+
+.content ul {
+    list-style: disc;
+    padding: 0 1em;
+}
+
+.content li {
+    margin: 5px 0;
+}
+
+.actions {
+    text-align: right;
+    margin-bottom: 35px;
 }
