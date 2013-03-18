@@ -1,5 +1,5 @@
 /**
- * Copyright 2012 ArcBees Inc.
+ * Copyright 2013 ArcBees Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not
  * use this file except in compliance with the License. You may obtain a copy of
@@ -19,6 +19,7 @@ package com.jci.client.place;
 public class NameTokens {
     public static final String home = "home";
     public static final String register = "register";
+    public static final String about = "about";
 
     public static String getHome() {
         return home;
@@ -26,5 +27,9 @@ public class NameTokens {
 
     public static String getRegister() {
         return register;
+    }
+
+    public static String getAbout() {
+        return about;
     }
 }

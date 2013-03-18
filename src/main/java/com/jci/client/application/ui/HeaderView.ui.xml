@@ -2,6 +2,8 @@
              xmlns:g='urn:import:com.google.gwt.user.client.ui'>
     <ui:with field="res" type="com.jci.client.resource.CommonResource"/>
     <ui:with field="headRes" type="com.jci.client.resource.header.HeaderResource"/>
+    <ui:with field="nameTokens" type="com.jci.client.place.NameTokens"/>
+
     <g:HTMLPanel addStyleNames="{headRes.style.bottomBorder} {headRes.style.rootWrapper} {res.style.white}">
         <div class="{res.style.width}">
             <g:Image resource="{headRes.headLangue_EN}" addStyleNames="{headRes.style.headLangue}"/>
@@ -10,13 +12,13 @@
             </div>
             <div class="{headRes.style.right} {headRes.style.rightColumn}">
                 <div class="{headRes.style.title}">2013 JCI Canada National Convention</div>
-                <div class="{headRes.style.subtitle}">September 18th to 21st, Hosted by JCI Quebec</div>
+                <div class="{headRes.style.subtitle}">September 18th to 21st, Hosted by JCI Quebec City</div>
                 <div class="{headRes.style.blackbar}"/>
                 <div ui:field="menu" class="{headRes.style.right} {headRes.style.navbar} bebas">
-                    <a href="#home" class="{headRes.style.active}">Home</a>
-                    <a href="#register">Registration</a>
+                    <a href="#{nameTokens.getHome}" class="{headRes.style.active}">Home</a>
+                    <a href="#{nameTokens.getRegister}">Registration</a>
                     <a href="/program.xlsx">Programs</a>
-                    <a>About</a>
+                    <a href="#{nameTokens.getAbout}">About</a>
                     <a>Contact</a>
                 </div>
             </div>
