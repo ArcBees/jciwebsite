@@ -19,12 +19,9 @@ package com.jci.client.application.about;
 import com.arcbees.core.client.mvp.ViewImpl;
 import com.google.gwt.dom.client.AnchorElement;
 import com.google.gwt.dom.client.DivElement;
-import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.query.client.Function;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
-import com.google.gwt.uibinder.client.UiHandler;
-import com.google.gwt.user.client.Event;
 import com.google.gwt.user.client.ui.Widget;
 import com.google.inject.Inject;
 
@@ -49,21 +46,17 @@ public class AboutPageView extends ViewImpl implements AboutPagePresenter.MyView
 
         $(buttonCanada).click(new Function() {
             @Override
-            public boolean f(Event e) {
+            public void f() {
                 $(canada).show();
                 $(quebec).hide();
-
-                return false;
             }
         });
 
         $(buttonQuebec).click(new Function() {
             @Override
-            public boolean f(Event e) {
+            public void f() {
                 $(quebec).show();
                 $(canada).hide();
-
-                return false;
             }
         });
     }

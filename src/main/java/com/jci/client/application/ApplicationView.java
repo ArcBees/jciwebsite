@@ -43,6 +43,7 @@ public class ApplicationView extends ViewImpl implements ApplicationPresenter.My
                            FooterView footerView) {
         this.header = headerView;
         this.footer = footerView;
+
         initWidget(uiBinder.createAndBindUi(this));
     }
 

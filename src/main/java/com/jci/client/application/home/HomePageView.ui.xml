@@ -2,6 +2,8 @@
              xmlns:g='urn:import:com.google.gwt.user.client.ui'>
     <ui:with field="res" type="com.jci.client.resource.CommonResource"/>
     <ui:with field="mainRes" type="com.jci.client.resource.main.MainResource"/>
+    <ui:with field="nameTokens" type="com.jci.client.place.NameTokens"/>
+
     <g:HTMLPanel>
         <div class="{res.style.width} {res.style.dragUp}">
             <div class="{mainRes.style.sliderWrapper} {res.style.round}">
@@ -10,11 +12,11 @@
                         <p class="bebas">... a wonderful city</p>
                     </div>
                     <div class="{mainRes.style.button_visio}">
-                        <g:Button addStyleNames="{mainRes.style.buttons_visio_off}"></g:Button>
-                        <g:Button addStyleNames="{mainRes.style.buttons_visio_off}"></g:Button>
-                        <g:Button addStyleNames="{mainRes.style.buttons_visio_on}"></g:Button>
-                        <g:Button addStyleNames="{mainRes.style.buttons_visio_off}"></g:Button>
-                        <g:Button addStyleNames="{mainRes.style.buttons_visio_off}"></g:Button>
+                        <g:Button addStyleNames="{mainRes.style.buttons_visio_off}"/>
+                        <g:Button addStyleNames="{mainRes.style.buttons_visio_off}"/>
+                        <g:Button addStyleNames="{mainRes.style.buttons_visio_on}"/>
+                        <g:Button addStyleNames="{mainRes.style.buttons_visio_off}"/>
+                        <g:Button addStyleNames="{mainRes.style.buttons_visio_off}"/>
                     </div>
                 </div>
                 <div class="{mainRes.style.sliderButtons}">
@@ -26,14 +28,14 @@
                     </div>
 
                     <div>
-                        <p><a href="#register">Getting to
+                        <p><a href="#{nameTokens.getRegister}">Getting to
                             <br/>
                             Quebec City</a>
                         </p>
                     </div>
 
                     <div>
-                        <p><a href="#register">Convention
+                        <p><a href="#{nameTokens.getRegister}">Convention
                             <br/>
                             Hotel</a>
                         </p>

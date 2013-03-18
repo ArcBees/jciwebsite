@@ -22,13 +22,15 @@ div.width {
     gwt-image: "tuile";
 }
 
-body, body p{
+body {
     color: #383839;
-    font-family: arial, sans-serif;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 14px;
 }
 
 h1 {
-
+    font-size: 26px;
+    font-weight: normal;
 }
 
 h2 {
