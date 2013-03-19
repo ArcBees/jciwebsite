@@ -24,8 +24,6 @@ public interface MainResource extends ClientBundle {
     public interface Style extends CssResource {
         String sliderWrapper();
 
-        String sponsorWrapper();
-
         String sliderPhoto();
 
         String sliderButtons();
@@ -50,9 +48,9 @@ public interface MainResource extends ClientBundle {
     @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.Horizontal)
     ImageResource degrade_bt();
 
-    ImageResource partners();
+    @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.Horizontal)
+    ImageResource degrade_bt_up();
 
-    ImageResource arcbees();
-
-    ImageResource qvc();
+    @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.Horizontal)
+    ImageResource degrade_bt_dn();
 }

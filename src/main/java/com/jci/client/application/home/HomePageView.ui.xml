@@ -51,14 +51,7 @@
 
             </div>
 
-            <div class="{mainRes.style.sponsorWrapper} {res.style.round}">
-                <a href="http://www.arcbees.com" target="_blank">
-                    <g:Image resource="{mainRes.arcbees}" altText="ArcBees"/>
-                </a>
-                <a href="http://www.qvc.qc.ca" target="_blank">
-                    <g:Image resource="{mainRes.qvc}" altText="QVC"/>
-                </a>
-            </div>
+
         </div>
     </g:HTMLPanel>
 </ui:UiBinder>

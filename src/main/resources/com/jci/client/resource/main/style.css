@@ -4,22 +4,12 @@
     overflow: hidden;
 }
 
-.sponsorWrapper {
-    background-color: #d4ebf6;
-
-    padding: 10px 30px;
-}
-
-.sponsorWrapper a {
-    margin: 5px 10px;
-}
-
 @sprite .sliderPhoto {
     gwt-image: "homeImage001";
     float: left;
     height: 100%;
     width: 764px;
-    position:relative;
+    position: relative;
 }
 
 .sliderButtons {
@@ -37,11 +27,20 @@
     border-left: 1px solid #355b42;
     border-bottom: 1px solid #355b42;
     color: #f2f2f2;
-    font-weight:bold;
+    font-weight: bold;
     font-family: helvetica, "Helvetica Neue", Arial, sans-serif;
     font-size: 22px;
     display: table-cell;
     vertical-align: middle;
+    text-shadow: 0px 0px 5px rgba(87, 87, 87, 0.69);
+}
+
+@sprite .sliderButtons div:hover p {
+    gwt-image: "degrade_bt_up";
+}
+
+@sprite .sliderButtons div:active p {
+    gwt-image: "degrade_bt_dn";
 }
 
 .sliderButtons div a {
@@ -97,8 +96,9 @@
 }
 
 @sprite .buttons_visio_off {
-gwt-image:"button_visio_off";
+    gwt-image: "button_visio_off";
 }
+
 @sprite .buttons_visio_on {
-gwt-image:"button_visio_on";
+    gwt-image: "button_visio_on";
 }

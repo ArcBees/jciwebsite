@@ -43,6 +43,7 @@
     text-decoration: underline;
     color: #747d81;
 }
+
 .copy p a:hover {
     text-decoration: underline;
     color: #216a9e;
@@ -69,16 +70,25 @@ a.follow, a.share {
     width: auto;
 
     color: #4d5458;
-    font-size: 22px;
-    font-weight: bold;
-    line-height: 25px;
+    font-size: 27px;
+    line-height: 29px;
     text-transform: uppercase;
 
     margin: 0 10px;
+
+    -moz-opacity: 0.85;
+    opacity: 0.85;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha"(Opacity = 85 );
 }
 
-a.follow:hover, a.follow:active, a.share:hover, a.share:active {
-    color: #4d5458;
+a.follow {
+    margin-right: 20px;
+}
+
+a.follow:hover, a.share:hover {
+    -moz-opacity: 1;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha"(Opacity = 100 );
 }
 
 @sprite .location {
