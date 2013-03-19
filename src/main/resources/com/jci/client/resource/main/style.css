@@ -78,27 +78,14 @@
     padding-top: 10px;
 }
 
+.button_visio li {
+    cursor: pointer;
+}
+
 .button_visio {
-    width: 180px;
+    width: 120px;
     height: 20px;
     position: absolute;
     bottom: 12px;
-    left: 300px;
-}
-
-.button_visio button {
-    width: 18px;
-    height: 18px;
-    display: block;
-    margin: 0 4px;
-    float: left;
-    border: none;
-}
-
-@sprite .buttons_visio_off {
-    gwt-image: "button_visio_off";
-}
-
-@sprite .buttons_visio_on {
-    gwt-image: "button_visio_on";
+    left: 322px;
 }

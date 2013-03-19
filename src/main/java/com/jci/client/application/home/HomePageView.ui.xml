@@ -5,18 +5,20 @@
     <ui:with field="nameTokens" type="com.jci.client.place.NameTokens"/>
 
     <g:HTMLPanel>
-        <div class="{res.style.width} {res.style.dragUp}">
+        <div class="{res.style.width} {res.style.dragUp} {res.style.shadow}">
             <div class="{mainRes.style.sliderWrapper} {res.style.round}">
                 <div class="{mainRes.style.sliderPhoto}">
-                    <div class="{mainRes.style.aWonderfulCity}">
+                    <div class="{mainRes.style.aWonderfulCity} item active">
                         <p class="bebas">... a wonderful city</p>
                     </div>
                     <div class="{mainRes.style.button_visio}">
-                        <g:Button addStyleNames="{mainRes.style.buttons_visio_off}"/>
-                        <g:Button addStyleNames="{mainRes.style.buttons_visio_off}"/>
-                        <g:Button addStyleNames="{mainRes.style.buttons_visio_on}"/>
-                        <g:Button addStyleNames="{mainRes.style.buttons_visio_off}"/>
-                        <g:Button addStyleNames="{mainRes.style.buttons_visio_off}"/>
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                            <li data-target="#myCarousel" data-slide-to="4"></li>
+                        </ol>
                     </div>
                 </div>
                 <div class="{mainRes.style.sliderButtons}">

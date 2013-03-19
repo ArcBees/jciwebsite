@@ -39,6 +39,8 @@ public interface CommonResource extends ClientBundle {
         String content();
 
         String actions();
+
+        String shadow();
     }
 
     @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.Both)

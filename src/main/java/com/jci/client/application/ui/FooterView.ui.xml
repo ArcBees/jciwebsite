@@ -4,7 +4,7 @@
     <ui:with field="footRes" type="com.jci.client.resource.footer.FooterResource"/>
     <ui:with field="sponsRes" type="com.jci.client.resource.footer.sponsors.SponsorsResource"/>
     <g:HTMLPanel>
-        <div class="{res.style.width} {sponsRes.style.sponsorWrapper} {res.style.round}">
+        <div class="{res.style.width} {sponsRes.style.sponsorWrapper} {res.style.round} {res.style.shadow}">
             <a href="http://www.arcbees.com" target="_blank">
                 <g:Image resource="{sponsRes.arcbees}" altText="ArcBees"/>
             </a>
@@ -17,7 +17,7 @@
         </div>
 
         <div class="{res.style.width} {footRes.style.city}">
-            <div class="{res.style.round} {res.style.white} {footRes.style.social} bebas">
+            <div class="{res.style.round} {res.style.white} {footRes.style.social} {res.style.shadow} bebas">
                 <a href="https://www.facebook.com/Unlimited2013" target="_blank"
                    class="{footRes.style.follow}">Follow Us</a>
                 <a href="javascript:" class="{footRes.style.share}">Share</a>
@@ -33,7 +33,7 @@
                     <a href="tel:18004683261">1-800-468-3261</a>
                 </p>
                 <p>
-                    395 Couronne Street, Québec (QC), G1K 7X4
+                    <a href="https://maps.google.ca/maps?q=395+Couronne+Street,+Qu%C3%A9bec+(QC),+G1K+7X4&amp;hl=en&amp;authuser=0&amp;ie=UTF-8&amp;ei=ZcFIUfJe16ngA_DSgegN&amp;ved=0CAsQ_AUoAg">395 Couronne Street, Québec (QC), G1K 7X4</a>
                 </p>
             </div>
         </div>

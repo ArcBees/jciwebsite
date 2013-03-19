@@ -8,7 +8,9 @@
         <div class="{res.style.width}">
             <g:Image resource="{headRes.headLangue_EN}" addStyleNames="{headRes.style.headLangue}"/>
             <div class="{headRes.style.left}">
-                <g:Image resource="{headRes.headLogoJCI_EN}" addStyleNames="{headRes.style.logoMargin}"/>
+                <a href="#{nameTokens.getHome}">
+                    <g:Image resource="{headRes.headLogoJCI_EN}" addStyleNames="{headRes.style.logoMargin}"/>
+                </a>
             </div>
             <div class="{headRes.style.right} {headRes.style.rightColumn}">
                 <div class="{headRes.style.title}">2013 JCI Canada National Convention</div>
