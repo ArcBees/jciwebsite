@@ -23,10 +23,20 @@ import com.google.inject.Inject;
 
 public class HomePageView extends ViewImpl implements HomePagePresenter.MyView {
     public interface Binder extends UiBinder<Widget, HomePageView> {
+
     }
 
     @Inject
     public HomePageView(final Binder uiBinder) {
         initWidget(uiBinder.createAndBindUi(this));
     }
+
+    @Override
+    public void startCarousel(String message) {
+        startCarouselNative(message);
+    }
+
+    public static native void startCarouselNative(String msg) /*-{
+        $wnd.$('.carousel').carousel();
+    }-*/;
 }

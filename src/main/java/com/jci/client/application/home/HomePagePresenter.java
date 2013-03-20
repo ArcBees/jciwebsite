@@ -28,6 +28,7 @@ import com.gwtplatform.mvp.client.proxy.ProxyPlace;
 
 public class HomePagePresenter extends Presenter<HomePagePresenter.MyView, HomePagePresenter.MyProxy> {
     public interface MyView extends View {
+        void startCarousel(String message);
     }
 
     @ProxyStandard
@@ -42,6 +43,9 @@ public class HomePagePresenter extends Presenter<HomePagePresenter.MyView, HomeP
 
     @Override
     protected void onReveal() {
-        super.onReveal();    //To change body of overridden methods use File | Settings | File Templates.
+        super.onReveal();
+        getView().startCarousel("on reveal");
     }
+
+
 }
