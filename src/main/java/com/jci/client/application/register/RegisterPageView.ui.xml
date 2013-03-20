@@ -12,7 +12,7 @@
                 </a>
             </div>
 
-            <h1>Convention Hotel</h1>
+            <h1 id="hotel">Convention Hotel</h1>
             <p>
                 In the heart of the revitalised Saint-Roch historic district and steps from the fortified old city,
                 Hotel Pur put you near hip downtown, shops, eatery night life and Quebec City technology
@@ -24,13 +24,13 @@
             </p>
             <p>
                 <b>TRYP Quebec Hotel Pur</b><br />
-                395, rue de la Couronne, Québec (QC) G1K 7X4<br />
-                1-800-267-2012 ou 418-647-2611<br />
+                <a href="https://maps.google.ca/maps?q=395+Couronne+Street,+Qu%C3%A9bec+(QC),+G1K+7X4&amp;hl=en&amp;authuser=0&amp;ie=UTF-8&amp;ei=ZcFIUfJe16ngA_DSgegN&amp;ved=0CAsQ_AUoAg">395 Couronne Street, Quebec City (QC), G1K 7X4</a><br />
+                <a href="tel:18002672002">1-800-267-2002</a> or <a href="tel:4186472611">418-647-2611</a><br />
                 <a href="mailto:trypquebecpur@wyndham.com">trypquebecpur@wyndham.com</a><br />
                 <a href="http://www.hotelpur.com" target="_blank">http://www.hotelpur.com</a>
             </p>
 
-            <h1>Getting to Quebec City</h1>
+            <h1 id="getting">Getting to Quebec City</h1>
             <h2 class="{res.style.round}">By plane</h2>
             <p>
                 Quebec City’s Jean Lesage International Airport (YQB)
@@ -46,7 +46,7 @@
             <ul>
                 <li>Taxi: flat rate of $34,50, 14 km - 15 minutes driving distance.</li>
                 <li>Car: all major car rental companies are located in the Airport.</li>
-                <li>Bus: The Réseau du Transport de la Capitale (RTC) offers limited public transportation from the
+                <li>Bus: The Réseau de Transport de la Capitale (RTC) offers limited public transportation from the
                     Airport. Please visit <a href="http://www.rtcquebec.ca" target="_blank">http://www.rtcquebec.ca</a>
                     for more details. The rate is $3.</li>
             </ul>
@@ -54,7 +54,7 @@
             <h2 class="{res.style.round}">By car</h2>
             <p>Obviously, you can drive to Quebec City:</p>
             <ul>
-                <li>Trois Rivières, 159 km</li>
+                <li>Trois-Rivières, 159 km</li>
                 <li>Chicoutimi, 208 km</li>
                 <li>Montreal, 254 km</li>
                 <li>Boston, 640 km</li>

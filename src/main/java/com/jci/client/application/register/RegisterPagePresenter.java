@@ -23,12 +23,16 @@ import com.gwtplatform.mvp.client.Presenter;
 import com.gwtplatform.mvp.client.View;
 import com.gwtplatform.mvp.client.annotations.NameToken;
 import com.gwtplatform.mvp.client.annotations.ProxyStandard;
+import com.gwtplatform.mvp.client.proxy.PlaceRequest;
 import com.gwtplatform.mvp.client.proxy.ProxyPlace;
 import com.jci.client.application.ApplicationPresenter;
 import com.jci.client.place.NameTokens;
 
 public class RegisterPagePresenter extends Presenter<RegisterPagePresenter.MyView, RegisterPagePresenter.MyProxy> {
+    private String id;
+
     public interface MyView extends View {
+        void scrollTo(String id);
     }
 
     @ProxyStandard
@@ -39,5 +43,17 @@ public class RegisterPagePresenter extends Presenter<RegisterPagePresenter.MyVie
     @Inject
     public RegisterPagePresenter(final EventBus eventBus, final MyView view, final MyProxy proxy) {
         super(eventBus, view, proxy, ApplicationPresenter.TYPE_SetMainContent);
+    }
+
+    @Override
+    public void prepareFromRequest(PlaceRequest request) {
+        super.prepareFromRequest(request);
+        id = request.getParameter("id", "");
+    }
+
+    @Override
+    protected void onReveal() {
+        super.onReveal();
+        getView().scrollTo(id);
     }
 }

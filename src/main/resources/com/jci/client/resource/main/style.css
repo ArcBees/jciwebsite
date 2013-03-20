@@ -34,20 +34,22 @@
 }
 
 .sliderButtons div {
-    display: table;
+    display: block;
     width: 236px;
 }
 
 @sprite .sliderButtons div p {
     gwt-image: "degrade_bt";
     text-align: center;
+    height: 86px;
+    width: inherit;
     border-left: 1px solid #355b42;
     border-bottom: 1px solid #355b42;
     color: #f2f2f2;
     font-weight: bold;
     font-family: helvetica, "Helvetica Neue", Arial, sans-serif;
     font-size: 22px;
-    display: table-cell;
+    display: block;
     vertical-align: middle;
     text-shadow: 0px 0px 5px rgba(87, 87, 87, 0.69);
 }
@@ -60,7 +62,16 @@
     gwt-image: "degrade_bt_dn";
 }
 
+.sliderButtons div a span {
+    display: inline-block;
+    line-height: 20px;
+}
+
 .sliderButtons div a {
+    line-height: 106px;
+    display: block;
+    width: inherit;
+    height: inherit;
     color: #ffffff;
 }
 
@@ -90,6 +101,10 @@
     display: table;
     padding-left: 10px;
     padding-right: 40px;
+}
+
+.textSlider p span {
+    color: #0096D7;
 }
 
 .textSlider p {
