@@ -1,4 +1,4 @@
-package com.jci.client.resource.footer.sponsors;
+package com.jci.client.resource.sponsors;
 
 import com.google.gwt.resources.client.ClientBundle;
 import com.google.gwt.resources.client.CssResource;

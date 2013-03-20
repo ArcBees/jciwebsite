@@ -5,6 +5,7 @@
     <g:HTMLPanel addStyleNames="{res.style.tuile}">
         <jci:HeaderView ui:field="header"/>
         <g:HTMLPanel ui:field="main"/>
+        <jci:SponsorsView ui:field="sponsors"/>
         <jci:FooterView ui:field="footer"/>
     </g:HTMLPanel>
 </ui:UiBinder>

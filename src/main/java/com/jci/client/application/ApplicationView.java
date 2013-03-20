@@ -25,6 +25,7 @@ import com.google.gwt.user.client.ui.HTMLPanel;
 import com.google.gwt.user.client.ui.Widget;
 import com.jci.client.application.ui.FooterView;
 import com.jci.client.application.ui.HeaderView;
+import com.jci.client.application.ui.SponsorsView;
 
 public class ApplicationView extends ViewImpl implements ApplicationPresenter.MyView {
     public interface Binder extends UiBinder<Widget, ApplicationView> {
@@ -36,12 +37,16 @@ public class ApplicationView extends ViewImpl implements ApplicationPresenter.My
     HeaderView header;
     @UiField(provided = true)
     FooterView footer;
+    @UiField(provided = true)
+    SponsorsView sponsors;
 
     @Inject
     public ApplicationView(Binder uiBinder,
                            HeaderView headerView,
+                           SponsorsView sponsorsView,
                            FooterView footerView) {
         this.header = headerView;
+        this.sponsors = sponsorsView;
         this.footer = footerView;
 
         initWidget(uiBinder.createAndBindUi(this));

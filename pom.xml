@@ -129,6 +129,14 @@
                     <serverId>appengine-credentials</serverId>
                     <splitJars>true</splitJars>
                 </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>net.kindleit</groupId>
+                        <artifactId>gae-runtime</artifactId>
+                        <version>1.7.4</version>
+                        <type>pom</type>
+                    </dependency>
+                </dependencies>
                 <executions>
                     <!-- First time GAE users, run 'mvn gae:unpack' -->
                     <execution>
