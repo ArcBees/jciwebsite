@@ -1,17 +1,21 @@
 .dragUp {
     margin-top: -35px;
-    -webkit-box-shadow: 0 3px 13px 0px rgba(34, 34, 34, 0.41);
-    -moz-box-shadow: 0 3px 13px 0px rgba(34, 34, 34, 0.41);
-    box-shadow: 0 3px 13px 0px rgba(34, 34, 34, 0.41);
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
+    -webkit-box-shadow: 0 3px 13px 0px rgba(34, 34, 34, 0.41);
+    -moz-box-shadow: 0 3px 13px 0px rgba(34, 34, 34, 0.41);
+    box-shadow: 0 3px 13px 0px rgba(34, 34, 34, 0.41);
 }
 
 .shadow {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
     -webkit-box-shadow: 0 7px 10px -1px rgba(26, 26, 26, 0.27);
     -moz-box-shadow: 0 7px 10px -1px rgba(26, 26, 26, 0.27);
     box-shadow: 0 7px 10px -1px rgba(26, 26, 26, 0.27);
+    overflow: hidden;
 }
 
 div.width {

@@ -19,7 +19,7 @@
                 <div ui:field="menu" class="{headRes.style.right} {headRes.style.navbar} bebas">
                     <a href="#{nameTokens.getHome}" class="{headRes.style.active}">Home</a>
                     <a href="#{nameTokens.getRegister}">Registration</a>
-                    <a href="/program.xlsx">Programs</a>
+                    <a href="/program.pdf">Programs</a>
                     <a href="#{nameTokens.getAbout}">About</a>
                     <a>Contact</a>
                 </div>

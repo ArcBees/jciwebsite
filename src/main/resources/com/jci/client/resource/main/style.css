@@ -1,15 +1,32 @@
 .sliderWrapper {
     height: 347px;
-    margin-bottom: 30px;
     overflow: hidden;
 }
 
-@sprite .sliderPhoto {
-    gwt-image: "homeImage001";
+.sliderPhoto {
     float: left;
     height: 100%;
     width: 764px;
     position: relative;
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    -moz-border-radius-topleft: 8px;
+    -moz-border-radius-bottomleft: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    overflow: hidden;
+}
+
+.sliderPhoto > div:first-of-type {
+    position: relative;
+    z-index: 1;
+}
+
+.sliderPhoto > div > div > img {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .sliderButtons {
@@ -56,23 +73,26 @@
     border-bottom: none;
 }
 
-.aWonderfulCity {
-    width: 250px;
+.textSlider {
+    z-index: 10;
+    position: relative;
+    max-width: 280px;
     margin-top: 20px;
     height: 50px;
     background-color: #d7dcde;
     font-size: 34px;
-    -webkit-border-top-right-radius: 10px;
-    -webkit-border-bottom-right-radius: 10px;
-    -moz-border-radius-topright: 10px;
-    -moz-border-radius-bottomright: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    -webkit-border-top-right-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    -moz-border-radius-topright: 8px;
+    -moz-border-radius-bottomright: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
     display: table;
     padding-left: 10px;
+    padding-right: 40px;
 }
 
-.aWonderfulCity p {
+.textSlider p {
     display: table-cell;
     vertical-align: middle;
     padding-top: 10px;
@@ -88,4 +108,5 @@
     position: absolute;
     bottom: 12px;
     left: 322px;
+    z-index: 10;
 }

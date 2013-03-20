@@ -39,4 +39,9 @@ public class HomePagePresenter extends Presenter<HomePagePresenter.MyView, HomeP
     public HomePagePresenter(final EventBus eventBus, final MyView view, final MyProxy proxy) {
         super(eventBus, view, proxy, ApplicationPresenter.TYPE_SetMainContent);
     }
+
+    @Override
+    protected void onReveal() {
+        super.onReveal();    //To change body of overridden methods use File | Settings | File Templates.
+    }
 }

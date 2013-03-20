@@ -7,10 +7,41 @@
     <g:HTMLPanel>
         <div class="{res.style.width} {res.style.dragUp} {res.style.shadow}">
             <div class="{mainRes.style.sliderWrapper} {res.style.round}">
-                <div class="{mainRes.style.sliderPhoto}">
-                    <div class="{mainRes.style.aWonderfulCity} item active">
-                        <p class="bebas">... a wonderful city</p>
+                <div class="{mainRes.style.sliderPhoto} carousel slide" id="myCarousel">
+                    <div class="carousel-inner">
+                        <div class="item active clearfix">
+                            <div class="{mainRes.style.textSlider}">
+                                <p class="bebas">A wonderful city</p>
+                            </div>
+                            <g:Image resource="{mainRes.homeImage004}" altText="Quebec city"/>
+                        </div>
+                        <div class="item clearfix">
+                            <div class="{mainRes.style.textSlider}">
+                                <p class="bebas">A magic nightlife</p>
+                            </div>
+                            <g:Image resource="{mainRes.homeImage002}" altText="Nightlife of Quebec city"/>
+                        </div>
+                        <div class="item clearfix">
+                            <div class="{mainRes.style.textSlider}">
+                                <p class="bebas">An historical city</p>
+                            </div>
+                            <g:Image resource="{mainRes.homeImage003}" altText="The Battlefields Park of Quebec"/>
+                        </div>
+                        <div class="item clearfix">
+                            <div class="{mainRes.style.textSlider}">
+                                <p class="bebas">A romantic ambiance</p>
+                            </div>
+                            <g:Image resource="{mainRes.homeImage001}" altText="Romantic ambiance of Quebec city"/>
+                        </div>
+                        <div class="item clearfix">
+                            <div class="{mainRes.style.textSlider}">
+                                <p class="bebas">A modern city</p>
+                            </div>
+                            <g:Image resource="{mainRes.homeImage005}" altText="Port of Quebec"/>
+                        </div>
                     </div>
+
+
                     <div class="{mainRes.style.button_visio}">
                         <ol class="carousel-indicators">
                             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -44,7 +75,7 @@
                     </div>
 
                     <div>
-                        <p><a href="program.xlsx">Look at the
+                        <p><a href="program.pdf">Look at the
                             <br/>
                             Programs</a>
                         </p>
@@ -52,8 +83,7 @@
                 </div>
 
             </div>
-
-
         </div>
+
     </g:HTMLPanel>
 </ui:UiBinder>

@@ -28,7 +28,7 @@ public interface MainResource extends ClientBundle {
 
         String sliderButtons();
 
-        String aWonderfulCity();
+        String textSlider();
 
         String button_visio();
 
@@ -37,6 +37,14 @@ public interface MainResource extends ClientBundle {
     Style style();
 
     ImageResource homeImage001();
+
+    ImageResource homeImage002();
+
+    ImageResource homeImage003();
+
+    ImageResource homeImage004();
+
+    ImageResource homeImage005();
 
     @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.Horizontal)
     ImageResource degrade_bt();
