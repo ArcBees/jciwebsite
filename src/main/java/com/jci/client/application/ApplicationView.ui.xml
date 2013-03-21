@@ -3,7 +3,7 @@
              xmlns:jci='urn:import:com.jci.client.application.ui'>
     <ui:with field="res" type="com.jci.client.resource.CommonResource"/>
     <g:HTMLPanel addStyleNames="{res.style.tuile}">
-        <jci:HeaderView ui:field="header"/>
+        <g:SimplePanel ui:field="header"/>
         <g:HTMLPanel ui:field="main"/>
         <jci:SponsorsView ui:field="sponsors"/>
         <jci:FooterView ui:field="footer"/>

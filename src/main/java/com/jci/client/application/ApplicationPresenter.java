@@ -25,6 +25,7 @@ import com.gwtplatform.mvp.client.annotations.ContentSlot;
 import com.gwtplatform.mvp.client.annotations.ProxyStandard;
 import com.gwtplatform.mvp.client.proxy.Proxy;
 import com.gwtplatform.mvp.client.proxy.RevealContentHandler;
+import com.jci.client.application.ui.HeaderPresenter;
 
 public class ApplicationPresenter extends Presenter<ApplicationPresenter.MyView, ApplicationPresenter.MyProxy> {
     public interface MyView extends View {
@@ -33,13 +34,27 @@ public class ApplicationPresenter extends Presenter<ApplicationPresenter.MyView,
     @ContentSlot
     public static final Type<RevealContentHandler<?>> TYPE_SetMainContent = new Type<RevealContentHandler<?>>();
 
+    public static final Object HEADER_SLOT = new Object();
+
     @ProxyStandard
     public interface MyProxy extends Proxy<ApplicationPresenter> {
     }
 
+    private final HeaderPresenter headerPresenter;
+
     @Inject
-    public ApplicationPresenter(final EventBus eventBus, final MyView view, final MyProxy proxy) {
+    public ApplicationPresenter(EventBus eventBus,
+                                MyView view,
+                                MyProxy proxy,
+                                HeaderPresenter headerPresenter) {
         super(eventBus, view, proxy, RevealType.Root);
+        this.headerPresenter = headerPresenter;
     }
 
+    @Override
+    protected void onBind() {
+        super.onBind();
+
+        setInSlot(HEADER_SLOT, headerPresenter);
+    }
 }
