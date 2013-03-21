@@ -41,6 +41,10 @@ public interface CommonResource extends ClientBundle {
         String actions();
 
         String shadow();
+
+        String footer();
+
+        String clear();
     }
 
     @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.Both)
