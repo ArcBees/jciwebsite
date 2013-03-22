@@ -24,35 +24,34 @@ public interface MainResource extends ClientBundle {
     public interface Style extends CssResource {
         String sliderWrapper();
 
-        String sponsorWrapper();
-
         String sliderPhoto();
 
         String sliderButtons();
 
-        String aWonderfulCity();
+        String textSlider();
 
         String button_visio();
 
-        String buttons_visio_off();
-
-        String buttons_visio_on();
     }
 
     Style style();
 
     ImageResource homeImage001();
 
-    ImageResource button_visio_off();
+    ImageResource homeImage002();
 
-    ImageResource button_visio_on();
+    ImageResource homeImage003();
+
+    ImageResource homeImage004();
+
+    ImageResource homeImage005();
 
     @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.Horizontal)
     ImageResource degrade_bt();
 
-    ImageResource partners();
+    @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.Horizontal)
+    ImageResource degrade_bt_up();
 
-    ImageResource arcbees();
-
-    ImageResource qvc();
+    @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.Horizontal)
+    ImageResource degrade_bt_dn();
 }

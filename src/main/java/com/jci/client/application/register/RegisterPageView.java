@@ -30,4 +30,17 @@ public class RegisterPageView extends ViewImpl implements RegisterPagePresenter.
     public RegisterPageView(Binder uiBinder) {
         initWidget(uiBinder.createAndBindUi(this));
     }
+
+    @Override
+    public void scrollTo(String id) {
+        scrollToNative(id);
+    }
+
+    public static native void scrollToNative(String id) /*-{
+        if(id!=""){
+            $wnd.$('html, body').animate({
+                scrollTop: $wnd.$("#"+id).offset().top
+            }, 800, "swing");
+        }
+    }-*/;
 }

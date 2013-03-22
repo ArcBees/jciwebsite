@@ -1,0 +1,31 @@
+div.sponsorWrapper {
+    margin-top: 40px;
+    width: 940px;
+    background-color: #d4ebf6;
+
+    padding: 20px 30px;
+
+}
+
+.sponsorWrapper a {
+    margin: 0 15px;
+    display: inline-block;
+    moz-opacity: 1;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha"(Opacity = 100 );
+}
+
+.sponsorWrapper a:last-child {
+    margin-right: 0;
+}
+
+.sponsorWrapper a:first-child {
+    margin-left: 0;
+}
+
+.sponsorWrapper a:hover, .sponsorWrapper a:active {
+
+    -moz-opacity: 0.85;
+    opacity: 0.85;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha"(Opacity = 85 );
+}

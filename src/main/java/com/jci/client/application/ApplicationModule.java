@@ -16,10 +16,11 @@
 
 package com.jci.client.application;
 
+import com.gwtplatform.mvp.client.gin.AbstractPresenterModule;
 import com.jci.client.application.about.AboutModule;
 import com.jci.client.application.home.HomeModule;
-import com.gwtplatform.mvp.client.gin.AbstractPresenterModule;
 import com.jci.client.application.register.RegisterModule;
+import com.jci.client.application.ui.HeaderModule;
 
 public class ApplicationModule extends AbstractPresenterModule {
     @Override
@@ -27,6 +28,7 @@ public class ApplicationModule extends AbstractPresenterModule {
         install(new HomeModule());
         install(new RegisterModule());
         install(new AboutModule());
+        install(new HeaderModule());
 
         bindPresenter(ApplicationPresenter.class, ApplicationPresenter.MyView.class, ApplicationView.class,
                 ApplicationPresenter.MyProxy.class);
