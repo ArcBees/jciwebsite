@@ -33,12 +33,12 @@ public class RegisterPagePresenter extends Presenter<RegisterPagePresenter.MyVie
         void scrollTo(String id);
     }
 
-    private String id;
-
     @ProxyStandard
     @NameToken(NameTokens.register)
     public interface MyProxy extends ProxyPlace<RegisterPagePresenter> {
     }
+
+    private String id;
 
     @Inject
     public RegisterPagePresenter(EventBus eventBus,
@@ -50,12 +50,14 @@ public class RegisterPagePresenter extends Presenter<RegisterPagePresenter.MyVie
     @Override
     public void prepareFromRequest(PlaceRequest request) {
         super.prepareFromRequest(request);
+
         id = request.getParameter("id", "");
     }
 
     @Override
     protected void onReveal() {
         super.onReveal();
+
         getView().scrollTo(id);
     }
 }

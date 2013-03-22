@@ -40,13 +40,13 @@ public class AboutPageView extends ViewImpl implements AboutPagePresenter.MyView
     AnchorElement buttonCanada;
     @UiField
     AnchorElement buttonQuebec;
+
     private final String activeStyleName;
 
     @Inject
     public AboutPageView(Binder uiBinder,
                          CommonResource commonResource) {
         initWidget(uiBinder.createAndBindUi(this));
-
 
         activeStyleName = commonResource.style().active();
 
