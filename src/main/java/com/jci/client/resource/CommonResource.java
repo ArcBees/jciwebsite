@@ -39,10 +39,22 @@ public interface CommonResource extends ClientBundle {
         String content();
 
         String actions();
+
+        String shadow();
+
+        String footer();
+
+        String clear();
+
+        String noBottomMargin();
+
+        String smallMarginTop();
     }
 
     @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.Both)
     ImageResource tuile();
+
+    ImageResource puce();
 
     Style style();
 }

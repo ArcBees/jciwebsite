@@ -22,9 +22,11 @@ import com.arcbees.core.client.mvp.ViewImpl;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.user.client.ui.HTMLPanel;
+import com.google.gwt.user.client.ui.SimplePanel;
 import com.google.gwt.user.client.ui.Widget;
 import com.jci.client.application.ui.FooterView;
 import com.jci.client.application.ui.HeaderView;
+import com.jci.client.application.ui.SponsorsView;
 
 public class ApplicationView extends ViewImpl implements ApplicationPresenter.MyView {
     public interface Binder extends UiBinder<Widget, ApplicationView> {
@@ -32,16 +34,18 @@ public class ApplicationView extends ViewImpl implements ApplicationPresenter.My
 
     @UiField
     HTMLPanel main;
-    @UiField(provided = true)
-    HeaderView header;
+    @UiField
+    SimplePanel header;
     @UiField(provided = true)
     FooterView footer;
+    @UiField(provided = true)
+    SponsorsView sponsors;
 
     @Inject
     public ApplicationView(Binder uiBinder,
-                           HeaderView headerView,
+                           SponsorsView sponsorsView,
                            FooterView footerView) {
-        this.header = headerView;
+        this.sponsors = sponsorsView;
         this.footer = footerView;
 
         initWidget(uiBinder.createAndBindUi(this));
@@ -53,6 +57,9 @@ public class ApplicationView extends ViewImpl implements ApplicationPresenter.My
             if (slot == ApplicationPresenter.TYPE_SetMainContent) {
                 main.clear();
                 main.add(content);
+            } else if (slot == ApplicationPresenter.HEADER_SLOT) {
+                header.clear();
+                header.setWidget(content);
             }
         }
     }

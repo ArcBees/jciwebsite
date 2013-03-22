@@ -12,37 +12,61 @@
 }
 
 .city h2 {
+    color: #202020;
     display: block;
     background: none;
 
     margin: 0;
+    margin-top: 10px;
     padding: 0;
 
     font-size: 19px;
     font-weight: normal;
 }
 
+.city > div > p:first-of-type {
+    margin-top: 0;
+}
+
+.city > p:first-of-type {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.location a {
+    text-decoration: none;
+    color: #202020;
+}
+
+.location a:hover {
+    text-decoration: underline;
+}
+
 .city p {
     color: #202020;
+    margin-top: 5px;
+    font-size: 14px;
 }
 
 @sprite .copy {
     gwt-image: "copy";
-    height: 30px;
 }
 
 .copy p {
     font-size: 11px;
     margin: 0px auto;
     color: #747d81;
-    line-height: 30px;
+    height: 40px;
+    line-height: 40px;
     text-align: center;
+    display: block;
 }
 
 .copy p a {
     text-decoration: underline;
     color: #747d81;
 }
+
 .copy p a:hover {
     text-decoration: underline;
     color: #216a9e;
@@ -69,16 +93,25 @@ a.follow, a.share {
     width: auto;
 
     color: #4d5458;
-    font-size: 22px;
-    font-weight: bold;
-    line-height: 25px;
+    font-size: 27px;
+    line-height: 29px;
     text-transform: uppercase;
 
     margin: 0 10px;
+
+    -moz-opacity: 1;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha"(Opacity = 100 );
 }
 
-a.follow:hover, a.follow:active, a.share:hover, a.share:active {
-    color: #4d5458;
+a.follow {
+    margin-right: 20px;
+}
+
+a.follow:hover, a.share:hover {
+    -moz-opacity: 0.85;
+    opacity: 0.85;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha"(Opacity = 85 );
 }
 
 @sprite .location {

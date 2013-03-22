@@ -1,25 +1,32 @@
 .sliderWrapper {
     height: 347px;
-    margin-bottom: 30px;
     overflow: hidden;
 }
 
-.sponsorWrapper {
-    background-color: #d4ebf6;
-
-    padding: 10px 30px;
-}
-
-.sponsorWrapper a {
-    margin: 5px 10px;
-}
-
-@sprite .sliderPhoto {
-    gwt-image: "homeImage001";
+.sliderPhoto {
     float: left;
     height: 100%;
     width: 764px;
-    position:relative;
+    position: relative;
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    -moz-border-radius-topleft: 8px;
+    -moz-border-radius-bottomleft: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    overflow: hidden;
+}
+
+.sliderPhoto > div:first-of-type {
+    position: relative;
+    z-index: 1;
+}
+
+.sliderPhoto > div > div > img {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .sliderButtons {
@@ -27,24 +34,44 @@
 }
 
 .sliderButtons div {
-    display: table;
+    display: block;
     width: 236px;
 }
 
 @sprite .sliderButtons div p {
     gwt-image: "degrade_bt";
     text-align: center;
+    height: 86px;
+    width: inherit;
     border-left: 1px solid #355b42;
     border-bottom: 1px solid #355b42;
     color: #f2f2f2;
-    font-weight:bold;
+    font-weight: bold;
     font-family: helvetica, "Helvetica Neue", Arial, sans-serif;
     font-size: 22px;
-    display: table-cell;
+    display: block;
     vertical-align: middle;
+    text-shadow: 0px 0px 5px rgba(87, 87, 87, 0.69);
+}
+
+@sprite .sliderButtons div:hover p {
+    gwt-image: "degrade_bt_up";
+}
+
+@sprite .sliderButtons div:active p {
+    gwt-image: "degrade_bt_dn";
+}
+
+.sliderButtons div a span {
+    display: inline-block;
+    line-height: 20px;
 }
 
 .sliderButtons div a {
+    line-height: 106px;
+    display: block;
+    width: inherit;
+    height: inherit;
     color: #ffffff;
 }
 
@@ -57,48 +84,44 @@
     border-bottom: none;
 }
 
-.aWonderfulCity {
-    width: 250px;
+.textSlider {
+    z-index: 10;
+    position: relative;
+    max-width: 280px;
     margin-top: 20px;
     height: 50px;
     background-color: #d7dcde;
     font-size: 34px;
-    -webkit-border-top-right-radius: 10px;
-    -webkit-border-bottom-right-radius: 10px;
-    -moz-border-radius-topright: 10px;
-    -moz-border-radius-bottomright: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    -webkit-border-top-right-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    -moz-border-radius-topright: 8px;
+    -moz-border-radius-bottomright: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
     display: table;
     padding-left: 10px;
+    padding-right: 40px;
 }
 
-.aWonderfulCity p {
+.textSlider p span {
+    color: #0096D7;
+}
+
+.textSlider p {
     display: table-cell;
     vertical-align: middle;
     padding-top: 10px;
 }
 
+.button_visio li {
+    cursor: pointer;
+}
+
 .button_visio {
-    width: 180px;
+    width: 120px;
     height: 20px;
     position: absolute;
     bottom: 12px;
-    left: 300px;
-}
-
-.button_visio button {
-    width: 18px;
-    height: 18px;
-    display: block;
-    margin: 0 4px;
-    float: left;
-    border: none;
-}
-
-@sprite .buttons_visio_off {
-gwt-image:"button_visio_off";
-}
-@sprite .buttons_visio_on {
-gwt-image:"button_visio_on";
+    left: 322px;
+    z-index: 10;
 }
