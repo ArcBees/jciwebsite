@@ -22,6 +22,10 @@ import com.google.gwt.resources.client.CssResource;
 public interface RegisterResource extends ClientBundle {
     public interface Style extends CssResource {
         String register();
+
+        String hotel();
+
+        String getting();
     }
 
     Style style();

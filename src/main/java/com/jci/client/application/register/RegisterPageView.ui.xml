@@ -10,9 +10,10 @@
                    target="_blank" class="{registerRes.style.register} {res.style.round} {res.style.button_gray}">
                     Register NOW!
                 </a>
+                <span id="hotel" class="{registerRes.style.hotel}"/>
             </div>
 
-            <h1 id="hotel">Convention Hotel</h1>
+            <h1>Convention Hotel</h1>
             <p>
                 In the heart of the revitalised Saint-Roch historic district and steps from the fortified old city,
                 Hotel Pur put you near hip downtown, shops, eatery night life and Quebec City technology
@@ -36,9 +37,10 @@
                 <a href="mailto:trypquebecpur@wyndham.com">trypquebecpur@wyndham.com</a>
                 <br/>
                 <a href="http://www.hotelpur.com" target="_blank">http://www.hotelpur.com</a>
+                <span id="getting" class="{registerRes.style.getting}"/>
             </p>
 
-            <h1 id="getting">Getting to Quebec City</h1>
+            <h1>Getting to Quebec City</h1>
             <h2 class="{res.style.round} {res.style.smallMarginTop}">By plane</h2>
             <p>
                 Quebec City’s Jean Lesage International Airport (YQB)
