@@ -81,8 +81,9 @@
                     coast to
                     coast with 30 local chapters and more on the way.
                 </p>
-                <p>
-                    For more information, <a href="http://www.jcicanada.com/" target="_blank">visit www.jcicanada.com</a>
+                <p class="{res.style.noBottomMargin}">
+                    For more information,
+                    <a href="http://www.jcicanada.com/" target="_blank">visit www.jcicanada.com</a>
                 </p>
             </div>
 
@@ -94,53 +95,87 @@
                     Considered as an important actor in the community, JCI Quebec City organizes more than 50 activities
                     each year and, as a result, has an impact on the social economic landscape of the region by
                     promoting personal and professional development of Quebec City youth.
+                </p>
+                <p>
                     In 2000, members from the Quebec City local chapter voted to adhere to the JCI movement to enhance
                     our capability to serve the community and to twin with organizations of similar values and purpose
                     both across Canada and the world. Since becoming a member, JCI Quebec City has sent delegates to
                     attend several national conventions, area conferences and the 13 past world congresses. Numerous
                     members held National Offices, two of which served as JCI Canada National President in 2008 and
-                    2012. Our Own François Begin is currently serving as JCI International Vice president assigned to
+                    2012. Our own François Begin is currently serving as JCI International Vice president assigned to
                     Europe.
+                </p>
+                <p>
                     JCI Quebec City also won many awards throughout the years, thus proving its dynamism within the JCI
                     movement:
                 </p>
-                <p>
-                    <b>Most Outstanding New JCI Organization in Canada</b>
-                    JCI Canada National Convention
-                    Edmonton, Canada, May 15 , 2003
-                </p>
-                <p>
-                    <b>Most Outstanding JCI Organization in Canada</b>
-                    JCI Canada National Conventions
-                    Quebec City, September 29, 2004
-                    Cap Breton, September 2005
-                    Toronto, September 2011
-                    Cranbrooke, September 2012
-                </p>
-                <p>
-                    <b>Most Outstanding New JCI Organization in the Americas</b>
-                    Area Conferences
-                    Quito, Equator, May 19, 2003
-                    Sao Paulo, May 7, 2005
-                </p>
-                <p>
-                    <b>Most Outstanding New JCI Organization in the World</b>
-                    World Congress
-                    Copenhagen, Denmark, Nov, 2003
-                </p>
+                <ul>
+                    <li>
+                        <b>Most Outstanding New JCI Organization in Canada</b>
+                        at JCI Canada National Convention
+                    </li>
+                    <li>
+                        <ul>
+                            <li>Edmonton, Canada, May 15 , 2003</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <b>Most Outstanding JCI Organization in Canada</b>
+                        at JCI Canada National Conventions
+                    </li>
+                    <li>
+                        <ul>
+                            <li>Edmonton, Canada, May 15 , 2003</li>
+                            <li>Quebec City, September 29, 2004</li>
+                            <li>Cap Breton, September 2005</li>
+                            <li>Toronto, September 2011</li>
+                            <li>Cranbrooke, September 2012</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <b>Most Outstanding New JCI Organization in the Americas</b>
+                        at Area Conferences
+                    </li>
+                    <li>
+                        <ul>
+                            <li>Quito, Equator, May 19, 2003</li>
+
+                            <li>Sao Paulo, May 7, 2005</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <b>Most Outstanding New JCI Organization in the World</b>
+                        at World Congress
+                    </li>
+                    <li>
+                        <ul>
+                            <li>Copenhagen, Denmark, Nov, 2003</li>
+                        </ul>
+                    </li>
+                </ul>
                 <p>
                     In 2004, JCI Quebec City hosted the National Convention after being part of JCI and JCI Canada for
                     only two years. Quebec City established a benchmark for conventions in Canada by offering VIP
                     treatment to all of our guests. JCI Quebec City maintains relationships with a number of external
-                    organizations among local chapters and national organisations of the JCI movement. JCI Quebec City
+                    organizations among local chapters and national organisations of the JCI movement.
+                </p>
+                <p>
+                    JCI Quebec City
                     being the only French speaking chapter in North America, contacts were also made with other junior
                     chambers of French background. Since 2005, JCI Quebec City though JCI Canada has become a member of
                     JCI’s Association Internationale des Jeunes Chambres Francophones (International Francophone Junior
                     Chambers Association). Finally, JCI Quebec City is twinned with JCI Calgary and JCI Reims to develop
                     relations that are mutually beneficial.
                 </p>
-                <p>
-                    For more information, <a href="http://www.www.jccq.qc.ca/" target="_blank">visit www.jccq.qc.ca</a>
+                <p class="{res.style.noBottomMargin}">
+                For more information,
+                    <a href="http://www.www.jccq.qc.ca/" target="_blank">visit www.jccq.qc.ca</a>
                 </p>
             </div>
         </div>

@@ -39,10 +39,8 @@ public class RegisterPageView extends ViewImpl implements RegisterPagePresenter.
     public static native void scrollToNative(String id) /*-{
         if(id!=""){
             $wnd.$('html, body').animate({
-                scrollTop: 0
-            }, 500).animate({
                 scrollTop: $wnd.$("#"+id).offset().top
-            }, 1000, "swing");
+            }, 800, "swing");
         }
     }-*/;
 }

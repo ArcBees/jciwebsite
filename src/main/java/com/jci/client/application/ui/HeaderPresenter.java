@@ -10,35 +10,42 @@ import com.gwtplatform.mvp.client.proxy.PlaceRequest;
 
 import javax.inject.Inject;
 
-public class HeaderPresenter extends PresenterWidget<HeaderPresenter.MyView> implements NavigationHandler {
+public class HeaderPresenter extends PresenterWidget<HeaderPresenter.MyView> {
     public interface MyView extends View {
         void activateCurrentLink(String nameToken);
+
+        void goToTop();
     }
 
     private final PlaceManager placeManager;
 
     @Inject
-    public HeaderPresenter(final EventBus eventBus, final MyView view,
-                           final PlaceManager placeManager) {
+    public HeaderPresenter(EventBus eventBus,
+                           MyView view,
+                           PlaceManager placeManager) {
         super(eventBus, view);
-        this.placeManager = placeManager;
 
-        eventBus.addHandler(NavigationEvent.getType(), this);
+        this.placeManager = placeManager;
     }
 
     @Override
     protected void onBind() {
         super.onBind();
 
-        PlaceRequest placeRequest = placeManager.getCurrentPlaceRequest();
-        String nameToken = placeRequest.getNameToken();
-
-        getView().activateCurrentLink(nameToken);
+        activateCurrentLinks();
     }
 
     @Override
-    public void onNavigation(NavigationEvent navigationEvent) {
-        String nameToken = navigationEvent.getRequest().getNameToken();
+    protected void onReset() {
+        super.onReset();
+
+        getView().goToTop();
+        activateCurrentLinks();
+    }
+
+    private void activateCurrentLinks() {
+        PlaceRequest placeRequest = placeManager.getCurrentPlaceRequest();
+        String nameToken = placeRequest.getNameToken();
 
         getView().activateCurrentLink(nameToken);
     }

@@ -48,4 +48,13 @@ public class HeaderView extends ViewImpl implements HeaderPresenter.MyView {
         $("." + activeStyleName).removeClass(activeStyleName);
         $("#" + nameTokens).addClass(activeStyleName);
     }
+
+    @Override
+    public void goToTop() {
+        goToTopNative();
+    }
+
+    public static native void goToTopNative() /*-{
+        $wnd.$('html, body').scrollTop(0);
+    }-*/;
 }

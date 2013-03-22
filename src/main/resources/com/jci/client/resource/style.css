@@ -1,17 +1,23 @@
-body{
+body {
     height: 100%;
 }
-.clear{
+
+.clear {
     height: 260px;
     clear: both;
     float: none;
     display: block;
 }
-.footer{
+
+.footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 260px;
+}
+
+.dragUp p {
+    line-height: 20px;
 }
 
 .dragUp {
@@ -65,6 +71,7 @@ body {
 h1 {
     font-size: 26px;
     font-weight: normal;
+    margin-bottom: 10px;
 }
 
 h2 {
@@ -74,10 +81,11 @@ h2 {
     font-size: 15px;
     font-weight: normal;
 
-    margin: 15px 0 5px;
-    padding: 10px 15px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding: 10px 10px;
 
-    background: #353537;
+    background: #4d5458;
 }
 
 a.button_gray {
@@ -116,7 +124,7 @@ a.button_gray:hover, a.button_gray:active {
 
 div.content {
     width: 930px;
-    padding: 0 35px 5px;
+    padding: 35px;
 }
 
 .content p, .content ul {
@@ -127,20 +135,34 @@ div.content {
 }
 
 .content p a, .content p a:hover, .content ul a, .content ul a:hover {
-    color: #353537;
+    color: #008ac9;
     text-decoration: underline;
 }
 
 .content ul {
-    list-style: disc;
-    padding: 0 1em;
+    list-style: none;
+    padding: 0 15px;
+    margin-top: 15px;
 }
 
-.content li {
+@sprite .content ul li {
     margin: 5px 0;
+    line-height: 20px;
+    gwt-image: "puce";
+    height: auto;
+    width: auto;
+    background-position: 0 7px;
+    padding-left: 14px;
 }
-
 .actions {
     text-align: right;
     margin-bottom: 35px;
+}
+
+html body .smallMarginTop {
+    margin-top: 5px;
+}
+
+html body .noBottomMargin {
+    margin-bottom: 0;
 }

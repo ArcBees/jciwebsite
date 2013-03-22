@@ -5,13 +5,13 @@
 
     <g:HTMLPanel>
         <div class="{res.style.width} {sponsRes.style.sponsorWrapper} {res.style.round} {res.style.shadow}">
-            <a href="http://www.arcbees.com" target="_blank">
+            <a href="http://www.arcbees.com/?locale=en" target="_blank">
                 <g:Image resource="{sponsRes.arcbees}" altText="ArcBees"/>
             </a>
-            <a href="http://www.qvc.qc.ca" target="_blank">
+            <a href="http://www.qvc.qc.ca/eng/QVC-01-About-us/QVC-About-us.htm" target="_blank">
                 <g:Image resource="{sponsRes.qvc}" altText="QVC"/>
             </a>
-            <a href="http://www.lavery.ca/" target="_blank">
+            <a href="http://www.lavery.ca/lavery-laywer-firm/#.UUsv1Ryzjyg" target="_blank">
                 <g:Image resource="{sponsRes.lavery_en}" altText="Lavery"/>
             </a>
         </div>
