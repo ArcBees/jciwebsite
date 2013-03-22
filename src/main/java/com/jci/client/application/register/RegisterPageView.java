@@ -23,6 +23,7 @@ import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.user.client.ui.Widget;
 
 import static com.google.gwt.query.client.GQuery.$;
+import static com.google.gwt.query.client.plugins.effects.PropertiesAnimation.Easing.SWING;
 
 public class RegisterPageView extends ViewImpl implements RegisterPagePresenter.MyView {
     interface Binder extends UiBinder<Widget, RegisterPageView> {
@@ -35,17 +36,9 @@ public class RegisterPageView extends ViewImpl implements RegisterPagePresenter.
 
     @Override
     public void scrollTo(String id) {
-//        scrollToNative(id);
         if (id != "") {
-            $("html, body").scrollTo(0,$("#" + id).offset().top);
+            int offsetTop = $("#" + id).offset().top;
+            $("html, body").animate("scrollTop:'" + offsetTop + "'", 800, SWING);
         }
     }
-
-    public static native void scrollToNative(String id) /*-{
-        if (id != "") {
-            $wnd.$('html, body').animate({
-                scrollTop: $wnd.$("#" + id).offset().top
-            }, 800, "swing");
-        }
-    }-*/;
 }
