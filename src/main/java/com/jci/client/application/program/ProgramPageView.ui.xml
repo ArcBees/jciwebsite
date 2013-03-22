@@ -1,0 +1,87 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+    <ui:with field="res" type="com.jci.client.resource.CommonResource"/>
+    <ui:with field="registerRes" type="com.jci.client.resource.register.RegisterResource"/>
+    <g:HTMLPanel>
+        <div class="{res.style.width} {res.style.white} {res.style.dragUp} {res.style.round}
+        {res.style.content}">
+            <div class="{res.style.actions}">
+                <a href="http://www.jccq.qc.ca/Categorie-dactivites/Congres-National-et-AGA-JCI-Canada/Convention-Nationale-JCI-Canada-2013-2013-JCI-Canada-National-Convention.aspx"
+                   target="_blank" class="{registerRes.style.register} {res.style.round} {res.style.button_gray}">
+                    Register NOW!
+                </a>
+            </div>
+
+            <h1 id="hotel">Convention Hotel</h1>
+            <p>
+                In the heart of the revitalised Saint-Roch historic district and steps from the fortified old city,
+                Hotel Pur put you near hip downtown, shops, eatery night life and Quebec City technology
+                district.
+            </p>
+            <p>
+                To book your room, use the following contact information and mention the Convention Group:
+                JCI Canada.
+            </p>
+            <p>
+                <b>TRYP Quebec Hotel Pur</b>
+                <br/>
+                <a href="https://maps.google.ca/maps?q=395+Couronne+Street,+Qu%C3%A9bec+(QC),+G1K+7X4&amp;hl=en&amp;authuser=0&amp;ie=UTF-8&amp;ei=ZcFIUfJe16ngA_DSgegN&amp;ved=0CAsQ_AUoAg">
+                    395 Couronne Street, Quebec City (QC), G1K 7X4
+                </a>
+                <br/>
+                <a href="tel:18002672002">1-800-267-2002</a>
+                or
+                <a href="tel:4186472611">418-647-2611</a>
+                <br/>
+                <a href="mailto:trypquebecpur@wyndham.com">trypquebecpur@wyndham.com</a>
+                <br/>
+                <a href="http://www.hotelpur.com" target="_blank">http://www.hotelpur.com</a>
+            </p>
+
+            <h1 id="getting">Getting to Quebec City</h1>
+            <h2 class="{res.style.round} {res.style.smallMarginTop}">By plane</h2>
+            <p>
+                Quebec City’s Jean Lesage International Airport (YQB)
+                <a href="http://www.aeroportdequebec.com/en/" target="_blank">http://www.aeroportdequebec.com/en/</a>
+                offers flights from the major hubs in Eastern North America. Major carriers (Air Canada, West jet,
+                Delta, United Airlines, Porter and U.S Airways to name a few) provide flights from Toronto, Montreal,
+                Ottawa, New York, Chicago, Philadelphia and Punta Cana (why not!).
+            </p>
+            <p class="{res.style.noBottomMargin}">
+                Quebec City’s Jean Lesage International Airport (YQB) is located 14 kilometres from the Convention
+                Hotel which can be reached by various means of transportation:
+            </p>
+            <ul>
+                <li>Taxi: flat rate of $34,50, 14 km - 15 minutes driving distance.</li>
+                <li>Car: all major car rental companies are located in the Airport.</li>
+                <li>Bus: The Réseau de Transport de la Capitale (RTC) offers limited public transportation from the
+                    Airport. Please visit
+                    <a href="http://www.rtcquebec.ca" target="_blank">http://www.rtcquebec.ca</a>
+                    for more details. The rate is $3.
+                </li>
+            </ul>
+
+            <h2 class="{res.style.round}">By car</h2>
+            <p class="{res.style.noBottomMargin}">
+                Obviously, you can drive to Quebec City:
+            </p>
+            <ul>
+                <li>Trois-Rivières, 159 km</li>
+                <li>Chicoutimi, 208 km</li>
+                <li>Montreal, 254 km</li>
+                <li>Boston, 640 km</li>
+                <li>Toronto, 795 km</li>
+                <li>Halifax, 1,017 km</li>
+                <li>And Vancouver, 5,152 km (if you want to go the distance!)</li>
+            </ul>
+
+            <h2 class="{res.style.round}">By train</h2>
+            <p class="{res.style.noBottomMargin}">
+                It is possible to reach Quebec City Central Train Station, located 1.1 km from the Convention Hotel,
+                boarding a VIA Rail train. Visit
+                <a href="http://www.viarail.ca" target="_blank">www.viarail.ca</a>
+                for more details.
+            </p>
+        </div>
+    </g:HTMLPanel>
+</ui:UiBinder>

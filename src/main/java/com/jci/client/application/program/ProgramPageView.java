@@ -14,27 +14,20 @@
  * the License.
  */
 
-package com.jci.client.place;
+package com.jci.client.application.program;
 
-public class NameTokens {
-    public static final String home = "home";
-    public static final String register = "register";
-    public static final String program = "program";
-    public static final String about = "about";
+import com.arcbees.core.client.mvp.ViewImpl;
+import com.google.gwt.uibinder.client.UiBinder;
+import com.google.gwt.user.client.ui.Widget;
 
-    public static String getHome() {
-        return home;
+import javax.inject.Inject;
+
+public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.MyView {
+    interface Binder extends UiBinder<Widget, ProgramPageView> {
     }
 
-    public static String getRegister() {
-        return register;
-    }
-
-    public static String getProgram() {
-        return program;
-    }
-
-    public static String getAbout() {
-        return about;
+    @Inject
+    public ProgramPageView(Binder uiBinder) {
+        initWidget(uiBinder.createAndBindUi(this));
     }
 }

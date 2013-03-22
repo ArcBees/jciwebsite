@@ -14,27 +14,14 @@
  * the License.
  */
 
-package com.jci.client.place;
+package com.jci.client.application.program;
 
-public class NameTokens {
-    public static final String home = "home";
-    public static final String register = "register";
-    public static final String program = "program";
-    public static final String about = "about";
+import com.gwtplatform.mvp.client.gin.AbstractPresenterModule;
 
-    public static String getHome() {
-        return home;
-    }
-
-    public static String getRegister() {
-        return register;
-    }
-
-    public static String getProgram() {
-        return program;
-    }
-
-    public static String getAbout() {
-        return about;
+public class ProgramModule extends AbstractPresenterModule {
+    @Override
+    protected void configure() {
+        bindPresenter(ProgramPagePresenter.class, ProgramPagePresenter.MyView.class, ProgramPageView.class,
+                ProgramPagePresenter.MyProxy.class);
     }
 }

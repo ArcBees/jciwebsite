@@ -41,7 +41,9 @@ public class RegisterPagePresenter extends Presenter<RegisterPagePresenter.MyVie
     }
 
     @Inject
-    public RegisterPagePresenter(final EventBus eventBus, final MyView view, final MyProxy proxy) {
+    public RegisterPagePresenter(EventBus eventBus,
+                                 MyView view,
+                                 MyProxy proxy) {
         super(eventBus, view, proxy, ApplicationPresenter.TYPE_SetMainContent);
     }
 

@@ -28,7 +28,7 @@ import com.gwtplatform.mvp.client.proxy.ProxyPlace;
 
 public class HomePagePresenter extends Presenter<HomePagePresenter.MyView, HomePagePresenter.MyProxy> {
     public interface MyView extends View {
-        void startCarousel(String message);
+        void startCarousel();
     }
 
     @ProxyStandard
@@ -37,14 +37,16 @@ public class HomePagePresenter extends Presenter<HomePagePresenter.MyView, HomeP
     }
 
     @Inject
-    public HomePagePresenter(final EventBus eventBus, final MyView view, final MyProxy proxy) {
+    public HomePagePresenter(EventBus eventBus,
+                             MyView view,
+                             MyProxy proxy) {
         super(eventBus, view, proxy, ApplicationPresenter.TYPE_SetMainContent);
     }
 
     @Override
     protected void onReveal() {
         super.onReveal();
-        getView().startCarousel("on reveal");
+        getView().startCarousel();
     }
 
 

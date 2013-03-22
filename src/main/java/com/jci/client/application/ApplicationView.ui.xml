@@ -6,7 +6,7 @@
         <g:SimplePanel ui:field="header"/>
         <g:HTMLPanel ui:field="main"/>
         <jci:SponsorsView ui:field="sponsors"/>
-        <div class="{res.style.clear}"></div>
+        <div class="{res.style.clear}"/>
         <div class="{res.style.footer}">
             <jci:FooterView ui:field="footer"/>
         </div>

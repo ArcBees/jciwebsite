@@ -14,31 +14,33 @@
  * the License.
  */
 
-package com.jci.client.application.about;
+package com.jci.client.application.program;
 
-import com.google.inject.Inject;
 import com.google.web.bindery.event.shared.EventBus;
 import com.gwtplatform.mvp.client.Presenter;
 import com.gwtplatform.mvp.client.View;
 import com.gwtplatform.mvp.client.annotations.NameToken;
 import com.gwtplatform.mvp.client.annotations.ProxyStandard;
+import com.gwtplatform.mvp.client.proxy.PlaceRequest;
 import com.gwtplatform.mvp.client.proxy.ProxyPlace;
 import com.jci.client.application.ApplicationPresenter;
 import com.jci.client.place.NameTokens;
 
-public class AboutPagePresenter extends Presenter<AboutPagePresenter.MyView, AboutPagePresenter.MyProxy> {
+import javax.inject.Inject;
+
+public class ProgramPagePresenter extends Presenter<ProgramPagePresenter.MyView, ProgramPagePresenter.MyProxy> {
     public interface MyView extends View {
     }
 
     @ProxyStandard
-    @NameToken(NameTokens.about)
-    public interface MyProxy extends ProxyPlace<AboutPagePresenter> {
+    @NameToken(NameTokens.program)
+    public interface MyProxy extends ProxyPlace<ProgramPagePresenter> {
     }
 
     @Inject
-    public AboutPagePresenter(EventBus eventBus,
-                              MyView view,
-                              MyProxy proxy) {
+    public ProgramPagePresenter(EventBus eventBus,
+                                MyView view,
+                                MyProxy proxy) {
         super(eventBus, view, proxy, ApplicationPresenter.TYPE_SetMainContent);
     }
 }
