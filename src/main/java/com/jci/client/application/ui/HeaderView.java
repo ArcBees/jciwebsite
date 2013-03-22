@@ -28,7 +28,7 @@ import javax.inject.Inject;
 import static com.google.gwt.query.client.GQuery.$;
 
 public class HeaderView extends ViewImpl implements HeaderPresenter.MyView {
-    public interface Binder extends UiBinder<Widget, HeaderView> {
+    interface Binder extends UiBinder<Widget, HeaderView> {
     }
 
     @UiField
@@ -37,7 +37,8 @@ public class HeaderView extends ViewImpl implements HeaderPresenter.MyView {
     private final String activeStyleName;
 
     @Inject
-    public HeaderView(final Binder binder, HeaderResource headerResource) {
+    public HeaderView(Binder binder,
+                      HeaderResource headerResource) {
         initWidget(binder.createAndBindUi(this));
 
         activeStyleName = headerResource.style().active();
@@ -51,10 +52,6 @@ public class HeaderView extends ViewImpl implements HeaderPresenter.MyView {
 
     @Override
     public void goToTop() {
-        goToTopNative();
+        $("html, body").scrollTo(0,0);
     }
-
-    public static native void goToTopNative() /*-{
-        $wnd.$('html, body').scrollTop(0);
-    }-*/;
 }

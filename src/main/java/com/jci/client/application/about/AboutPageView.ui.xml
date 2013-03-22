@@ -5,10 +5,10 @@
         <div class="{res.style.width} {res.style.white} {res.style.dragUp} {res.style.round}
             {res.style.content}">
             <div class="{res.style.actions}">
-                <a ui:field="buttonCanada" class="{res.style.round} {res.style.button_gray} {res.style.active}">
+                <a ui:field="buttonCanada" class="{res.style.button_gray} {res.style.active}">
                     JCI Canada
                 </a>
-                <a ui:field="buttonQuebec" class="{res.style.round} {res.style.button_gray}">JCI Quebec City</a>
+                <a ui:field="buttonQuebec" class="{res.style.button_gray}">JCI Quebec City</a>
             </div>
 
             <div ui:field="canada">

@@ -48,6 +48,4 @@ public class HomePagePresenter extends Presenter<HomePagePresenter.MyView, HomeP
         super.onReveal();
         getView().startCarousel();
     }
-
-
 }

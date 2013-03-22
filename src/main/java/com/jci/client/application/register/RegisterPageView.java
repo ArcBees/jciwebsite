@@ -22,6 +22,8 @@ import com.arcbees.core.client.mvp.ViewImpl;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.user.client.ui.Widget;
 
+import static com.google.gwt.query.client.GQuery.$;
+
 public class RegisterPageView extends ViewImpl implements RegisterPagePresenter.MyView {
     interface Binder extends UiBinder<Widget, RegisterPageView> {
     }
@@ -33,13 +35,16 @@ public class RegisterPageView extends ViewImpl implements RegisterPagePresenter.
 
     @Override
     public void scrollTo(String id) {
-        scrollToNative(id);
+//        scrollToNative(id);
+        if (id != "") {
+            $("html, body").scrollTo(0,$("#" + id).offset().top);
+        }
     }
 
     public static native void scrollToNative(String id) /*-{
-        if(id!=""){
+        if (id != "") {
             $wnd.$('html, body').animate({
-                scrollTop: $wnd.$("#"+id).offset().top
+                scrollTop: $wnd.$("#" + id).offset().top
             }, 800, "swing");
         }
     }-*/;

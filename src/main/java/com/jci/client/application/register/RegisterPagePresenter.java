@@ -32,6 +32,7 @@ public class RegisterPagePresenter extends Presenter<RegisterPagePresenter.MyVie
     public interface MyView extends View {
         void scrollTo(String id);
     }
+
     private String id;
 
     @ProxyStandard
