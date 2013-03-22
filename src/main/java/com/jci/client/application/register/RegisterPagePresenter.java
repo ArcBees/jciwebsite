@@ -29,11 +29,10 @@ import com.jci.client.application.ApplicationPresenter;
 import com.jci.client.place.NameTokens;
 
 public class RegisterPagePresenter extends Presenter<RegisterPagePresenter.MyView, RegisterPagePresenter.MyProxy> {
-    private String id;
-
     public interface MyView extends View {
         void scrollTo(String id);
     }
+    private String id;
 
     @ProxyStandard
     @NameToken(NameTokens.register)

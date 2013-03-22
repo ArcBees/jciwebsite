@@ -89,9 +89,14 @@ h2 {
 }
 
 a.button_gray {
+    cursor: pointer;
     display: inline-block;
     color: #ffffff;
-    font-size: 32px;
+    font-size: 22px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #464646;
 
     padding: 10px 30px;
     margin-left: 15px;
@@ -107,7 +112,39 @@ a.button_gray {
 
 }
 
+a.button_gray:hover {
+    border: 1px solid #5f5f5f;
+
+    background: #929292;
+    background: -moz-linear-gradient(top, #929292 0%, #4e4e50 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #929292), color-stop(100%, #4e4e50));
+    background: -webkit-linear-gradient(top, #929292 0%, #4e4e50 100%);
+    background: -o-linear-gradient(top, #929292 0%, #4e4e50 100%);
+    background: -ms-linear-gradient(top, #929292 0%, #4e4e50 100%);
+    background: linear-gradient(to bottom, #929292 0%, #4e4e50 100%);
+    filter: literal("progid:DXImageTransform.Microsoft.gradient( startColorstr='#929292', endColorstr='#4e4e50',GradientType=0 )") ";
+
+}
+a.button_gray:active {
+    border: 1px solid #3d3d3d;
+    background: #606060;
+    background: -moz-linear-gradient(top, #3d3d3f 0%, #5c5c5c 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3d3d3f), color-stop(100%, #5c5c5c));
+    background: -webkit-linear-gradient(top, #3d3d3f 0%, #5c5c5c 100%);
+    background: -o-linear-gradient(top, #3d3d3f 0%, #5c5c5c 100%);
+    background: -ms-linear-gradient(top, #3d3d3f 0%, #5c5c5c 100%);
+    background: linear-gradient(to bottom, #3d3d3f 0%, #5c5c5c 100%);
+    filter: literal("progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d3d3f', endColorstr='#5c5c5c',GradientType=0 )") ";
+
+}
+
 a.button_gray.active {
+    cursor: auto;
+}
+
+a.button_gray.active {
+    border: 1px solid #464646;
+
     background: #0097da;
     background: -moz-linear-gradient(top, #0097da 0%, #085273 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0097da), color-stop(100%, #085273));
@@ -142,7 +179,16 @@ div.content {
 .content ul {
     list-style: none;
     padding: 0 15px;
-    margin-top: 15px;
+    margin-top: 10px;
+}
+
+.content .ulNoPoints > ul > li > ul, .content .ulNoPoints > ul > li {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.content .ulNoPoints > ul > li {
+    background: none;
 }
 
 @sprite .content ul li {
@@ -154,6 +200,7 @@ div.content {
     background-position: 0 7px;
     padding-left: 14px;
 }
+
 .actions {
     text-align: right;
     margin-bottom: 35px;

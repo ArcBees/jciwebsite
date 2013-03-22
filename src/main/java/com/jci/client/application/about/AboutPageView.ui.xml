@@ -30,28 +30,40 @@
                     in contact with the Junior Chamber movement throughout their life. Through his perseverance, the JCI
                     Senate was created in 1952 at the 7th JCI World Congress in Melbourne, Australia.
                 </p>
-                <p>
+                <p class="{res.style.noBottomMargin}">
                     On the organizational level, JCI Canada hosted and organized many events throughout the years,
                     where members from across the world participated in a wide variety of high-quality training courses
                     and
                     opportunities for networking and fellowship, namely:
-                    <ul>
-                        <li>6th World Congress, Montreal, 1951</li>
-                        <li>22nd World Congress, Toronto, 1967</li>
-                        <li>39th World Congress, Montreal ,1984</li>
-                        <li>Americas Conference, Edmonton 2003</li>
-                        <li>National Conventions since 1936.</li>
-                    </ul>
                 </p>
+                <ul>
+                    <li>6th World Congress, Montreal, 1951</li>
+                    <li>22nd World Congress, Toronto, 1967</li>
+                    <li>39th World Congress, Montreal ,1984</li>
+                    <li>Americas Conference, Edmonton 2003</li>
+                    <li>National Conventions since 1936.</li>
+                </ul>
                 <p>
                     Active participation in a local becomes the primary vehicle by which a member can explore the
                     opportunities offered by JCI.
                 </p>
-                <p>
+                <p class="{res.style.noBottomMargin}">
                     JCI is proud to offer opportunities in the following four areas:
-                    <b>Individual development, Business development, Community Development, International Development
-                    </b>
                 </p>
+                <ul>
+                    <li>
+                        <b>Individual development</b>
+                    </li>
+                    <li>
+                        <b>Business development</b>
+                    </li>
+                    <li>
+                        <b>Community Development</b>
+                    </li>
+                    <li>
+                        <b>International Development</b>
+                    </li>
+                </ul>
                 <p>
                     The range of programs and projects that provide these opportunities to members varies depending on
                     the local organization, which itself is based on the preferences and desires of its members. Every
@@ -105,60 +117,62 @@
                     2012. Our own François Begin is currently serving as JCI International Vice president assigned to
                     Europe.
                 </p>
-                <p>
+                <p class="{res.style.noBottomMargin}">
                     JCI Quebec City also won many awards throughout the years, thus proving its dynamism within the JCI
                     movement:
                 </p>
-                <ul>
-                    <li>
-                        <b>Most Outstanding New JCI Organization in Canada</b>
-                        at JCI Canada National Convention
-                    </li>
-                    <li>
-                        <ul>
-                            <li>Edmonton, Canada, May 15 , 2003</li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <b>Most Outstanding JCI Organization in Canada</b>
-                        at JCI Canada National Conventions
-                    </li>
-                    <li>
-                        <ul>
-                            <li>Edmonton, Canada, May 15 , 2003</li>
-                            <li>Quebec City, September 29, 2004</li>
-                            <li>Cap Breton, September 2005</li>
-                            <li>Toronto, September 2011</li>
-                            <li>Cranbrooke, September 2012</li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <b>Most Outstanding New JCI Organization in the Americas</b>
-                        at Area Conferences
-                    </li>
-                    <li>
-                        <ul>
-                            <li>Quito, Equator, May 19, 2003</li>
+                <div class="{res.style.ulNoPoints}">
+                    <ul>
+                        <li>
+                            <b>Most Outstanding New JCI Organization in Canada</b>
+                            at JCI Canada National Convention
+                        </li>
+                        <li>
+                            <ul>
+                                <li>Edmonton, Canada, May 15 , 2003</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <b>Most Outstanding JCI Organization in Canada</b>
+                            at JCI Canada National Conventions
+                        </li>
+                        <li>
+                            <ul>
+                                <li>Edmonton, Canada, May 15 , 2003</li>
+                                <li>Quebec City, September 29, 2004</li>
+                                <li>Cap Breton, September 2005</li>
+                                <li>Toronto, September 2011</li>
+                                <li>Cranbrooke, September 2012</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <b>Most Outstanding New JCI Organization in the Americas</b>
+                            at Area Conferences
+                        </li>
+                        <li>
+                            <ul>
+                                <li>Quito, Equator, May 19, 2003</li>
 
-                            <li>Sao Paulo, May 7, 2005</li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <b>Most Outstanding New JCI Organization in the World</b>
-                        at World Congress
-                    </li>
-                    <li>
-                        <ul>
-                            <li>Copenhagen, Denmark, Nov, 2003</li>
-                        </ul>
-                    </li>
-                </ul>
+                                <li>Sao Paulo, May 7, 2005</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <b>Most Outstanding New JCI Organization in the World</b>
+                            at World Congress
+                        </li>
+                        <li>
+                            <ul>
+                                <li>Copenhagen, Denmark, Nov, 2003</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
                 <p>
                     In 2004, JCI Quebec City hosted the National Convention after being part of JCI and JCI Canada for
                     only two years. Quebec City established a benchmark for conventions in Canada by offering VIP
@@ -174,7 +188,7 @@
                     relations that are mutually beneficial.
                 </p>
                 <p class="{res.style.noBottomMargin}">
-                For more information,
+                    For more information,
                     <a href="http://www.www.jccq.qc.ca/" target="_blank">visit www.jccq.qc.ca</a>
                 </p>
             </div>

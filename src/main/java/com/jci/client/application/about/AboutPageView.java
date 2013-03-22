@@ -24,6 +24,7 @@ import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.user.client.ui.Widget;
 import com.google.inject.Inject;
+import com.jci.client.resource.CommonResource;
 
 import static com.google.gwt.query.client.GQuery.$;
 
@@ -39,14 +40,21 @@ public class AboutPageView extends ViewImpl implements AboutPagePresenter.MyView
     AnchorElement buttonCanada;
     @UiField
     AnchorElement buttonQuebec;
+    private final String activeStyleName;
 
     @Inject
-    public AboutPageView(final Binder uiBinder) {
+    public AboutPageView(Binder uiBinder,
+                         CommonResource commonResource) {
         initWidget(uiBinder.createAndBindUi(this));
+
+
+        activeStyleName = commonResource.style().active();
 
         $(buttonCanada).click(new Function() {
             @Override
             public void f() {
+                $(buttonCanada).addClass(activeStyleName);
+                $(buttonQuebec).removeClass(activeStyleName);
                 $(canada).show();
                 $(quebec).hide();
             }
@@ -55,6 +63,8 @@ public class AboutPageView extends ViewImpl implements AboutPagePresenter.MyView
         $(buttonQuebec).click(new Function() {
             @Override
             public void f() {
+                $(buttonCanada).removeClass(activeStyleName);
+                $(buttonQuebec).addClass(activeStyleName);
                 $(quebec).show();
                 $(canada).hide();
             }
