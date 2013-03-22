@@ -97,6 +97,7 @@ a.button_gray {
     -moz-border-radius: 6px;
     border-radius: 6px;
     border: 1px solid #464646;
+    text-shadow: 0px 0px 5px rgba(87, 87, 87, 0.69);
 
     padding: 10px 30px;
     margin-left: 15px;
@@ -125,6 +126,7 @@ a.button_gray:hover {
     filter: literal("progid:DXImageTransform.Microsoft.gradient( startColorstr='#929292', endColorstr='#4e4e50',GradientType=0 )") ";
 
 }
+
 a.button_gray:active {
     border: 1px solid #3d3d3d;
     background: #606060;
@@ -171,9 +173,13 @@ div.content {
     font-size: 14px;
 }
 
-.content p a, .content p a:hover, .content ul a, .content ul a:hover {
+.content p a, .content ul a {
     color: #008ac9;
     text-decoration: underline;
+}
+
+.content p a:hover, .content ul a:hover {
+    color: #59780e;
 }
 
 .content ul {
