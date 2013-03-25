@@ -7,7 +7,7 @@
     <g:HTMLPanel>
         <div class="{res.style.width} {res.style.dragUp} {res.style.shadow}">
             <div class="{mainRes.style.sliderWrapper} {res.style.round}">
-                <div class="{mainRes.style.sliderPhoto} carousel slide" id="myCarousel">
+                <div class="{mainRes.style.sliderPhoto} carousel slide" id="myCarouselHome">
                     <div class="carousel-inner">
                         <div class="item active clearfix">
                             <div class="{mainRes.style.textSlider}">
@@ -57,11 +57,11 @@
                     </div>
                     <div class="{mainRes.style.button_visio}">
                         <ol class="carousel-indicators">
-                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#myCarousel" data-slide-to="1"></li>
-                            <li data-target="#myCarousel" data-slide-to="2"></li>
-                            <li data-target="#myCarousel" data-slide-to="3"></li>
-                            <li data-target="#myCarousel" data-slide-to="4"></li>
+                            <li data-target="#myCarouselHome" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarouselHome" data-slide-to="1"></li>
+                            <li data-target="#myCarouselHome" data-slide-to="2"></li>
+                            <li data-target="#myCarouselHome" data-slide-to="3"></li>
+                            <li data-target="#myCarouselHome" data-slide-to="4"></li>
                         </ol>
                     </div>
                 </div>

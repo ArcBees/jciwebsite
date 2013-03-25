@@ -37,6 +37,6 @@ public class HomePageView extends ViewImpl implements HomePagePresenter.MyView {
     }
 
     public static native void startCarouselNative() /*-{
-        $wnd.$('.carousel').carousel();
+        $wnd.$('#myCarouselHome').carousel();
     }-*/;
 }
