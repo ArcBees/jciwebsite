@@ -57,6 +57,18 @@
                             <li>Room H</li>
                             <li class="{programRes.style.odd}">Others</li>
                         </ul>
+                        <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1400} {programRes.style.h400} {programRes.style.w1}">
+                            <div>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1800} {programRes.style.h500} {programRes.style.w1}">
+                            <div>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t2300} {programRes.style.h400} {programRes.style.w1}">
+                            <div>
+                            </div>
+                        </div>
                     </div>
                     <div class="item {programRes.style.carouselInnerDiv}">
                         <ul class="{programRes.style.rooms} clearfix">

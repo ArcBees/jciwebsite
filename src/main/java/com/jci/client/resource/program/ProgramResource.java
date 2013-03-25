@@ -21,6 +21,11 @@ import com.google.gwt.resources.client.CssResource;
 import com.google.gwt.resources.client.ImageResource;
 
 public interface ProgramResource extends ClientBundle {
+    public static int COL_WIDTH = 142;
+    public static int COL_HEIGTH = 60;
+    public static int BEFORE_LEFT = 10;
+    public static int BEFORE_TOP= 30;
+
     public interface Style extends CssResource {
         String hoursTable();
 
@@ -33,10 +38,49 @@ public interface ProgramResource extends ClientBundle {
         String visioProgram();
 
         String odd();
+
+        String l1();
+
+        String l2();
+
+        String event();
+
+        String t800();
+
+        String h400();
+
+        String h200();
+
+        String w1();
+
+        String w2();
+
+        String h500();
+
+        String t1400();
+
+        String t1800();
+
+        String t2300();
+
+        String l5();
+
+        String t700();
+
+        String t900();
+
+        String t1000();
+
+        String t1100();
+
+        String t1200();
+
+        String t1300();
     }
 
     @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.Both)
     ImageResource tuile();
 
+    @CssResource.NotStrict
     Style style();
 }
