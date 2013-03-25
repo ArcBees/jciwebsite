@@ -76,6 +76,56 @@ public interface ProgramResource extends ClientBundle {
         String t1200();
 
         String t1300();
+
+        String h100();
+
+        String h275();
+
+        String t1375();
+
+        String l3();
+
+        String h125();
+
+        String t1050();
+
+        String t1550();
+
+        String t1350();
+
+        String l4();
+
+        String t1525();
+
+        String h150();
+
+        String t1175();
+
+        String h025();
+
+        String t1275();
+
+        String h300();
+
+        String t1700();
+
+        String t1475();
+
+        String t1325();
+
+        String h425();
+
+        String t2025();
+
+        String h225();
+
+        String h250();
+
+        String t2050();
+
+        String l6();
+
+        String t750();
     }
 
     @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.Both)

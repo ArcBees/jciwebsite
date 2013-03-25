@@ -30,9 +30,11 @@
     position: relative;
 }
 
+@eval HEIGHT_LINES com.jci.client.resource.program.ProgramResource.COL_HEIGTH*1-6+"px";
+
 .visioProgram  ul.hoursTable li {
     display: block;
-    height: 54px;
+    height: HEIGHT_LINES;
     padding-top: 5px;
     padding-left: 5px;
     border-top: 1px solid #2da6d1;
@@ -77,10 +79,12 @@
     position: relative;
 }
 
+@eval HEIGHT_CALENDAR com.jci.client.resource.program.ProgramResource.COL_HEIGTH*21+30+"px";
+
 @sprite .visioProgram  .carouselInner .carouselInnerDiv {
     padding-left: 10px;
     padding-right: 10px;
-    height: 1290px;
+    height: HEIGHT_CALENDAR;
     gwt-image: "tuile";
     background-position: 11px 30px;
 }
@@ -95,10 +99,12 @@
     left: -10px;
 }
 
+@eval WIDTH_COL com.jci.client.resource.program.ProgramResource.COL_WIDTH*1-31+"px";
+
 .visioProgram  .rooms li {
     height: 30px;
     line-height: 30px;
-    width: 111px;
+    width: WIDTH_COL;
     display: inline-block;
     padding: 0 15px;
     border-left: 1px solid #2da6d1;
@@ -107,7 +113,7 @@
 }
 
 .visioProgram  .rooms li:first-child {
-    padding-left: 25px;
+    padding-left: 26px;
     border-left: 0;
 }
 
@@ -146,11 +152,12 @@
 }
 
     /*left*/
-@eval l1 com.jci.client.resource.program.ProgramResource.COL_WIDTH*1+com.jci.client.resource.program.ProgramResource.BEFORE_LEFT+"px";
-@eval l2 com.jci.client.resource.program.ProgramResource.COL_WIDTH*2+com.jci.client.resource.program.ProgramResource.BEFORE_LEFT+"px";
-@eval l3 com.jci.client.resource.program.ProgramResource.COL_WIDTH*3+com.jci.client.resource.program.ProgramResource.BEFORE_LEFT+"px";
-@eval l4 com.jci.client.resource.program.ProgramResource.COL_WIDTH*4+com.jci.client.resource.program.ProgramResource.BEFORE_LEFT+"px";
-@eval l5 com.jci.client.resource.program.ProgramResource.COL_WIDTH*5+com.jci.client.resource.program.ProgramResource.BEFORE_LEFT+"px";
+@eval l1 com.jci.client.resource.program.ProgramResource.COL_WIDTH*0+com.jci.client.resource.program.ProgramResource.BEFORE_LEFT+"px";
+@eval l2 com.jci.client.resource.program.ProgramResource.COL_WIDTH*1+com.jci.client.resource.program.ProgramResource.BEFORE_LEFT+"px";
+@eval l3 com.jci.client.resource.program.ProgramResource.COL_WIDTH*2+com.jci.client.resource.program.ProgramResource.BEFORE_LEFT+"px";
+@eval l4 com.jci.client.resource.program.ProgramResource.COL_WIDTH*3+com.jci.client.resource.program.ProgramResource.BEFORE_LEFT+"px";
+@eval l5 com.jci.client.resource.program.ProgramResource.COL_WIDTH*4+com.jci.client.resource.program.ProgramResource.BEFORE_LEFT+"px";
+@eval l6 com.jci.client.resource.program.ProgramResource.COL_WIDTH*5+com.jci.client.resource.program.ProgramResource.BEFORE_LEFT+"px";
 
 .visioProgram .l1 {
     left: l1;
@@ -171,11 +178,14 @@
 .visioProgram .l5 {
     left: l5;
 }
+.visioProgram .l6 {
+    left: l6;
+}
 
     /*width*/
-@eval w1 com.jci.client.resource.program.ProgramResource.COL_WIDTH*1-10+"px";
-@eval w2 com.jci.client.resource.program.ProgramResource.COL_WIDTH*2-10+"px";
-@eval w3 com.jci.client.resource.program.ProgramResource.COL_WIDTH*3-10+"px";
+@eval w1 com.jci.client.resource.program.ProgramResource.COL_WIDTH*1-11+"px";
+@eval w2 com.jci.client.resource.program.ProgramResource.COL_WIDTH*2-11+"px";
+@eval w3 com.jci.client.resource.program.ProgramResource.COL_WIDTH*3-11+"px";
 
 .visioProgram .w1 {
     width: w1;
@@ -190,7 +200,6 @@
 }
 
     /*top*/
-
 @eval t700 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*0.00+com.jci.client.resource.program.ProgramResource.BEFORE_TOP+"px";
 @eval t725 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*0.25+com.jci.client.resource.program.ProgramResource.BEFORE_TOP+"px";
 @eval t750 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*0.50+com.jci.client.resource.program.ProgramResource.BEFORE_TOP+"px";
@@ -570,49 +579,49 @@
 }
 
     /*height*/
-@eval h025 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*0.25-10+"px";
-@eval h050 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*0.50-10+"px";
-@eval h075 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*0.75-10+"px";
+@eval h025 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*0.25-11+"px";
+@eval h050 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*0.50-11+"px";
+@eval h075 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*0.75-11+"px";
 
-@eval h100 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*1.00-10+"px";
-@eval h125 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*1.25-10+"px";
-@eval h150 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*1.50-10+"px";
-@eval h175 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*1.75-10+"px";
+@eval h100 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*1.00-11+"px";
+@eval h125 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*1.25-11+"px";
+@eval h150 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*1.50-11+"px";
+@eval h175 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*1.75-11+"px";
 
-@eval h200 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*2.00-10+"px";
-@eval h225 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*2.25-10+"px";
-@eval h250 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*2.50-10+"px";
-@eval h275 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*2.75-10+"px";
+@eval h200 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*2.00-11+"px";
+@eval h225 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*2.25-11+"px";
+@eval h250 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*2.50-11+"px";
+@eval h275 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*2.75-11+"px";
 
-@eval h300 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*3.00-10+"px";
-@eval h325 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*3.25-10+"px";
-@eval h350 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*3.50-10+"px";
-@eval h375 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*3.75-10+"px";
+@eval h300 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*3.00-11+"px";
+@eval h325 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*3.25-11+"px";
+@eval h350 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*3.50-11+"px";
+@eval h375 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*3.75-11+"px";
 
-@eval h400 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*4.00-10+"px";
-@eval h425 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*4.25-10+"px";
-@eval h450 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*4.50-10+"px";
-@eval h475 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*4.75-10+"px";
+@eval h400 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*4.00-11+"px";
+@eval h425 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*4.25-11+"px";
+@eval h450 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*4.50-11+"px";
+@eval h475 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*4.75-11+"px";
 
-@eval h500 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*5.00-10+"px";
-@eval h525 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*5.25-10+"px";
-@eval h550 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*5.50-10+"px";
-@eval h575 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*5.75-10+"px";
+@eval h500 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*5.00-11+"px";
+@eval h525 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*5.25-11+"px";
+@eval h550 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*5.50-11+"px";
+@eval h575 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*5.75-11+"px";
 
-@eval h600 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*6.00-10+"px";
-@eval h625 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*6.25-10+"px";
-@eval h650 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*6.50-10+"px";
-@eval h675 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*6.75-10+"px";
+@eval h600 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*6.00-11+"px";
+@eval h625 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*6.25-11+"px";
+@eval h650 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*6.50-11+"px";
+@eval h675 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*6.75-11+"px";
 
-@eval h700 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*7.00-10+"px";
-@eval h725 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*7.25-10+"px";
-@eval h750 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*7.50-10+"px";
-@eval h775 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*7.75-10+"px";
+@eval h700 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*7.00-11+"px";
+@eval h725 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*7.25-11+"px";
+@eval h750 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*7.50-11+"px";
+@eval h775 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*7.75-11+"px";
 
-@eval h800 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*8.00-10+"px";
-@eval h825 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*8.25-10+"px";
-@eval h850 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*8.50-10+"px";
-@eval h875 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*8.75-10+"px";
+@eval h800 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*8.00-11+"px";
+@eval h825 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*8.25-11+"px";
+@eval h850 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*8.50-11+"px";
+@eval h875 com.jci.client.resource.program.ProgramResource.COL_HEIGTH*8.75-11+"px";
 
 .visioProgram .h025 {
     height: h025;
