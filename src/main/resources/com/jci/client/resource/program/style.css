@@ -1,0 +1,110 @@
+.visioProgram {
+    margin-bottom: 0;
+}
+
+.visioProgram ul, .visioProgram ul li, .visioProgram div {
+    margin: 0;
+    padding: 0;
+    background: none;
+    width: auto;
+    height: auto;
+    overflow: visible;
+}
+
+.visioProgram ul.hoursTable {
+    width: 55px;
+    float: left;
+    margin-top: 5px;
+    border: 1px solid #2a5b8c;
+    border-right: 0;
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    -moz-border-radius-topleft: 8px;
+    -moz-border-radius-bottomleft: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    -webkit-box-shadow: 8px 0 12px -2px rgba(50, 50, 50, 0.15);
+    -moz-box-shadow: 8px 0 12px -2px rgba(50, 50, 50, 0.15);
+    box-shadow: 8px 0 12px -2px rgba(50, 50, 50, 0.15);
+    z-index: 30;
+    position: relative;
+}
+
+.visioProgram  ul.hoursTable li {
+    display: block;
+    height: 54px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-top: 1px solid #2da6d1;
+}
+
+.visioProgram  ul.hoursTable li:first-child {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    -moz-border-radius-topleft: 8px;
+    height: 30px;
+    width: 55px;
+    border-right: 1px solid #2da6d1;
+}
+
+.visioProgram  ul.hoursTable li.odd {
+    background: #e3f0fa;
+}
+
+.visioProgram .carouselInner {
+    float: left;
+    width: 872px;
+    margin-top: 5px;
+    overflow: hidden;
+    border: 1px solid #2a5b8c;
+    border-left: 0;
+    -webkit-border-top-left-radius: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    -webkit-border-top-right-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    -moz-border-radius-topright: 8px;
+    -moz-border-radius-bottomright: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    z-index: 10;
+    position: relative;
+}
+
+@sprite .visioProgram  .carouselInner .carouselInnerDiv {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 1290px;
+    gwt-image: "tuile";
+    background-position: 11px 30px;
+}
+
+.visioProgram  .rooms {
+    background: #d4ebf6;
+    -webkit-box-shadow: 0px 5px 4px rgba(50, 50, 50, 0.1);
+    -moz-box-shadow: 0px 5px 4px rgba(50, 50, 50, 0.1);
+    box-shadow: 0px 5px 4px rgba(50, 50, 50, 0.1);
+    width: 872px;
+    position: relative;
+    left: -10px;
+}
+
+.visioProgram  .rooms li {
+    height: 30px;
+    line-height: 30px;
+    width: 111px;
+    display: inline-block;
+    padding: 0 15px;
+    border-left: 1px solid #2da6d1;
+    float: left;
+}
+.visioProgram  .rooms li:first-child {
+    padding-left: 25px;
+    border-left: 0;
+}

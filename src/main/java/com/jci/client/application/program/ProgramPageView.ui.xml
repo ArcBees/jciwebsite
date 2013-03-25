@@ -1,12 +1,13 @@
 <ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
              xmlns:g='urn:import:com.google.gwt.user.client.ui'>
     <ui:with field="res" type="com.jci.client.resource.CommonResource"/>
-    <ui:with field="registerRes" type="com.jci.client.resource.register.RegisterResource"/>
+    <ui:with field="programRes" type="com.jci.client.resource.program.ProgramResource"/>
     <g:HTMLPanel>
         <div class="{res.style.width} {res.style.white} {res.style.dragUp} {res.style.round}
         {res.style.content}">
             <div ui:field="sliderButtons" class="{res.style.actions} carousel-indicators">
-                <a class="{res.style.button_gray} {res.style.active}" data-target="#myCarouselProgram" data-slide-to="0">
+                <a class="{res.style.button_gray} {res.style.active}" data-target="#myCarouselProgram"
+                   data-slide-to="0">
                     18 september
                 </a>
                 <a class="{res.style.button_gray}" data-target="#myCarouselProgram" data-slide-to="1">
@@ -20,13 +21,73 @@
                 </a>
             </div>
 
-            <h1>Program (Work in progress)</h1>
-            <div class="carousel slide" id="myCarouselProgram">
-                <div class="carousel-inner">
-                    <div class="item active">1</div>
-                    <div class="item">2</div>
-                    <div class="item">3</div>
-                    <div class="item">4</div>
+            <h1>Program</h1>
+            <div class="carousel slide clearfix {programRes.style.visioProgram}" id="myCarouselProgram">
+                <ul class="{programRes.style.hoursTable}">
+                    <li class="{programRes.style.odd}"></li>
+                    <li>7h00</li>
+                    <li class="{programRes.style.odd}">8h00</li>
+                    <li>9h00</li>
+                    <li class="{programRes.style.odd}">10h00</li>
+                    <li>11h00</li>
+                    <li class="{programRes.style.odd}">12h00</li>
+                    <li>13h00</li>
+                    <li class="{programRes.style.odd}">14h00</li>
+                    <li>15h00</li>
+                    <li class="{programRes.style.odd}">16h00</li>
+                    <li>17h00</li>
+                    <li class="{programRes.style.odd}">18h00</li>
+                    <li>19h00</li>
+                    <li class="{programRes.style.odd}">20h00</li>
+                    <li>21h00</li>
+                    <li class="{programRes.style.odd}">22h00</li>
+                    <li>23h00</li>
+                    <li class="{programRes.style.odd}">24h00</li>
+                    <li>1h00</li>
+                    <li class="{programRes.style.odd}">2h00</li>
+                    <li>3h00</li>
+                </ul>
+                <div class="carousel-inner {programRes.style.carouselInner}">
+                    <div class="item active {programRes.style.carouselInnerDiv}">
+                        <ul class="{programRes.style.rooms} clearfix">
+                            <li>Room A</li>
+                            <li class="{programRes.style.odd}">Room B</li>
+                            <li>Room C</li>
+                            <li class="{programRes.style.odd}">Room G</li>
+                            <li>Room H</li>
+                            <li class="{programRes.style.odd}">Others</li>
+                        </ul>
+                    </div>
+                    <div class="item {programRes.style.carouselInnerDiv}">
+                        <ul class="{programRes.style.rooms} clearfix">
+                            <li>Room A</li>
+                            <li class="{programRes.style.odd}">Room B</li>
+                            <li>Room C</li>
+                            <li class="{programRes.style.odd}">Room G</li>
+                            <li>Room H</li>
+                            <li class="{programRes.style.odd}">Others</li>
+                        </ul>
+                    </div>
+                    <div class="item {programRes.style.carouselInnerDiv}">
+                        <ul class="{programRes.style.rooms} clearfix">
+                            <li>Room A</li>
+                            <li class="{programRes.style.odd}">Room B</li>
+                            <li>Room C</li>
+                            <li class="{programRes.style.odd}">Room G</li>
+                            <li>Room H</li>
+                            <li class="{programRes.style.odd}">Others</li>
+                        </ul>
+                    </div>
+                    <div class="item {programRes.style.carouselInnerDiv}">
+                        <ul class="{programRes.style.rooms} clearfix">
+                            <li>Room AB</li>
+                            <li>Room C</li>
+                            <li>Room G</li>
+                            <li>Room H</li>
+                            <li>Room J</li>
+                            <li>Others</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

@@ -141,10 +141,6 @@ a.button_gray:active {
 }
 
 a.button_gray.active {
-    cursor: auto;
-}
-
-a.button_gray.active {
     border: 1px solid #464646;
 
     background: #0097da;
