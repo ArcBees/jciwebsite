@@ -11,12 +11,10 @@ import com.google.gwt.resources.client.ImageResource;
  * Time: 11:08
  * To change this template use File | Settings | File Templates.
  */
-public interface SponsorsResource extends ClientBundle{
+public interface SponsorsResource extends ClientBundle {
     public interface Style extends CssResource {
-
         String sponsorWrapper();
     }
-
 
     ImageResource lavery_en();
 

@@ -29,11 +29,13 @@ import com.jci.client.application.ApplicationPresenter;
 import com.jci.client.place.NameTokens;
 
 public class RegisterPagePresenter extends Presenter<RegisterPagePresenter.MyView, RegisterPagePresenter.MyProxy> {
-    private String id;
-
     public interface MyView extends View {
-        void scrollTo(String id);
+        void showSection(String id);
+        void showHotel();
+        void showTravel();
     }
+
+    private String id;
 
     @ProxyStandard
     @NameToken(NameTokens.register)
@@ -41,19 +43,23 @@ public class RegisterPagePresenter extends Presenter<RegisterPagePresenter.MyVie
     }
 
     @Inject
-    public RegisterPagePresenter(final EventBus eventBus, final MyView view, final MyProxy proxy) {
+    public RegisterPagePresenter(EventBus eventBus,
+                                 MyView view,
+                                 MyProxy proxy) {
         super(eventBus, view, proxy, ApplicationPresenter.TYPE_SetMainContent);
     }
 
     @Override
     public void prepareFromRequest(PlaceRequest request) {
         super.prepareFromRequest(request);
+
         id = request.getParameter("id", "");
     }
 
     @Override
     protected void onReveal() {
         super.onReveal();
-        getView().scrollTo(id);
+
+        getView().showSection(id);
     }
 }

@@ -32,11 +32,11 @@ public class HomePageView extends ViewImpl implements HomePagePresenter.MyView {
     }
 
     @Override
-    public void startCarousel(String message) {
-        startCarouselNative(message);
+    public void startCarousel() {
+        startCarouselNative();
     }
 
-    public static native void startCarouselNative(String msg) /*-{
-        $wnd.$('.carousel').carousel();
+    public static native void startCarouselNative() /*-{
+        $wnd.$('#myCarouselHome').carousel();
     }-*/;
 }
