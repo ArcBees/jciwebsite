@@ -30,7 +30,11 @@ import com.jci.client.place.NameTokens;
 
 public class RegisterPagePresenter extends Presenter<RegisterPagePresenter.MyView, RegisterPagePresenter.MyProxy> {
     public interface MyView extends View {
-        void scrollTo(String id);
+        void showSection(String id);
+
+        void showHotel();
+
+        void showTravel();
     }
 
     @ProxyStandard
@@ -58,6 +62,6 @@ public class RegisterPagePresenter extends Presenter<RegisterPagePresenter.MyVie
     protected void onReveal() {
         super.onReveal();
 
-        getView().scrollTo(id);
+        getView().showSection(id);
     }
 }

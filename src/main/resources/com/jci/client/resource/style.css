@@ -88,6 +88,37 @@ h2 {
     background: #4d5458;
 }
 
+.table {
+    margin: 5px 0 20px;
+    border: 1px solid #2a5b8c;
+    overflow: hidden;
+    width: 600px;
+}
+
+.table tr.odd {
+    background: #e3f0fa;
+}
+
+.table td {
+    padding: 6px 10px;
+    font-size: 14px;
+    line-height: 22px;
+
+}
+
+.table tr :last-child {
+    padding-left: 35px;
+    width: 115px;
+}
+
+thead {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-weight: bold;
+    background: #A4D7EE;
+    border-bottom: 1px solid #2a5b8c;
+}
+
 a.button_gray {
     cursor: pointer;
     display: inline-block;
@@ -138,10 +169,6 @@ a.button_gray:active {
     background: linear-gradient(to bottom, #3d3d3f 0%, #5c5c5c 100%);
     filter: literal("progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d3d3f', endColorstr='#5c5c5c',GradientType=0 )") ";
 
-}
-
-a.button_gray.active {
-    cursor: auto;
 }
 
 a.button_gray.active {

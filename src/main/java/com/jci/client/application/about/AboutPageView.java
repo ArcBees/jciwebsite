@@ -53,8 +53,8 @@ public class AboutPageView extends ViewImpl implements AboutPagePresenter.MyView
         $(buttonCanada).click(new Function() {
             @Override
             public void f() {
-                $(buttonCanada).addClass(activeStyleName);
                 $(buttonQuebec).removeClass(activeStyleName);
+                $(buttonCanada).addClass(activeStyleName);
                 $(canada).show();
                 $(quebec).hide();
             }

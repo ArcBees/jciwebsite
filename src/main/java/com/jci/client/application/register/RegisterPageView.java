@@ -19,33 +19,77 @@ package com.jci.client.application.register;
 import javax.inject.Inject;
 
 import com.arcbees.core.client.mvp.ViewImpl;
+import com.google.gwt.dom.client.AnchorElement;
+import com.google.gwt.dom.client.DivElement;
+import com.google.gwt.query.client.Function;
 import com.google.gwt.uibinder.client.UiBinder;
+import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.user.client.ui.Widget;
+import com.jci.client.resource.CommonResource;
 
 import static com.google.gwt.query.client.GQuery.$;
+import static com.google.gwt.query.client.plugins.effects.PropertiesAnimation.Easing.SWING;
 
 public class RegisterPageView extends ViewImpl implements RegisterPagePresenter.MyView {
     interface Binder extends UiBinder<Widget, RegisterPageView> {
     }
 
+
+    @UiField
+    DivElement hotel;
+    @UiField
+    DivElement travel;
+    @UiField
+    AnchorElement buttonHotel;
+    @UiField
+    AnchorElement buttonTravel;
+
+    private final String activeStyleName;
+
     @Inject
-    public RegisterPageView(Binder uiBinder) {
+    public RegisterPageView(Binder uiBinder,
+                            CommonResource commonResource) {
         initWidget(uiBinder.createAndBindUi(this));
+
+        activeStyleName = commonResource.style().active();
+
+        $(buttonHotel).click(new Function() {
+            @Override
+            public void f() {
+                showHotel();
+            }
+        });
+
+        $(buttonTravel).click(new Function() {
+            @Override
+            public void f() {
+                showTravel();
+            }
+        });
     }
 
     @Override
-    public void scrollTo(String id) {
-//        scrollToNative(id);
-        if (id != "") {
-            $("html, body").scrollTo(0,$("#" + id).offset().top);
+    public void showSection(String id) {
+        if (id.equals("travel")) {
+            showTravel();
+        } else {
+            showHotel();
         }
     }
 
-    public static native void scrollToNative(String id) /*-{
-        if (id != "") {
-            $wnd.$('html, body').animate({
-                scrollTop: $wnd.$("#" + id).offset().top
-            }, 800, "swing");
-        }
-    }-*/;
+    @Override
+    public void showHotel() {
+        $(buttonTravel).removeClass(activeStyleName);
+        $(buttonHotel).addClass(activeStyleName);
+        $(hotel).show();
+        $(travel).hide();
+    }
+
+    @Override
+    public void showTravel() {
+        $(buttonHotel).removeClass(activeStyleName);
+        $(buttonTravel).addClass(activeStyleName);
+        $(travel).show();
+        $(hotel).hide();
+    }
 }

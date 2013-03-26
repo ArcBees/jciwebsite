@@ -14,15 +14,20 @@
  * the License.
  */
 
-package com.jci.client.resource.register;
+package com.jci.client.resource.about;
 
 import com.google.gwt.resources.client.ClientBundle;
 import com.google.gwt.resources.client.CssResource;
+import com.google.gwt.resources.client.ImageResource;
 
-public interface RegisterResource extends ClientBundle {
+public interface AboutResource extends ClientBundle {
     public interface Style extends CssResource {
-        String register();
+        String imgLogo();
     }
+
+    ImageResource jccq();
+
+    ImageResource jci_canada();
 
     Style style();
 }
