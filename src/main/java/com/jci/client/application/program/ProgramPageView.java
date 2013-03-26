@@ -54,13 +54,11 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
                 pauseCarousel();
             }
         });
-
     }
 
 
     @Override
     public void pauseCarousel() {
-
         pauseCarouselNative();
     }
 

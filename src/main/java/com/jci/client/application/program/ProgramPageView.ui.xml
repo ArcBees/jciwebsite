@@ -8,16 +8,16 @@
             <div ui:field="divButtons" class="{res.style.actions} carousel-indicators">
                 <a class="{res.style.button_gray} {res.style.active}" data-target="#myCarouselProgram"
                    data-slide-to="0">
-                    18 september
+                    September, 18
                 </a>
                 <a class="{res.style.button_gray}" data-target="#myCarouselProgram" data-slide-to="1">
-                    19 september
+                    September1 19
                 </a>
                 <a class="{res.style.button_gray}" data-target="#myCarouselProgram" data-slide-to="2">
-                    20 september
+                    September, 20
                 </a>
                 <a class="{res.style.button_gray}" data-target="#myCarouselProgram" data-slide-to="3">
-                    21 september
+                    September, 21
                 </a>
             </div>
 
@@ -327,10 +327,10 @@
                                 <p>9:00 - 11:45</p>
                             </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t1375} {programRes.style.h275} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t1375} {programRes.style.h225} {programRes.style.w1}">
                             <div>
                                 <h2>General Assembly</h2>
-                                <p>13:45 - 16:30</p>
+                                <p>13:45 - 15:00</p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1}">

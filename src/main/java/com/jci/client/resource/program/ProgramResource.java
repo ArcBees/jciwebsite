@@ -126,6 +126,8 @@ public interface ProgramResource extends ClientBundle {
         String l6();
 
         String t750();
+
+        String h325();
     }
 
     @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.Both)
