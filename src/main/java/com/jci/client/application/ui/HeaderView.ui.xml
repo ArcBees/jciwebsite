@@ -13,14 +13,14 @@
                 </a>
             </div>
             <div class="{headRes.style.right} {headRes.style.rightColumn}">
-                <div class="{headRes.style.title}">2013 JCI Canada National Convention</div>
+                <div class="{headRes.style.title}">Unlimted JCI Canada National Convention 2013</div>
                 <div class="{headRes.style.subtitle}">September 18th to 21st, Hosted by JCI Quebec City</div>
                 <div class="{headRes.style.blackbar}"/>
                 <div ui:field="menu" class="{headRes.style.right} {headRes.style.navbar} bebas">
-                    <a href="#{nameTokens.getHome}" class="{headRes.style.active}" id="home">Home</a>
-                    <a href="#{nameTokens.getRegister}" id="register">Registration</a>
-                    <a href="/program.pdf"  target="_blank" id="program">Program</a>
-                    <a href="#{nameTokens.getAbout}" id="about">About</a>
+                    <a href="#{nameTokens.getHome}" class="{headRes.style.active} {nameTokens.getHome}">Home</a>
+                    <a href="#{nameTokens.getRegister}" class="{nameTokens.getRegister}">Registration</a>
+                    <a href="#{nameTokens.getProgram}" class="{nameTokens.getProgram}">Program</a>
+                    <a href="#{nameTokens.getAbout}" class="{nameTokens.getAbout}">About</a>
                     <a>Contact</a>
                 </div>
             </div>
