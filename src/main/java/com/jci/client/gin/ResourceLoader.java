@@ -16,6 +16,7 @@
 
 package com.jci.client.gin;
 
+import com.jci.client.resource.about.AboutResource;
 import com.jci.client.resource.main.MainResource;
 import com.jci.client.resource.CommonResource;
 import com.jci.client.resource.footer.FooterResource;
@@ -34,13 +35,15 @@ public class ResourceLoader {
                           SponsorsResource sponsorsResource,
                           MainResource mainResource,
                           RegisterResource registerResource,
-                          ProgramResource programResource){
+                          ProgramResource programResource,
+                          AboutResource aboutResource){
         commonResource.style().ensureInjected();
         headerResource.style().ensureInjected();
         footerResource.style().ensureInjected();
         sponsorsResource.style().ensureInjected();
         mainResource.style().ensureInjected();
         registerResource.style().ensureInjected();
+        aboutResource.style().ensureInjected();
         programResource.style().ensureInjected();
     }
 }
