@@ -109,8 +109,10 @@
     font-weight: bold;
 }
 
-
     /*event*/
+@eval WIDTH_1_H2 com.jci.client.resource.program.ProgramResource.COL_WIDTH*1-27+"px";
+@eval WIDTH_2_H2 com.jci.client.resource.program.ProgramResource.COL_WIDTH*2-27+"px";
+@eval WIDTH_3_H2 com.jci.client.resource.program.ProgramResource.COL_WIDTH*3-27+"px";
 
 .visioProgram .event {
     position: absolute;
@@ -119,7 +121,30 @@
     cursor: pointer;
 }
 
+.visioProgram .event > div > h2 {
+    margin-top: 0;
+    background: rgba(0, 0, 0, 0.35);
+    line-height: 20px;
+    padding: 7px 8px;
+    width: WIDTH_1_H2;
+}
+
+.visioProgram .event.w2 > div > h2 {
+    width: WIDTH_2_H2;
+}
+
+.visioProgram .event.w3 > div > h2 {
+    width: WIDTH_3_H2;
+}
+
+.visioProgram .event > div > p {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 3px;
+}
+
 .visioProgram .event > div {
+    overflow: hidden;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
@@ -168,6 +193,7 @@
 .visioProgram .l5 {
     left: l5;
 }
+
 .visioProgram .l6 {
     left: l6;
 }
