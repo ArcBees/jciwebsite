@@ -17,17 +17,54 @@
 package com.jci.client.application.program;
 
 import com.arcbees.core.client.mvp.ViewImpl;
+import com.google.gwt.dom.client.DivElement;
+import com.google.gwt.dom.client.Element;
+import com.google.gwt.query.client.Function;
 import com.google.gwt.uibinder.client.UiBinder;
+import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.user.client.ui.Widget;
+import com.jci.client.resource.CommonResource;
 
 import javax.inject.Inject;
+
+import static com.google.gwt.query.client.GQuery.$;
 
 public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.MyView {
     interface Binder extends UiBinder<Widget, ProgramPageView> {
     }
 
+    @UiField
+    DivElement divButtons;
+
+    private final String activeStyleName;
+
     @Inject
-    public ProgramPageView(Binder uiBinder) {
+    public ProgramPageView(Binder uiBinder,
+                           CommonResource commonResource) {
         initWidget(uiBinder.createAndBindUi(this));
+
+        activeStyleName = commonResource.style().active();
+
+        $("a", divButtons).click(new Function() {
+            @Override
+            public void f(Element e) {
+                $("." + activeStyleName).removeClass(activeStyleName);
+
+                $(e).addClass(activeStyleName);
+                pauseCarousel();
+            }
+        });
     }
+
+
+    @Override
+    public void pauseCarousel() {
+        pauseCarouselNative();
+    }
+
+    public static native void pauseCarouselNative() /*-{
+        $wnd.$('#myCarouselProgram').bind('slid', function() {
+            $wnd.$('#myCarouselProgram').carousel('pause');
+        });​
+    }-*/;
 }

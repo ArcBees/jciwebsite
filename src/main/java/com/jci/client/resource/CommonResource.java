@@ -51,6 +51,10 @@ public interface CommonResource extends ClientBundle {
         String smallMarginTop();
 
         String ulNoPoints();
+
+        String table();
+
+        String odd();
     }
 
     @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.Both)

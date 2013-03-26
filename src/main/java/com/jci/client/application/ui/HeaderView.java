@@ -47,11 +47,6 @@ public class HeaderView extends ViewImpl implements HeaderPresenter.MyView {
     @Override
     public void activateCurrentLink(String nameTokens) {
         $("." + activeStyleName).removeClass(activeStyleName);
-        $("#" + nameTokens).addClass(activeStyleName);
-    }
-
-    @Override
-    public void goToTop() {
-        $("html, body").scrollTo(0,0);
+        $("." + nameTokens).addClass(activeStyleName);
     }
 }

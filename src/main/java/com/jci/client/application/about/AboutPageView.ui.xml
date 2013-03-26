@@ -1,6 +1,7 @@
 <ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
              xmlns:g='urn:import:com.google.gwt.user.client.ui'>
     <ui:with field="res" type="com.jci.client.resource.CommonResource"/>
+    <ui:with field="aboutRes" type="com.jci.client.resource.about.AboutResource"/>
     <g:HTMLPanel>
         <div class="{res.style.width} {res.style.white} {res.style.dragUp} {res.style.round}
             {res.style.content}">
@@ -97,6 +98,7 @@
                     For more information,
                     <a href="http://www.jcicanada.com/" target="_blank">visit www.jcicanada.com</a>
                 </p>
+                <g:Image addStyleNames="{aboutRes.style.imgLogo}" resource="{aboutRes.jci_canada}" altText="JCI Canada Logo"/>
             </div>
 
             <div ui:field="quebec" style="display: none">
@@ -191,6 +193,7 @@
                     For more information,
                     <a href="http://www.www.jccq.qc.ca/" target="_blank">visit www.jccq.qc.ca</a>
                 </p>
+                <g:Image addStyleNames="{aboutRes.style.imgLogo}" resource="{aboutRes.jccq}" altText="JCCQ Logo"/>
             </div>
         </div>
     </g:HTMLPanel>
