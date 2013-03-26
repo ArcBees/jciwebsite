@@ -82,11 +82,9 @@
 @eval HEIGHT_CALENDAR com.jci.client.resource.program.ProgramResource.COL_HEIGTH*21+30+"px";
 
 @sprite .visioProgram  .carouselInner .carouselInnerDiv {
-    padding-left: 10px;
-    padding-right: 10px;
     height: HEIGHT_CALENDAR;
     gwt-image: "tuile";
-    background-position: 11px 30px;
+    background-position: 1px 30px;
 }
 
 .visioProgram  .rooms {
@@ -96,7 +94,6 @@
     box-shadow: 0px 5px 4px rgba(50, 50, 50, 0.1);
     width: 872px;
     position: relative;
-    left: -10px;
 }
 
 @eval WIDTH_COL com.jci.client.resource.program.ProgramResource.COL_WIDTH*1-31+"px";
@@ -112,10 +109,6 @@
     font-weight: bold;
 }
 
-.visioProgram  .rooms li:first-child {
-    padding-left: 26px;
-    border-left: 0;
-}
 
     /*event*/
 
@@ -124,9 +117,6 @@
     display: block;
     padding: 5px;
     cursor: pointer;
-}
-
-.visioProgram .event:hover > div {
 }
 
 .visioProgram .event > div {
@@ -148,7 +138,7 @@
 }
 
 .visioProgram .event:hover > div {
-    background: rgba(116, 248, 201, 0.69);
+    background: rgba(86, 219, 150, 0.7);
 }
 
     /*left*/
