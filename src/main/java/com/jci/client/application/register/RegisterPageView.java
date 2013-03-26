@@ -19,8 +19,13 @@ package com.jci.client.application.register;
 import javax.inject.Inject;
 
 import com.arcbees.core.client.mvp.ViewImpl;
+import com.google.gwt.dom.client.AnchorElement;
+import com.google.gwt.dom.client.DivElement;
+import com.google.gwt.query.client.Function;
 import com.google.gwt.uibinder.client.UiBinder;
+import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.user.client.ui.Widget;
+import com.jci.client.resource.CommonResource;
 
 import static com.google.gwt.query.client.GQuery.$;
 import static com.google.gwt.query.client.plugins.effects.PropertiesAnimation.Easing.SWING;
@@ -29,8 +34,43 @@ public class RegisterPageView extends ViewImpl implements RegisterPagePresenter.
     interface Binder extends UiBinder<Widget, RegisterPageView> {
     }
 
+
+    @UiField
+    DivElement hotel;
+    @UiField
+    DivElement travel;
+    @UiField
+    AnchorElement buttonHotel;
+    @UiField
+    AnchorElement buttonTravel;
+
+    private final String activeStyleName;
+
     @Inject
-    public RegisterPageView(Binder uiBinder) {
+    public RegisterPageView(Binder uiBinder,
+                            CommonResource commonResource) {
         initWidget(uiBinder.createAndBindUi(this));
+
+        activeStyleName = commonResource.style().active();
+
+        $(buttonHotel).click(new Function() {
+            @Override
+            public void f() {
+                $(buttonTravel).removeClass(activeStyleName);
+                $(buttonHotel).addClass(activeStyleName);
+                $(hotel).show();
+                $(travel).hide();
+            }
+        });
+
+        $(buttonTravel).click(new Function() {
+            @Override
+            public void f() {
+                $(buttonHotel).removeClass(activeStyleName);
+                $(buttonTravel).addClass(activeStyleName);
+                $(travel).show();
+                $(hotel).hide();
+            }
+        });
     }
 }

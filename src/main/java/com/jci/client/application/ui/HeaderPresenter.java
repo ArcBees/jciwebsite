@@ -13,8 +13,6 @@ import javax.inject.Inject;
 public class HeaderPresenter extends PresenterWidget<HeaderPresenter.MyView> {
     public interface MyView extends View {
         void activateCurrentLink(String nameToken);
-
-        void goToTop();
     }
 
     private final PlaceManager placeManager;
@@ -39,7 +37,6 @@ public class HeaderPresenter extends PresenterWidget<HeaderPresenter.MyView> {
     protected void onReset() {
         super.onReset();
 
-        getView().goToTop();
         activateCurrentLinks();
     }
 

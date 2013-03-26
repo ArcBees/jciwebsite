@@ -5,7 +5,7 @@
     <g:HTMLPanel>
         <div class="{res.style.width} {res.style.white} {res.style.dragUp} {res.style.round}
         {res.style.content}">
-            <div ui:field="sliderButtons" class="{res.style.actions} carousel-indicators">
+            <div ui:field="divButtons" class="{res.style.actions} carousel-indicators">
                 <a class="{res.style.button_gray} {res.style.active}" data-target="#myCarouselProgram"
                    data-slide-to="0">
                     18 september

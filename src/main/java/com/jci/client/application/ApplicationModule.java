@@ -21,7 +21,6 @@ import com.jci.client.application.about.AboutModule;
 import com.jci.client.application.home.HomeModule;
 import com.jci.client.application.program.ProgramModule;
 import com.jci.client.application.register.RegisterModule;
-import com.jci.client.application.travel.TravelModule;
 import com.jci.client.application.ui.HeaderModule;
 
 public class ApplicationModule extends AbstractPresenterModule {
@@ -29,7 +28,6 @@ public class ApplicationModule extends AbstractPresenterModule {
     protected void configure() {
         install(new HomeModule());
         install(new RegisterModule());
-        install(new TravelModule());
         install(new ProgramModule());
         install(new AboutModule());
         install(new HeaderModule());

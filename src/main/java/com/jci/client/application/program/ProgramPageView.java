@@ -22,21 +22,19 @@ import com.google.gwt.dom.client.Element;
 import com.google.gwt.query.client.Function;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
-import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.ui.Widget;
 import com.jci.client.resource.CommonResource;
 
 import javax.inject.Inject;
 
 import static com.google.gwt.query.client.GQuery.$;
-import static com.google.gwt.query.client.GQuery.window;
 
 public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.MyView {
     interface Binder extends UiBinder<Widget, ProgramPageView> {
     }
 
     @UiField
-    DivElement sliderButtons;
+    DivElement divButtons;
 
     private final String activeStyleName;
 
@@ -47,7 +45,7 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
 
         activeStyleName = commonResource.style().active();
 
-        $("a", sliderButtons).click(new Function() {
+        $("a", divButtons).click(new Function() {
             @Override
             public void f(Element e) {
                 $("." + activeStyleName).removeClass(activeStyleName);

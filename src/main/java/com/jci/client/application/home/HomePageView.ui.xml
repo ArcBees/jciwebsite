@@ -81,7 +81,7 @@
 
                     <div>
                         <p>
-                            <a href="#{nameTokens.getTravel}">
+                            <a href="#{nameTokens.getRegister};id=travel">
                                 <span>Getting to
                                 <br/>
                                 Quebec City
@@ -93,7 +93,7 @@
 
                     <div>
                         <p>
-                            <a href="#{nameTokens.getRegister}">
+                            <a href="#{nameTokens.getRegister};id=hotel">
                                 <span>Convention
                                 <br/>
                                 Hotel

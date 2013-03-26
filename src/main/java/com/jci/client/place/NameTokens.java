@@ -19,7 +19,6 @@ package com.jci.client.place;
 public class NameTokens {
     public static final String home = "home";
     public static final String register = "register";
-    public static final String travel = "travel";
     public static final String program = "program";
     public static final String about = "about";
 
@@ -29,10 +28,6 @@ public class NameTokens {
 
     public static String getRegister() {
         return register;
-    }
-
-    public static String getTravel() {
-        return travel;
     }
 
     public static String getProgram() {
