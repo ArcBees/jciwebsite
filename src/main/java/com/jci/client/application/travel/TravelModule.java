@@ -14,15 +14,14 @@
  * the License.
  */
 
-package com.jci.client.resource.register;
+package com.jci.client.application.travel;
 
-import com.google.gwt.resources.client.ClientBundle;
-import com.google.gwt.resources.client.CssResource;
+import com.gwtplatform.mvp.client.gin.AbstractPresenterModule;
 
-public interface RegisterResource extends ClientBundle {
-    public interface Style extends CssResource {
-        String register();
+public class TravelModule extends AbstractPresenterModule {
+    @Override
+    protected void configure() {
+        bindPresenter(TravelPagePresenter.class, TravelPagePresenter.MyView.class, TravelPageView.class,
+                TravelPagePresenter.MyProxy.class);
     }
-
-    Style style();
 }

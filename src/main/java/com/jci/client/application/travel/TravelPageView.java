@@ -14,23 +14,23 @@
  * the License.
  */
 
-package com.jci.client.application.register;
-
-import javax.inject.Inject;
+package com.jci.client.application.travel;
 
 import com.arcbees.core.client.mvp.ViewImpl;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.user.client.ui.Widget;
 
+import javax.inject.Inject;
+
 import static com.google.gwt.query.client.GQuery.$;
 import static com.google.gwt.query.client.plugins.effects.PropertiesAnimation.Easing.SWING;
 
-public class RegisterPageView extends ViewImpl implements RegisterPagePresenter.MyView {
-    interface Binder extends UiBinder<Widget, RegisterPageView> {
+public class TravelPageView extends ViewImpl implements TravelPagePresenter.MyView {
+    interface Binder extends UiBinder<Widget, TravelPageView> {
     }
 
     @Inject
-    public RegisterPageView(Binder uiBinder) {
+    public TravelPageView(Binder uiBinder) {
         initWidget(uiBinder.createAndBindUi(this));
     }
 }

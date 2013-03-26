@@ -21,9 +21,9 @@ import com.google.gwt.resources.client.CssResource;
 import com.google.gwt.resources.client.ImageResource;
 
 public interface ProgramResource extends ClientBundle {
-    public static int COL_WIDTH = 142;
+    public static int COL_WIDTH = 145;
     public static int COL_HEIGTH = 60;
-    public static int BEFORE_LEFT = 10;
+    public static int BEFORE_LEFT = 0;
     public static int BEFORE_TOP= 30;
 
     public interface Style extends CssResource {
