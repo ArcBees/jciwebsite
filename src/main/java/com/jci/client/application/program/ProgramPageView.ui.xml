@@ -78,29 +78,53 @@
                     </div>
                     <div class="item {programRes.style.carouselInnerDiv}">
                         <ul class="{programRes.style.rooms} clearfix">
-                            <li>Room A</li>
-                            <li>Room B</li>
+                            <li>Room AB</li>
                             <li>Room C</li>
                             <li>Room G</li>
                             <li>Room H</li>
+                            <li>Foyer</li>
                             <li>Others</li>
                         </ul>
-                        <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t800} {programRes.style.h100} {programRes.style.w2}">
+                        <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t800} {programRes.style.h100} {programRes.style.w1}">
                             <div>
                                 <h2>Breakfast</h2>
                                 <p>8:00 - 9:00</p>
                             </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t900} {programRes.style.h275} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t900} {programRes.style.h275} {programRes.style.w1}">
                             <div>
                                 <h2>General Assembly</h2>
                                 <p>9:00 - 11:45</p>
                             </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t1375} {programRes.style.h275} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t1375} {programRes.style.h275} {programRes.style.w1}">
                             <div>
                                 <h2>General Assembly</h2>
                                 <p>13:45 - 16:30</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1}">
+                            <div>
+                                <h2>Training</h2>
+                                <p>9:00 - 10:15</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1}">
+                            <div>
+                                <h2>Training</h2>
+                                <p>10:30 - 11:45</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t1375} {programRes.style.h125} {programRes.style.w1}">
+                            <div>
+                                <h2>Training</h2>
+                                <p>13:45 - 15:00</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t1525} {programRes.style.h125} {programRes.style.w1}">
+                            <div>
+                                <h2>Training</h2>
+                                <p>15:15 - 16:30</p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1}">
@@ -127,34 +151,16 @@
                                 <p>15:15 - 16:30</p>
                             </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1}">
-                            <div>
-                                <h2>Training</h2>
-                                <p>9:00 - 10:15</p>
-                            </div>
-                        </div>
                         <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1}">
-                            <div>
-                                <h2>Training</h2>
-                                <p>10:30 - 11:45</p>
-                            </div>
-                        </div>
-                        <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1375} {programRes.style.h125} {programRes.style.w1}">
-                            <div>
-                                <h2>Training</h2>
-                                <p>13:45 - 15:00</p>
-                            </div>
-                        </div>
-                        <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1525} {programRes.style.h125} {programRes.style.w1}">
-                            <div>
-                                <h2>Training</h2>
-                                <p>15:15 - 16:30</p>
-                            </div>
-                        </div>
-                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1}">
                             <div>
                                 <h2>Tradeshow</h2>
                                 <p>10:30 - 11:45</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1375} {programRes.style.h275} {programRes.style.w1}">
+                            <div>
+                                <h2>Tradeshow</h2>
+                                <p>13:45 - 16:30</p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1200} {programRes.style.h150} {programRes.style.w1}">
@@ -190,41 +196,53 @@
                     </div>
                     <div class="item {programRes.style.carouselInnerDiv}">
                         <ul class="{programRes.style.rooms} clearfix">
-                            <li>Room A</li>
-                            <li>Room B</li>
+                            <li>Room AB</li>
                             <li>Room C</li>
                             <li>Room G</li>
                             <li>Room H</li>
+                            <li>Foyer</li>
                             <li>Others</li>
                         </ul>
-                        <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t800} {programRes.style.h100} {programRes.style.w2}">
+                        <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t800} {programRes.style.h100} {programRes.style.w1}">
                             <div>
                                 <h2>Breakfast</h2>
                                 <p>8:00 - 9:00</p>
                             </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t1200} {programRes.style.h150} {programRes.style.w2}">
+                        <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t1200} {programRes.style.h150} {programRes.style.w1}">
                             <div>
                                 <h2>Keynote speaker</h2>
                                 <p>12:00 - 13:30</p>
                             </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t1375} {programRes.style.h125} {programRes.style.w2}">
+                        <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t1375} {programRes.style.h125} {programRes.style.w1}">
                             <div>
-                                <h2>Effective speaking competition</h2>
+                                <h2>Effective speaking</h2>
                                 <p>13:45 - 15:00</p>
                             </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t900} {programRes.style.h275} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t900} {programRes.style.h275} {programRes.style.w1}">
                             <div>
                                 <h2>General Assembly</h2>
                                 <p>9:00 - 11:45</p>
                             </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t1525} {programRes.style.h125} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t1525} {programRes.style.h125} {programRes.style.w1}">
                             <div>
                                 <h2>General Assembly</h2>
-                                <p>13:45 - 16:30</p>
+                                <p>15:15 - 16:30</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1}">
+                            <div>
+                                <h2>Training</h2>
+                                <p>9:00 - 10:15</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1}">
+                            <div>
+                                <h2>Training</h2>
+                                <p>10:30 - 11:45</p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1}">
@@ -239,22 +257,16 @@
                                 <p>10:30 - 11:45</p>
                             </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1}">
-                            <div>
-                                <h2>Training</h2>
-                                <p>9:00 - 10:15</p>
-                            </div>
-                        </div>
-                        <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1}">
-                            <div>
-                                <h2>Training</h2>
-                                <p>10:30 - 11:45</p>
-                            </div>
-                        </div>
-                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t900} {programRes.style.h275} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t900} {programRes.style.h275} {programRes.style.w1}">
                             <div>
                                 <h2>Tradeshow</h2>
                                 <p>9:00 - 11:45</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1375} {programRes.style.h275} {programRes.style.w1}">
+                            <div>
+                                <h2>Tradeshow</h2>
+                                <p>13:45 - 16:30</p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1350} {programRes.style.h300} {programRes.style.w1}">
@@ -355,6 +367,12 @@
                             <div>
                                 <h2>VIP Reception</h2>
                                 <p>17:00 - 18:00</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t900} {programRes.style.h275} {programRes.style.w1}">
+                            <div>
+                                <h2>Tradeshow</h2>
+                                <p>9:00 - 11:45</p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t900} {programRes.style.h275} {programRes.style.w1}">
