@@ -36,7 +36,7 @@ public class ResourceLoader {
                           MainResource mainResource,
                           RegisterResource registerResource,
                           ProgramResource programResource,
-                          AboutResource aboutResource){
+                          AboutResource aboutResource) {
         commonResource.style().ensureInjected();
         headerResource.style().ensureInjected();
         footerResource.style().ensureInjected();

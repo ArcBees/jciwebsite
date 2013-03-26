@@ -87,26 +87,31 @@ h2 {
 
     background: #4d5458;
 }
-.table{
+
+.table {
     margin: 5px 0 20px;
     border: 1px solid #2a5b8c;
     overflow: hidden;
     width: 600px;
 }
+
 .table tr.odd {
     background: #e3f0fa;
 }
-.table td{
+
+.table td {
     padding: 6px 10px;
     font-size: 14px;
     line-height: 22px;
 
 }
-.table tr :last-child{
+
+.table tr :last-child {
     padding-left: 35px;
     width: 115px;
 }
-thead{
+
+thead {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     font-weight: bold;
