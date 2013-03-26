@@ -1,0 +1,401 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+    <ui:with field="res" type="com.jci.client.resource.CommonResource"/>
+    <ui:with field="programRes" type="com.jci.client.resource.program.ProgramResource"/>
+    <g:HTMLPanel>
+        <div class="{res.style.width} {res.style.white} {res.style.dragUp} {res.style.round}
+        {res.style.content}">
+            <div ui:field="divButtons" class="{res.style.actions} carousel-indicators">
+                <a class="{res.style.button_gray} {res.style.active}" data-target="#myCarouselProgram"
+                   data-slide-to="0">
+                    September, 18
+                </a>
+                <a class="{res.style.button_gray}" data-target="#myCarouselProgram" data-slide-to="1">
+                    September1 19
+                </a>
+                <a class="{res.style.button_gray}" data-target="#myCarouselProgram" data-slide-to="2">
+                    September, 20
+                </a>
+                <a class="{res.style.button_gray}" data-target="#myCarouselProgram" data-slide-to="3">
+                    September, 21
+                </a>
+            </div>
+
+            <h1>Program</h1>
+            <div class="carousel slide clearfix {programRes.style.visioProgram}" id="myCarouselProgram">
+                <ul class="{programRes.style.hoursTable}">
+                    <li class="{programRes.style.odd}"></li>
+                    <li>7h00</li>
+                    <li class="{programRes.style.odd}">8h00</li>
+                    <li>9h00</li>
+                    <li class="{programRes.style.odd}">10h00</li>
+                    <li>11h00</li>
+                    <li class="{programRes.style.odd}">12h00</li>
+                    <li>13h00</li>
+                    <li class="{programRes.style.odd}">14h00</li>
+                    <li>15h00</li>
+                    <li class="{programRes.style.odd}">16h00</li>
+                    <li>17h00</li>
+                    <li class="{programRes.style.odd}">18h00</li>
+                    <li>19h00</li>
+                    <li class="{programRes.style.odd}">20h00</li>
+                    <li>21h00</li>
+                    <li class="{programRes.style.odd}">22h00</li>
+                    <li>23h00</li>
+                    <li class="{programRes.style.odd}">24h00</li>
+                    <li>1h00</li>
+                    <li class="{programRes.style.odd}">2h00</li>
+                    <li>3h00</li>
+                </ul>
+                <div class="carousel-inner {programRes.style.carouselInner}">
+                    <div class="item active {programRes.style.carouselInnerDiv}">
+                        <ul class="{programRes.style.rooms} clearfix">
+                            <li>Room A</li>
+                            <li>Room B</li>
+                            <li>Room C</li>
+                            <li>Room G</li>
+                            <li>Room H</li>
+                            <li>Others</li>
+                        </ul>
+                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1400} {programRes.style.h400} {programRes.style.w1}">
+                            <div>
+                                <h2>Registration</h2>
+                                <p>14:00 - 18:00</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1800} {programRes.style.h500} {programRes.style.w1}">
+                            <div>
+                                <h2>Opening Ceremonies</h2>
+                                <p>18:00 - 23:00</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t2300} {programRes.style.h400} {programRes.style.w1}">
+                            <div>
+                                <h2>Hospitality suite</h2>
+                                <p>From 23:00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item {programRes.style.carouselInnerDiv}">
+                        <ul class="{programRes.style.rooms} clearfix">
+                            <li>Room AB</li>
+                            <li>Room C</li>
+                            <li>Room G</li>
+                            <li>Room H</li>
+                            <li>Foyer</li>
+                            <li>Others</li>
+                        </ul>
+                        <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t800} {programRes.style.h100} {programRes.style.w1}">
+                            <div>
+                                <h2>Breakfast</h2>
+                                <p>8:00 - 9:00</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t900} {programRes.style.h275} {programRes.style.w1}">
+                            <div>
+                                <h2>General Assembly</h2>
+                                <p>9:00 - 11:45</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t1375} {programRes.style.h275} {programRes.style.w1}">
+                            <div>
+                                <h2>General Assembly</h2>
+                                <p>13:45 - 16:30</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1}">
+                            <div>
+                                <h2>Training</h2>
+                                <p>9:00 - 10:15</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1}">
+                            <div>
+                                <h2>Training</h2>
+                                <p>10:30 - 11:45</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t1375} {programRes.style.h125} {programRes.style.w1}">
+                            <div>
+                                <h2>Training</h2>
+                                <p>13:45 - 15:00</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t1525} {programRes.style.h125} {programRes.style.w1}">
+                            <div>
+                                <h2>Training</h2>
+                                <p>15:15 - 16:30</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1}">
+                            <div>
+                                <h2>Training</h2>
+                                <p>9:00 - 10:15</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1}">
+                            <div>
+                                <h2>Training</h2>
+                                <p>10:30 - 11:45</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t1375} {programRes.style.h125} {programRes.style.w1}">
+                            <div>
+                                <h2>Training</h2>
+                                <p>13:45 - 15:00</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t1525} {programRes.style.h125} {programRes.style.w1}">
+                            <div>
+                                <h2>Training</h2>
+                                <p>15:15 - 16:30</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1}">
+                            <div>
+                                <h2>Tradeshow</h2>
+                                <p>10:30 - 11:45</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1375} {programRes.style.h275} {programRes.style.w1}">
+                            <div>
+                                <h2>Tradeshow</h2>
+                                <p>13:45 - 16:30</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1200} {programRes.style.h150} {programRes.style.w1}">
+                            <div>
+                                <h2>Keynote speaker</h2>
+                                <p>12:00 - 13:30</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1350} {programRes.style.h300} {programRes.style.w1}">
+                            <div>
+                                <h2>Excursion</h2>
+                                <p>13:30 - 16:30</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1700} {programRes.style.h100} {programRes.style.w1}">
+                            <div>
+                                <h2>VIP Reception</h2>
+                                <p>17:00 - 18:00</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1800} {programRes.style.h500} {programRes.style.w1}">
+                            <div>
+                                <h2>Awards Ceremonies</h2>
+                                <p>18:00 - 23:00</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t2300} {programRes.style.h400} {programRes.style.w1}">
+                            <div>
+                                <h2>Hospitality suite</h2>
+                                <p>From 23:00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item {programRes.style.carouselInnerDiv}">
+                        <ul class="{programRes.style.rooms} clearfix">
+                            <li>Room AB</li>
+                            <li>Room C</li>
+                            <li>Room G</li>
+                            <li>Room H</li>
+                            <li>Foyer</li>
+                            <li>Others</li>
+                        </ul>
+                        <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t800} {programRes.style.h100} {programRes.style.w1}">
+                            <div>
+                                <h2>Breakfast</h2>
+                                <p>8:00 - 9:00</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t1200} {programRes.style.h150} {programRes.style.w1}">
+                            <div>
+                                <h2>Keynote speaker</h2>
+                                <p>12:00 - 13:30</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t1375} {programRes.style.h125} {programRes.style.w1}">
+                            <div>
+                                <h2>Effective speaking</h2>
+                                <p>13:45 - 15:00</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t900} {programRes.style.h275} {programRes.style.w1}">
+                            <div>
+                                <h2>General Assembly</h2>
+                                <p>9:00 - 11:45</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t1525} {programRes.style.h125} {programRes.style.w1}">
+                            <div>
+                                <h2>General Assembly</h2>
+                                <p>15:15 - 16:30</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1}">
+                            <div>
+                                <h2>Training</h2>
+                                <p>9:00 - 10:15</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1}">
+                            <div>
+                                <h2>Training</h2>
+                                <p>10:30 - 11:45</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1}">
+                            <div>
+                                <h2>Training</h2>
+                                <p>9:00 - 10:15</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1}">
+                            <div>
+                                <h2>Training</h2>
+                                <p>10:30 - 11:45</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t900} {programRes.style.h275} {programRes.style.w1}">
+                            <div>
+                                <h2>Tradeshow</h2>
+                                <p>9:00 - 11:45</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1375} {programRes.style.h275} {programRes.style.w1}">
+                            <div>
+                                <h2>Tradeshow</h2>
+                                <p>13:45 - 16:30</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1350} {programRes.style.h300} {programRes.style.w1}">
+                            <div>
+                                <h2>Excursion</h2>
+                                <p>13:30 - 16:30</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1800} {programRes.style.h250} {programRes.style.w1}">
+                            <div>
+                                <h2>Theme Night</h2>
+                                <p>18:00 - 20:30</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t2050} {programRes.style.h250} {programRes.style.w1}">
+                            <div>
+                                <h2>Grande Allée Clubbing</h2>
+                                <p>20:30 - 23:00</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t2300} {programRes.style.h400} {programRes.style.w1}">
+                            <div>
+                                <h2>Hospitality suite</h2>
+                                <p>From 23:00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item {programRes.style.carouselInnerDiv}">
+                        <ul class="{programRes.style.rooms} clearfix">
+                            <li>Room AB</li>
+                            <li>Room C</li>
+                            <li>Room G</li>
+                            <li>Room H</li>
+                            <li>Room J</li>
+                            <li>Others</li>
+                        </ul>
+                        <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t800} {programRes.style.h100} {programRes.style.w1}">
+                            <div>
+                                <h2>Breakfast</h2>
+                                <p>8:00 - 9:00</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t1200} {programRes.style.h150} {programRes.style.w1}">
+                            <div>
+                                <h2>Keynote speaker</h2>
+                                <p>12:00 - 13:30</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t1800} {programRes.style.h500} {programRes.style.w2}">
+                            <div>
+                                <h2>President's Gala</h2>
+                                <p>18:00 - 23:00</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t900} {programRes.style.h275} {programRes.style.w1}">
+                            <div>
+                                <h2>General Assembly</h2>
+                                <p>9:00 - 11:45</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t1375} {programRes.style.h225} {programRes.style.w1}">
+                            <div>
+                                <h2>General Assembly</h2>
+                                <p>13:45 - 15:00</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1}">
+                            <div>
+                                <h2>Training</h2>
+                                <p>9:00 - 10:15</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1}">
+                            <div>
+                                <h2>Training</h2>
+                                <p>10:30 - 11:45</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1}">
+                            <div>
+                                <h2>Training</h2>
+                                <p>9:00 - 10:15</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1}">
+                            <div>
+                                <h2>Training</h2>
+                                <p>10:30 - 11:45</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t750} {programRes.style.h150} {programRes.style.w1}">
+                            <div>
+                                <h2>Senators' Breakfast</h2>
+                                <p>7:30 - 9:00</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1700} {programRes.style.h100} {programRes.style.w1}">
+                            <div>
+                                <h2>VIP Reception</h2>
+                                <p>17:00 - 18:00</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t900} {programRes.style.h275} {programRes.style.w1}">
+                            <div>
+                                <h2>Tradeshow</h2>
+                                <p>9:00 - 11:45</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t900} {programRes.style.h275} {programRes.style.w1}">
+                            <div>
+                                <h2>Tradeshow</h2>
+                                <p>9:00 - 11:45</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1350} {programRes.style.h300} {programRes.style.w1}">
+                            <div>
+                                <h2>Excursion</h2>
+                                <p>13:30 - 16:30</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t2300} {programRes.style.h400} {programRes.style.w1}">
+                            <div>
+                                <h2>Hospitality suite</h2>
+                                <p>From 23:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </g:HTMLPanel>
+</ui:UiBinder>

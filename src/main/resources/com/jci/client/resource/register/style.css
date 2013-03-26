@@ -1,10 +1,39 @@
 div a.register {
-    background: rgb(166,182,111);
-    background: -moz-linear-gradient(top,  rgba(166,182,111,1) 0%, rgba(94,117,22,1) 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(166,182,111,1)), color-stop(100%,rgba(94,117,22,1)));
-    background: -webkit-linear-gradient(top,  rgba(166,182,111,1) 0%,rgba(94,117,22,1) 100%);
-    background: -o-linear-gradient(top,  rgba(166,182,111,1) 0%,rgba(94,117,22,1) 100%);
-    background: -ms-linear-gradient(top,  rgba(166,182,111,1) 0%,rgba(94,117,22,1) 100%);
-    background: linear-gradient(to bottom,  rgba(166,182,111,1) 0%,rgba(94,117,22,1) 100%);
+    border: 1px solid rgb(127, 142, 81);
+
+    background: rgb(166, 182, 111);
+    background: -moz-linear-gradient(top, rgba(166, 182, 111, 1) 0%, rgba(94, 117, 22, 1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(166, 182, 111, 1)), color-stop(100%, rgba(94, 117, 22, 1)));
+    background: -webkit-linear-gradient(top, rgba(166, 182, 111, 1) 0%, rgba(94, 117, 22, 1) 100%);
+    background: -o-linear-gradient(top, rgba(166, 182, 111, 1) 0%, rgba(94, 117, 22, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(166, 182, 111, 1) 0%, rgba(94, 117, 22, 1) 100%);
+    background: linear-gradient(to bottom, rgba(166, 182, 111, 1) 0%, rgba(94, 117, 22, 1) 100%);
     filter: literal("progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6b66f', endColorstr='#5e7516',GradientType=0 )");
+}
+
+div a.register:hover {
+    border: 1px solid rgb(131, 147, 80);
+
+    background: rgb(187, 210, 109);
+    background: -moz-linear-gradient(top, rgba(187, 210, 109, 1) 0%, rgba(146, 171, 70, 1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(187, 210, 109, 1)), color-stop(100%, rgba(146, 171, 70, 1)));
+    background: -webkit-linear-gradient(top, rgba(187, 210, 109, 1)) 0%, rgba(146, 171, 70, 1) 100% );
+    background: -o-linear-gradient(top, rgba(187, 210, 109, 1)) 0%, rgba(146, 171, 70, 1) 100% );
+    background: -ms-linear-gradient(top, rgba(187, 210, 109, 1)) 0%, rgba(146, 171, 70, 1) 100% );
+    background: linear-gradient(to bottom, rgba(187, 210, 109, 1)) 0%, rgba(146, 171, 70, 1) 100% );
+    filter: literal("progid:DXImageTransform.Microsoft.gradient( startColorstr='#bad16c', endColorstr='#92AB46',GradientType=0 )");
+
+}
+
+div a.register:active {
+    border: 1px solid rgb(95, 108, 56);
+
+    background: rgb(92, 105, 45);
+    background: -moz-linear-gradient(top, rgba(92, 105, 45, 1) 0%, rgba(119, 133, 72, 1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(92, 105, 45, 1)), color-stop(100%, rgba(119, 133, 72, 1)));
+    background: -webkit-linear-gradient(top, rgba(92, 105, 45, 1)) 0%, rgba(119, 133, 72, 1) 100% );
+    background: -o-linear-gradient(top, rgba(92, 105, 45, 1)) 0%, rgba(119, 133, 72, 1) 100% );
+    background: -ms-linear-gradient(top, rgba(92, 105, 45, 1)) 0%, rgba(119, 133, 72, 1) 100% );
+    background: linear-gradient(to bottom, rgba(92, 105, 45, 1)) 0%, rgba(119, 133, 72, 1) 100% );
+    filter: literal("progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b6a2d', endColorstr='#778546',GradientType=0 )");
 }

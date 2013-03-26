@@ -64,11 +64,11 @@
 
 .sliderButtons div a span {
     display: inline-block;
-    line-height: 20px;
+    line-height: 25px;
 }
 
 .sliderButtons div a {
-    line-height: 106px;
+    line-height: 115px;
     display: block;
     width: inherit;
     height: inherit;

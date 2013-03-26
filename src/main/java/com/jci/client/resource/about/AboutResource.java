@@ -14,27 +14,20 @@
  * the License.
  */
 
-package com.jci.client.place;
+package com.jci.client.resource.about;
 
-public class NameTokens {
-    public static final String home = "home";
-    public static final String register = "register";
-    public static final String program = "program";
-    public static final String about = "about";
+import com.google.gwt.resources.client.ClientBundle;
+import com.google.gwt.resources.client.CssResource;
+import com.google.gwt.resources.client.ImageResource;
 
-    public static String getHome() {
-        return home;
+public interface AboutResource extends ClientBundle {
+    public interface Style extends CssResource {
+        String imgLogo();
     }
 
-    public static String getRegister() {
-        return register;
-    }
+    ImageResource jccq();
 
-    public static String getProgram() {
-        return program;
-    }
+    ImageResource jci_canada();
 
-    public static String getAbout() {
-        return about;
-    }
+    Style style();
 }

@@ -48,6 +48,7 @@ public class ApplicationPresenter extends Presenter<ApplicationPresenter.MyView,
                                 MyProxy proxy,
                                 HeaderPresenter headerPresenter) {
         super(eventBus, view, proxy, RevealType.Root);
+
         this.headerPresenter = headerPresenter;
     }
 
