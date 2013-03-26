@@ -109,7 +109,7 @@
                     <li>Ipod dock</li>
                 </ul>
             </div>
-            <div ui:field="travel">
+            <div ui:field="travel" style="display: none">
                 <h1>Getting to Quebec City</h1>
                 <h2 class="{res.style.round} {res.style.smallMarginTop}">By plane</h2>
                 <p>

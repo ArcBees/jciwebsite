@@ -56,21 +56,40 @@ public class RegisterPageView extends ViewImpl implements RegisterPagePresenter.
         $(buttonHotel).click(new Function() {
             @Override
             public void f() {
-                $(buttonTravel).removeClass(activeStyleName);
-                $(buttonHotel).addClass(activeStyleName);
-                $(hotel).show();
-                $(travel).hide();
+                showHotel();
             }
         });
 
         $(buttonTravel).click(new Function() {
             @Override
             public void f() {
-                $(buttonHotel).removeClass(activeStyleName);
-                $(buttonTravel).addClass(activeStyleName);
-                $(travel).show();
-                $(hotel).hide();
+                showTravel();
             }
         });
+    }
+
+    @Override
+    public void showSection(String id) {
+        if (id.equals("travel")) {
+            showTravel();
+        } else {
+            showHotel();
+        }
+    }
+
+    @Override
+    public void showHotel() {
+        $(buttonTravel).removeClass(activeStyleName);
+        $(buttonHotel).addClass(activeStyleName);
+        $(hotel).show();
+        $(travel).hide();
+    }
+
+    @Override
+    public void showTravel() {
+        $(buttonHotel).removeClass(activeStyleName);
+        $(buttonTravel).addClass(activeStyleName);
+        $(travel).show();
+        $(hotel).hide();
     }
 }

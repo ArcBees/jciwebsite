@@ -30,19 +30,36 @@ import com.jci.client.place.NameTokens;
 
 public class RegisterPagePresenter extends Presenter<RegisterPagePresenter.MyView, RegisterPagePresenter.MyProxy> {
     public interface MyView extends View {
+        void showSection(String id);
+        void showHotel();
+        void showTravel();
     }
+
+    private String id;
 
     @ProxyStandard
     @NameToken(NameTokens.register)
     public interface MyProxy extends ProxyPlace<RegisterPagePresenter> {
     }
 
-    private String id;
-
     @Inject
     public RegisterPagePresenter(EventBus eventBus,
                                  MyView view,
                                  MyProxy proxy) {
         super(eventBus, view, proxy, ApplicationPresenter.TYPE_SetMainContent);
+    }
+
+    @Override
+    public void prepareFromRequest(PlaceRequest request) {
+        super.prepareFromRequest(request);
+
+        id = request.getParameter("id", "");
+    }
+
+    @Override
+    protected void onReveal() {
+        super.onReveal();
+
+        getView().showSection(id);
     }
 }
