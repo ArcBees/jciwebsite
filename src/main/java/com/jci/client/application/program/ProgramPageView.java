@@ -68,20 +68,19 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
             }
         });
 
-        $("."+eventStyleNameProgram, divCalendar).click(new Function() {
+        $("." + eventStyleNameProgram, divCalendar).click(new Function() {
             @Override
             public void f(Element e) {
-                if($(e).hasClass(activeStyleNameProgram)){
+                if ($(e).hasClass(activeStyleNameProgram)) {
                     untoggleTooltip();
-                }else {
+                } else {
                     untoggleTooltip();
                     $(e).addClass(activeStyleNameProgram);
-                    $("."+tooltipStyleNameProgram,e).addClass(activeTooltipStyleNameProgram);
+                    $("." + tooltipStyleNameProgram, e).addClass(activeTooltipStyleNameProgram);
                 }
             }
         });
     }
-
 
     @Override
     public void untoggleTooltip() {
@@ -95,7 +94,7 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
     }
 
     public static native void pauseCarouselNative() /*-{
-        $wnd.$('#myCarouselProgram').bind('slid', function() {
+        $wnd.$('#myCarouselProgram').bind('slid', function () {
             $wnd.$('#myCarouselProgram').carousel('pause');
         });​
     }-*/;
