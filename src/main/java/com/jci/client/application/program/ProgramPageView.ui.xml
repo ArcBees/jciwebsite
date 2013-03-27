@@ -62,7 +62,7 @@
                                 <h2>Registration</h2>
                                 <p>14:00 - 18:00</p>
                             </div>
-                            <div class="{programRes.style.tooltip}">
+                            <div class="{programRes.style.tooltip} hello">
                                 <span class="{programRes.style.arrow}"/>
                                 <p>hello sp</p>
                             </div>

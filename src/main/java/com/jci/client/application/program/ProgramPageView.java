@@ -19,6 +19,7 @@ package com.jci.client.application.program;
 import com.arcbees.core.client.mvp.ViewImpl;
 import com.google.gwt.dom.client.DivElement;
 import com.google.gwt.dom.client.Element;
+import com.google.gwt.event.logical.shared.AttachEvent;
 import com.google.gwt.query.client.Function;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
@@ -30,8 +31,9 @@ import javax.inject.Inject;
 
 import static com.google.gwt.query.client.GQuery.$;
 
-public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.MyView {
+public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.MyView, AttachEvent.Handler {
     interface Binder extends UiBinder<Widget, ProgramPageView> {
+
     }
 
     @UiField
@@ -41,6 +43,7 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
     DivElement divCalendar;
 
     private final String activeStyleName;
+
     private final String activeStyleNameProgram;
     private final String eventStyleNameProgram;
     private final String activeTooltipStyleNameProgram;
@@ -58,28 +61,20 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
         activeTooltipStyleNameProgram = programResource.style().tooltipActive();
         tooltipStyleNameProgram = programResource.style().tooltip();
 
-        $("a", divButtons).click(new Function() {
-            @Override
-            public void f(Element e) {
-                $("." + activeStyleName).removeClass(activeStyleName);
+        asWidget().addAttachHandler(this);
+    }
 
-                $(e).addClass(activeStyleName);
-                pauseCarousel();
-            }
-        });
+    @Override
+    public void onAttachOrDetach(AttachEvent attachEvent) {
+        if (attachEvent.isAttached()) {
+            bindGwtQuery();
+        }
+    }
 
-        $("." + eventStyleNameProgram, divCalendar).click(new Function() {
-            @Override
-            public void f(Element e) {
-                if ($(e).hasClass(activeStyleNameProgram)) {
-                    untoggleTooltip();
-                } else {
-                    untoggleTooltip();
-                    $(e).addClass(activeStyleNameProgram);
-                    $("." + tooltipStyleNameProgram, e).addClass(activeTooltipStyleNameProgram);
-                }
-            }
-        });
+    @Override
+    public void untoggleTooltipClick(Element e) {
+        $("." + activeStyleNameProgram).removeClass(activeStyleNameProgram);
+        $("." + activeTooltipStyleNameProgram).removeClass(activeTooltipStyleNameProgram);
     }
 
     @Override
@@ -98,4 +93,44 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
             $wnd.$('#myCarouselProgram').carousel('pause');
         });​
     }-*/;
+
+    private void bindGwtQuery() {
+        $("." + tooltipStyleNameProgram).click(new Function() {
+            @Override
+            public void f(Element e) {
+                getEvent().stopPropagation();
+            }
+        });
+        $("a", divButtons).click(new Function() {
+            @Override
+            public void f(Element e) {
+                $("." + activeStyleName).removeClass(activeStyleName);
+
+                $(e).addClass(activeStyleName);
+                pauseCarousel();
+            }
+        });
+
+        $(divCalendar).click(new Function() {
+            @Override
+            public void f(Element e) {
+                untoggleTooltipClick(e);
+            }
+        });
+
+
+        $("." + eventStyleNameProgram, divCalendar).click(new Function() {
+            @Override
+            public void f(Element e) {
+                if ($(e).hasClass(activeStyleNameProgram)) {
+                    untoggleTooltipClick(e);
+                } else {
+                    untoggleTooltipClick(e);
+                    $(e).addClass(activeStyleNameProgram);
+                    $("." + tooltipStyleNameProgram, e).addClass(activeTooltipStyleNameProgram);
+                }
+                getEvent().stopPropagation();
+            }
+        });
+    }
 }

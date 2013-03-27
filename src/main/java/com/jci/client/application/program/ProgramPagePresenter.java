@@ -16,11 +16,11 @@
 
 package com.jci.client.application.program;
 
+import com.google.gwt.dom.client.Element;
 import com.google.gwt.event.dom.client.KeyCodes;
 import com.google.gwt.event.dom.client.KeyDownEvent;
 import com.google.gwt.event.dom.client.KeyDownHandler;
 import com.google.gwt.event.shared.HandlerRegistration;
-import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.ui.RootPanel;
 import com.google.web.bindery.event.shared.EventBus;
 import com.gwtplatform.mvp.client.Presenter;
@@ -40,6 +40,7 @@ public class ProgramPagePresenter extends Presenter<ProgramPagePresenter.MyView,
     public interface MyView extends View {
         void pauseCarousel();
 
+        void untoggleTooltipClick(Element e);
         void untoggleTooltip();
     }
 
@@ -58,6 +59,7 @@ public class ProgramPagePresenter extends Presenter<ProgramPagePresenter.MyView,
     @Override
     protected void onReveal() {
         super.onReveal();
+
 
         handlerRegistration = RootPanel.get().addDomHandler(new KeyDownHandler() {
              @Override
