@@ -24,6 +24,7 @@ import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.user.client.ui.Widget;
 import com.jci.client.resource.CommonResource;
+import com.jci.client.resource.program.ProgramResource;
 
 import javax.inject.Inject;
 
@@ -36,14 +37,26 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
     @UiField
     DivElement divButtons;
 
+    @UiField
+    DivElement divCalendar;
+
     private final String activeStyleName;
+    private final String activeStyleNameProgram;
+    private final String eventStyleNameProgram;
+    private final String activeTooltipStyleNameProgram;
+    private final String tooltipStyleNameProgram;
 
     @Inject
     public ProgramPageView(Binder uiBinder,
-                           CommonResource commonResource) {
+                           CommonResource commonResource,
+                           ProgramResource programResource) {
         initWidget(uiBinder.createAndBindUi(this));
 
         activeStyleName = commonResource.style().active();
+        activeStyleNameProgram = programResource.style().active();
+        eventStyleNameProgram = programResource.style().event();
+        activeTooltipStyleNameProgram = programResource.style().tooltipActive();
+        tooltipStyleNameProgram = programResource.style().tooltip();
 
         $("a", divButtons).click(new Function() {
             @Override
@@ -54,8 +67,27 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
                 pauseCarousel();
             }
         });
+
+        $("."+eventStyleNameProgram, divCalendar).click(new Function() {
+            @Override
+            public void f(Element e) {
+                if($(e).hasClass(activeStyleNameProgram)){
+                    untoggleTooltip();
+                }else {
+                    untoggleTooltip();
+                    $(e).addClass(activeStyleNameProgram);
+                    $("."+tooltipStyleNameProgram,e).addClass(activeTooltipStyleNameProgram);
+                }
+            }
+        });
     }
 
+
+    @Override
+    public void untoggleTooltip() {
+        $("." + activeStyleNameProgram).removeClass(activeStyleNameProgram);
+        $("." + activeTooltipStyleNameProgram).removeClass(activeTooltipStyleNameProgram);
+    }
 
     @Override
     public void pauseCarousel() {

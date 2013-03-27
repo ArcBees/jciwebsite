@@ -31,6 +31,7 @@ import javax.inject.Inject;
 public class ProgramPagePresenter extends Presenter<ProgramPagePresenter.MyView, ProgramPagePresenter.MyProxy> {
     public interface MyView extends View {
         void pauseCarousel();
+        void untoggleTooltip();
     }
 
     @ProxyStandard
