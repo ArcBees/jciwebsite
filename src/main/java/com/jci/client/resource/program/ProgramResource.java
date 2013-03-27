@@ -128,6 +128,22 @@ public interface ProgramResource extends ClientBundle {
         String t750();
 
         String h325();
+
+        String cBlue();
+
+        String cRed();
+
+        String cGreen();
+
+        String cYellow();
+
+        String cPurple();
+
+        String t1025();
+
+        String t1500();
+
+        String t1575();
     }
 
     @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.Both)
