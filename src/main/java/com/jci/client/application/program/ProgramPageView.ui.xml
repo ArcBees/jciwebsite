@@ -57,7 +57,7 @@
                             <li>Room H</li>
                             <li>Others</li>
                         </ul>
-                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1400} {programRes.style.h400} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1400} {programRes.style.h400} {programRes.style.w1} {programRes.style.active}">
                             <div>
                                 <h2>Registration</h2>
                                 <p>14:00 - 18:00</p>

@@ -144,6 +144,8 @@ public interface ProgramResource extends ClientBundle {
         String t1500();
 
         String t1575();
+
+        String active();
     }
 
     @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.Both)

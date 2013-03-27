@@ -162,7 +162,14 @@
     transition: background-color .4s ease;
 }
 
-.visioProgram .event:hover > div {
+.visioProgram .event.active > div {
+    top: 1px;
+    -moz-box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.30);
+    -webkit-box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.30);
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.30);
+}
+
+.visioProgram .event:hover > div, .visioProgram .event.active > div {
     background: rgba(164, 177, 189, 0.66);
 }
 
@@ -172,7 +179,7 @@
     border: 1px solid rgba(181, 202, 246, 0.43);
 }
 
-.visioProgram .event.cBlue:hover > div {
+.visioProgram .event.cBlue:hover > div, .visioProgram .event.cBlue.active > div {
     background: rgba(95, 136, 217, 0.67);
 }
 
@@ -181,7 +188,7 @@
     border: 1px solid rgba(169, 245, 213, 0.42);
 }
 
-.visioProgram .event.cGreen:hover > div {
+.visioProgram .event.cGreen:hover > div, .visioProgram .event.cGreen.active > div {
     background: rgba(102, 217, 169, 0.66);
 }
 
@@ -190,7 +197,7 @@
     border: 1px solid rgba(245, 175, 169, 0.42);
 }
 
-.visioProgram .event.cRed:hover > div {
+.visioProgram .event.cRed:hover > div, .visioProgram .event.cRed.active > div {
     background: rgba(217, 125, 117, 0.65);
 }
 
@@ -199,7 +206,7 @@
     border: 1px solid rgba(245, 232, 169, 0.41);
 }
 
-.visioProgram .event.cYellow:hover > div {
+.visioProgram .event.cYellow:hover > div, .visioProgram .event.cYellow.active > div {
     background: rgba(217, 200, 117, 0.64);
 }
 
@@ -208,7 +215,7 @@
     border: 1px solid rgba(182, 169, 245, 0.40);
 }
 
-.visioProgram .event.cPurple:hover > div {
+.visioProgram .event.cPurple:hover > div, .visioProgram .event.cPurple.active > div {
     background: rgba(134, 117, 217, 0.63);
 }
 
