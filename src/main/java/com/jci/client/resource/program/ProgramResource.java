@@ -49,8 +49,6 @@ public interface ProgramResource extends ClientBundle {
 
         String h400();
 
-        String h200();
-
         String w1();
 
         String w2();
@@ -65,17 +63,9 @@ public interface ProgramResource extends ClientBundle {
 
         String l5();
 
-        String t700();
-
         String t900();
 
-        String t1000();
-
-        String t1100();
-
         String t1200();
-
-        String t1300();
 
         String h100();
 
@@ -89,8 +79,6 @@ public interface ProgramResource extends ClientBundle {
 
         String t1050();
 
-        String t1550();
-
         String t1350();
 
         String l4();
@@ -99,23 +87,11 @@ public interface ProgramResource extends ClientBundle {
 
         String h150();
 
-        String t1175();
-
         String h025();
-
-        String t1275();
 
         String h300();
 
         String t1700();
-
-        String t1475();
-
-        String t1325();
-
-        String h425();
-
-        String t2025();
 
         String h225();
 
@@ -152,6 +128,12 @@ public interface ProgramResource extends ClientBundle {
         String tooltipActive();
 
         String arrow();
+
+        String half();
+
+        String excursions();
+
+        String excursionsActive();
     }
 
     @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.Both)
@@ -180,6 +162,12 @@ public interface ProgramResource extends ClientBundle {
     ImageResource arrPurple();
 
     ImageResource arrPurpleRevert();
+
+    ImageResource img_awardNight_1();
+
+    ImageResource img_awardNight_2();
+
+    ImageResource img_excursion_1();
 
     @CssResource.NotStrict
     Style style();

@@ -48,7 +48,7 @@
                     <li>3h00</li>
                 </ul>
                 <div ui:field="divCalendar" class="carousel-inner {programRes.style.carouselInner}">
-                    <div class="item active {programRes.style.carouselInnerDiv}">
+                    <g:HTMLPanel styleName="item active {programRes.style.carouselInnerDiv}">
                         <ul class="{programRes.style.rooms} clearfix">
                             <li>Room A</li>
                             <li>Room B</li>
@@ -64,7 +64,20 @@
                             </div>
                             <div class="{programRes.style.tooltip} hello">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Registration</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Wednesday, September 18, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    14:00 - 18:00
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Foyer
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1800} {programRes.style.h500} {programRes.style.w1} {programRes.style.cYellow}">
@@ -74,7 +87,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Opening Ceremonies</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Wednesday, September 18, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    18:00 - 23:00
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Restaurant Table
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t2300} {programRes.style.h400} {programRes.style.w1} {programRes.style.cPurple}">
@@ -84,11 +110,24 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Hospitality suite hosted by JCI Quebec City</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Wednesday, September 18, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    From 23:00
+                                    <br/>
+                                    <b>Venue :</b>
+                                    To be determined
+                                    <br/>
+                                    <b>Room :</b>
+                                    To be determined
+                                </p>
                             </div>
                         </div>
-                    </div>
-                    <div class="item {programRes.style.carouselInnerDiv}">
+                    </g:HTMLPanel>
+                    <g:HTMLPanel styleName="item {programRes.style.carouselInnerDiv}">
                         <ul class="{programRes.style.rooms} clearfix">
                             <li>Room AB</li>
                             <li>Room C</li>
@@ -104,7 +143,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Delegates Breakfast</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Thursday, September 19, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    8:00 - 9:00
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Room AB
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t900} {programRes.style.h275} {programRes.style.w1} {programRes.style.cBlue}">
@@ -114,7 +166,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>General Assembly</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Thursday, September 19, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    9:00 - 11:45
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Room C
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t1375} {programRes.style.h275} {programRes.style.w1} {programRes.style.cBlue}">
@@ -124,7 +189,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>General Assembly</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Thursday, September 19, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    13:45 - 16:30
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Room C
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
@@ -134,7 +212,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Training 1</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Thursday, September 19, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    9:00 - 10:15
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Room G
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
@@ -144,7 +235,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Training 3</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Thursday, September 19, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    10:30 - 11:45
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Room G
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t1375} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
@@ -154,7 +258,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Training 5</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Thursday, September 19, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    13:45 - 15:00
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Room G
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t1525} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
@@ -164,7 +281,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Training 7</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Thursday, September 19, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    15:15 - 16:30
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Room G
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
@@ -174,7 +304,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Training 2</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Thursday, September 19, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    9:00 - 10:15
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Room H
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
@@ -184,7 +327,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Training 4</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Thursday, September 19, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    10:30 - 11:45
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Room H
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t1375} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
@@ -194,7 +350,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Training 6</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Thursday, September 19, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    13:45 - 15:00
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Room H
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t1525} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
@@ -204,7 +373,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Training 8</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Thursday, September 19, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    15:15 - 16:30
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Room H
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1025} {programRes.style.h025} {programRes.style.w1} {programRes.style.cRed}">
@@ -214,27 +396,66 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Coffee break</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Thursday, September 19, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    10:15 - 10:30
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Foyer
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1}">
                             <div>
-                                <h2>Tradeshow</h2>
+                                <h2>Trade Show</h2>
                                 <p>10:30 - 11:45</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Trade Show</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Thursday, September 19, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    10:30 - 11:45
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Foyer
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1375} {programRes.style.h125} {programRes.style.w1}">
                             <div>
-                                <h2>Tradeshow</h2>
+                                <h2>Trade Show</h2>
                                 <p>13:45 - 15:00</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Trade Show</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Thursday, September 19, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    13:45 - 15:00
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Foyer
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1500} {programRes.style.h025} {programRes.style.w1} {programRes.style.cRed}">
@@ -244,17 +465,43 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Coffee break</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Thursday, September 19, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    15:00 - 15:15
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Foyer
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1525} {programRes.style.h125} {programRes.style.w1}">
                             <div>
-                                <h2>Tradeshow</h2>
+                                <h2>Trade Show</h2>
                                 <p>15:15 - 16:30</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Trade Show</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Thursday, September 19, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    15:15 - 16:30
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Foyer
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1200} {programRes.style.h150} {programRes.style.w1} {programRes.style.cGreen}">
@@ -264,7 +511,17 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Keynote speaker</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Thursday, September 19, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    12:00 - 13:30
+                                    <br/>
+                                    <b>Venue :</b>
+                                    Imperial Theatre
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1350} {programRes.style.h300} {programRes.style.w1} {programRes.style.cPurple}">
@@ -272,9 +529,164 @@
                                 <h2>Excursion</h2>
                                 <p>13:30 - 16:30</p>
                             </div>
-                            <div class="{programRes.style.tooltip}">
+                            <div ui:field="excursion1" class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <span ui:field="excursionDiv1">
+                                    <span id="cruise1Div">
+                                        <h2>High-Wire and Zip-Line adventure</h2>
+                                        <p>
+                                            <b>Date :</b>
+                                            Thursday, September 19, 2013
+                                            <br/>
+                                            <b>Time :</b>
+                                            13:30 - 16:30
+                                            <br/>
+                                            <b>Venue :</b>
+                                            Arbraska Duchesnay
+                                            <br/>
+                                            <b>Price :</b>
+                                            $40.00
+                                        </p>
+                                        <p>
+                                            <img src="{programRes.img_excursion_1.getSafeUri}"
+                                                 alt="High-Wire and Zip-Line adventure"/>
+                                        </p>
+                                        <p>
+                                            Want a real challenge? The Arbre en arbre activity has just the one for you!
+                                            In
+                                            the
+                                            heart
+                                            of the Jacques Cartier river’s park, you will stroll from one tree to
+                                            another on
+                                            courses
+                                            ranging from easy to very hard. Register and test your limits. Do not
+                                            register
+                                            if
+                                            you’ve
+                                            experienced vertigo in the past.
+                                        </p>
+                                        <p>
+                                            <a href="http://www.arbraskaduchesnay.com/" target="_blank">
+                                                http://www.arbraskaduchesnay.com/
+                                            </a>
+                                        </p>
+                                    </span>
+                                    <span id="shopping1Div" style="display: none">
+                                        <h2>Shopping</h2>
+                                        <p>
+                                            <b>Date :</b>
+                                            Thursday, September 19, 2013
+                                            <br/>
+                                            <b>Time :</b>
+                                            13:30 - 16:30
+                                            <br/>
+                                            <b>Venue :</b>
+                                            Arbraska Duchesnay
+                                            <br/>
+                                            <b>Price :</b>
+                                            Free
+                                        </p>
+                                        <p>
+                                            <img src="{programRes.img_excursion_1.getSafeUri}"
+                                                 alt="High-Wire and Zip-Line adventure"/>
+                                        </p>
+                                        <p>
+                                            You want to go shopping? Hop on a daily bus ride that will get you to the biggest
+                                            shopping mall in Quebec city where tons of different boutiques and shops will surely
+                                            satisfy your need of a nice souvenir.
+                                        </p>
+                                        <p>
+                                            <a href="http://www.laurierquebec.com/" target="_blank">
+                                                http://www.laurierquebec.com/
+                                            </a>
+                                        </p>
+                                    </span>
+                                    <span id="tours1Div" style="display: none">
+                                        <h2>High-Wire and Zip-Line adventure3</h2>
+                                        <p>
+                                            <b>Date :</b>
+                                            Thursday, September 19, 2013
+                                            <br/>
+                                            <b>Time :</b>
+                                            13:30 - 16:30
+                                            <br/>
+                                            <b>Venue :</b>
+                                            Arbraska Duchesnay
+                                            <br/>
+                                            <b>Price :</b>
+                                            $40.00
+                                        </p>
+                                        <p>
+                                            <img src="{programRes.img_excursion_1.getSafeUri}"
+                                                 alt="High-Wire and Zip-Line adventure"/>
+                                        </p>
+                                        <p>
+                                            Want a real challenge? The Arbre en arbre activity has just the one for you!
+                                            In
+                                            the
+                                            heart
+                                            of the Jacques Cartier river’s park, you will stroll from one tree to
+                                            another on
+                                            courses
+                                            ranging from easy to very hard. Register and test your limits. Do not
+                                            register
+                                            if
+                                            you’ve
+                                            experienced vertigo in the past.
+                                        </p>
+                                        <p>
+                                            <a href="http://www.arbraskaduchesnay.com/" target="_blank">
+                                                http://www.arbraskaduchesnay.com/
+                                            </a>
+                                        </p>
+                                    </span>
+                                    <span id="beer1Div" style="display: none">
+                                        <h2>High-Wire and Zip-Line adventure4</h2>
+                                        <p>
+                                            <b>Date :</b>
+                                            Thursday, September 19, 2013
+                                            <br/>
+                                            <b>Time :</b>
+                                            13:30 - 16:30
+                                            <br/>
+                                            <b>Venue :</b>
+                                            Arbraska Duchesnay
+                                            <br/>
+                                            <b>Price :</b>
+                                            $40.00
+                                        </p>
+                                        <p>
+                                            <img src="{programRes.img_excursion_1.getSafeUri}"
+                                                 alt="High-Wire and Zip-Line adventure"/>
+                                        </p>
+                                        <p>
+                                            Want a real challenge? The Arbre en arbre activity has just the one for you!
+                                            In
+                                            the
+                                            heart
+                                            of the Jacques Cartier river’s park, you will stroll from one tree to
+                                            another on
+                                            courses
+                                            ranging from easy to very hard. Register and test your limits. Do not
+                                            register
+                                            if
+                                            you’ve
+                                            experienced vertigo in the past.
+                                        </p>
+                                        <p>
+                                            <a href="http://www.arbraskaduchesnay.com/" target="_blank">
+                                                http://www.arbraskaduchesnay.com/
+                                            </a>
+                                        </p>
+                                    </span>
+                                </span>
+                                <span class="{programRes.style.excursions}">
+                                    <b>Other excursions :</b>
+                                    <a id="cruise1" class="{programRes.style.excursionsActive}">•</a>
+                                    <a id="shopping1">◦</a>
+                                    <a id="tours1">◦</a>
+                                    <a id="beer1">◦</a>
+                                </span>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1700} {programRes.style.h100} {programRes.style.w1} {programRes.style.cYellow}">
@@ -284,17 +696,61 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Governor's VIP Reception (JCI Canada)</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Thursday, September 19, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    17:00 - 18:00
+                                    <br/>
+                                    <b>Venue :</b>
+                                    National Assembly of Quebec
+                                    <br/>
+                                    <b>Room :</b>
+                                    Le Parlementaire Restaurant
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1800} {programRes.style.h500} {programRes.style.w1} {programRes.style.cYellow}">
                             <div>
-                                <h2>Awards Ceremonies</h2>
+                                <h2>Awards Night</h2>
                                 <p>18:00 - 23:00</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Awards Night</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Thursday, September 19, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    18:00 - 23:00
+                                    <br/>
+                                    <b>Venue :</b>
+                                    National Assembly of Quebec
+                                    <br/>
+                                    <b>Room :</b>
+                                    Le Parlementaire Restaurant
+                                </p>
+                                <p>
+                                    <img src="{programRes.img_awardNight_1.getSafeUri}"
+                                         alt="Le Parlementaire Restaurant" class="{programRes.style.half}"/>
+                                    <img src="{programRes.img_awardNight_2.getSafeUri}"
+                                         alt="Le Parlementaire Restaurant" class="{programRes.style.half}"/>
+                                </p>
+                                <p>Come enjoy with us a special evening for the JCI awards night on Thursday September
+                                    19, 2013 at Le Parlementaire. Located at National assembly, The parliament building
+                                    is imposing with its four wings forming a square roughly 100m on each side. The
+                                    eloquent architecture and interior decoration offer a veritable fresco of Québec
+                                    history. Witness to parliamentary social life, host of numerous State Dinners and
+                                    formal receptions and venue par excellence for Québec products, Le Parlementaire is
+                                    unique among the region’s restaurants.
+                                </p>
+                                <p>The JCI Quebec team is awaiting for this formal evening in a unique setting.
+                                </p>
+                                <p>Le Parlementaire, the best kept secret of Quebec City!
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t2300} {programRes.style.h400} {programRes.style.w1} {programRes.style.cPurple}">
@@ -304,11 +760,24 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Hospitality Suite hosted by Contest Winner!</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Thursday, September 19, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    From 23:00
+                                    <br/>
+                                    <b>Venue :</b>
+                                    To be determined
+                                    <br/>
+                                    <b>Room :</b>
+                                    To be determined
+                                </p>
                             </div>
                         </div>
-                    </div>
-                    <div class="item {programRes.style.carouselInnerDiv}">
+                    </g:HTMLPanel>
+                    <g:HTMLPanel styleName="item {programRes.style.carouselInnerDiv}">
                         <ul class="{programRes.style.rooms} clearfix">
                             <li>Room AB</li>
                             <li>Room C</li>
@@ -409,7 +878,7 @@
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1}">
                             <div>
-                                <h2>Tradeshow</h2>
+                                <h2>Trade Show</h2>
                                 <p>9:00 - 10:15</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
@@ -429,7 +898,7 @@
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1}">
                             <div>
-                                <h2>Tradeshow</h2>
+                                <h2>Trade Show</h2>
                                 <p>10:30 - 11:45</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
@@ -439,7 +908,7 @@
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1375} {programRes.style.h125} {programRes.style.w1}">
                             <div>
-                                <h2>Tradeshow</h2>
+                                <h2>Trade Show</h2>
                                 <p>13:45 - 15:00</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
@@ -459,7 +928,7 @@
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1525} {programRes.style.h125} {programRes.style.w1}">
                             <div>
-                                <h2>Tradeshow</h2>
+                                <h2>Trade Show</h2>
                                 <p>15:15 - 16:30</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
@@ -472,9 +941,173 @@
                                 <h2>Excursion</h2>
                                 <p>13:30 - 16:30</p>
                             </div>
-                            <div class="{programRes.style.tooltip}">
+                            <div ui:field="excursion2" class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <span ui:field="excursionDiv2">
+                                    <span id="cruise2Div">
+                                        <h2>High-Wire and Zip-Line adventure</h2>
+                                        <p>
+                                            <b>Date :</b>
+                                            Thursday, September 19, 2013
+                                            <br/>
+                                            <b>Time :</b>
+                                            13:30 - 16:30
+                                            <br/>
+                                            <b>Venue :</b>
+                                            Arbraska Duchesnay
+                                            <br/>
+                                            <b>Price :</b>
+                                            $40.00
+                                        </p>
+                                        <p>
+                                            <img src="{programRes.img_excursion_1.getSafeUri}"
+                                                 alt="High-Wire and Zip-Line adventure"/>
+                                        </p>
+                                        <p>
+                                            Want a real challenge? The Arbre en arbre activity has just the one for you!
+                                            In
+                                            the
+                                            heart
+                                            of the Jacques Cartier river’s park, you will stroll from one tree to
+                                            another on
+                                            courses
+                                            ranging from easy to very hard. Register and test your limits. Do not
+                                            register
+                                            if
+                                            you’ve
+                                            experienced vertigo in the past.
+                                        </p>
+                                        <p>
+                                            <a href="http://www.arbraskaduchesnay.com/" target="_blank">
+                                                http://www.arbraskaduchesnay.com/
+                                            </a>
+                                        </p>
+                                    </span>
+                                    <span id="shopping2Div" style="display: none">
+                                        <h2>High-Wire and Zip-Line adventure2</h2>
+                                        <p>
+                                            <b>Date :</b>
+                                            Thursday, September 19, 2013
+                                            <br/>
+                                            <b>Time :</b>
+                                            13:30 - 16:30
+                                            <br/>
+                                            <b>Venue :</b>
+                                            Arbraska Duchesnay
+                                            <br/>
+                                            <b>Price :</b>
+                                            $40.00
+                                        </p>
+                                        <p>
+                                            <img src="{programRes.img_excursion_1.getSafeUri}"
+                                                 alt="High-Wire and Zip-Line adventure"/>
+                                        </p>
+                                        <p>
+                                            Want a real challenge? The Arbre en arbre activity has just the one for you!
+                                            In
+                                            the
+                                            heart
+                                            of the Jacques Cartier river’s park, you will stroll from one tree to
+                                            another on
+                                            courses
+                                            ranging from easy to very hard. Register and test your limits. Do not
+                                            register
+                                            if
+                                            you’ve
+                                            experienced vertigo in the past.
+                                        </p>
+                                        <p>
+                                            <a href="http://www.arbraskaduchesnay.com/" target="_blank">
+                                                http://www.arbraskaduchesnay.com/
+                                            </a>
+                                        </p>
+                                    </span>
+                                    <span id="tours2Div" style="display: none">
+                                        <h2>High-Wire and Zip-Line adventure3</h2>
+                                        <p>
+                                            <b>Date :</b>
+                                            Thursday, September 19, 2013
+                                            <br/>
+                                            <b>Time :</b>
+                                            13:30 - 16:30
+                                            <br/>
+                                            <b>Venue :</b>
+                                            Arbraska Duchesnay
+                                            <br/>
+                                            <b>Price :</b>
+                                            $40.00
+                                        </p>
+                                        <p>
+                                            <img src="{programRes.img_excursion_1.getSafeUri}"
+                                                 alt="High-Wire and Zip-Line adventure"/>
+                                        </p>
+                                        <p>
+                                            Want a real challenge? The Arbre en arbre activity has just the one for you!
+                                            In
+                                            the
+                                            heart
+                                            of the Jacques Cartier river’s park, you will stroll from one tree to
+                                            another on
+                                            courses
+                                            ranging from easy to very hard. Register and test your limits. Do not
+                                            register
+                                            if
+                                            you’ve
+                                            experienced vertigo in the past.
+                                        </p>
+                                        <p>
+                                            <a href="http://www.arbraskaduchesnay.com/" target="_blank">
+                                                http://www.arbraskaduchesnay.com/
+                                            </a>
+                                        </p>
+                                    </span>
+                                    <span id="karting2Div" style="display: none">
+                                        <h2>High-Wire and Zip-Line adventure4</h2>
+                                        <p>
+                                            <b>Date :</b>
+                                            Thursday, September 19, 2013
+                                            <br/>
+                                            <b>Time :</b>
+                                            13:30 - 16:30
+                                            <br/>
+                                            <b>Venue :</b>
+                                            Arbraska Duchesnay
+                                            <br/>
+                                            <b>Price :</b>
+                                            $40.00
+                                        </p>
+                                        <p>
+                                            <img src="{programRes.img_excursion_1.getSafeUri}"
+                                                 alt="High-Wire and Zip-Line adventure"/>
+                                        </p>
+                                        <p>
+                                            Want a real challenge? The Arbre en arbre activity has just the one for you!
+                                            In
+                                            the
+                                            heart
+                                            of the Jacques Cartier river’s park, you will stroll from one tree to
+                                            another on
+                                            courses
+                                            ranging from easy to very hard. Register and test your limits. Do not
+                                            register
+                                            if
+                                            you’ve
+                                            experienced vertigo in the past.
+                                        </p>
+                                        <p>
+                                            <a href="http://www.arbraskaduchesnay.com/" target="_blank">
+                                                http://www.arbraskaduchesnay.com/
+                                            </a>
+                                        </p>
+                                    </span>
+                                </span>
+                                <span class="{programRes.style.excursions}">
+                                    <b>Other excursions :</b>
+                                    <a id="cruise2" class="{programRes.style.excursionsActive}">•</a>
+                                    <a id="shopping2">◦</a>
+                                    <a id="tours2">◦</a>
+                                    <a id="karting2">◦</a>
+                                </span>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1800} {programRes.style.h250} {programRes.style.w1} {programRes.style.cYellow}">
@@ -507,8 +1140,8 @@
                                 <p>hello sp</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="item {programRes.style.carouselInnerDiv}">
+                    </g:HTMLPanel>
+                    <g:HTMLPanel styleName="item {programRes.style.carouselInnerDiv}">
                         <ul class="{programRes.style.rooms} clearfix">
                             <li>Room AB</li>
                             <li>Room C</li>
@@ -629,7 +1262,7 @@
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1}">
                             <div>
-                                <h2>Tradeshow</h2>
+                                <h2>Trade Show</h2>
                                 <p>9:00 - 10:15</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
@@ -649,7 +1282,7 @@
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1}">
                             <div>
-                                <h2>Tradeshow</h2>
+                                <h2>Trade Show</h2>
                                 <p>10:30 - 11:45</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
@@ -662,9 +1295,213 @@
                                 <h2>Excursion</h2>
                                 <p>13:30 - 16:30</p>
                             </div>
-                            <div class="{programRes.style.tooltip}">
+                            <div ui:field="excursion3" class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <span ui:field="excursionDiv3">
+                                    <span id="cruise3Div">
+                                        <h2>High-Wire and Zip-Line adventure</h2>
+                                        <p>
+                                            <b>Date :</b>
+                                            Thursday, September 19, 2013
+                                            <br/>
+                                            <b>Time :</b>
+                                            13:30 - 16:30
+                                            <br/>
+                                            <b>Venue :</b>
+                                            Arbraska Duchesnay
+                                            <br/>
+                                            <b>Price :</b>
+                                            $40.00
+                                        </p>
+                                        <p>
+                                            <img src="{programRes.img_excursion_1.getSafeUri}"
+                                                 alt="High-Wire and Zip-Line adventure"/>
+                                        </p>
+                                        <p>
+                                            Want a real challenge? The Arbre en arbre activity has just the one for you!
+                                            In
+                                            the
+                                            heart
+                                            of the Jacques Cartier river’s park, you will stroll from one tree to
+                                            another on
+                                            courses
+                                            ranging from easy to very hard. Register and test your limits. Do not
+                                            register
+                                            if
+                                            you’ve
+                                            experienced vertigo in the past.
+                                        </p>
+                                        <p>
+                                            <a href="http://www.arbraskaduchesnay.com/" target="_blank">
+                                                http://www.arbraskaduchesnay.com/
+                                            </a>
+                                        </p>
+                                    </span>
+                                    <span id="shopping3Div" style="display: none">
+                                        <h2>High-Wire and Zip-Line adventure2</h2>
+                                        <p>
+                                            <b>Date :</b>
+                                            Thursday, September 19, 2013
+                                            <br/>
+                                            <b>Time :</b>
+                                            13:30 - 16:30
+                                            <br/>
+                                            <b>Venue :</b>
+                                            Arbraska Duchesnay
+                                            <br/>
+                                            <b>Price :</b>
+                                            $40.00
+                                        </p>
+                                        <p>
+                                            <img src="{programRes.img_excursion_1.getSafeUri}"
+                                                 alt="High-Wire and Zip-Line adventure"/>
+                                        </p>
+                                        <p>
+                                            Want a real challenge? The Arbre en arbre activity has just the one for you!
+                                            In
+                                            the
+                                            heart
+                                            of the Jacques Cartier river’s park, you will stroll from one tree to
+                                            another on
+                                            courses
+                                            ranging from easy to very hard. Register and test your limits. Do not
+                                            register
+                                            if
+                                            you’ve
+                                            experienced vertigo in the past.
+                                        </p>
+                                        <p>
+                                            <a href="http://www.arbraskaduchesnay.com/" target="_blank">
+                                                http://www.arbraskaduchesnay.com/
+                                            </a>
+                                        </p>
+                                    </span>
+                                    <span id="karting3Div" style="display: none">
+                                        <h2>High-Wire and Zip-Line adventure3</h2>
+                                        <p>
+                                            <b>Date :</b>
+                                            Thursday, September 19, 2013
+                                            <br/>
+                                            <b>Time :</b>
+                                            13:30 - 16:30
+                                            <br/>
+                                            <b>Venue :</b>
+                                            Arbraska Duchesnay
+                                            <br/>
+                                            <b>Price :</b>
+                                            $40.00
+                                        </p>
+                                        <p>
+                                            <img src="{programRes.img_excursion_1.getSafeUri}"
+                                                 alt="High-Wire and Zip-Line adventure"/>
+                                        </p>
+                                        <p>
+                                            Want a real challenge? The Arbre en arbre activity has just the one for you!
+                                            In
+                                            the
+                                            heart
+                                            of the Jacques Cartier river’s park, you will stroll from one tree to
+                                            another on
+                                            courses
+                                            ranging from easy to very hard. Register and test your limits. Do not
+                                            register
+                                            if
+                                            you’ve
+                                            experienced vertigo in the past.
+                                        </p>
+                                        <p>
+                                            <a href="http://www.arbraskaduchesnay.com/" target="_blank">
+                                                http://www.arbraskaduchesnay.com/
+                                            </a>
+                                        </p>
+                                    </span>
+                                    <span id="arbraska3Div" style="display: none">
+                                        <h2>High-Wire and Zip-Line adventure4</h2>
+                                        <p>
+                                            <b>Date :</b>
+                                            Thursday, September 19, 2013
+                                            <br/>
+                                            <b>Time :</b>
+                                            13:30 - 16:30
+                                            <br/>
+                                            <b>Venue :</b>
+                                            Arbraska Duchesnay
+                                            <br/>
+                                            <b>Price :</b>
+                                            $40.00
+                                        </p>
+                                        <p>
+                                            <img src="{programRes.img_excursion_1.getSafeUri}"
+                                                 alt="High-Wire and Zip-Line adventure"/>
+                                        </p>
+                                        <p>
+                                            Want a real challenge? The Arbre en arbre activity has just the one for you!
+                                            In
+                                            the
+                                            heart
+                                            of the Jacques Cartier river’s park, you will stroll from one tree to
+                                            another on
+                                            courses
+                                            ranging from easy to very hard. Register and test your limits. Do not
+                                            register
+                                            if
+                                            you’ve
+                                            experienced vertigo in the past.
+                                        </p>
+                                        <p>
+                                            <a href="http://www.arbraskaduchesnay.com/" target="_blank">
+                                                http://www.arbraskaduchesnay.com/
+                                            </a>
+                                        </p>
+                                    </span>
+                                    <span id="ferrari3Div" style="display: none">
+                                        <h2>High-Wire and Zip-Line adventure5</h2>
+                                        <p>
+                                            <b>Date :</b>
+                                            Thursday, September 19, 2013
+                                            <br/>
+                                            <b>Time :</b>
+                                            13:30 - 16:30
+                                            <br/>
+                                            <b>Venue :</b>
+                                            Arbraska Duchesnay
+                                            <br/>
+                                            <b>Price :</b>
+                                            $40.00
+                                        </p>
+                                        <p>
+                                            <img src="{programRes.img_excursion_1.getSafeUri}"
+                                                 alt="High-Wire and Zip-Line adventure"/>
+                                        </p>
+                                        <p>
+                                            Want a real challenge? The Arbre en arbre activity has just the one for you!
+                                            In
+                                            the
+                                            heart
+                                            of the Jacques Cartier river’s park, you will stroll from one tree to
+                                            another on
+                                            courses
+                                            ranging from easy to very hard. Register and test your limits. Do not
+                                            register
+                                            if
+                                            you’ve
+                                            experienced vertigo in the past.
+                                        </p>
+                                        <p>
+                                            <a href="http://www.arbraskaduchesnay.com/" target="_blank">
+                                                http://www.arbraskaduchesnay.com/
+                                            </a>
+                                        </p>
+                                    </span>
+                                </span>
+                                <span class="{programRes.style.excursions}">
+                                    <b>Other excursions :</b>
+                                    <a id="cruise3" class="{programRes.style.excursionsActive}">•</a>
+                                    <a id="shopping3">◦</a>
+                                    <a id="karting3">◦</a>
+                                    <a id="arbraska3">◦</a>
+                                    <a id="ferrari3">◦</a>
+                                </span>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t2300} {programRes.style.h400} {programRes.style.w1} {programRes.style.cPurple}">
@@ -677,7 +1514,7 @@
                                 <p>hello sp</p>
                             </div>
                         </div>
-                    </div>
+                    </g:HTMLPanel>
                 </div>
             </div>
         </div>
