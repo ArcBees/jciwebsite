@@ -34,13 +34,13 @@ import com.jci.client.place.NameTokens;
 import javax.inject.Inject;
 
 public class ProgramPagePresenter extends Presenter<ProgramPagePresenter.MyView, ProgramPagePresenter.MyProxy> {
-
     private HandlerRegistration handlerRegistration;
 
     public interface MyView extends View {
         void pauseCarousel();
 
         void untoggleTooltipClick(Element e);
+
         void untoggleTooltip();
     }
 
@@ -60,7 +60,6 @@ public class ProgramPagePresenter extends Presenter<ProgramPagePresenter.MyView,
     protected void onReveal() {
         super.onReveal();
 
-
         handlerRegistration = RootPanel.get().addDomHandler(new KeyDownHandler() {
              @Override
              public void onKeyDown(KeyDownEvent keyDownEvent) {
@@ -69,7 +68,6 @@ public class ProgramPagePresenter extends Presenter<ProgramPagePresenter.MyView,
                  }
              }
          }, KeyDownEvent.getType());
-
     }
 
     @Override

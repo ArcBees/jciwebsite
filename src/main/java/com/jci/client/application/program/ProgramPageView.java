@@ -115,6 +115,7 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
                 getEvent().stopPropagation();
             }
         });
+
         $("a", divButtons).click(new Function() {
             @Override
             public void f(Element e) {
@@ -131,7 +132,6 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
                 untoggleTooltipClick(e);
             }
         });
-
 
         $("." + eventStyleNameProgram, divCalendar).click(new Function() {
             @Override
