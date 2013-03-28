@@ -33,7 +33,6 @@ import static com.google.gwt.query.client.GQuery.$;
 
 public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.MyView, AttachEvent.Handler {
     interface Binder extends UiBinder<Widget, ProgramPageView> {
-
     }
 
     @UiField
@@ -101,6 +100,7 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
                 getEvent().stopPropagation();
             }
         });
+
         $("a", divButtons).click(new Function() {
             @Override
             public void f(Element e) {
@@ -117,7 +117,6 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
                 untoggleTooltipClick(e);
             }
         });
-
 
         $("." + eventStyleNameProgram, divCalendar).click(new Function() {
             @Override
