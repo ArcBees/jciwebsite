@@ -148,8 +148,8 @@
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
-    background: rgba(212, 235, 246, 0.70);
-    border: 1px solid rgba(192, 228, 245, 0.45);
+    background: rgba(215, 230, 245, 0.69);
+    border: 1px solid rgba(215, 230, 245, 0.44);
     -webkit-box-shadow: 0px 2px 10px -1px rgba(50, 50, 50, 0.45);
     -moz-box-shadow: 0px 2px 10px -1px rgba(50, 50, 50, 0.45);
     box-shadow: 0px 2px 10px -1px rgba(50, 50, 50, 0.45);
@@ -162,8 +162,86 @@
     transition: background-color .4s ease;
 }
 
+.visioProgram .event.active > div {
+    position: relative;
+    top: 2px;
+    -moz-box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.30);
+    -webkit-box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.30);
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.30);
+}
+
 .visioProgram .event:hover > div {
-    background: rgba(86, 219, 150, 0.7);
+    background: rgba(164, 177, 189, 0.66);
+}
+
+.visioProgram .event.active > div {
+    background: rgba(164, 177, 189, 1);
+}
+
+    /*color*/
+.visioProgram .event.cBlue > div {
+    background: rgba(181, 224, 245, 0.61);
+    border: 1px solid rgba(181, 224, 245, 0.41);
+}
+
+.visioProgram .event.cBlue:hover > div {
+    background: rgba(95, 176, 217, 0.64);
+}
+
+.visioProgram .event.cBlue.active > div {
+    background: rgba(95, 176, 217, 1);
+}
+
+.visioProgram .event.cGreen > div {
+    background: rgba(169, 245, 213, 0.62);
+    border: 1px solid rgba(169, 245, 213, 0.42);
+}
+
+.visioProgram .event.cGreen:hover > div {
+    background: rgba(102, 217, 169, 0.66);
+}
+
+.visioProgram .event.cGreen.active > div {
+    background: rgba(102, 217, 169, 1);
+}
+
+.visioProgram .event.cRed > div {
+    background: rgba(245, 175, 169, 0.62);
+    border: 1px solid rgba(245, 175, 169, 0.42);
+}
+
+.visioProgram .event.cRed:hover > div {
+    background: rgba(217, 125, 117, 0.65);
+}
+
+.visioProgram .event.cRed.active > div {
+    background: rgba(217, 125, 117, 1);
+}
+
+.visioProgram .event.cYellow > div {
+    background: rgba(245, 232, 169, 0.61);
+    border: 1px solid rgba(245, 232, 169, 0.41);
+}
+
+.visioProgram .event.cYellow:hover > div {
+    background: rgba(217, 200, 117, 0.64);
+}
+
+.visioProgram .event.cYellow.active > div {
+    background: rgba(217, 200, 117, 1);
+}
+
+.visioProgram .event.cPurple > div {
+    background: rgba(182, 169, 245, 0.60);
+    border: 1px solid rgba(182, 169, 245, 0.40);
+}
+
+.visioProgram .event.cPurple:hover > div {
+    background: rgba(134, 117, 217, 0.63);
+}
+
+.visioProgram .event.cPurple.active > div {
+    background: rgba(134, 117, 217, 1);
 }
 
     /*left*/
@@ -777,4 +855,109 @@
 
 .visioProgram .h875 {
     height: h875;
+}
+
+    /*tooltip*/
+.visioProgram .event > div.tooltip {
+    cursor: auto;
+    position: absolute;
+    top: 5px;
+    z-index: 50;
+    height: auto;
+    min-height: 100px;
+    width: w3;
+    -webkit-box-shadow: 0px 2px 10px -1px rgba(50, 50, 50, 0.45);
+    -moz-box-shadow: 0px 2px 10px -1px rgba(50, 50, 50, 0.45);
+    box-shadow: 0px 2px 10px -1px rgba(50, 50, 50, 0.45);
+    display: none;
+    overflow: visible;
+}
+
+.visioProgram .event > div.tooltip.tooltipActive {
+    display: block;
+}
+
+    /*tooltipPositioning*/
+.visioProgram .event.h025 > div.tooltip {
+    top: -6px;
+}
+
+@eval uneColL com.jci.client.resource.program.ProgramResource.COL_WIDTH*1+5+"px";
+@eval uneColR com.jci.client.resource.program.ProgramResource.COL_WIDTH*1+3+"px";
+@eval deuxColL com.jci.client.resource.program.ProgramResource.COL_WIDTH*2+5+"px";
+@eval deuxColR com.jci.client.resource.program.ProgramResource.COL_WIDTH*2+3+"px";
+.l1 .tooltip, .l2 .tooltip, .l3 .tooltip {
+    left: uneColL;
+}
+
+.l4 .tooltip, .l5 .tooltip, .l6 .tooltip {
+    right: uneColR;
+}
+
+.l1.w2 .tooltip, .l2.w2 .tooltip, .l3.w2 .tooltip {
+    left: deuxColL;
+}
+
+.l4.w2 .tooltip, .l5.w2 .tooltip, .l6.w2 .tooltip {
+    right: deuxColR;
+}
+
+    /*tooltipArrow*/
+.tooltip .arrow {
+    position: absolute;
+    z-index: 60;
+    height: 17px;
+    width: 11px;
+    display: block;
+    top: 10px;
+}
+
+@sprite .l1 .tooltip .arrow, .l2 .tooltip .arrow, .l3 .tooltip .arrow {
+    left: -11px;
+    gwt-image: "arrGreyRevert";
+}
+
+@sprite .l4 .tooltip .arrow, .l5 .tooltip .arrow, .l6 .tooltip .arrow {
+    right: -11px;
+    gwt-image: "arrGrey";
+}
+
+@sprite .cBlue.l1 .tooltip .arrow, .cBlue.l2 .tooltip .arrow, .cBlue.l3 .tooltip .arrow {
+    gwt-image: "arrBlueRevert";
+}
+
+@sprite .cBlue.l4 .tooltip .arrow, .cBlue.l5 .tooltip .arrow, .cBlue.l6 .tooltip .arrow {
+    gwt-image: "arrBlue";
+}
+
+@sprite .cGreen.l1 .tooltip .arrow, .cGreen.l2 .tooltip .arrow, .cGreen.l3 .tooltip .arrow {
+    gwt-image: "arrGreenRevert";
+}
+
+@sprite .cGreen.l4 .tooltip .arrow, .cGreen.l5 .tooltip .arrow, .cGreen.l6 .tooltip .arrow {
+    gwt-image: "arrGreen";
+}
+
+@sprite .cYellow.l1 .tooltip .arrow, .cYellow.l2 .tooltip .arrow, .cYellow.l3 .tooltip .arrow {
+    gwt-image: "arrYellowRevert";
+}
+
+@sprite .cYellow.l4 .tooltip .arrow, .cYellow.l5 .tooltip .arrow, .cYellow.l6 .tooltip .arrow {
+    gwt-image: "arrYellow";
+}
+
+@sprite .cRed.l1 .tooltip .arrow, .cRed.l2 .tooltip .arrow, .cRed.l3 .tooltip .arrow {
+    gwt-image: "arrRedRevert";
+}
+
+@sprite .cRed.l4 .tooltip .arrow, .cRed.l5 .tooltip .arrow, .cRed.l6 .tooltip .arrow {
+    gwt-image: "arrRed";
+}
+
+@sprite .cPurple.l1 .tooltip .arrow, .cPurple.l2 .tooltip .arrow, .cPurple.l3 .tooltip .arrow {
+    gwt-image: "arrPurpleRevert";
+}
+
+@sprite .cPurple.l4 .tooltip .arrow, .cPurple.l5 .tooltip .arrow, .cPurple.l6 .tooltip .arrow {
+    gwt-image: "arrPurple";
 }

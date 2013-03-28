@@ -19,6 +19,7 @@ package com.jci.client.application.about;
 import com.arcbees.core.client.mvp.ViewImpl;
 import com.google.gwt.dom.client.AnchorElement;
 import com.google.gwt.dom.client.DivElement;
+import com.google.gwt.event.logical.shared.AttachEvent;
 import com.google.gwt.query.client.Function;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
@@ -28,7 +29,7 @@ import com.jci.client.resource.CommonResource;
 
 import static com.google.gwt.query.client.GQuery.$;
 
-public class AboutPageView extends ViewImpl implements AboutPagePresenter.MyView {
+public class AboutPageView extends ViewImpl implements AboutPagePresenter.MyView, AttachEvent.Handler {
     interface Binder extends UiBinder<Widget, AboutPageView> {
     }
 
@@ -50,6 +51,17 @@ public class AboutPageView extends ViewImpl implements AboutPagePresenter.MyView
 
         activeStyleName = commonResource.style().active();
 
+        asWidget().addAttachHandler(this);
+    }
+
+    @Override
+    public void onAttachOrDetach(AttachEvent attachEvent) {
+        if (attachEvent.isAttached()) {
+            bindGwtQuery();
+        }
+    }
+
+    private void bindGwtQuery() {
         $(buttonCanada).click(new Function() {
             @Override
             public void f() {
