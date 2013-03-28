@@ -24,7 +24,7 @@ public interface ProgramResource extends ClientBundle {
     public static int COL_WIDTH = 145;
     public static int COL_HEIGTH = 80;
     public static int BEFORE_LEFT = 0;
-    public static int BEFORE_TOP= 30;
+    public static int BEFORE_TOP = 30;
 
     public interface Style extends CssResource {
         String hoursTable();
@@ -128,10 +128,58 @@ public interface ProgramResource extends ClientBundle {
         String t750();
 
         String h325();
+
+        String cBlue();
+
+        String cRed();
+
+        String cGreen();
+
+        String cYellow();
+
+        String cPurple();
+
+        String t1025();
+
+        String t1500();
+
+        String t1575();
+
+        String active();
+
+        String tooltip();
+
+        String tooltipActive();
+
+        String arrow();
     }
 
     @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.Both)
     ImageResource tuile();
+
+    ImageResource arrGrey();
+
+    ImageResource arrGreyRevert();
+
+    ImageResource arrBlue();
+
+    ImageResource arrBlueRevert();
+
+    ImageResource arrYellow();
+
+    ImageResource arrYellowRevert();
+
+    ImageResource arrRed();
+
+    ImageResource arrRedRevert();
+
+    ImageResource arrGreen();
+
+    ImageResource arrGreenRevert();
+
+    ImageResource arrPurple();
+
+    ImageResource arrPurpleRevert();
 
     @CssResource.NotStrict
     Style style();

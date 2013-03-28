@@ -47,7 +47,7 @@
                     <li class="{programRes.style.odd}">2h00</li>
                     <li>3h00</li>
                 </ul>
-                <div class="carousel-inner {programRes.style.carouselInner}">
+                <div ui:field="divCalendar" class="carousel-inner {programRes.style.carouselInner}">
                     <div class="item active {programRes.style.carouselInnerDiv}">
                         <ul class="{programRes.style.rooms} clearfix">
                             <li>Room A</li>
@@ -62,17 +62,29 @@
                                 <h2>Registration</h2>
                                 <p>14:00 - 18:00</p>
                             </div>
+                            <div class="{programRes.style.tooltip} hello">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1800} {programRes.style.h500} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1800} {programRes.style.h500} {programRes.style.w1} {programRes.style.cYellow}">
                             <div>
                                 <h2>Opening Ceremonies</h2>
                                 <p>18:00 - 23:00</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t2300} {programRes.style.h400} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t2300} {programRes.style.h400} {programRes.style.w1} {programRes.style.cPurple}">
                             <div>
                                 <h2>Hospitality suite</h2>
                                 <p>From 23:00</p>
+                            </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
                             </div>
                         </div>
                     </div>
@@ -85,70 +97,124 @@
                             <li>Foyer</li>
                             <li>Others</li>
                         </ul>
-                        <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t800} {programRes.style.h100} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t800} {programRes.style.h100} {programRes.style.w1} {programRes.style.cRed}">
                             <div>
                                 <h2>Breakfast</h2>
                                 <p>8:00 - 9:00</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t900} {programRes.style.h275} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t900} {programRes.style.h275} {programRes.style.w1} {programRes.style.cBlue}">
                             <div>
                                 <h2>General Assembly</h2>
                                 <p>9:00 - 11:45</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t1375} {programRes.style.h275} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t1375} {programRes.style.h275} {programRes.style.w1} {programRes.style.cBlue}">
                             <div>
                                 <h2>General Assembly</h2>
                                 <p>13:45 - 16:30</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
                                 <h2>Training</h2>
                                 <p>9:00 - 10:15</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
                                 <h2>Training</h2>
                                 <p>10:30 - 11:45</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t1375} {programRes.style.h125} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t1375} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
                                 <h2>Training</h2>
                                 <p>13:45 - 15:00</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t1525} {programRes.style.h125} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t1525} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
                                 <h2>Training</h2>
                                 <p>15:15 - 16:30</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
                                 <h2>Training</h2>
                                 <p>9:00 - 10:15</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
                                 <h2>Training</h2>
                                 <p>10:30 - 11:45</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t1375} {programRes.style.h125} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t1375} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
                                 <h2>Training</h2>
                                 <p>13:45 - 15:00</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t1525} {programRes.style.h125} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t1525} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
                                 <h2>Training</h2>
                                 <p>15:15 - 16:30</p>
+                            </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1025} {programRes.style.h025} {programRes.style.w1} {programRes.style.cRed}">
+                            <div>
+                                <h2>Pause</h2>
+                                <p>10:15 - 10:30</p>
+                            </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1}">
@@ -156,41 +222,89 @@
                                 <h2>Tradeshow</h2>
                                 <p>10:30 - 11:45</p>
                             </div>
-                        </div>
-                        <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1375} {programRes.style.h275} {programRes.style.w1}">
-                            <div>
-                                <h2>Tradeshow</h2>
-                                <p>13:45 - 16:30</p>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
                             </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1200} {programRes.style.h150} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1375} {programRes.style.h125} {programRes.style.w1}">
+                            <div>
+                                <h2>Tradeshow</h2>
+                                <p>13:45 - 15:00</p>
+                            </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1500} {programRes.style.h025} {programRes.style.w1} {programRes.style.cRed}">
+                            <div>
+                                <h2>Pause</h2>
+                                <p>15:00 - 15:15</p>
+                            </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1525} {programRes.style.h125} {programRes.style.w1}">
+                            <div>
+                                <h2>Tradeshow</h2>
+                                <p>15:15 - 16:30</p>
+                            </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1200} {programRes.style.h150} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
                                 <h2>Keynote speaker</h2>
                                 <p>12:00 - 13:30</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1350} {programRes.style.h300} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1350} {programRes.style.h300} {programRes.style.w1} {programRes.style.cPurple}">
                             <div>
                                 <h2>Excursion</h2>
                                 <p>13:30 - 16:30</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1700} {programRes.style.h100} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1700} {programRes.style.h100} {programRes.style.w1} {programRes.style.cYellow}">
                             <div>
                                 <h2>VIP Reception</h2>
                                 <p>17:00 - 18:00</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1800} {programRes.style.h500} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1800} {programRes.style.h500} {programRes.style.w1} {programRes.style.cYellow}">
                             <div>
                                 <h2>Awards Ceremonies</h2>
                                 <p>18:00 - 23:00</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t2300} {programRes.style.h400} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t2300} {programRes.style.h400} {programRes.style.w1} {programRes.style.cPurple}">
                             <div>
                                 <h2>Hospitality suite</h2>
                                 <p>From 23:00</p>
+                            </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
                             </div>
                         </div>
                     </div>
@@ -203,94 +317,194 @@
                             <li>Foyer</li>
                             <li>Others</li>
                         </ul>
-                        <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t800} {programRes.style.h100} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t800} {programRes.style.h100} {programRes.style.w1} {programRes.style.cRed}">
                             <div>
                                 <h2>Breakfast</h2>
                                 <p>8:00 - 9:00</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t1200} {programRes.style.h150} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t1200} {programRes.style.h150} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
                                 <h2>Keynote speaker</h2>
                                 <p>12:00 - 13:30</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t1375} {programRes.style.h125} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t1375} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
                                 <h2>Effective speaking</h2>
                                 <p>13:45 - 15:00</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t900} {programRes.style.h275} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t900} {programRes.style.h275} {programRes.style.w1} {programRes.style.cBlue}">
                             <div>
                                 <h2>General Assembly</h2>
                                 <p>9:00 - 11:45</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t1525} {programRes.style.h125} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t1525} {programRes.style.h125} {programRes.style.w1} {programRes.style.cBlue}">
                             <div>
                                 <h2>General Assembly</h2>
                                 <p>15:15 - 16:30</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
                                 <h2>Training</h2>
                                 <p>9:00 - 10:15</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
                                 <h2>Training</h2>
                                 <p>10:30 - 11:45</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
                                 <h2>Training</h2>
                                 <p>9:00 - 10:15</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
                                 <h2>Training</h2>
                                 <p>10:30 - 11:45</p>
                             </div>
-                        </div>
-                        <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t900} {programRes.style.h275} {programRes.style.w1}">
-                            <div>
-                                <h2>Tradeshow</h2>
-                                <p>9:00 - 11:45</p>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
                             </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1375} {programRes.style.h275} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1}">
                             <div>
                                 <h2>Tradeshow</h2>
-                                <p>13:45 - 16:30</p>
+                                <p>9:00 - 10:15</p>
+                            </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
                             </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1350} {programRes.style.h300} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1025} {programRes.style.h025} {programRes.style.w1} {programRes.style.cRed}">
+                            <div>
+                                <h2>Pause</h2>
+                                <p>10:15 - 10:30</p>
+                            </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1}">
+                            <div>
+                                <h2>Tradeshow</h2>
+                                <p>10:30 - 11:45</p>
+                            </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1375} {programRes.style.h125} {programRes.style.w1}">
+                            <div>
+                                <h2>Tradeshow</h2>
+                                <p>13:45 - 15:00</p>
+                            </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1500} {programRes.style.h025} {programRes.style.w1} {programRes.style.cRed}">
+                            <div>
+                                <h2>Pause</h2>
+                                <p>15:00 - 15:15</p>
+                            </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1525} {programRes.style.h125} {programRes.style.w1}">
+                            <div>
+                                <h2>Tradeshow</h2>
+                                <p>15:15 - 16:30</p>
+                            </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1350} {programRes.style.h300} {programRes.style.w1} {programRes.style.cPurple}">
                             <div>
                                 <h2>Excursion</h2>
                                 <p>13:30 - 16:30</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1800} {programRes.style.h250} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1800} {programRes.style.h250} {programRes.style.w1} {programRes.style.cYellow}">
                             <div>
                                 <h2>Theme Night</h2>
                                 <p>18:00 - 20:30</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t2050} {programRes.style.h250} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t2050} {programRes.style.h250} {programRes.style.w1} {programRes.style.cPurple}">
                             <div>
                                 <h2>Grande Allée Clubbing</h2>
                                 <p>20:30 - 23:00</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t2300} {programRes.style.h400} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t2300} {programRes.style.h400} {programRes.style.w1} {programRes.style.cPurple}">
                             <div>
                                 <h2>Hospitality suite</h2>
                                 <p>From 23:00</p>
+                            </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
                             </div>
                         </div>
                     </div>
@@ -303,94 +517,164 @@
                             <li>Room J</li>
                             <li>Others</li>
                         </ul>
-                        <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t800} {programRes.style.h100} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t800} {programRes.style.h100} {programRes.style.w1} {programRes.style.cRed}">
                             <div>
                                 <h2>Breakfast</h2>
                                 <p>8:00 - 9:00</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t1200} {programRes.style.h150} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t1200} {programRes.style.h150} {programRes.style.w1}  {programRes.style.cGreen}">
                             <div>
                                 <h2>Keynote speaker</h2>
                                 <p>12:00 - 13:30</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t1800} {programRes.style.h500} {programRes.style.w2}">
+                        <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t1800} {programRes.style.h500} {programRes.style.w2} {programRes.style.cYellow}">
                             <div>
                                 <h2>President's Gala</h2>
                                 <p>18:00 - 23:00</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t900} {programRes.style.h275} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t900} {programRes.style.h275} {programRes.style.w1} {programRes.style.cBlue}">
                             <div>
                                 <h2>General Assembly</h2>
                                 <p>9:00 - 11:45</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t1375} {programRes.style.h225} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t1375} {programRes.style.h225} {programRes.style.w1} {programRes.style.cBlue}">
                             <div>
                                 <h2>General Assembly</h2>
                                 <p>13:45 - 15:00</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
                                 <h2>Training</h2>
                                 <p>9:00 - 10:15</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
                                 <h2>Training</h2>
                                 <p>10:30 - 11:45</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
                                 <h2>Training</h2>
                                 <p>9:00 - 10:15</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
                                 <h2>Training</h2>
                                 <p>10:30 - 11:45</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t750} {programRes.style.h150} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t750} {programRes.style.h150} {programRes.style.w1} {programRes.style.cRed}">
                             <div>
                                 <h2>Senators' Breakfast</h2>
                                 <p>7:30 - 9:00</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1700} {programRes.style.h100} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1700} {programRes.style.h100} {programRes.style.w1} {programRes.style.cYellow}">
                             <div>
                                 <h2>VIP Reception</h2>
                                 <p>17:00 - 18:00</p>
                             </div>
-                        </div>
-                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t900} {programRes.style.h275} {programRes.style.w1}">
-                            <div>
-                                <h2>Tradeshow</h2>
-                                <p>9:00 - 11:45</p>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
                             </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t900} {programRes.style.h275} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1}">
                             <div>
                                 <h2>Tradeshow</h2>
-                                <p>9:00 - 11:45</p>
+                                <p>9:00 - 10:15</p>
+                            </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
                             </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1350} {programRes.style.h300} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1025} {programRes.style.h025} {programRes.style.w1} {programRes.style.cRed}">
+                            <div>
+                                <h2>Pause</h2>
+                                <p>10:15 - 10:30</p>
+                            </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1}">
+                            <div>
+                                <h2>Tradeshow</h2>
+                                <p>10:30 - 11:45</p>
+                            </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
+                        </div>
+                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1350} {programRes.style.h300} {programRes.style.w1} {programRes.style.cPurple}">
                             <div>
                                 <h2>Excursion</h2>
                                 <p>13:30 - 16:30</p>
                             </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
+                            </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t2300} {programRes.style.h400} {programRes.style.w1}">
+                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t2300} {programRes.style.h400} {programRes.style.w1} {programRes.style.cPurple}">
                             <div>
                                 <h2>Hospitality suite</h2>
                                 <p>From 23:00</p>
+                            </div>
+                            <div class="{programRes.style.tooltip}">
+                                <span class="{programRes.style.arrow}"/>
+                                <p>hello sp</p>
                             </div>
                         </div>
                     </div>

@@ -16,21 +16,21 @@
 
 package com.jci.client.application.register;
 
-import javax.inject.Inject;
-
 import com.arcbees.core.client.mvp.ViewImpl;
 import com.google.gwt.dom.client.AnchorElement;
 import com.google.gwt.dom.client.DivElement;
+import com.google.gwt.event.logical.shared.AttachEvent;
 import com.google.gwt.query.client.Function;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.user.client.ui.Widget;
 import com.jci.client.resource.CommonResource;
 
-import static com.google.gwt.query.client.GQuery.$;
-import static com.google.gwt.query.client.plugins.effects.PropertiesAnimation.Easing.SWING;
+import javax.inject.Inject;
 
-public class RegisterPageView extends ViewImpl implements RegisterPagePresenter.MyView {
+import static com.google.gwt.query.client.GQuery.$;
+
+public class RegisterPageView extends ViewImpl implements RegisterPagePresenter.MyView, AttachEvent.Handler {
     interface Binder extends UiBinder<Widget, RegisterPageView> {
     }
 
@@ -53,19 +53,14 @@ public class RegisterPageView extends ViewImpl implements RegisterPagePresenter.
 
         activeStyleName = commonResource.style().active();
 
-        $(buttonHotel).click(new Function() {
-            @Override
-            public void f() {
-                showHotel();
-            }
-        });
+        asWidget().addAttachHandler(this);
+    }
 
-        $(buttonTravel).click(new Function() {
-            @Override
-            public void f() {
-                showTravel();
-            }
-        });
+    @Override
+    public void onAttachOrDetach(AttachEvent attachEvent) {
+        if (attachEvent.isAttached()) {
+            bindGwtQuery();
+        }
     }
 
     @Override
@@ -91,5 +86,21 @@ public class RegisterPageView extends ViewImpl implements RegisterPagePresenter.
         $(buttonTravel).addClass(activeStyleName);
         $(travel).show();
         $(hotel).hide();
+    }
+
+    private void bindGwtQuery() {
+        $(buttonHotel).click(new Function() {
+            @Override
+            public void f() {
+                showHotel();
+            }
+        });
+
+        $(buttonTravel).click(new Function() {
+            @Override
+            public void f() {
+                showTravel();
+            }
+        });
     }
 }

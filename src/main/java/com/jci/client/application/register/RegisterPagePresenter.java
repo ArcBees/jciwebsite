@@ -16,8 +16,6 @@
 
 package com.jci.client.application.register;
 
-import javax.inject.Inject;
-
 import com.google.web.bindery.event.shared.EventBus;
 import com.gwtplatform.mvp.client.Presenter;
 import com.gwtplatform.mvp.client.View;
@@ -27,6 +25,8 @@ import com.gwtplatform.mvp.client.proxy.PlaceRequest;
 import com.gwtplatform.mvp.client.proxy.ProxyPlace;
 import com.jci.client.application.ApplicationPresenter;
 import com.jci.client.place.NameTokens;
+
+import javax.inject.Inject;
 
 public class RegisterPagePresenter extends Presenter<RegisterPagePresenter.MyView, RegisterPagePresenter.MyProxy> {
     public interface MyView extends View {
