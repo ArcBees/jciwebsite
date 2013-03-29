@@ -681,7 +681,7 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Governor's VIP Reception (JCI Canada)</h2>
+                                <h2>Governor's VIP Reception (invitation only)</h2>
                                 <p>
                                     <b>Date :</b>
                                     Thursday, September 19, 2013
@@ -778,7 +778,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Delegates Breakfast</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Friday, September 20, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    8:00 - 9:00
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Room AB
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t1200} {programRes.style.h150} {programRes.style.w1} {programRes.style.cGreen}">
@@ -788,7 +801,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Keynote speaker</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Friday, September 20, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    12:00 - 13:30
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Room AB
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t1375} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
@@ -798,7 +824,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Effective speaking</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Friday, September 20, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    13:45 - 15:00
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Room AB
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t900} {programRes.style.h275} {programRes.style.w1} {programRes.style.cBlue}">
@@ -808,7 +847,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>General Assembly</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Friday, September 20, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    9:00 - 11:45
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Room C
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t1525} {programRes.style.h125} {programRes.style.w1} {programRes.style.cBlue}">
@@ -818,7 +870,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>General Assembly</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Friday, September 20, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    15:15 - 16:30
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Room C
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
@@ -828,7 +893,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Training 9</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Friday, September 20, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    9:00 - 10:15
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Room G
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
@@ -838,7 +916,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Training 11</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Friday, September 20, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    10:30 - 11:45
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Room G
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
@@ -848,7 +939,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Training 10</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Friday, September 20, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    9:00 - 10:15
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Room H
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
@@ -858,7 +962,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Training 12</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Friday, September 20, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    10:30 - 11:45
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Room H
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1}">
@@ -868,7 +985,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Trade Show</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Friday, September 20, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    9:00 - 10:15
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Foyer
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1025} {programRes.style.h025} {programRes.style.w1} {programRes.style.cRed}">
@@ -878,7 +1008,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Coffee break</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Friday, September 20, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    10:15 - 10:30
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Foyer
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1}">
@@ -888,7 +1031,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Trade Show</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Friday, September 20, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    10:30 - 11:45
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Foyer
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1375} {programRes.style.h125} {programRes.style.w1}">
@@ -898,7 +1054,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Trade Show</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Friday, September 20, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    13:45 - 15:00
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Foyer
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1500} {programRes.style.h025} {programRes.style.w1} {programRes.style.cRed}">
@@ -908,7 +1077,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Coffee break</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Friday, September 20, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    15:00 - 15:15
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Foyer
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1525} {programRes.style.h125} {programRes.style.w1}">
@@ -918,7 +1100,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Trade Show</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Friday, September 20, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    15:15 - 16:30
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Foyer
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1350} {programRes.style.h300} {programRes.style.w1} {programRes.style.cPurple}">
@@ -1080,7 +1275,17 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Theme Night</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Friday, September 20, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    18:00 - 20:30
+                                    <br/>
+                                    <b>Venue :</b>
+                                    Le Milsa Restaurant
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t2050} {programRes.style.h250} {programRes.style.w1} {programRes.style.cPurple}">
@@ -1090,7 +1295,17 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Grande Allée Clubbing</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Friday, September 20, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    20:30 - 23:00
+                                    <br/>
+                                    <b>Venue :</b>
+                                    Grande Allée Street
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t2300} {programRes.style.h400} {programRes.style.w1} {programRes.style.cPurple}">
@@ -1100,7 +1315,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Hospitality suite hosted by 2015 Bidding Chapter</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Friday, September 20, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    From 23:00
+                                    <br/>
+                                    <b>Venue :</b>
+                                    To be determined
+                                    <br/>
+                                    <b>Room :</b>
+                                    To be determined
+                                </p>
                             </div>
                         </div>
                     </g:HTMLPanel>
@@ -1120,7 +1348,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Delegates Breakfast</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Saturday, September 21, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    8:00 - 9:00
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Room AB
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t1200} {programRes.style.h150} {programRes.style.w1}  {programRes.style.cGreen}">
@@ -1130,7 +1371,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Keynote speaker</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Saturday, September 21, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    12:00 - 13:30
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Room AB
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t1800} {programRes.style.h500} {programRes.style.w2} {programRes.style.cYellow}">
@@ -1140,7 +1394,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>President's Gala</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Saturday, September 21, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    18:00 - 23:00
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Room ABC
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t900} {programRes.style.h275} {programRes.style.w1} {programRes.style.cBlue}">
@@ -1150,7 +1417,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>General Assembly</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Saturday, September 21, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    9:00 - 11:45
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Room C
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t1375} {programRes.style.h225} {programRes.style.w1} {programRes.style.cBlue}">
@@ -1160,7 +1440,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>General Assembly</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Saturday, September 21, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    13:45 - 15:00
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Room C
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
@@ -1170,7 +1463,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Training 13</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Saturday, September 21, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    9:00 - 10:15
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Room G
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
@@ -1180,7 +1486,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Training 15</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Saturday, September 21, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    10:30 - 11:45
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Room G
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
@@ -1190,7 +1509,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Training 14</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Saturday, September 21, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    9:00 - 10:15
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Room H
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
@@ -1200,7 +1532,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Training 16</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Saturday, September 21, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    10:30 - 11:45
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Room H
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t750} {programRes.style.h150} {programRes.style.w1} {programRes.style.cRed}">
@@ -1210,7 +1555,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Senators' Breakfast</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Saturday, September 21, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    7:30 - 9:00
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Room J
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1700} {programRes.style.h100} {programRes.style.w1} {programRes.style.cYellow}">
@@ -1220,7 +1578,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>JCI Canada VIP Reception (invitation only)</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Saturday, September 21, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    17:00 - 18:00
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Room J
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1}">
@@ -1230,7 +1601,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Trade Show</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Saturday, September 21, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    9:00 - 10:15
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Foyer
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1025} {programRes.style.h025} {programRes.style.w1} {programRes.style.cRed}">
@@ -1240,7 +1624,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Coffee break</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Saturday, September 21, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    10:15 - 10:30
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Foyer
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1}">
@@ -1250,7 +1647,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Trade Show</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Saturday, September 21, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    10:30 - 11:45
+                                    <br/>
+                                    <b>Venue :</b>
+                                    TRYP Quebec Hotel Pur
+                                    <br/>
+                                    <b>Room :</b>
+                                    Foyer
+                                </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1350} {programRes.style.h300} {programRes.style.w1} {programRes.style.cPurple}">
@@ -1456,7 +1866,20 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <p>hello sp</p>
+                                <h2>Hospitality Suite hosted by JCI Durham</h2>
+                                <p>
+                                    <b>Date :</b>
+                                    Saturday, September 21, 2013
+                                    <br/>
+                                    <b>Time :</b>
+                                    From 23:00
+                                    <br/>
+                                    <b>Venue :</b>
+                                    To be determined
+                                    <br/>
+                                    <b>Room :</b>
+                                    To be determined
+                                </p>
                             </div>
                         </div>
                     </g:HTMLPanel>
