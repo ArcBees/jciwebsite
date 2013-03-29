@@ -19,6 +19,7 @@ package com.jci.client.application.program;
 import com.arcbees.core.client.mvp.ViewImpl;
 import com.google.gwt.dom.client.DivElement;
 import com.google.gwt.dom.client.Element;
+import com.google.gwt.dom.client.SpanElement;
 import com.google.gwt.event.logical.shared.AttachEvent;
 import com.google.gwt.query.client.Function;
 import com.google.gwt.uibinder.client.UiBinder;
@@ -37,16 +38,28 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
 
     @UiField
     DivElement divButtons;
-
     @UiField
     DivElement divCalendar;
+    @UiField
+    DivElement excursion1;
+    @UiField
+    DivElement excursion2;
+    @UiField
+    DivElement excursion3;
+    @UiField
+    SpanElement excursionDiv1;
+    @UiField
+    SpanElement excursionDiv2;
+    @UiField
+    SpanElement excursionDiv3;
 
     private final String activeStyleName;
-
     private final String activeStyleNameProgram;
     private final String eventStyleNameProgram;
     private final String activeTooltipStyleNameProgram;
     private final String tooltipStyleNameProgram;
+    private final String activeExcursionStyleNameProgram;
+    private final String excursionStyleNameProgram;
 
     @Inject
     public ProgramPageView(Binder uiBinder,
@@ -59,6 +72,8 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
         eventStyleNameProgram = programResource.style().event();
         activeTooltipStyleNameProgram = programResource.style().tooltipActive();
         tooltipStyleNameProgram = programResource.style().tooltip();
+        activeExcursionStyleNameProgram = programResource.style().excursionsActive();
+        excursionStyleNameProgram = programResource.style().excursions();
 
         asWidget().addAttachHandler(this);
     }
@@ -129,6 +144,42 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
                     $("." + tooltipStyleNameProgram, e).addClass(activeTooltipStyleNameProgram);
                 }
                 getEvent().stopPropagation();
+            }
+        });
+
+        $("." + excursionStyleNameProgram + " a", excursion1).click(new Function() {
+            @Override
+            public void f(Element e) {
+                $("." + activeExcursionStyleNameProgram, excursion1).text("◦");
+                $("." + activeExcursionStyleNameProgram, excursion1).removeClass(activeExcursionStyleNameProgram);
+                $("span", excursionDiv1).hide();
+                $("#" + e.getId() + "Div").show();
+                $(e).text("•");
+                $(e).addClass(activeExcursionStyleNameProgram);
+            }
+        });
+
+        $("." + excursionStyleNameProgram + " a", excursion2).click(new Function() {
+            @Override
+            public void f(Element e) {
+                $("." + activeExcursionStyleNameProgram, excursion2).text("◦");
+                $("." + activeExcursionStyleNameProgram, excursion2).removeClass(activeExcursionStyleNameProgram);
+                $("span", excursionDiv2).hide();
+                $("#" + e.getId() + "Div").show();
+                $(e).text("•");
+                $(e).addClass(activeExcursionStyleNameProgram);
+            }
+        });
+
+        $("." + excursionStyleNameProgram + " a", excursion3).click(new Function() {
+            @Override
+            public void f(Element e) {
+                $("." + activeExcursionStyleNameProgram, excursion3).text("◦");
+                $("." + activeExcursionStyleNameProgram, excursion3).removeClass(activeExcursionStyleNameProgram);
+                $("span", excursionDiv3).hide();
+                $("#" + e.getId() + "Div").show();
+                $(e).text("•");
+                $(e).addClass(activeExcursionStyleNameProgram);
             }
         });
     }
