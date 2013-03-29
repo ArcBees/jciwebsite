@@ -167,7 +167,25 @@ public interface ProgramResource extends ClientBundle {
 
     ImageResource img_awardNight_2();
 
-    ImageResource img_excursion_1();
+    ImageResource img_excursionArbraska_1();
+
+    ImageResource img_excursionShopping_1();
+
+    ImageResource img_excursionCruise_1();
+
+    ImageResource img_excursionCruise_2();
+
+    ImageResource img_excursionTours_1();
+
+    ImageResource img_excursionTours_2();
+
+    ImageResource img_excursionBeer_1();
+
+    ImageResource img_excursionKarting_1();
+
+    ImageResource img_excursionFerrari_1();
+
+    ImageResource img_excursionFerrari_2();
 
     @CssResource.NotStrict
     Style style();

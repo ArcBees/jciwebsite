@@ -526,14 +526,14 @@
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1350} {programRes.style.h300} {programRes.style.w1} {programRes.style.cPurple}">
                             <div>
-                                <h2>Excursion</h2>
+                                <h2>Excursions</h2>
                                 <p>13:30 - 16:30</p>
                             </div>
                             <div ui:field="excursion1" class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
                                 <span ui:field="excursionDiv1">
                                     <span id="cruise1Div">
-                                        <h2>High-Wire and Zip-Line adventure</h2>
+                                        <h2>Boat Cruise</h2>
                                         <p>
                                             <b>Date :</b>
                                             Thursday, September 19, 2013
@@ -542,32 +542,32 @@
                                             13:30 - 16:30
                                             <br/>
                                             <b>Venue :</b>
-                                            Arbraska Duchesnay
+                                            Louis-Jolliet Boat
                                             <br/>
                                             <b>Price :</b>
                                             $40.00
                                         </p>
                                         <p>
-                                            <img src="{programRes.img_excursion_1.getSafeUri}"
-                                                 alt="High-Wire and Zip-Line adventure"/>
+                                            <img class="{programRes.style.half}"
+                                                 src="{programRes.img_excursionCruise_1.getSafeUri}"
+                                                 alt="Louis-Jolliet Boat Cruise"/>
+                                            <img class="{programRes.style.half}"
+                                                 src="{programRes.img_excursionCruise_2.getSafeUri}"
+                                                 alt="Louis-Jolliet Boat Cruise"/>
                                         </p>
                                         <p>
-                                            Want a real challenge? The Arbre en arbre activity has just the one for you!
-                                            In
-                                            the
-                                            heart
-                                            of the Jacques Cartier river’s park, you will stroll from one tree to
-                                            another on
-                                            courses
-                                            ranging from easy to very hard. Register and test your limits. Do not
-                                            register
-                                            if
-                                            you’ve
-                                            experienced vertigo in the past.
+                                            Discover Quebec city the way it’s very founders did it. The boat cruise on
+                                            St-Lawrence
+                                            river will show you to the most beautiful sites of the city, its very own
+                                            Château
+                                            Frontenac, our magnificent waterfall along with numerous others attractions.
+                                            Louis Jolliet
+                                            himself awaits you!
                                         </p>
                                         <p>
-                                            <a href="http://www.arbraskaduchesnay.com/" target="_blank">
-                                                http://www.arbraskaduchesnay.com/
+                                            <a href="http://www.croisieresaml.com/l-experience-aml/bateaux/louis-jolliet/"
+                                               target="_blank">
+                                                http://www.croisieresaml.com/l-experience-aml/bateaux/louis-jolliet/
                                             </a>
                                         </p>
                                     </span>
@@ -581,18 +581,20 @@
                                             13:30 - 16:30
                                             <br/>
                                             <b>Venue :</b>
-                                            Arbraska Duchesnay
+                                            Place Laurier
                                             <br/>
                                             <b>Price :</b>
                                             Free
                                         </p>
                                         <p>
-                                            <img src="{programRes.img_excursion_1.getSafeUri}"
-                                                 alt="High-Wire and Zip-Line adventure"/>
+                                            <img src="{programRes.img_excursionShopping_1.getSafeUri}"
+                                                 alt="Place Laurier"/>
                                         </p>
                                         <p>
-                                            You want to go shopping? Hop on a daily bus ride that will get you to the biggest
-                                            shopping mall in Quebec city where tons of different boutiques and shops will surely
+                                            You want to go shopping? Hop on a daily bus ride that will get you to the
+                                            biggest
+                                            shopping mall in Quebec city where tons of different boutiques and shops
+                                            will surely
                                             satisfy your need of a nice souvenir.
                                         </p>
                                         <p>
@@ -602,7 +604,7 @@
                                         </p>
                                     </span>
                                     <span id="tours1Div" style="display: none">
-                                        <h2>High-Wire and Zip-Line adventure3</h2>
+                                        <h2>Guided Tour</h2>
                                         <p>
                                             <b>Date :</b>
                                             Thursday, September 19, 2013
@@ -611,37 +613,29 @@
                                             13:30 - 16:30
                                             <br/>
                                             <b>Venue :</b>
-                                            Arbraska Duchesnay
+                                            Old Quebec City
                                             <br/>
                                             <b>Price :</b>
-                                            $40.00
+                                            $20.00
                                         </p>
                                         <p>
-                                            <img src="{programRes.img_excursion_1.getSafeUri}"
-                                                 alt="High-Wire and Zip-Line adventure"/>
+                                            <img class="{programRes.style.half}"
+                                                 src="{programRes.img_excursionTours_1.getSafeUri}"
+                                                 alt="Old Quebec City Guided Tours"/>
+                                            <img class="{programRes.style.half}"
+                                                 src="{programRes.img_excursionTours_2.getSafeUri}"
+                                                 alt="Old Quebec City Guided Tours"/>
                                         </p>
                                         <p>
-                                            Want a real challenge? The Arbre en arbre activity has just the one for you!
-                                            In
-                                            the
-                                            heart
-                                            of the Jacques Cartier river’s park, you will stroll from one tree to
-                                            another on
-                                            courses
-                                            ranging from easy to very hard. Register and test your limits. Do not
-                                            register
-                                            if
-                                            you’ve
-                                            experienced vertigo in the past.
-                                        </p>
-                                        <p>
-                                            <a href="http://www.arbraskaduchesnay.com/" target="_blank">
-                                                http://www.arbraskaduchesnay.com/
-                                            </a>
+                                            Quebec has the perfect setting for history amateurs. Come and discover the
+                                            magnificent
+                                            city of Quebec on a walking guided tour that will take you inside the
+                                            deepest secrets on
+                                            this 400 years old town.
                                         </p>
                                     </span>
                                     <span id="beer1Div" style="display: none">
-                                        <h2>High-Wire and Zip-Line adventure4</h2>
+                                        <h2>Beer and cheese tasting</h2>
                                         <p>
                                             <b>Date :</b>
                                             Thursday, September 19, 2013
@@ -650,32 +644,23 @@
                                             13:30 - 16:30
                                             <br/>
                                             <b>Venue :</b>
-                                            Arbraska Duchesnay
+                                            La Barberie Microbrewery
                                             <br/>
                                             <b>Price :</b>
-                                            $40.00
+                                            $25.00
                                         </p>
                                         <p>
-                                            <img src="{programRes.img_excursion_1.getSafeUri}"
-                                                 alt="High-Wire and Zip-Line adventure"/>
+                                            <img src="{programRes.img_excursionBeer_1.getSafeUri}"
+                                                 alt="La Barberie Microbrewery Beers"/>
                                         </p>
                                         <p>
-                                            Want a real challenge? The Arbre en arbre activity has just the one for you!
-                                            In
-                                            the
-                                            heart
-                                            of the Jacques Cartier river’s park, you will stroll from one tree to
-                                            another on
-                                            courses
-                                            ranging from easy to very hard. Register and test your limits. Do not
-                                            register
-                                            if
-                                            you’ve
-                                            experienced vertigo in the past.
+                                            La Barberie, a Quebec microbrewery proposes to explain its unique way of
+                                            making beer.
+                                            Come and see how cheese and beer can marry their flavors together!
                                         </p>
                                         <p>
-                                            <a href="http://www.arbraskaduchesnay.com/" target="_blank">
-                                                http://www.arbraskaduchesnay.com/
+                                            <a href="http://www.labarberie.com/" target="_blank">
+                                                http://www.labarberie.com/
                                             </a>
                                         </p>
                                     </span>
@@ -938,165 +923,143 @@
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1350} {programRes.style.h300} {programRes.style.w1} {programRes.style.cPurple}">
                             <div>
-                                <h2>Excursion</h2>
+                                <h2>Excursions</h2>
                                 <p>13:30 - 16:30</p>
                             </div>
                             <div ui:field="excursion2" class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
                                 <span ui:field="excursionDiv2">
                                     <span id="cruise2Div">
-                                        <h2>High-Wire and Zip-Line adventure</h2>
+                                        <h2>Boat Cruise</h2>
                                         <p>
                                             <b>Date :</b>
-                                            Thursday, September 19, 2013
+                                            Friday, September 20, 2013
                                             <br/>
                                             <b>Time :</b>
                                             13:30 - 16:30
                                             <br/>
                                             <b>Venue :</b>
-                                            Arbraska Duchesnay
+                                            Louis-Jolliet Boat
                                             <br/>
                                             <b>Price :</b>
                                             $40.00
                                         </p>
                                         <p>
-                                            <img src="{programRes.img_excursion_1.getSafeUri}"
-                                                 alt="High-Wire and Zip-Line adventure"/>
+                                            <img class="{programRes.style.half}"
+                                                 src="{programRes.img_excursionCruise_1.getSafeUri}"
+                                                 alt="Louis-Jolliet Boat Cruise"/>
+                                            <img class="{programRes.style.half}"
+                                                 src="{programRes.img_excursionCruise_2.getSafeUri}"
+                                                 alt="Louis-Jolliet Boat Cruise"/>
                                         </p>
                                         <p>
-                                            Want a real challenge? The Arbre en arbre activity has just the one for you!
-                                            In
-                                            the
-                                            heart
-                                            of the Jacques Cartier river’s park, you will stroll from one tree to
-                                            another on
-                                            courses
-                                            ranging from easy to very hard. Register and test your limits. Do not
-                                            register
-                                            if
-                                            you’ve
-                                            experienced vertigo in the past.
+                                            Discover Quebec city the way it’s very founders did it. The boat cruise on
+                                            St-Lawrence
+                                            river will show you to the most beautiful sites of the city, its very own
+                                            Château
+                                            Frontenac, our magnificent waterfall along with numerous others attractions.
+                                            Louis Jolliet
+                                            himself awaits you!
                                         </p>
                                         <p>
-                                            <a href="http://www.arbraskaduchesnay.com/" target="_blank">
-                                                http://www.arbraskaduchesnay.com/
+                                            <a href="http://www.croisieresaml.com/l-experience-aml/bateaux/louis-jolliet/"
+                                               target="_blank">
+                                                http://www.croisieresaml.com/l-experience-aml/bateaux/louis-jolliet/
                                             </a>
                                         </p>
                                     </span>
                                     <span id="shopping2Div" style="display: none">
-                                        <h2>High-Wire and Zip-Line adventure2</h2>
+                                        <h2>Shopping</h2>
                                         <p>
                                             <b>Date :</b>
-                                            Thursday, September 19, 2013
+                                            Friday, September 20, 2013
                                             <br/>
                                             <b>Time :</b>
                                             13:30 - 16:30
                                             <br/>
                                             <b>Venue :</b>
-                                            Arbraska Duchesnay
+                                            Place Laurier
                                             <br/>
                                             <b>Price :</b>
-                                            $40.00
+                                            Free
                                         </p>
                                         <p>
-                                            <img src="{programRes.img_excursion_1.getSafeUri}"
-                                                 alt="High-Wire and Zip-Line adventure"/>
+                                            <img src="{programRes.img_excursionShopping_1.getSafeUri}"
+                                                 alt="Place Laurier"/>
                                         </p>
                                         <p>
-                                            Want a real challenge? The Arbre en arbre activity has just the one for you!
-                                            In
-                                            the
-                                            heart
-                                            of the Jacques Cartier river’s park, you will stroll from one tree to
-                                            another on
-                                            courses
-                                            ranging from easy to very hard. Register and test your limits. Do not
-                                            register
-                                            if
-                                            you’ve
-                                            experienced vertigo in the past.
+                                            You want to go shopping? Hop on a daily bus ride that will get you to the
+                                            biggest
+                                            shopping mall in Quebec city where tons of different boutiques and shops
+                                            will surely
+                                            satisfy your need of a nice souvenir.
                                         </p>
                                         <p>
-                                            <a href="http://www.arbraskaduchesnay.com/" target="_blank">
-                                                http://www.arbraskaduchesnay.com/
+                                            <a href="http://www.laurierquebec.com/" target="_blank">
+                                                http://www.laurierquebec.com/
                                             </a>
                                         </p>
                                     </span>
                                     <span id="tours2Div" style="display: none">
-                                        <h2>High-Wire and Zip-Line adventure3</h2>
+                                        <h2>Guided Tour</h2>
                                         <p>
                                             <b>Date :</b>
-                                            Thursday, September 19, 2013
+                                            Friday, September 20, 2013
                                             <br/>
                                             <b>Time :</b>
                                             13:30 - 16:30
                                             <br/>
                                             <b>Venue :</b>
-                                            Arbraska Duchesnay
+                                            Old Quebec City
                                             <br/>
                                             <b>Price :</b>
-                                            $40.00
+                                            $20.00
                                         </p>
                                         <p>
-                                            <img src="{programRes.img_excursion_1.getSafeUri}"
-                                                 alt="High-Wire and Zip-Line adventure"/>
+                                            <img class="{programRes.style.half}"
+                                                 src="{programRes.img_excursionTours_1.getSafeUri}"
+                                                 alt="Old Quebec City Guided Tours"/>
+                                            <img class="{programRes.style.half}"
+                                                 src="{programRes.img_excursionTours_2.getSafeUri}"
+                                                 alt="Old Quebec City Guided Tours"/>
                                         </p>
                                         <p>
-                                            Want a real challenge? The Arbre en arbre activity has just the one for you!
-                                            In
-                                            the
-                                            heart
-                                            of the Jacques Cartier river’s park, you will stroll from one tree to
-                                            another on
-                                            courses
-                                            ranging from easy to very hard. Register and test your limits. Do not
-                                            register
-                                            if
-                                            you’ve
-                                            experienced vertigo in the past.
-                                        </p>
-                                        <p>
-                                            <a href="http://www.arbraskaduchesnay.com/" target="_blank">
-                                                http://www.arbraskaduchesnay.com/
-                                            </a>
+                                            Quebec has the perfect setting for history amateurs. Come and discover the
+                                            magnificent
+                                            city of Quebec on a walking guided tour that will take you inside the
+                                            deepest secrets on
+                                            this 400 years old town.
                                         </p>
                                     </span>
                                     <span id="karting2Div" style="display: none">
-                                        <h2>High-Wire and Zip-Line adventure4</h2>
+                                        <h2>Karting</h2>
                                         <p>
                                             <b>Date :</b>
-                                            Thursday, September 19, 2013
+                                            Friday, September 20, 2013
                                             <br/>
                                             <b>Time :</b>
                                             13:30 - 16:30
                                             <br/>
                                             <b>Venue :</b>
-                                            Arbraska Duchesnay
+                                            Karting Extreme
                                             <br/>
                                             <b>Price :</b>
                                             $40.00
                                         </p>
                                         <p>
-                                            <img src="{programRes.img_excursion_1.getSafeUri}"
-                                                 alt="High-Wire and Zip-Line adventure"/>
+                                            <img src="{programRes.img_excursionKarting_1.getSafeUri}"
+                                                 alt="Karting Extreme"/>
                                         </p>
                                         <p>
-                                            Want a real challenge? The Arbre en arbre activity has just the one for you!
-                                            In
-                                            the
-                                            heart
-                                            of the Jacques Cartier river’s park, you will stroll from one tree to
-                                            another on
-                                            courses
-                                            ranging from easy to very hard. Register and test your limits. Do not
-                                            register
-                                            if
-                                            you’ve
-                                            experienced vertigo in the past.
+                                            Here’s the activity to compete with your fellow JCI members. Behind the
+                                            wheel of your
+                                            kart, try to beat records and friends. Be careful though, having the first
+                                            line at the start,
+                                            does not guarantee victory!
                                         </p>
                                         <p>
-                                            <a href="http://www.arbraskaduchesnay.com/" target="_blank">
-                                                http://www.arbraskaduchesnay.com/
+                                            <a href="http://www.kartingextreme.com/" target="_blank">
+                                                http://www.kartingextreme.com/
                                             </a>
                                         </p>
                                     </span>
@@ -1292,134 +1255,120 @@
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1350} {programRes.style.h300} {programRes.style.w1} {programRes.style.cPurple}">
                             <div>
-                                <h2>Excursion</h2>
+                                <h2>Excursions</h2>
                                 <p>13:30 - 16:30</p>
                             </div>
                             <div ui:field="excursion3" class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
                                 <span ui:field="excursionDiv3">
                                     <span id="cruise3Div">
-                                        <h2>High-Wire and Zip-Line adventure</h2>
+                                        <h2>Boat Cruise</h2>
                                         <p>
                                             <b>Date :</b>
-                                            Thursday, September 19, 2013
+                                            Saturday, September 21, 2013
                                             <br/>
                                             <b>Time :</b>
                                             13:30 - 16:30
                                             <br/>
                                             <b>Venue :</b>
-                                            Arbraska Duchesnay
+                                            Louis-Jolliet Boat
                                             <br/>
                                             <b>Price :</b>
                                             $40.00
                                         </p>
                                         <p>
-                                            <img src="{programRes.img_excursion_1.getSafeUri}"
-                                                 alt="High-Wire and Zip-Line adventure"/>
+                                            <img class="{programRes.style.half}"
+                                                 src="{programRes.img_excursionCruise_1.getSafeUri}"
+                                                 alt="Louis-Jolliet Boat Cruise"/>
+                                            <img class="{programRes.style.half}"
+                                                 src="{programRes.img_excursionCruise_2.getSafeUri}"
+                                                 alt="Louis-Jolliet Boat Cruise"/>
                                         </p>
                                         <p>
-                                            Want a real challenge? The Arbre en arbre activity has just the one for you!
-                                            In
-                                            the
-                                            heart
-                                            of the Jacques Cartier river’s park, you will stroll from one tree to
-                                            another on
-                                            courses
-                                            ranging from easy to very hard. Register and test your limits. Do not
-                                            register
-                                            if
-                                            you’ve
-                                            experienced vertigo in the past.
+                                            Discover Quebec city the way it’s very founders did it. The boat cruise on
+                                            St-Lawrence
+                                            river will show you to the most beautiful sites of the city, its very own
+                                            Château
+                                            Frontenac, our magnificent waterfall along with numerous others attractions.
+                                            Louis Jolliet
+                                            himself awaits you!
                                         </p>
                                         <p>
-                                            <a href="http://www.arbraskaduchesnay.com/" target="_blank">
-                                                http://www.arbraskaduchesnay.com/
+                                            <a href="http://www.croisieresaml.com/l-experience-aml/bateaux/louis-jolliet/"
+                                               target="_blank">
+                                                http://www.croisieresaml.com/l-experience-aml/bateaux/louis-jolliet/
                                             </a>
                                         </p>
                                     </span>
                                     <span id="shopping3Div" style="display: none">
-                                        <h2>High-Wire and Zip-Line adventure2</h2>
+                                        <h2>Shopping</h2>
                                         <p>
                                             <b>Date :</b>
-                                            Thursday, September 19, 2013
+                                            Saturday, September 21, 2013
                                             <br/>
                                             <b>Time :</b>
                                             13:30 - 16:30
                                             <br/>
                                             <b>Venue :</b>
-                                            Arbraska Duchesnay
+                                            Place Laurier
                                             <br/>
                                             <b>Price :</b>
-                                            $40.00
+                                            Free
                                         </p>
                                         <p>
-                                            <img src="{programRes.img_excursion_1.getSafeUri}"
-                                                 alt="High-Wire and Zip-Line adventure"/>
+                                            <img src="{programRes.img_excursionShopping_1.getSafeUri}"
+                                                 alt="Place Laurier"/>
                                         </p>
                                         <p>
-                                            Want a real challenge? The Arbre en arbre activity has just the one for you!
-                                            In
-                                            the
-                                            heart
-                                            of the Jacques Cartier river’s park, you will stroll from one tree to
-                                            another on
-                                            courses
-                                            ranging from easy to very hard. Register and test your limits. Do not
-                                            register
-                                            if
-                                            you’ve
-                                            experienced vertigo in the past.
+                                            You want to go shopping? Hop on a daily bus ride that will get you to the
+                                            biggest
+                                            shopping mall in Quebec city where tons of different boutiques and shops
+                                            will surely
+                                            satisfy your need of a nice souvenir.
                                         </p>
                                         <p>
-                                            <a href="http://www.arbraskaduchesnay.com/" target="_blank">
-                                                http://www.arbraskaduchesnay.com/
+                                            <a href="http://www.laurierquebec.com/" target="_blank">
+                                                http://www.laurierquebec.com/
                                             </a>
                                         </p>
                                     </span>
                                     <span id="karting3Div" style="display: none">
-                                        <h2>High-Wire and Zip-Line adventure3</h2>
+                                        <h2>Karting</h2>
                                         <p>
                                             <b>Date :</b>
-                                            Thursday, September 19, 2013
+                                            Saturday, September 21, 2013
                                             <br/>
                                             <b>Time :</b>
                                             13:30 - 16:30
                                             <br/>
                                             <b>Venue :</b>
-                                            Arbraska Duchesnay
+                                            Karting Extreme
                                             <br/>
                                             <b>Price :</b>
                                             $40.00
                                         </p>
                                         <p>
-                                            <img src="{programRes.img_excursion_1.getSafeUri}"
-                                                 alt="High-Wire and Zip-Line adventure"/>
+                                            <img src="{programRes.img_excursionKarting_1.getSafeUri}"
+                                                 alt="Karting Extreme"/>
                                         </p>
                                         <p>
-                                            Want a real challenge? The Arbre en arbre activity has just the one for you!
-                                            In
-                                            the
-                                            heart
-                                            of the Jacques Cartier river’s park, you will stroll from one tree to
-                                            another on
-                                            courses
-                                            ranging from easy to very hard. Register and test your limits. Do not
-                                            register
-                                            if
-                                            you’ve
-                                            experienced vertigo in the past.
+                                            Here’s the activity to compete with your fellow JCI members. Behind the
+                                            wheel of your
+                                            kart, try to beat records and friends. Be careful though, having the first
+                                            line at the start,
+                                            does not guarantee victory!
                                         </p>
                                         <p>
-                                            <a href="http://www.arbraskaduchesnay.com/" target="_blank">
-                                                http://www.arbraskaduchesnay.com/
+                                            <a href="http://www.kartingextreme.com/" target="_blank">
+                                                http://www.kartingextreme.com/
                                             </a>
                                         </p>
                                     </span>
                                     <span id="arbraska3Div" style="display: none">
-                                        <h2>High-Wire and Zip-Line adventure4</h2>
+                                        <h2>High-Wire and Zip-Line adventure</h2>
                                         <p>
                                             <b>Date :</b>
-                                            Thursday, September 19, 2013
+                                            Saturday, September 21, 2013
                                             <br/>
                                             <b>Time :</b>
                                             13:30 - 16:30
@@ -1431,7 +1380,7 @@
                                             $40.00
                                         </p>
                                         <p>
-                                            <img src="{programRes.img_excursion_1.getSafeUri}"
+                                            <img src="{programRes.img_excursionArbraska_1.getSafeUri}"
                                                  alt="High-Wire and Zip-Line adventure"/>
                                         </p>
                                         <p>
@@ -1455,41 +1404,37 @@
                                         </p>
                                     </span>
                                     <span id="ferrari3Div" style="display: none">
-                                        <h2>High-Wire and Zip-Line adventure5</h2>
+                                        <h2>Drive a Ferrari</h2>
                                         <p>
                                             <b>Date :</b>
-                                            Thursday, September 19, 2013
+                                            Saturday, September 21, 2013
                                             <br/>
                                             <b>Time :</b>
                                             13:30 - 16:30
                                             <br/>
                                             <b>Venue :</b>
-                                            Arbraska Duchesnay
+                                            Circuit ICAR
                                             <br/>
                                             <b>Price :</b>
-                                            $40.00
+                                            $250.00
                                         </p>
                                         <p>
-                                            <img src="{programRes.img_excursion_1.getSafeUri}"
-                                                 alt="High-Wire and Zip-Line adventure"/>
+                                            <img class="{programRes.style.half}"
+                                                 src="{programRes.img_excursionFerrari_1.getSafeUri}"
+                                                 alt="Ferrari F430"/>
+                                            <img class="{programRes.style.half}"
+                                                 src="{programRes.img_excursionFerrari_2.getSafeUri}"
+                                                 alt="Ferrari F430"/>
                                         </p>
                                         <p>
-                                            Want a real challenge? The Arbre en arbre activity has just the one for you!
-                                            In
-                                            the
-                                            heart
-                                            of the Jacques Cartier river’s park, you will stroll from one tree to
-                                            another on
-                                            courses
-                                            ranging from easy to very hard. Register and test your limits. Do not
-                                            register
-                                            if
-                                            you’ve
-                                            experienced vertigo in the past.
+                                            A dream come true ! Come live that unforgettable experience behind the wheel
+                                            of a
+                                            legendary car and show what you’re worth on aclosed circuit!
                                         </p>
                                         <p>
-                                            <a href="http://www.arbraskaduchesnay.com/" target="_blank">
-                                                http://www.arbraskaduchesnay.com/
+                                            <a href="http://www.circuiticar.com/academie/15-forfait-top-speed-f430.html"
+                                               target="_blank">
+                                                http://www.circuiticar.com/academie/15-forfait-top-speed-f430.html
                                             </a>
                                         </p>
                                     </span>
