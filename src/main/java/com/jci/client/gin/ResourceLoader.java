@@ -23,7 +23,6 @@ import com.jci.client.resource.footer.FooterResource;
 import com.jci.client.resource.header.HeaderResource;
 import com.jci.client.resource.main.MainResource;
 import com.jci.client.resource.program.ProgramResource;
-import com.jci.client.resource.register.RegisterResource;
 import com.jci.client.resource.sponsors.SponsorsResource;
 
 import javax.inject.Inject;
@@ -35,7 +34,6 @@ public class ResourceLoader {
                           FooterResource footerResource,
                           SponsorsResource sponsorsResource,
                           MainResource mainResource,
-                          RegisterResource registerResource,
                           ProgramResource programResource,
                           AboutResource aboutResource,
                           ContactResource contactResource) {
@@ -44,7 +42,6 @@ public class ResourceLoader {
         footerResource.style().ensureInjected();
         sponsorsResource.style().ensureInjected();
         mainResource.style().ensureInjected();
-        registerResource.style().ensureInjected();
         programResource.style().ensureInjected();
         aboutResource.style().ensureInjected();
         contactResource.style().ensureInjected();

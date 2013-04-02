@@ -22,7 +22,9 @@ import com.google.gwt.resources.client.ImageResource;
 
 public interface ContactResource extends ClientBundle {
     public interface Style extends CssResource {
-        String conventionName();
+        String conventionDiv();
+
+        String formDiv();
     }
 
     Style style();
