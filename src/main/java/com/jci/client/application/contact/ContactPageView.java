@@ -17,6 +17,7 @@
 package com.jci.client.application.contact;
 
 import com.arcbees.core.client.mvp.ViewImpl;
+import com.google.gwt.dom.client.AnchorElement;
 import com.google.gwt.dom.client.DivElement;
 import com.google.gwt.dom.client.Element;
 import com.google.gwt.dom.client.SpanElement;
@@ -32,12 +33,56 @@ import javax.inject.Inject;
 
 import static com.google.gwt.query.client.GQuery.$;
 
-public class ContactPageView extends ViewImpl implements ContactPagePresenter.MyView{
+public class ContactPageView extends ViewImpl implements ContactPagePresenter.MyView, AttachEvent.Handler{
     interface Binder extends UiBinder<Widget, ContactPageView> {
     }
+    
+    @UiField
+    AnchorElement buttonForm;
+    @UiField
+    AnchorElement buttonComitee;
+    @UiField
+    DivElement form;
+    @UiField
+    DivElement comitee;
+
+    private final String activeStyleName;
 
     @Inject
-    public ContactPageView(Binder uiBinder) {
+    public ContactPageView(Binder uiBinder,
+                           CommonResource commonResource) {
         initWidget(uiBinder.createAndBindUi(this));
+        
+        activeStyleName = commonResource.style().active();
+
+        asWidget().addAttachHandler(this);
     }
+
+    @Override
+    public void onAttachOrDetach(AttachEvent attachEvent) {
+        if (attachEvent.isAttached()) {
+            bindGwtQuery();
+        }
+    }
+
+    private void bindGwtQuery() {
+        $(buttonForm).click(new Function() {
+            @Override
+            public void f() {
+                $(buttonComitee).removeClass(activeStyleName);
+                $(buttonForm).addClass(activeStyleName);
+                $(form).show();
+                $(comitee).hide();
+            }
+        });
+
+        $(buttonComitee).click(new Function() {
+            @Override
+            public void f() {
+                $(buttonForm).removeClass(activeStyleName);
+                $(buttonComitee).addClass(activeStyleName);
+                $(comitee).show();
+                $(form).hide();
+            }
+        });    }
 }

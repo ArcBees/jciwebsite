@@ -1,0 +1,20 @@
+.conventionName b, .conventionName i, .conventionName span {
+    display: block;
+}
+
+.conventionName b {
+    font-weight: normal;
+}
+
+.conventionName i {
+    font-size: 13px;
+}
+
+.conventionName span {
+    padding-bottom: 2px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgba(54, 201, 255, 0.75);
+    font-size: 15px;
+    display: inline-block;
+    font-weight: bold;
+}
