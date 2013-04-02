@@ -1,0 +1,13 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+    <ui:with field="res" type="com.jci.client.resource.CommonResource"/>
+    <ui:with field="programRes" type="com.jci.client.resource.program.ProgramResource"/>
+    <g:HTMLPanel>
+        <div class="{res.style.width} {res.style.white} {res.style.dragUp} {res.style.round}
+        {res.style.content}">
+            <h1>Contact</h1>
+            <div class="carousel slide clearfix {programRes.style.visioProgram}" id="myCarouselProgram">
+            </div>
+        </div>
+    </g:HTMLPanel>
+</ui:UiBinder>
