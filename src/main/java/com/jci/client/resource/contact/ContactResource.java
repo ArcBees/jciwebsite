@@ -14,14 +14,21 @@
  * the License.
  */
 
-package com.jci.client.resource.register;
+package com.jci.client.resource.contact;
 
 import com.google.gwt.resources.client.ClientBundle;
 import com.google.gwt.resources.client.CssResource;
+import com.google.gwt.resources.client.ImageResource;
 
-public interface RegisterResource extends ClientBundle {
+public interface ContactResource extends ClientBundle {
     public interface Style extends CssResource {
-        String register();
+        String conventionDiv();
+
+        String formDiv();
+
+        String errorMessage();
+
+        String errorInput();
     }
 
     Style style();

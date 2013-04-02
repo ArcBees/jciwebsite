@@ -1,0 +1,70 @@
+.conventionDiv p b, .conventionDiv p i, .conventionDiv p span {
+    display: block;
+}
+
+.conventionDiv p b {
+    font-weight: normal;
+}
+
+.conventionDiv p i {
+    font-size: 13px;
+}
+
+.conventionDiv p span {
+    padding-bottom: 2px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgba(54, 201, 255, 0.75);
+    font-size: 15px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.formDiv fieldset {
+    width: 47.5%;
+    float: left;
+}
+
+.formDiv fieldset:last-child {
+    float: right;
+}
+
+.formDiv input, .formDiv textarea {
+    width: 97%;
+    padding: 5px;
+    margin-bottom: 15px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    border: 1px solid #2da6d1;
+}
+
+.formDiv input[type='submit'] {
+    border: 1px solid #7f8e51;
+    width: 30%;
+    float: right;
+}
+
+.formDiv input:focus, .formDiv textarea:focus {
+    border: 1px solid #2a5b8c;
+}
+
+.formDiv textarea {
+    height: 178px;
+}
+
+.formDiv label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input.errorInput, textarea.errorInput {
+    border: 1px solid #D15B2D;
+}
+
+p.errorMessage {
+    color: #D15B2D;
+    margin-top: -11px;
+    margin-bottom: 15px;
+    height: 15px;
+}
