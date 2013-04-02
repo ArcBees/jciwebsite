@@ -6,7 +6,7 @@
         <div class="{res.style.width} {res.style.white} {res.style.dragUp} {res.style.round}
         {res.style.content}">
             <h1>Contact</h1>
-            <div class="carousel slide clearfix {programRes.style.visioProgram}" id="myCarouselProgram">
+            <div class="carousel slide clearfix {programRes.style.visioProgram}" id="myCarouselProgram">kjdsakjaskjsdkja+++++
             </div>
         </div>
     </g:HTMLPanel>
