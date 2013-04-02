@@ -22,6 +22,7 @@ import com.google.gwt.dom.client.DivElement;
 import com.google.gwt.dom.client.Element;
 import com.google.gwt.event.logical.shared.AttachEvent;
 import com.google.gwt.query.client.Function;
+import com.google.gwt.query.client.GQuery;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.user.client.Event;
@@ -74,6 +75,7 @@ public class ContactPageView extends ViewImpl implements ContactPagePresenter.My
             @Override
             public boolean f(Event e) {
                 e.preventDefault();
+                validateAll();
                 return false;
             }
         });
@@ -111,6 +113,36 @@ public class ContactPageView extends ViewImpl implements ContactPagePresenter.My
                 $(form).hide();
             }
         });
+    }
+
+    private void validateAll() {
+        validateAllE($("input[id='name']", form));
+        validateAllE($("input[id='email']", form));
+        validateAllE($("input[id='subject']", form));
+        validateAllE($("textarea[id='message']", form));
+        validateEmailE($("input[id='email']", form));
+    }
+
+    private void validateAllE(GQuery e) {
+        if ($(e).val().equals("")) {
+            $(e).next("p").text("This field must be filled.");
+            $(e).addClass(errorInput);
+        } else {
+            $(e).next("p").text("");
+            $(e).removeClass(errorInput);
+        }
+    }
+
+    private void validateEmailE(GQuery e) {
+        if ($(e).next("p").text().equals("")) {
+            if (!$(e).val().matches(Regexes.emailRegex)) {
+                $(e).next("p").text("This email is not valid.");
+                $(e).addClass(errorInput);
+            } else {
+                $(e).next("p").text("");
+                $(e).removeClass(errorInput);
+            }
+        }
     }
 
     private void validate(Element e) {

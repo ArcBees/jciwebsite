@@ -49,7 +49,7 @@
 }
 
 .formDiv textarea {
-    height: 146px;
+    height: 178px;
 }
 
 .formDiv label {
@@ -67,4 +67,5 @@ p.errorMessage {
     color: #D15B2D;
     margin-top: -11px;
     margin-bottom: 15px;
+    height: 15px;
 }
