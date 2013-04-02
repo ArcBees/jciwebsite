@@ -35,7 +35,8 @@
                         <label for="message">Message</label>
                         <textarea id="message"></textarea>
                         <p class="{contactRes.style.errorMessage}"></p>
-                        <input type="submit" value="Send" class="{res.style.noBottomMargin} {res.style.button_gray} {res.style.btn_green}"/>
+                        <input type="submit" value="Send"
+                               class="{res.style.noBottomMargin} {res.style.button_gray} {res.style.btn_green}"/>
                     </fieldset>
                 </form>
             </div>
