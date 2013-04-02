@@ -28,6 +28,7 @@ import com.google.gwt.user.client.Event;
 import com.google.gwt.user.client.ui.Widget;
 import com.jci.client.resource.CommonResource;
 import com.jci.client.resource.contact.ContactResource;
+import com.jci.client.utils.Regexes;
 
 import javax.inject.Inject;
 
@@ -124,7 +125,7 @@ public class ContactPageView extends ViewImpl implements ContactPagePresenter.My
 
     private void validateEmail(Element e) {
         if ($(e).next("p").text().equals("")) {
-            if (!$(e).val().matches("^[a-z0-9][a-z0-9_\\.-]{0,}[a-z0-9]@[a-z0-9][a-z0-9_\\.-]{0,}[a-z0-9][\\.][a-z0-9]{2,4}$")) {
+            if (!$(e).val().matches(Regexes.emailRegex)) {
                 $(e).next("p").text("This email is not valid.");
                 $(e).addClass(errorInput);
             } else {
