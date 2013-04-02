@@ -25,6 +25,10 @@ public interface ContactResource extends ClientBundle {
         String conventionDiv();
 
         String formDiv();
+
+        String errorMessage();
+
+        String errorInput();
     }
 
     Style style();

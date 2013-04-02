@@ -20,23 +20,23 @@ import com.arcbees.core.client.mvp.ViewImpl;
 import com.google.gwt.dom.client.AnchorElement;
 import com.google.gwt.dom.client.DivElement;
 import com.google.gwt.dom.client.Element;
-import com.google.gwt.dom.client.SpanElement;
 import com.google.gwt.event.logical.shared.AttachEvent;
 import com.google.gwt.query.client.Function;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
+import com.google.gwt.user.client.Event;
 import com.google.gwt.user.client.ui.Widget;
 import com.jci.client.resource.CommonResource;
-import com.jci.client.resource.program.ProgramResource;
+import com.jci.client.resource.contact.ContactResource;
 
 import javax.inject.Inject;
 
 import static com.google.gwt.query.client.GQuery.$;
 
-public class ContactPageView extends ViewImpl implements ContactPagePresenter.MyView, AttachEvent.Handler{
+public class ContactPageView extends ViewImpl implements ContactPagePresenter.MyView, AttachEvent.Handler {
     interface Binder extends UiBinder<Widget, ContactPageView> {
     }
-    
+
     @UiField
     AnchorElement buttonForm;
     @UiField
@@ -47,13 +47,16 @@ public class ContactPageView extends ViewImpl implements ContactPagePresenter.My
     DivElement comitee;
 
     private final String activeStyleName;
+    private final String errorInput;
 
     @Inject
     public ContactPageView(Binder uiBinder,
-                           CommonResource commonResource) {
+                           CommonResource commonResource,
+                           ContactResource contactResource) {
         initWidget(uiBinder.createAndBindUi(this));
-        
+
         activeStyleName = commonResource.style().active();
+        errorInput = contactResource.style().errorInput();
 
         asWidget().addAttachHandler(this);
     }
@@ -66,6 +69,28 @@ public class ContactPageView extends ViewImpl implements ContactPagePresenter.My
     }
 
     private void bindGwtQuery() {
+        $("input[type='submit']", form).click(new Function() {
+            @Override
+            public boolean f(Event e) {
+                e.preventDefault();
+                return false;
+            }
+        });
+
+        $("input[type='text'], textarea", form).blur(new Function() {
+            @Override
+            public void f(Element e) {
+                validate(e);
+            }
+        });
+
+        $("input[id='email']", form).blur(new Function() {
+            @Override
+            public void f(Element e) {
+                validateEmail(e);
+            }
+        });
+
         $(buttonForm).click(new Function() {
             @Override
             public void f() {
@@ -84,5 +109,28 @@ public class ContactPageView extends ViewImpl implements ContactPagePresenter.My
                 $(comitee).show();
                 $(form).hide();
             }
-        });    }
+        });
+    }
+
+    private void validate(Element e) {
+        if ($(e).val().equals("")) {
+            $(e).next("p").text("This field must be filled.");
+            $(e).addClass(errorInput);
+        } else {
+            $(e).next("p").text("");
+            $(e).removeClass(errorInput);
+        }
+    }
+
+    private void validateEmail(Element e) {
+        if ($(e).next("p").text().equals("")) {
+            if (!$(e).val().matches("^[a-z0-9][a-z0-9_\\.-]{0,}[a-z0-9]@[a-z0-9][a-z0-9_\\.-]{0,}[a-z0-9][\\.][a-z0-9]{2,4}$")) {
+                $(e).next("p").text("This email is not valid.");
+                $(e).addClass(errorInput);
+            } else {
+                $(e).next("p").text("");
+                $(e).removeClass(errorInput);
+            }
+        }
+    }
 }

@@ -23,14 +23,18 @@
                     <fieldset>
                         <label for="name">Your name</label>
                         <input type="text" id="name"/>
+                        <p class="{contactRes.style.errorMessage}"></p>
                         <label for="email">Your email</label>
-                        <input type="text" id="email"/>
+                        <input type="text" id="email" placeholder="email@domain.com"/>
+                        <p class="{contactRes.style.errorMessage}"></p>
                         <label for="subject">Subject</label>
                         <input type="text" id="subject"/>
+                        <p class="{contactRes.style.errorMessage}"></p>
                     </fieldset>
                     <fieldset>
                         <label for="message">Message</label>
                         <textarea id="message"></textarea>
+                        <p class="{contactRes.style.errorMessage}"></p>
                         <input type="submit" value="Send" class="{res.style.noBottomMargin} {res.style.button_gray} {res.style.btn_green}"/>
                     </fieldset>
                 </form>
