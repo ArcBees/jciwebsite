@@ -21,6 +21,7 @@ public class NameTokens {
     public static final String register = "register";
     public static final String program = "program";
     public static final String about = "about";
+    public static final String contact = "contact";
 
     public static String getHome() {
         return home;
@@ -36,5 +37,9 @@ public class NameTokens {
 
     public static String getAbout() {
         return about;
+    }
+
+    public static String getContact() {
+        return contact;
     }
 }

@@ -1,0 +1,180 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+    <ui:with field="res" type="com.jci.client.resource.CommonResource"/>
+    <ui:with field="contactRes" type="com.jci.client.resource.contact.ContactResource"/>
+    <g:HTMLPanel>
+        <div class="{res.style.width} {res.style.white} {res.style.dragUp} {res.style.round}
+        {res.style.content}">
+            <div class="{res.style.actions}">
+                <a ui:field="buttonForm" class="{res.style.button_gray} {res.style.active}">
+                    Contact Us
+                </a>
+                <a ui:field="buttonComitee" class="{res.style.button_gray}">Convention Comitee</a>
+            </div>
+            <div ui:field="form" class="{contactRes.style.formDiv} clearfix">
+                <h1>Contact Us</h1>
+                <p>
+                    For more information, send us an email:
+                    <a href="mailto:info@unlimited2013.ca">info@unlimited2013.ca</a>
+                    or visit our
+                    <a href="https://www.facebook.com/Unlimited2013" target="_blank">Facebook page</a>.
+                </p>
+                <form>
+                    <fieldset>
+                        <label for="name">Your name</label>
+                        <input type="text" id="name"/>
+                        <p class="{contactRes.style.errorMessage}"></p>
+                        <label for="email">Your email</label>
+                        <input type="text" id="email" placeholder="email@domain.com"/>
+                        <p class="{contactRes.style.errorMessage}"></p>
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject"/>
+                        <p class="{contactRes.style.errorMessage}"></p>
+                    </fieldset>
+                    <fieldset>
+                        <label for="message">Message</label>
+                        <textarea id="message"></textarea>
+                        <p class="{contactRes.style.errorMessage}"></p>
+                        <input type="submit" value="Send"
+                               class="{res.style.noBottomMargin} {res.style.button_gray} {res.style.btn_green}"/>
+                    </fieldset>
+                </form>
+            </div>
+            <div ui:field="comitee" style="display: none" class="{contactRes.style.conventionDiv}">
+                <h1>Convention Comitee</h1>
+                <p>
+                    <span>Jean-Simon Deschênes</span>
+                    <b>Convention Director</b>
+                    <i>Lawyer,
+                        <a href="http://www.lavery.ca/lavery-laywer-firm/" target="_blank">Lavery</a>
+                    </i>
+                </p>
+                <p>
+                    <span>François Lanouette</span>
+                    <b>Deputy Convention Director &amp; Director, training</b>
+                    <i>
+                        <a href="http://www.conferencedirect.com/" target="_blank">ConferenceDirect</a>
+                    </i>
+                </p>
+                <p>
+                    <span>Roger Pichette</span>
+                    <b>National Vice President, JCI Canada &amp; Entertainment commitee</b>
+                    <i>Lawyer,
+                        <a href="http://www.bernierbeaudry.com/" target="_blank">Bernier Beaudry inc.</a>
+                    </i>
+                </p>
+                <p>
+                    <span>Steve Ross</span>
+                    <b>Administrator, JCCQ</b>
+                    <i>Director,
+                        <a href="http://www.surmesur.ca/" target="_blank">Surmesur</a>
+                    </i>
+                </p>
+                <h2 class="{res.style.round}">Communication and Marketing</h2>
+                <p>
+                    <span>Christian Goudreau</span>
+                    <b>Director, marketing and communications</b>
+                    <i>CEO,
+                        <a href="http://www.arcbees.com/" target="_blank">ArcBees</a>
+                    </i>
+                </p>
+                <p>
+                    <span>Catherine Irwin-Gibson</span>
+                    <i>Lawyer</i>
+                </p>
+                <p>
+                    <span>Marie-Lou Lefebvre</span>
+                    <i>Project manager (web), Orage communication</i>
+                </p>
+                <p>
+                    <span>David Marcotte</span>
+                    <i>Designer,
+                        <a href="http://www.arcbees.com/" target="_blank">ArcBees</a>
+                    </i>
+                </p>
+                <p>
+                    <span>Émilie Rouillard</span>
+                    <i>
+                        <a href="http://www.fqm.ca/" target="_blank">Fédération québécoise des municipalités</a>
+                    </i>
+                </p>
+                <h2 class="{res.style.round}">Corporate secretary</h2>
+                <p>
+                    <span>Geneviève Doyle</span>
+                    <b>Corporate secretary</b>
+                    <i>Lawyer,
+                        <a href="http://www.arcbees.com/" target="_blank">ArcBees</a>
+                    </i>
+                </p>
+                <h2 class="{res.style.round}">Entertainement</h2>
+                <p>
+                    <span>François Bégin</span>
+                    <b>Director, entertainement</b>
+                    <i>Mortgage broker,
+                        <a href="http://www.archyp.ca/" target="_blank">Les Architectes hypothécaires</a>
+                    </i>
+                </p>
+                <p>
+                    <span>Géraldine Gavard</span>
+                    <i>Sales director,
+                        <a href="http://www.lepatriarche.com/en/index_en.html" target="_blank">Restaurant Le
+                            Patriarche
+                        </a>
+                    </i>
+                </p>
+                <p>
+                    <span>Roger Pichette</span>
+                    <b>National Vice President, JCI Canada &amp; Entertainment commitee</b>
+                    <i>Lawyer,
+                        <a href="http://www.bernierbeaudry.com/" target="_blank">Bernier Beaudry inc.</a>
+                    </i>
+                </p>
+                <h2 class="{res.style.round}">Finances and Sponsors</h2>
+                <p>
+                    <span>Martin Côté</span>
+                    <b>Director, sponsors</b>
+                    <i>Mortgage specialist,
+                        <a href="http://www.tdcanadatrust.com/" target="_blank">TD Canada Trust</a>
+                    </i>
+                </p>
+                <p>
+                    <span>Pierre-Yves Dubois</span>
+                    <b>Director, finances</b>
+                    <i>Tax manager,
+                        <a href="http://www.deloitte.com/" target="_blank">Samson Bélair Deloitte &amp; Touche</a>
+                    </i>
+                </p>
+                <h2 class="{res.style.round}">Formal events and Logistics</h2>
+                <p>
+                    <span>Rudy Boutet</span>
+                    <b>Director, formal events and logistics</b>
+                    <i>Project manager,
+                        <a href="http://qvc.qc.ca/eng/QVC-01-About-us/QVC-About-us.htm" target="_blank">QVC-Inscript</a>
+                    </i>
+                </p>
+                <p>
+                    <span>Rachel Rhéaume</span>
+                    <i>Lawyer,
+                        <a href="http://dionavocats.com/leCabinet.php" target="_blank">Richard Dion Avocats</a>
+                    </i>
+                </p>
+                <h2 class="{res.style.round}">Programs and Training</h2>
+                <p>
+                    <span>François Lanouette</span>
+                    <b>Deputy Convention Director &amp; Director, training</b>
+                    <i>
+                        <a href="http://www.conferencedirect.com/" target="_blank">ConferenceDirect</a>
+                    </i>
+                </p>
+                <h2 class="{res.style.round}">Registration and VIP</h2>
+                <p class="{res.style.noBottomMargin}">
+                    <span>Patrick Roberge</span>
+                    <b>Director, registration and VIP</b>
+                    <i>Administrator,
+                        <a href="http://www.lola.ca/" target="_blank">Lower St-Lawrence Ocean Agencies</a>
+                    </i>
+                </p>
+            </div>
+        </div>
+    </g:HTMLPanel>
+</ui:UiBinder>

@@ -21,7 +21,7 @@
                     <a href="#{nameTokens.getRegister}" class="{nameTokens.getRegister}">Registration</a>
                     <a href="#{nameTokens.getProgram}" class="{nameTokens.getProgram}">Program</a>
                     <a href="#{nameTokens.getAbout}" class="{nameTokens.getAbout}">About</a>
-                    <a>Contact</a>
+                    <a href="#{nameTokens.getContact}" class="{nameTokens.getContact}">Contact</a>
                 </div>
             </div>
         </div>
