@@ -25,12 +25,14 @@ import com.jci.client.place.DefaultPlace;
 import com.jci.client.place.NameTokens;
 import com.jci.client.place.PlaceManager;
 import com.jci.client.resource.CommonResource;
+import com.jci.client.rest.RestModule;
 
 public class ClientModule extends AbstractPresenterModule {
     @Override
     protected void configure() {
         install(new DefaultModule(PlaceManager.class));
         install(new ApplicationModule());
+        install(new RestModule());
 
         bindConstant().annotatedWith(DefaultPlace.class).to(NameTokens.home);
 

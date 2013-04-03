@@ -18,8 +18,13 @@
 		<filter-class>com.google.inject.servlet.GuiceFilter</filter-class>
 	</filter>
 
-	<filter-mapping>
-		<filter-name>guiceFilter</filter-name>
-		<url-pattern>/*</url-pattern>
-	</filter-mapping>
+    <filter-mapping>
+        <filter-name>guiceFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <context-param>
+        <param-name>resteasy.servlet.mapping.prefix</param-name>
+        <param-value>/rest</param-value>
+    </context-param>
 </web-app>

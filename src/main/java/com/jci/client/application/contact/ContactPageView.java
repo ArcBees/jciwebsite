@@ -16,10 +16,10 @@
 
 package com.jci.client.application.contact;
 
-import com.arcbees.core.client.mvp.ViewImpl;
 import com.google.gwt.dom.client.AnchorElement;
 import com.google.gwt.dom.client.DivElement;
 import com.google.gwt.dom.client.Element;
+import com.google.gwt.dom.client.ImageElement;
 import com.google.gwt.event.logical.shared.AttachEvent;
 import com.google.gwt.query.client.Function;
 import com.google.gwt.query.client.GQuery;
@@ -27,15 +27,18 @@ import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.user.client.Event;
 import com.google.gwt.user.client.ui.Widget;
+import com.gwtplatform.mvp.client.ViewWithUiHandlers;
 import com.jci.client.resource.CommonResource;
 import com.jci.client.resource.contact.ContactResource;
 import com.jci.client.utils.Regexes;
+import com.jci.shared.domain.ContactMessage;
 
 import javax.inject.Inject;
 
 import static com.google.gwt.query.client.GQuery.$;
 
-public class ContactPageView extends ViewImpl implements ContactPagePresenter.MyView, AttachEvent.Handler {
+public class ContactPageView extends ViewWithUiHandlers<ContactPageUiHandlers> implements ContactPagePresenter
+        .MyView, AttachEvent.Handler {
     interface Binder extends UiBinder<Widget, ContactPageView> {
     }
 
@@ -47,9 +50,12 @@ public class ContactPageView extends ViewImpl implements ContactPagePresenter.My
     DivElement form;
     @UiField
     DivElement comitee;
+    @UiField
+    ImageElement loader;
 
     private final String activeStyleName;
     private final String errorInput;
+    private boolean valid;
 
     @Inject
     public ContactPageView(Binder uiBinder,
@@ -68,6 +74,20 @@ public class ContactPageView extends ViewImpl implements ContactPagePresenter.My
         if (attachEvent.isAttached()) {
             bindGwtQuery();
         }
+    }
+
+    @Override
+    public void errorSending() {
+        $(loader).hide();
+
+        showMessage("Your message was not sent. We'll investigate this as soon as possible.", "#D15B2D");
+    }
+
+    @Override
+    public void successSending() {
+        $(loader).hide();
+
+        showMessage("Thank you! Your message was sent to JCI organisers.", "#59780e");
     }
 
     private void bindGwtQuery() {
@@ -116,17 +136,38 @@ public class ContactPageView extends ViewImpl implements ContactPagePresenter.My
     }
 
     private void validateAll() {
-        validateAllE($("input[id='name']", form));
-        validateAllE($("input[id='email']", form));
-        validateAllE($("input[id='subject']", form));
-        validateAllE($("textarea[id='message']", form));
-        validateEmailE($("input[id='email']", form));
+        valid = true;
+
+        GQuery name = $("input[id='name']", form);
+        validateAllE(name);
+        GQuery email = $("input[id='email']", form);
+        validateAllE(email);
+        GQuery subject = $("input[id='subject']", form);
+        validateAllE(subject);
+        GQuery message = $("textarea[id='message']", form);
+        validateAllE(message);
+        validateEmailE(email);
+
+        if (valid) {
+            ContactMessage contactMessage = new ContactMessage();
+
+            contactMessage.setEmail(email.val());
+            contactMessage.setMessage(message.val());
+            contactMessage.setSubject(subject.val());
+            contactMessage.setName(name.val());
+
+            $(loader).show();
+            getUiHandlers().contact(contactMessage);
+        }
+
+        valid = false;
     }
 
     private void validateAllE(GQuery e) {
         if ($(e).val().equals("")) {
             $(e).next("p").text("This field must be filled.");
             $(e).addClass(errorInput);
+            valid = false;
         } else {
             $(e).next("p").text("");
             $(e).removeClass(errorInput);
@@ -138,6 +179,7 @@ public class ContactPageView extends ViewImpl implements ContactPagePresenter.My
             if (!$(e).val().matches(Regexes.emailRegex)) {
                 $(e).next("p").text("This email is not valid.");
                 $(e).addClass(errorInput);
+                valid = false;
             } else {
                 $(e).next("p").text("");
                 $(e).removeClass(errorInput);
@@ -149,6 +191,7 @@ public class ContactPageView extends ViewImpl implements ContactPagePresenter.My
         if ($(e).val().equals("")) {
             $(e).next("p").text("This field must be filled.");
             $(e).addClass(errorInput);
+            valid = false;
         } else {
             $(e).next("p").text("");
             $(e).removeClass(errorInput);
@@ -160,10 +203,17 @@ public class ContactPageView extends ViewImpl implements ContactPagePresenter.My
             if (!$(e).val().matches(Regexes.emailRegex)) {
                 $(e).next("p").text("This email is not valid.");
                 $(e).addClass(errorInput);
+                valid = false;
             } else {
                 $(e).next("p").text("");
                 $(e).removeClass(errorInput);
             }
         }
+    }
+
+    private void showMessage(String text, String color) {
+        GQuery message = $("textarea[id='message']", form);
+        $(message).next("p").css("color", color);
+        $(message).next("p").text(text);
     }
 }
