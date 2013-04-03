@@ -64,5 +64,7 @@ public interface CommonResource extends ClientBundle {
 
     ImageResource puce();
 
+    ImageResource ajaxloader();
+
     Style style();
 }
