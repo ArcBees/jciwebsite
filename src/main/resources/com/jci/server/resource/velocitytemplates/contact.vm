@@ -1,0 +1,17 @@
+<html>
+<h2>JCI Contact Form</h2>
+
+<div>
+    From: $from
+</div>
+<div>
+    Name: $name
+</div>
+<div>
+    Subject: $subject
+</div>
+<h3>
+    Message:
+</h3>
+    $message
+</html>

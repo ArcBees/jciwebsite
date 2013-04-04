@@ -37,6 +37,7 @@
                         <p class="{contactRes.style.errorMessage}"></p>
                         <input type="submit" value="Send"
                                class="{res.style.noBottomMargin} {res.style.button_gray} {res.style.btn_green}"/>
+                        <img src="{res.ajaxloader.getSafeUri}" ui:field="loader" hidden="hidden"/>
                     </fieldset>
                 </form>
             </div>

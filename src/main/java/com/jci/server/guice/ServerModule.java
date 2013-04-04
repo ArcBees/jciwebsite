@@ -16,10 +16,16 @@
 
 package com.jci.server.guice;
 
-import com.gwtplatform.dispatch.server.guice.HandlerModule;
+import com.google.inject.AbstractModule;
+import com.jci.server.email.EmailModule;
+import com.jci.server.rest.RestModule;
+import com.jci.server.velocity.VelocityModule;
 
-public class ServerModule extends HandlerModule {
+public class ServerModule extends AbstractModule {
     @Override
-    protected void configureHandlers() {
+    protected void configure() {
+        install(new RestModule());
+        install(new VelocityModule());
+        install(new EmailModule());
     }
 }
