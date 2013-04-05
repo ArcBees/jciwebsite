@@ -1394,7 +1394,7 @@
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>President's Gala</h2>
+                                <h2>JCI Canada President Gala presented by Lavery</h2>
                                 <p>
                                     <b>Date :</b>
                                     Saturday, September 21, 2013
@@ -1406,7 +1406,30 @@
                                     TRYP Quebec Hotel Pur
                                     <br/>
                                     <b>Room :</b>
-                                    Room ABC
+                                    Ballroom (ABC)
+                                </p>
+                                <p>
+                                    <img src="{programRes.img_awardNight_1.getSafeUri}"
+                                         alt="Ballroom" class="{programRes.style.half}"/>
+                                </p>
+                                <p>Join the JCI Canada community for the presentation of the
+                                    <b>78th JCI Canada President Gala</b>
+                                    on Saturday September 21 that will held this year at the TRYP hotel PUR in Quebec
+                                    City.
+                                </p>
+                                <p>In the heart of the revitalized Saint Roch historic district and steps from the
+                                    fortified Old City, TRYP Hotel PUR puts you near Quebec City’s technology
+                                    neighborhood. This urban hotel, with its unrivalled unique services, has reinvented
+                                    the hotel experience in Quebec City!
+                                </p>
+                                <p>Another great opportunity to meet young professionals and entrepreneurs that are
+                                    impacting communities throughout Canada.
+                                </p>
+                                <p>Come join us for this special evening to close our 78th JCI Canada National
+                                    Convention.
+                                </p>
+                                <p><img src="{programRes.img_presidentGala_2.getSafeUri}"
+                                        alt="Lavery Logo" class="{programRes.style.third}"/>
                                 </p>
                             </div>
                         </div>
