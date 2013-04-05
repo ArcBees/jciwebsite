@@ -134,6 +134,8 @@ public interface ProgramResource extends ClientBundle {
         String excursions();
 
         String excursionsActive();
+
+        String third();
     }
 
     @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.Both)
@@ -166,6 +168,10 @@ public interface ProgramResource extends ClientBundle {
     ImageResource img_awardNight_1();
 
     ImageResource img_awardNight_2();
+
+    ImageResource img_presidentGala_1();
+
+    ImageResource img_presidentGala_2();
 
     ImageResource img_excursionArbraska_1();
 
