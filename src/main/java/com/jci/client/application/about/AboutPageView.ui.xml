@@ -191,7 +191,7 @@
                 </p>
                 <p class="{res.style.noBottomMargin}">
                     For more information,
-                    <a href="http://www.www.jccq.qc.ca/" target="_blank">visit www.jccq.qc.ca</a>
+                    <a href="http://www.jccq.qc.ca/" target="_blank">visit www.jccq.qc.ca</a>
                 </p>
                 <g:Image addStyleNames="{aboutRes.style.imgLogo}" resource="{aboutRes.jccq}" altText="JCCQ Logo"/>
             </div>

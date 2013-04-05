@@ -9,7 +9,7 @@
                 <a ui:field="buttonForm" class="{res.style.button_gray} {res.style.active}">
                     Contact Us
                 </a>
-                <a ui:field="buttonComitee" class="{res.style.button_gray}">Convention Comitee</a>
+                <a ui:field="buttonCommittee" class="{res.style.button_gray}">Convention Committee</a>
             </div>
             <div ui:field="form" class="{contactRes.style.formDiv} clearfix">
                 <h1>Contact Us</h1>
@@ -41,8 +41,8 @@
                     </fieldset>
                 </form>
             </div>
-            <div ui:field="comitee" style="display: none" class="{contactRes.style.conventionDiv}">
-                <h1>Convention Comitee</h1>
+            <div ui:field="committee" style="display: none" class="{contactRes.style.conventionDiv}">
+                <h1>Convention Committee</h1>
                 <p>
                     <span>Jean-Simon Deschênes</span>
                     <b>Convention Director</b>
@@ -59,7 +59,7 @@
                 </p>
                 <p>
                     <span>Roger Pichette</span>
-                    <b>National Vice President, JCI Canada &amp; Entertainment commitee</b>
+                    <b>National Vice President, JCI Canada &amp; Entertainment committee</b>
                     <i>Lawyer,
                         <a href="http://www.bernierbeaudry.com/" target="_blank">Bernier Beaudry inc.</a>
                     </i>
@@ -125,7 +125,7 @@
                 </p>
                 <p>
                     <span>Roger Pichette</span>
-                    <b>National Vice President, JCI Canada &amp; Entertainment commitee</b>
+                    <b>National Vice President, JCI Canada &amp; Entertainment committee</b>
                     <i>Lawyer,
                         <a href="http://www.bernierbeaudry.com/" target="_blank">Bernier Beaudry inc.</a>
                     </i>
@@ -142,7 +142,7 @@
                     <span>Pierre-Yves Dubois</span>
                     <b>Director, finances</b>
                     <i>Tax manager,
-                        <a href="http://www.deloitte.com/" target="_blank">Samson Bélair Deloitte &amp; Touche</a>
+                        <a href="http://www.deloitte.com/" target="_blank">Deloitte s.e.n.c.r.l</a>
                     </i>
                 </p>
                 <h2 class="{res.style.round}">Formal events and Logistics</h2>

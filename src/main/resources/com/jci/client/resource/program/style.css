@@ -931,6 +931,10 @@
     padding: 0 8px;
 }
 
+.visioProgram .event > div.tooltip p img.third {
+    width: 33%;
+}
+
 .visioProgram .event > div.tooltip p img.half {
     width: 49%;
 }
