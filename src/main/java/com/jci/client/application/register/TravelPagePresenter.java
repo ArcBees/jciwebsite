@@ -28,7 +28,7 @@ import com.jci.client.place.NameTokens;
 
 import javax.inject.Inject;
 
-public class RegisterPagePresenter extends Presenter<RegisterPagePresenter.MyView, RegisterPagePresenter.MyProxy> {
+public class TravelPagePresenter extends Presenter<TravelPagePresenter.MyView, TravelPagePresenter.MyProxy> {
     public interface MyView extends View {
         void showSection(String id);
 
@@ -38,16 +38,16 @@ public class RegisterPagePresenter extends Presenter<RegisterPagePresenter.MyVie
     }
 
     @ProxyStandard
-    @NameToken(NameTokens.register)
-    public interface MyProxy extends ProxyPlace<RegisterPagePresenter> {
+    @NameToken(NameTokens.travel)
+    public interface MyProxy extends ProxyPlace<TravelPagePresenter> {
     }
 
     private String id;
 
     @Inject
-    public RegisterPagePresenter(EventBus eventBus,
-                                 MyView view,
-                                 MyProxy proxy) {
+    public TravelPagePresenter(EventBus eventBus,
+                               MyView view,
+                               MyProxy proxy) {
         super(eventBus, view, proxy, ApplicationPresenter.TYPE_SetMainContent);
     }
 

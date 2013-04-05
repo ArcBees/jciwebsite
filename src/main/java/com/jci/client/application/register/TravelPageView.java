@@ -30,8 +30,8 @@ import javax.inject.Inject;
 
 import static com.google.gwt.query.client.GQuery.$;
 
-public class RegisterPageView extends ViewImpl implements RegisterPagePresenter.MyView, AttachEvent.Handler {
-    interface Binder extends UiBinder<Widget, RegisterPageView> {
+public class TravelPageView extends ViewImpl implements TravelPagePresenter.MyView, AttachEvent.Handler {
+    interface Binder extends UiBinder<Widget, TravelPageView> {
     }
 
 
@@ -47,8 +47,8 @@ public class RegisterPageView extends ViewImpl implements RegisterPagePresenter.
     private final String activeStyleName;
 
     @Inject
-    public RegisterPageView(Binder uiBinder,
-                            CommonResource commonResource) {
+    public TravelPageView(Binder uiBinder,
+                          CommonResource commonResource) {
         initWidget(uiBinder.createAndBindUi(this));
 
         activeStyleName = commonResource.style().active();
