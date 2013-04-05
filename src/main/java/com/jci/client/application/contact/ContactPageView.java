@@ -45,11 +45,11 @@ public class ContactPageView extends ViewWithUiHandlers<ContactPageUiHandlers> i
     @UiField
     AnchorElement buttonForm;
     @UiField
-    AnchorElement buttonComitee;
+    AnchorElement buttonCommittee;
     @UiField
     DivElement form;
     @UiField
-    DivElement comitee;
+    DivElement committee;
     @UiField
     ImageElement loader;
 
@@ -117,19 +117,19 @@ public class ContactPageView extends ViewWithUiHandlers<ContactPageUiHandlers> i
         $(buttonForm).click(new Function() {
             @Override
             public void f() {
-                $(buttonComitee).removeClass(activeStyleName);
+                $(buttonCommittee).removeClass(activeStyleName);
                 $(buttonForm).addClass(activeStyleName);
                 $(form).show();
-                $(comitee).hide();
+                $(committee).hide();
             }
         });
 
-        $(buttonComitee).click(new Function() {
+        $(buttonCommittee).click(new Function() {
             @Override
             public void f() {
                 $(buttonForm).removeClass(activeStyleName);
-                $(buttonComitee).addClass(activeStyleName);
-                $(comitee).show();
+                $(buttonCommittee).addClass(activeStyleName);
+                $(committee).show();
                 $(form).hide();
             }
         });
