@@ -182,6 +182,7 @@ thead {
 }
 
 div .btn_green {
+    color: #ffffff;
     border: 1px solid rgb(127, 142, 81);
     background: rgb(166, 182, 111);
     background: -moz-linear-gradient(top, rgba(166, 182, 111, 1) 0%, rgba(94, 117, 22, 1) 100%);

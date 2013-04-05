@@ -46,6 +46,10 @@
     margin-bottom: 8px;
 }
 
+.navbar {
+    margin-top: 6px;
+}
+
 .navbar a, .navbar a:link, .navbar a:visited, .navbar a:active, .navbar a.active {
     color: #383839;
     font-size: 25px;

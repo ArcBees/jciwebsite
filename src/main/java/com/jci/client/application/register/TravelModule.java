@@ -18,10 +18,10 @@ package com.jci.client.application.register;
 
 import com.gwtplatform.mvp.client.gin.AbstractPresenterModule;
 
-public class RegisterModule extends AbstractPresenterModule {
+public class TravelModule extends AbstractPresenterModule {
     @Override
     protected void configure() {
-        bindPresenter(RegisterPagePresenter.class, RegisterPagePresenter.MyView.class, RegisterPageView.class,
-                RegisterPagePresenter.MyProxy.class);
+        bindPresenter(TravelPagePresenter.class, TravelPagePresenter.MyView.class, TravelPageView.class,
+                TravelPagePresenter.MyProxy.class);
     }
 }
