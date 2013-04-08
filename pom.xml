@@ -269,7 +269,7 @@
             <scope>test</scope>
         </dependency>
 
-        <!--Rest-->
+        <!--Rest -->
         <dependency>
             <groupId>org.jboss.resteasy</groupId>
             <artifactId>resteasy-jaxrs</artifactId>
