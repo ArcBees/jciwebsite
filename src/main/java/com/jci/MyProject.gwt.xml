@@ -17,6 +17,12 @@
 
     <entry-point class='com.jci.client.Website'/>
 
+    <!-- French language, independent of country -->
+    <extend-property name="locale" values="fr" />
+    <!-- English language, independent of country -->
+    <extend-property name="locale" values="en" />
+    <set-property-fallback name="locale" value="en" />
+
     <source path='client'/>
     <source path='shared'/>
 
