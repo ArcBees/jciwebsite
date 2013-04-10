@@ -16,8 +16,8 @@
 
 package com.jci.server.guice;
 
+import com.arcbees.appengine.mail.MailModule;
 import com.google.inject.AbstractModule;
-import com.jci.server.email.EmailModule;
 import com.jci.server.rest.RestModule;
 import com.jci.server.velocity.VelocityModule;
 
@@ -26,6 +26,6 @@ public class ServerModule extends AbstractModule {
     protected void configure() {
         install(new RestModule());
         install(new VelocityModule());
-        install(new EmailModule());
+        install(new MailModule());
     }
 }
