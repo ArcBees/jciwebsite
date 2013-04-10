@@ -3,10 +3,16 @@
     <ui:with field="res" type="com.jci.client.resource.CommonResource"/>
     <ui:with field="headRes" type="com.jci.client.resource.header.HeaderResource"/>
     <ui:with field="nameTokens" type="com.jci.client.place.NameTokens"/>
+    <ui:style>
+        .localeSwitch:hover{
+            cursor: pointer;
+        }
+    </ui:style>
 
     <g:HTMLPanel addStyleNames="{headRes.style.bottomBorder} {headRes.style.rootWrapper} {res.style.white}">
         <div class="{res.style.width}">
-            <g:Image resource="{headRes.headLangue_EN}" addStyleNames="{headRes.style.headLangue}"/>
+            <g:Image resource="{headRes.headLangue_EN}" addStyleNames="{headRes.style.headLangue} {style.localeSwitch}"
+                     ui:field="localeSwitchImage"/>
             <div class="{headRes.style.left}">
                 <a href="#{nameTokens.getHome}">
                     <g:Image resource="{headRes.headLogoJCI_EN}" addStyleNames="{headRes.style.logoMargin}"/>
