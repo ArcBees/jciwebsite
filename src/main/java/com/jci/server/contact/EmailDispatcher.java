@@ -1,7 +1,7 @@
 package com.jci.server.contact;
 
-import com.jci.server.email.Email;
-import com.jci.server.email.SendEmailTask;
+import com.arcbees.appengine.mail.Email;
+import com.arcbees.appengine.mail.Mail;
 import com.jci.shared.domain.ContactMessage;
 import com.jci.server.contact.bodygenerator.*;
 
@@ -22,6 +22,6 @@ public class EmailDispatcher {
                 .getSubject();
         String body = contactBodyGenerator.generate(contactMessage);
 
-        SendEmailTask.createEmailTaskAndSendEmail(new Email(to, from, subject, body));
+        Mail.send(new Email(to, from, subject, body));
     }
 }
