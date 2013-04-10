@@ -1,44 +1,71 @@
 <ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
-             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'
+             ui:generateFormat='com.google.gwt.i18n.rebind.format.PropertiesFormat'
+             ui:generateKeys="com.google.gwt.i18n.server.keygen.MD5KeyGenerator"
+             ui:generateLocales='en'>
+
     <ui:with field="res" type="com.jci.client.resource.CommonResource"/>
+
     <g:HTMLPanel>
         <div class="{res.style.width} {res.style.white} {res.style.dragUp} {res.style.round}
         {res.style.content}">
             <div class="{res.style.actions}">
                 <a ui:field="buttonHotel" class="{res.style.button_gray} {res.style.active}">
-                    Convention Hotel</a>
+                    <ui:msg description="About > Title 1">
+                        Convention Hotel
+                    </ui:msg>
+                </a>
                 <a ui:field="buttonTravel" class="{res.style.button_gray}">Getting to Quebec City</a>
             </div>
 
             <div ui:field="hotel">
-                <h1>Convention Hotel</h1>
+                <h1>
+                    <ui:msg description="Travel > Title 1">
+                        Convention Hotel
+                    </ui:msg>
+                </h1>
                 <p>
-                    Find the best of everything at TRYP Quebec Hotel Pur (<a href="http://www.hotelpur.com"
-                       target="_blank">http://www.hotelpur.com/</a>), winner of a 2012 Trip Advisor
-                    Travelers' Choice Award in the category Top 25 Trendiest Hotels in Canada.
+                    <ui:msg description="Travel > Paragraph 1.1">
+                        Find the best of everything at TRYP Quebec Hotel Pur (
+                    </ui:msg>
+                    <a href="http://www.hotelpur.com" target="_blank">http://www.hotelpur.com/</a>
+                    <ui:msg description="Travel > Paragraph 1.2">
+                        ), winner of a 2012 Trip Advisor
+                        Travelers' Choice Award in the category Top 25 Trendiest Hotels in Canada.
+                    </ui:msg>
                 </p>
                 <p>
-                    In the heart of the revitalised Saint-Roch historic district and steps from the fortified old city,
-                    Hotel Pur put you near hip downtown, shops, eatery night life and Quebec City technology
-                    district.
+                    <ui:msg description="Travel > Paragraph 2">
+                        In the heart of the revitalised Saint-Roch historic district and steps from the fortified old city,
+                        Hotel Pur put you near hip downtown, shops, eatery night life and Quebec City technology
+                        district.
+                    </ui:msg>
                 </p>
                 <p>
-                    TRYP Quebec Hotel Pur is a haven of minimalist design and urban sophistication. Our rooms feature
-                    commanding views of the city with floor-to-ceiling windows and premium comforts like fine linens,
-                    pillow
-                    top mattresses, European-style showers or invigorating Japanese bathtubs, and flat screen LCD TVs.
-                    There
-                    is free Wi-Fi everywhere and plenty of ways to indulge yourself right on the premises with a 24/7
-                    gym,
-                    free Italian coffee in the lobby, and an indoor heated pool and sauna.
+                    <ui:msg description="Travel > Paragraph 3">
+                        TRYP Quebec Hotel Pur is a haven of minimalist design and urban sophistication. Our rooms feature
+                        commanding views of the city with floor-to-ceiling windows and premium comforts like fine linens,
+                        pillow
+                        top mattresses, European-style showers or invigorating Japanese bathtubs, and flat screen LCD TVs.
+                        There
+                        is free Wi-Fi everywhere and plenty of ways to indulge yourself right on the premises with a 24/7
+                        gym,
+                        free Italian coffee in the lobby, and an indoor heated pool and sauna.
+                    </ui:msg>
                 </p>
                 <p>
-                    To book your room, use the following contact information and mention the Convention Group:
+                    <ui:msg description="Travel > Paragraph 4">
+                        To book your room, use the following contact information and mention the Convention Group:
+                    </ui:msg>
                     <b>JCI Canada</b>.
                 </p>
 
                 <p>
-                    <b>TRYP Quebec Hotel Pur</b>
+                    <b>
+                        <ui:msg description="Travel > Title 2">
+                            TRYP Quebec Hotel Pur
+                        </ui:msg>
+                    </b>
                     <br/>
                     <a href="https://maps.google.ca/maps?q=395+Couronne+Street,+Qu%C3%A9bec+(QC),+G1K+7X4&amp;hl=en&amp;authuser=0&amp;ie=UTF-8&amp;ei=ZcFIUfJe16ngA_DSgegN&amp;ved=0CAsQ_AUoAg">
                         395 Couronne Street, Quebec City (QC), G1K 7X4
@@ -56,79 +83,174 @@
                     <br/>
                 </p>
 
-                <h1>Rates</h1>
+                <h1>
+                    <ui:msg description="Travel > Title 3">
+                        Rates
+                    </ui:msg>
+                </h1>
                 <div class="{res.style.table} {res.style.round}">
                     <table>
                         <thead>
-                            <td>Room</td>
-                            <td>Price per night*</td>
+                            <td>
+                                <ui:msg description="Travel > Room">
+                                    Room
+                                </ui:msg>
+                            </td>
+                            <td>
+                                <ui:msg description="Travel > Price Night">
+                                    Price per night*
+                                </ui:msg>
+                            </td>
                         </thead>
                         <tr>
-                            <td>TRYP room with king bed</td>
-                            <td>$169 CAN</td>
+                            <td>
+                                TRYP room with king bed
+                            </td>
+                            <td>
+                                $169 CAN
+                            </td>
                         </tr>
                         <tr class="{res.style.odd}">
-                            <td>TRYP room with Church view - king bed</td>
+                            <td>
+                                <ui:msg description="Travel > Room KB">
+                                    TRYP room with Church view - king bed
+                                </ui:msg>
+                            </td>
                             <td>$179 CAN</td>
                         </tr>
                         <tr>
-                            <td>TRYP room with two double beds</td>
+                            <td>
+                                <ui:msg description="Travel > Room DB">
+                                    TRYP room with two double beds
+                                </ui:msg>
+                            </td>
                             <td>$189 CAN</td>
                         </tr>
                         <tr class="{res.style.odd}">
-                            <td>TRYP room with Church view - double beds</td>
+                            <td>
+                                <ui:msg description="Travel > Room Church DB">
+                                    TRYP room with Church view - double beds
+                                </ui:msg>
+                            </td>
                             <td>$199 CAN</td>
                         </tr>
                         <tr>
-                            <td>Premium room, located on the highest floors (16th to 18th) of the hotel. Breathtaking
-                                views
-                                of Quebec City with floor to ceiling windows.
+                            <td>
+                                <ui:msg description="Travel > Premium Room">
+                                    Premium room, located on the highest floors (16th to 18th) of the hotel. Breathtaking
+                                    views
+                                    of Quebec City with floor to ceiling windows.
+                                </ui:msg>
                             </td>
                             <td>+$30 CAN</td>
                         </tr>
                     </table>
                 </div>
-                <p>* Plus taxes. Room rates are based on single and double occupancy. An extra person charge ($20) will
-                    be
-                    added to your room rate for each additional adult.
+                <p>
+                    <ui:msg description="Travel > Paragraph 5">
+                        * Plus taxes. Room rates are based on single and double occupancy. An extra person charge ($20) will
+                        be
+                        added to your room rate for each additional adult.
+                    </ui:msg>
                 </p>
-                <h2 class="{res.style.round} {res.style.noBottomMargin}">Facilities</h2>
+
+                <h2 class="{res.style.round} {res.style.noBottomMargin}">
+                    <ui:msg description="Travel > Title 4">
+                        Facilities
+                    </ui:msg>
+                </h2>
 
                 <ul class="{res.style.noBottomMargin}">
-                    <li>Free Wi-Fi</li>
-                    <li>Flat screen LCD TV</li>
-                    <li>Mini bar</li>
-                    <li>Safe</li>
-                    <li>Air conditioning/heating</li>
-                    <li>Direct dial telephone</li>
-                    <li>Hair dryer</li>
-                    <li>Ipod dock</li>
+                    <li>
+                        <ui:msg description="Travel > ul1 > li1">
+                            Free Wi-Fi
+                        </ui:msg>
+                    </li>
+                    <li>
+                        <ui:msg description="Travel > ul1 > li2">
+                            Flat screen LCD TV
+                        </ui:msg>
+                    </li>
+                    <li>
+                        <ui:msg description="Travel > ul1 > li3">
+                            Mini bar
+                        </ui:msg>
+                    </li>
+                    <li>
+                        <ui:msg description="Travel > ul1 > li4">
+                            Safe
+                        </ui:msg>
+                    </li>
+                    <li>
+                        <ui:msg description="Travel > ul1 > li5">
+                            Air conditioning/heating
+                        </ui:msg>
+                    </li>
+                    <li>
+                        <ui:msg description="Travel > ul1 > li6">
+                            Direct dial telephone
+                        </ui:msg>
+                    </li>
+                    <li>
+                        <ui:msg description="Travel > ul1 > li7">
+                            Hair dryer
+                        </ui:msg>
+                    </li>
+                    <li>
+                        <ui:msg description="Travel > ul1 > li8">
+                            Ipod dock
+                        </ui:msg>
+                    </li>
                 </ul>
             </div>
             <div ui:field="travel" style="display: none">
-                <h1>Getting to Quebec City</h1>
-                <h2 class="{res.style.round} {res.style.smallMarginTop}">By plane</h2>
+                <h1>
+                    <ui:msg description="Travel > Title 5">
+                        Getting to Quebec City
+                    </ui:msg>
+                </h1>
+                <h2 class="{res.style.round} {res.style.smallMarginTop}">
+                    <ui:msg description="Travel > Title 6">
+                        By plane
+                    </ui:msg>
+                </h2>
                 <p>
-                    Quebec City’s Jean Lesage International Airport (YQB)
+                    <ui:msg description="Travel > Paragraph 5.1">
+                        Quebec City’s Jean Lesage International Airport (YQB)
+                    </ui:msg>
                     <a href="http://www.aeroportdequebec.com/en/" target="_blank">http://www.aeroportdequebec.com/en/
                     </a>
-                    offers flights from the major hubs in Eastern North America. Major carriers (Air Canada, West jet,
-                    Delta, United Airlines, Porter and U.S Airways to name a few) provide flights from Toronto,
-                    Montreal,
-                    Ottawa, New York, Chicago, Philadelphia and Punta Cana (why not!).
+                    <ui:msg description="Travel > Paragraph 5.2">
+                        offers flights from the major hubs in Eastern North America. Major carriers (Air Canada, West jet,
+                        Delta, United Airlines, Porter and U.S Airways to name a few) provide flights from Toronto,
+                        Montreal,
+                        Ottawa, New York, Chicago, Philadelphia and Punta Cana (why not!).
+                    </ui:msg>
                 </p>
                 <p class="{res.style.noBottomMargin}">
-                    Quebec City’s Jean Lesage International Airport (YQB) is located 14 kilometres from the Convention
-                    Hotel which can be reached by various means of transportation:
+                    <ui:msg description="Travel > Paragraph 6">
+                        Quebec City’s Jean Lesage International Airport (YQB) is located 14 kilometres from the Convention
+                        Hotel which can be reached by various means of transportation:
+                    </ui:msg>
                 </p>
                 <ul>
-                    <li>Taxi: flat rate of $34,50, 14 km - 15 minutes driving distance.</li>
-                    <li>Car: all major car rental companies are located in the Airport.</li>
+                    <li>
+                        <ui:msg description="Travel > ul2 > li1">
+                            Taxi: flat rate of $34,50, 14 km - 15 minutes driving distance.
+                        </ui:msg>
+                    </li>
+                    <li>
+                        <ui:msg description="Travel > ul2 > li2">
+                            Car: all major car rental companies are located in the Airport.
+                        </ui:msg>
+                    </li>
                 </ul>
 
                 <h2 class="{res.style.round}">By car</h2>
                 <p class="{res.style.noBottomMargin}">
-                    Obviously, you can drive to Quebec City:
+                    <ui:msg description="Travel > Paragraph 7">
+                        Obviously, you can drive to Quebec City:
+                    </ui:msg>
                 </p>
                 <ul>
                     <li>Trois-Rivières, 159 km</li>
@@ -137,15 +259,27 @@
                     <li>Boston, 640 km</li>
                     <li>Toronto, 795 km</li>
                     <li>Halifax, 1,017 km</li>
-                    <li>And Vancouver, 5,152 km (if you want to go the distance!)</li>
+                    <li>
+                        <ui:msg description="Travel > ul3 > li1">
+                            And Vancouver, 5,152 km (if you want to go the distance!)
+                        </ui:msg>
+                    </li>
                 </ul>
 
-                <h2 class="{res.style.round}">By train</h2>
+                <h2 class="{res.style.round}">
+                    <ui:msg description="Travel > Title 7">
+                        By train
+                    </ui:msg>
+                </h2>
                 <p class="{res.style.noBottomMargin}">
-                    It is possible to reach Quebec City Central Train Station, located 1.1 km from the Convention Hotel,
-                    boarding a VIA Rail train. Visit
+                    <ui:msg description="Travel > Paragraph 7.1">
+                        It is possible to reach Quebec City Central Train Station, located 1.1 km from the Convention Hotel,
+                        boarding a VIA Rail train. Visit
+                    </ui:msg>
                     <a href="http://www.viarail.ca" target="_blank">www.viarail.ca</a>
-                    for more details.
+                    <ui:msg description="Travel > Paragraph 7.2">
+                        for more details.
+                    </ui:msg>
                 </p>
             </div>
         </div>

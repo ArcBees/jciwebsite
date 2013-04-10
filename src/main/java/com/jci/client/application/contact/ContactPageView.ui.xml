@@ -1,7 +1,7 @@
 <ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
              xmlns:g='urn:import:com.google.gwt.user.client.ui'
              ui:generateFormat='com.google.gwt.i18n.rebind.format.PropertiesFormat'
-             ui:generateKeys="com.google.gwt.i18n.rebind.keygen.MD5KeyGenerator"
+             ui:generateKeys="com.google.gwt.i18n.server.keygen.MD5KeyGenerator"
              ui:generateLocales='en'>
 
     <ui:with field="res" type="com.jci.client.resource.CommonResource"/>
@@ -90,7 +90,9 @@
                         </ui:msg>
                     </b>
                     <i>
-                        Lawyer,
+                        <ui:msg description="Contact > Lawyer">
+                            Lawyer,
+                        </ui:msg>
                         <a href="http://www.lavery.ca/lavery-laywer-firm/" target="_blank">Lavery</a>
                     </i>
                 </p>
@@ -112,7 +114,10 @@
                             National Vice President, JCI Canada &amp; Entertainment committee
                         </ui:msg>
                     </b>
-                    <i>Lawyer,
+                    <i>
+                        <ui:msg description="Contact > Lawyer">
+                            Lawyer,
+                        </ui:msg>
                         <a href="http://www.bernierbeaudry.com/" target="_blank">Bernier Beaudry inc.</a>
                     </i>
                 </p>
@@ -123,7 +128,10 @@
                             Administrator, JCCQ
                         </ui:msg>
                     </b>
-                    <i>Director,
+                    <i>
+                        <ui:msg description="Contact > Director">
+                            Director,
+                        </ui:msg>
                         <a href="http://www.surmesur.ca/" target="_blank">Surmesur</a>
                     </i>
                 </p>
@@ -134,50 +142,97 @@
                 </h2>
                 <p>
                     <span>Christian Goudreau</span>
-                    <b>Director, marketing and communications</b>
-                    <i>CEO,
+                    <b>
+                        <ui:msg description="Contact > Director marketing">
+                            Director, marketing and communications
+                        </ui:msg>
+                    </b>
+                    <i>
+                        <ui:msg description="Contact > CEO">
+                            CEO,
+                        </ui:msg>
                         <a href="http://www.arcbees.com/" target="_blank">ArcBees</a>
                     </i>
                 </p>
                 <p>
                     <span>Catherine Irwin-Gibson</span>
-                    <i>Lawyer</i>
+                    <i>
+                        <ui:msg description="Contact > Lawyer 1">
+                            Lawyer
+                        </ui:msg>
+                    </i>
                 </p>
                 <p>
                     <span>Marie-Lou Lefebvre</span>
-                    <i>Project manager (web), Orage communication</i>
+                    <i>
+                        <ui:msg description="Contact > Project manager">
+                            Project manager (web), Orage communication
+                        </ui:msg>
+                    </i>
                 </p>
                 <p>
                     <span>David Marcotte</span>
-                    <i>Designer,
+                    <i>
+                        <ui:msg description="Contact > Designer">
+                            Designer,
+                        </ui:msg>
                         <a href="http://www.arcbees.com/" target="_blank">ArcBees</a>
                     </i>
                 </p>
                 <p>
                     <span>Émilie Rouillard</span>
                     <i>
-                        <a href="http://www.fqm.ca/" target="_blank">Fédération québécoise des municipalités</a>
+                        <a href="http://www.fqm.ca/" target="_blank">
+                            <ui:msg description="Contact > federation link">
+                                Fédération québécoise des municipalités
+                            </ui:msg>
+                        </a>
                     </i>
                 </p>
-                <h2 class="{res.style.round}">Corporate secretary</h2>
+                <h2 class="{res.style.round}">
+                    <ui:msg description="Contact > Title 4">
+                        Corporate secretary
+                    </ui:msg>
+                </h2>
                 <p>
                     <span>Geneviève Doyle</span>
-                    <b>Corporate secretary</b>
-                    <i>Lawyer,
+                    <b>
+                        <ui:msg description="Contact > Corporate secretary">
+                            Corporate secretary
+                        </ui:msg>
+                    </b>
+                    <i>
+                        <ui:msg description="Contact > Lawyer">
+                            Lawyer,
+                        </ui:msg>
                         <a href="http://www.arcbees.com/" target="_blank">ArcBees</a>
                     </i>
                 </p>
-                <h2 class="{res.style.round}">Entertainement</h2>
+                <h2 class="{res.style.round}">
+                    <ui:msg description="Contact > Title 5">
+                        Entertainement
+                    </ui:msg>
+                </h2>
                 <p>
                     <span>François Bégin</span>
-                    <b>Director, entertainement</b>
-                    <i>Mortgage broker,
+                    <b>
+                        <ui:msg description="Contact > Director entertainement">
+                            Director, entertainement
+                        </ui:msg>
+                    </b>
+                    <i>
+                        <ui:msg description="Contact > Mortgage broker">
+                            Mortgage broker,
+                        </ui:msg>
                         <a href="http://www.archyp.ca/" target="_blank">Les Architectes hypothécaires</a>
                     </i>
                 </p>
                 <p>
                     <span>Géraldine Gavard</span>
-                    <i>Sales director,
+                    <i>
+                        <ui:msg description="Contact > Sales director">
+                            Sales director,
+                        </ui:msg>
                         <a href="http://www.lepatriarche.com/en/index_en.html" target="_blank">Restaurant Le
                             Patriarche
                         </a>
@@ -185,44 +240,83 @@
                 </p>
                 <p>
                     <span>Roger Pichette</span>
-                    <b>National Vice President, JCI Canada &amp; Entertainment committee</b>
-                    <i>Lawyer,
+                    <b>
+                        <ui:msg description="Contact > National Vice President">
+                            National Vice President, JCI Canada &amp; Entertainment committee
+                        </ui:msg>
+                    </b>
+                    <i>
+                        <ui:msg description="Contact > Lawyer">
+                            Lawyer,
+                        </ui:msg>
                         <a href="http://www.bernierbeaudry.com/" target="_blank">Bernier Beaudry inc.</a>
                     </i>
                 </p>
-                <h2 class="{res.style.round}">Finances and Sponsors</h2>
+                <h2 class="{res.style.round}">
+                    <ui:msg description="Contact > Title 6">
+                        Finances and Sponsors
+                    </ui:msg>
+                </h2>
                 <p>
                     <span>Martin Côté</span>
-                    <b>Director, sponsors</b>
-                    <i>Mortgage specialist,
+                    <b>
+                        <ui:msg description="Contact > Director sponsors">
+                            Director, sponsors
+                        </ui:msg>
+                    </b>
+                    <i>
+                        <ui:msg description="Contact > Mortgage specialist">
+                            Mortgage specialist,
+                        </ui:msg>
                         <a href="http://www.tdcanadatrust.com/" target="_blank">TD Canada Trust</a>
                     </i>
                 </p>
                 <p>
                     <span>Pierre-Yves Dubois</span>
-                    <b>Director, finances</b>
-                    <i>Tax manager,
+                    <b>
+                        <ui:msg description="Contact > Director finances">
+                            Director, finances
+                        </ui:msg>
+                    </b>
+                    <i>
+                        <ui:msg description="Contact > Tax manager">
+                            Tax manager,
+                        </ui:msg>
                         <a href="http://www.deloitte.com/" target="_blank">Deloitte s.e.n.c.r.l</a>
                     </i>
                 </p>
                 <h2 class="{res.style.round}">Formal events and Logistics</h2>
                 <p>
                     <span>Rudy Boutet</span>
-                    <b>Director, formal events and logistics</b>
-                    <i>Project manager,
+                    <b>
+                        <ui:msg description="Contact > Director formal">
+                            Director, formal events and logistics
+                        </ui:msg>
+                    </b>
+                    <i>
+                        <ui:msg description="Contact > Project manager">
+                            Project manager,
+                        </ui:msg>
                         <a href="http://qvc.qc.ca/eng/QVC-01-About-us/QVC-About-us.htm" target="_blank">QVC-Inscript</a>
                     </i>
                 </p>
                 <p>
                     <span>Rachel Rhéaume</span>
-                    <i>Lawyer,
+                    <i>
+                        <ui:msg description="Contact > Lawyer">
+                            Lawyer,
+                        </ui:msg>
                         <a href="http://dionavocats.com/leCabinet.php" target="_blank">Richard Dion Avocats</a>
                     </i>
                 </p>
                 <h2 class="{res.style.round}">Programs and Training</h2>
                 <p>
                     <span>François Lanouette</span>
-                    <b>Deputy Convention Director &amp; Director, training</b>
+                    <b>
+                        <ui:msg description="Contact > Deputy Convention">
+                            Deputy Convention Director &amp; Director, training
+                        </ui:msg>
+                    </b>
                     <i>
                         <a href="http://www.conferencedirect.com/" target="_blank">ConferenceDirect</a>
                     </i>
@@ -230,8 +324,15 @@
                 <h2 class="{res.style.round}">Registration and VIP</h2>
                 <p class="{res.style.noBottomMargin}">
                     <span>Patrick Roberge</span>
-                    <b>Director, registration and VIP</b>
-                    <i>Administrator,
+                    <b>
+                        <ui:msg description="Contact > Director registration">
+                            Director, registration and VIP
+                        </ui:msg>
+                    </b>
+                    <i>
+                        <ui:msg description="Contact > Administrator">
+                            Administrator,
+                        </ui:msg>
                         <a href="http://www.lola.ca/" target="_blank">Lower St-Lawrence Ocean Agencies</a>
                     </i>
                 </p>
