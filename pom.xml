@@ -110,6 +110,8 @@
 
                     <runTarget>myproject.html</runTarget>
                     <module>com.jci.MyProject</module>
+                    <extraParam>true</extraParam>
+                    <extra>extras</extra>
                 </configuration>
                 <executions>
                     <execution>
