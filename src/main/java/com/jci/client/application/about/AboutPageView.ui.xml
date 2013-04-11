@@ -157,11 +157,11 @@
                 </p>
                 <p class="{res.style.noBottomMargin}">
                     <ui:msg description="About > paragraph 9">
-                        For more information,
+                        For more information, visit
                     </ui:msg>
                     <a href="http://www.jcicanada.com/" target="_blank">
                         <ui:msg description="About > link 1">
-                            visit www.jcicanada.com
+                            www.jcicanada.com
                         </ui:msg>
                     </a>
                 </p>
@@ -332,11 +332,11 @@
                 </p>
                 <p class="{res.style.noBottomMargin}">
                     <ui:msg description="About > paragraph 9">
-                        For more information,
+                        For more information, visit
                     </ui:msg>
                     <a href="http://www.jccq.qc.ca/" target="_blank">
                         <ui:msg description="About > link 2">
-                            visit www.jccq.qc.ca
+                            www.jccq.qc.ca
                         </ui:msg>
                     </a>
                 </p>
