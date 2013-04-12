@@ -1,5 +1,8 @@
 <ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
-             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'
+             ui:generateFormat='com.google.gwt.i18n.rebind.format.PropertiesFormat'
+             ui:generateKeys="com.google.gwt.i18n.server.keygen.MD5KeyGenerator"
+             ui:generateLocales='default'>
     <ui:with field="res" type="com.jci.client.resource.CommonResource"/>
     <ui:with field="footRes" type="com.jci.client.resource.footer.FooterResource"/>
     <g:HTMLPanel>
@@ -7,28 +10,41 @@
         <div class="{res.style.width} {footRes.style.city}">
             <div class="{res.style.round} {res.style.white} {footRes.style.social} {res.style.shadow} bebas">
                 <a href="https://www.facebook.com/Unlimited2013" target="_blank"
-                   class="{footRes.style.follow}">Follow Us</a>
-                <a href="javascript:" class="{footRes.style.share}">Share</a>
+                   class="{footRes.style.follow}">
+                    <ui:msg description="Footer > Follow Us">Follow Us</ui:msg>
+                </a>
+                <a href="javascript:" class="{footRes.style.share}">
+                    <ui:msg description="Footer > Share">Share</ui:msg>
+                </a>
             </div>
-
-            <h2>Unlimited JCI Canada National Convention 2013</h2>
+            <h2>
+                <ui:msg description="Common > Unlimited JCI Canada National Convention 2013">Unlimited JCI Canada
+                    National Convention 2013
+                </ui:msg>
+            </h2>
             <p>
-                September 18th to 21st, Hosted by JCI Quebec City
+                <ui:msg description="Common > September 18th to 21st, Hosted by JCI Quebec City">September 18th to 21st,
+                    Hosted by JCI Quebec City
+                </ui:msg>
             </p>
-
-            <div  class="{footRes.style.location}">
-                <p>Hotel Pur,
+            <div class="{footRes.style.location}">
+                <p>
+                    Hotel Pur,
                     <a href="tel:18002672002">1-800-267-2002</a>
                 </p>
                 <p>
-                    <a href="https://maps.google.ca/maps?q=395+Couronne+Street,+Qu%C3%A9bec+(QC),+G1K+7X4&amp;hl=en&amp;authuser=0&amp;ie=UTF-8&amp;ei=ZcFIUfJe16ngA_DSgegN&amp;ved=0CAsQ_AUoAg">395 Couronne Street, Quebec City (QC), G1K 7X4</a>
+                    <a href="https://maps.google.ca/maps?q=395+Couronne+Street,+Qu%C3%A9bec+(QC),+G1K+7X4&amp;hl=en&amp;authuser=0&amp;ie=UTF-8&amp;ei=ZcFIUfJe16ngA_DSgegN&amp;ved=0CAsQ_AUoAg">
+                        <ui:msg description="Footer > Address">395 Couronne Street, Quebec City (QC), G1K 7X4</ui:msg>
+                    </a>
                 </p>
             </div>
         </div>
         <div class="{footRes.style.copy}">
             <div class="{res.style.width}">
                 <p>
-                    © JCI Quebec City 2013. All rights reserved. This website is a courtesy of
+                    <ui:msg description="Footer > Copyright">© JCI Quebec City 2013. All rights reserved. This website
+                        is a courtesy of
+                    </ui:msg>
                     <a href="http://www.arcbees.com" target="_blank">ArcBees</a>.
                 </p>
             </div>
