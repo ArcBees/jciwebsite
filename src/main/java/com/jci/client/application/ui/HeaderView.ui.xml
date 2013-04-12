@@ -9,7 +9,7 @@
 
     <g:HTMLPanel addStyleNames="{headRes.style.bottomBorder} {headRes.style.rootWrapper} {res.style.white}">
         <div class="{res.style.width}">
-            <a ui:field="localeSwitchImage" class="{headRes.style.headLangue} bebas">FR</a>
+            <a ui:field="localeSwitch" class="{headRes.style.headLangue} bebas">FR</a>
             <div class="{headRes.style.left}">
                 <a href="#{nameTokens.getHome}">
                     <g:Image resource="{headRes.headLogoJCI_EN}" addStyleNames="{headRes.style.logoMargin}"/>
