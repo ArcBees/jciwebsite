@@ -1,5 +1,8 @@
 <ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
-             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'
+             ui:generateFormat='com.google.gwt.i18n.rebind.format.PropertiesFormat'
+             ui:generateKeys="com.google.gwt.i18n.server.keygen.MD5KeyGenerator"
+             ui:generateLocales='default'>
     <ui:with field="res" type="com.jci.client.resource.CommonResource"/>
     <ui:with field="programRes" type="com.jci.client.resource.program.ProgramResource"/>
     <g:HTMLPanel>
@@ -8,20 +11,23 @@
             <div ui:field="divButtons" class="{res.style.actions} carousel-indicators">
                 <a class="{res.style.button_gray} {res.style.active}" data-target="#myCarouselProgram"
                    data-slide-to="0">
-                    September, 18
+                    <ui:msg description="Program > Ui > Date > 18">September, 18</ui:msg>
+
                 </a>
                 <a class="{res.style.button_gray}" data-target="#myCarouselProgram" data-slide-to="1">
-                    September, 19
+                    <ui:msg description="Program > Ui > Date > 19">September, 19</ui:msg>
                 </a>
                 <a class="{res.style.button_gray}" data-target="#myCarouselProgram" data-slide-to="2">
-                    September, 20
+                    <ui:msg description="Program > Ui > Date > 20">September, 20</ui:msg>
                 </a>
                 <a class="{res.style.button_gray}" data-target="#myCarouselProgram" data-slide-to="3">
-                    September, 21
+                    <ui:msg description="Program > Ui > Date > 21">September, 21</ui:msg>
                 </a>
             </div>
 
-            <h1>Program</h1>
+            <h1>
+                <ui:msg description="Common > Program">Program</ui:msg>
+            </h1>
             <div class="carousel slide clearfix {programRes.style.visioProgram}" id="myCarouselProgram">
                 <ul class="{programRes.style.hoursTable}">
                     <li class="{programRes.style.odd}"></li>
@@ -50,91 +56,148 @@
                 <div ui:field="divCalendar" class="carousel-inner {programRes.style.carouselInner}">
                     <g:HTMLPanel styleName="item active {programRes.style.carouselInnerDiv}">
                         <ul class="{programRes.style.rooms} clearfix">
-                            <li>Room A</li>
-                            <li>Room B</li>
-                            <li>Room C</li>
-                            <li>Room G</li>
-                            <li>Room H</li>
-                            <li>Others</li>
+                            <li>
+                                <ui:msg description="Common > Room">Room</ui:msg>
+                                A
+                            </li>
+                            <li>
+                                <ui:msg description="Common > Room">Room</ui:msg>
+                                B
+                            </li>
+                            <li>
+                                <ui:msg description="Common > Room">Room</ui:msg>
+                                C
+                            </li>
+                            <li>
+                                <ui:msg description="Common > Room">Room</ui:msg>
+                                G
+                            </li>
+                            <li>
+                                <ui:msg description="Common > Room">Room</ui:msg>
+                                H
+                            </li>
+                            <li><ui:msg description="Program > Ui > Others">Others</ui:msg></li>
                         </ul>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1400} {programRes.style.h400} {programRes.style.w1}">
                             <div>
-                                <h2>Registration</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Registration">Registration</ui:msg>
+                                </h2>
                                 <p>14:00 - 18:00</p>
                             </div>
                             <div class="{programRes.style.tooltip} hello">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Registration</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Registration">Registration</ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
-                                    Wednesday, September 18, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 18">Wednesday, September 18, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     14:00 - 18:00
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
                                     Foyer
                                 </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1800} {programRes.style.h500} {programRes.style.w1} {programRes.style.cYellow}">
                             <div>
-                                <h2>Opening Ceremonies</h2>
+                                <h2><ui:msg description="Program > Content > OpenCeremonies">Opening Ceremonies</ui:msg></h2>
                                 <p>18:00 - 23:00</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Opening Ceremonies</h2>
+                                <h2><ui:msg description="Program > Content > OpenCeremonies">Opening Ceremonies</ui:msg></h2>
                                 <p>
                                     <b>Date :</b>
-                                    Wednesday, September 18, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 18">Wednesday, September 18, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     18:00 - 23:00
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
                                     Restaurant Table
                                 </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t2300} {programRes.style.h400} {programRes.style.w1} {programRes.style.cPurple}">
                             <div>
-                                <h2>Hospitality suite</h2>
-                                <p>From 23:00</p>
+                                <h2><ui:msg description="Program > Content > Hospitalitysuite">Hospitality suite</ui:msg></h2>
+                                <p>
+                                    <ui:msg description="Program > Ui > From23">From 23:00</ui:msg>
+                                </p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Hospitality suite hosted by JCI Quebec City</h2>
+                                <h2><ui:msg description="Program > Content > HospitalitysuiteJCI">Hospitality suite hosted by JCI Quebec City</ui:msg></h2>
                                 <p>
                                     <b>Date :</b>
-                                    Wednesday, September 18, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 18">Wednesday, September 18, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
-                                    From 23:00
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Program > Ui > From23">From 23:00</ui:msg>
                                     <br/>
-                                    <b>Venue :</b>
-                                    To be determined
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
-                                    To be determined
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
+                                    <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
                                 </p>
                             </div>
                         </div>
                     </g:HTMLPanel>
                     <g:HTMLPanel styleName="item {programRes.style.carouselInnerDiv}">
                         <ul class="{programRes.style.rooms} clearfix">
-                            <li>Room AB</li>
-                            <li>Room C</li>
-                            <li>Room G</li>
-                            <li>Room H</li>
+                            <li>
+                                <ui:msg description="Common > Room">Room</ui:msg>
+                                AB
+                            </li>
+                            <li>
+                                <ui:msg description="Common > Room">Room</ui:msg>
+                                C
+                            </li>
+                            <li>
+                                <ui:msg description="Common > Room">Room</ui:msg>
+                                G
+                            </li>
+                            <li>
+                                <ui:msg description="Common > Room">Room</ui:msg>
+                                H
+                            </li>
                             <li>Foyer</li>
-                            <li>Others</li>
+                            <li><ui:msg description="Program > Ui > Others">Others</ui:msg></li>
                         </ul>
                         <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t800} {programRes.style.h100} {programRes.style.w1} {programRes.style.cRed}">
                             <div>
@@ -146,16 +209,25 @@
                                 <h2>Delegates Breakfast</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Thursday, September 19, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     8:00 - 9:00
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
-                                    Room AB
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
+                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    AB
                                 </p>
                             </div>
                         </div>
@@ -169,16 +241,25 @@
                                 <h2>General Assembly</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Thursday, September 19, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     9:00 - 11:45
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
-                                    Room C
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
+                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    C
                                 </p>
                             </div>
                         </div>
@@ -192,16 +273,25 @@
                                 <h2>General Assembly</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Thursday, September 19, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     13:45 - 16:30
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
-                                    Room C
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
+                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    C
                                 </p>
                             </div>
                         </div>
@@ -215,16 +305,25 @@
                                 <h2>Training 1</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Thursday, September 19, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     9:00 - 10:15
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
-                                    Room G
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
+                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    G
                                 </p>
                             </div>
                         </div>
@@ -238,16 +337,25 @@
                                 <h2>Training 3</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Thursday, September 19, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     10:30 - 11:45
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
-                                    Room G
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
+                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    G
                                 </p>
                             </div>
                         </div>
@@ -261,16 +369,25 @@
                                 <h2>Training 5</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Thursday, September 19, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     13:45 - 15:00
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
-                                    Room G
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
+                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    G
                                 </p>
                             </div>
                         </div>
@@ -284,16 +401,25 @@
                                 <h2>Training 7</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Thursday, September 19, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     15:15 - 16:30
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
-                                    Room G
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
+                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    G
                                 </p>
                             </div>
                         </div>
@@ -307,16 +433,25 @@
                                 <h2>Training 2</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Thursday, September 19, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     9:00 - 10:15
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
-                                    Room H
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
+                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    H
                                 </p>
                             </div>
                         </div>
@@ -330,16 +465,25 @@
                                 <h2>Training 4</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Thursday, September 19, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     10:30 - 11:45
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
-                                    Room H
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
+                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    H
                                 </p>
                             </div>
                         </div>
@@ -353,16 +497,25 @@
                                 <h2>Training 6</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Thursday, September 19, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     13:45 - 15:00
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
-                                    Room H
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
+                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    H
                                 </p>
                             </div>
                         </div>
@@ -376,16 +529,25 @@
                                 <h2>Training 8</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Thursday, September 19, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     15:15 - 16:30
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
-                                    Room H
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
+                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    H
                                 </p>
                             </div>
                         </div>
@@ -399,15 +561,23 @@
                                 <h2>Coffee break</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Thursday, September 19, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     10:15 - 10:30
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
                                     Foyer
                                 </p>
                             </div>
@@ -422,15 +592,23 @@
                                 <h2>Trade Show</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Thursday, September 19, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     10:30 - 11:45
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
                                     Foyer
                                 </p>
                             </div>
@@ -445,15 +623,23 @@
                                 <h2>Trade Show</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Thursday, September 19, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     13:45 - 15:00
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
                                     Foyer
                                 </p>
                             </div>
@@ -468,15 +654,23 @@
                                 <h2>Coffee break</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Thursday, September 19, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     15:00 - 15:15
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
                                     Foyer
                                 </p>
                             </div>
@@ -491,15 +685,23 @@
                                 <h2>Trade Show</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Thursday, September 19, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     15:15 - 16:30
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
                                     Foyer
                                 </p>
                             </div>
@@ -514,12 +716,17 @@
                                 <h2>Keynote speaker</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Thursday, September 19, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     12:00 - 13:30
                                     <br/>
-                                    <b>Venue :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
                                     Imperial Theatre
                                 </p>
                             </div>
@@ -536,15 +743,23 @@
                                         <h2>Boat Cruise</h2>
                                         <p>
                                             <b>Date :</b>
-                                            Thursday, September 19, 2013
+                                            <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19,
+                                                2013
+                                            </ui:msg>
                                             <br/>
-                                            <b>Time :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            </b>
                                             13:30 - 16:30
                                             <br/>
-                                            <b>Venue :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            </b>
                                             Louis-Jolliet Boat
                                             <br/>
-                                            <b>Price :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Price">Price :</ui:msg>
+                                            </b>
                                             $40.00
                                         </p>
                                         <p>
@@ -556,13 +771,15 @@
                                                  alt="Louis-Jolliet Boat Cruise"/>
                                         </p>
                                         <p>
-                                            Discover Quebec city the way it’s very founders did it. The boat cruise on
-                                            St-Lawrence
-                                            river will show you to the most beautiful sites of the city, its very own
-                                            Château
-                                            Frontenac, our magnificent waterfall along with numerous others attractions.
-                                            Louis Jolliet
-                                            himself awaits you!
+                                            <ui:msg description="Program > Excursions > BoatCruise > p1">
+                                                Discover Quebec city the way it’s very founders did it. The boat cruise
+                                                on St-Lawrence
+                                                river will show you to the most beautiful sites of the city, its very
+                                                own Château
+                                                Frontenac, our magnificent waterfall along with numerous others
+                                                attractions. Louis Jolliet
+                                                himself awaits you!
+                                            </ui:msg>
                                         </p>
                                         <p>
                                             <a href="http://www.croisieresaml.com/l-experience-aml/bateaux/louis-jolliet/"
@@ -575,15 +792,23 @@
                                         <h2>Shopping</h2>
                                         <p>
                                             <b>Date :</b>
-                                            Thursday, September 19, 2013
+                                            <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19,
+                                                2013
+                                            </ui:msg>
                                             <br/>
-                                            <b>Time :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            </b>
                                             13:30 - 16:30
                                             <br/>
-                                            <b>Venue :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            </b>
                                             Place Laurier
                                             <br/>
-                                            <b>Price :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Price">Price :</ui:msg>
+                                            </b>
                                             Free
                                         </p>
                                         <p>
@@ -591,11 +816,13 @@
                                                  alt="Place Laurier"/>
                                         </p>
                                         <p>
-                                            You want to go shopping? Hop on a daily bus ride that will get you to the
-                                            biggest
-                                            shopping mall in Quebec city where tons of different boutiques and shops
-                                            will surely
-                                            satisfy your need of a nice souvenir.
+                                            <ui:msg description="Program > Excursions > Shopping > p1">
+                                                You want to go shopping? Hop on a daily bus ride that will get you to
+                                                the
+                                                biggest shopping mall in Quebec city where tons of different boutiques
+                                                and shops
+                                                will surely satisfy your need of a nice souvenir.
+                                            </ui:msg>
                                         </p>
                                         <p>
                                             <a href="http://www.laurierquebec.com/" target="_blank">
@@ -607,15 +834,23 @@
                                         <h2>Guided Tour</h2>
                                         <p>
                                             <b>Date :</b>
-                                            Thursday, September 19, 2013
+                                            <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19,
+                                                2013
+                                            </ui:msg>
                                             <br/>
-                                            <b>Time :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            </b>
                                             13:30 - 16:30
                                             <br/>
-                                            <b>Venue :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            </b>
                                             Old Quebec City
                                             <br/>
-                                            <b>Price :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Price">Price :</ui:msg>
+                                            </b>
                                             $20.00
                                         </p>
                                         <p>
@@ -627,26 +862,36 @@
                                                  alt="Old Quebec City Guided Tours"/>
                                         </p>
                                         <p>
-                                            Quebec has the perfect setting for history amateurs. Come and discover the
-                                            magnificent
-                                            city of Quebec on a walking guided tour that will take you inside the
-                                            deepest secrets on
-                                            this 400 years old town.
+                                            <ui:msg description="Program > Excursions > Tours > p1">
+                                                Quebec has the perfect setting for history amateurs. Come and discover
+                                                the magnificent
+                                                city of Quebec on a walking guided tour that will take you inside the
+                                                deepest secrets on
+                                                this 400 years old town.
+                                            </ui:msg>
                                         </p>
                                     </span>
                                     <span id="beer1Div" style="display: none">
                                         <h2>Beer and cheese tasting</h2>
                                         <p>
                                             <b>Date :</b>
-                                            Thursday, September 19, 2013
+                                            <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19,
+                                                2013
+                                            </ui:msg>
                                             <br/>
-                                            <b>Time :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            </b>
                                             13:30 - 16:30
                                             <br/>
-                                            <b>Venue :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            </b>
                                             La Barberie Microbrewery
                                             <br/>
-                                            <b>Price :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Price">Price :</ui:msg>
+                                            </b>
                                             $25.00
                                         </p>
                                         <p>
@@ -666,11 +911,13 @@
                                     </span>
                                 </span>
                                 <span class="{programRes.style.excursions}">
-                                    <b>Other excursions :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > OtherExcursions">Other excursions :</ui:msg>
+                                    </b>
                                     <a id="cruise1" class="{programRes.style.excursionsActive}">•</a>
-                                    <a id="shopping1">◦</a>
-                                    <a id="tours1">◦</a>
-                                    <a id="beer1">◦</a>
+                                    <a id="shopping1">?</a>
+                                    <a id="tours1">?</a>
+                                    <a id="beer1">?</a>
                                 </span>
                             </div>
                         </div>
@@ -684,15 +931,23 @@
                                 <h2>Governor's VIP Reception (invitation only)</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Thursday, September 19, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     17:00 - 18:00
                                     <br/>
-                                    <b>Venue :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
                                     National Assembly of Quebec
                                     <br/>
-                                    <b>Room :</b>
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
                                     Le Parlementaire Restaurant
                                 </p>
                             </div>
@@ -707,15 +962,23 @@
                                 <h2>Awards Night</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Thursday, September 19, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     18:00 - 23:00
                                     <br/>
-                                    <b>Venue :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
                                     National Assembly of Quebec
                                     <br/>
-                                    <b>Room :</b>
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
                                     Le Parlementaire Restaurant
                                 </p>
                                 <p>
@@ -740,36 +1003,58 @@
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t2300} {programRes.style.h400} {programRes.style.w1} {programRes.style.cPurple}">
                             <div>
-                                <h2>Hospitality suite</h2>
-                                <p>From 23:00</p>
+                                <h2><ui:msg description="Program > Content > Hospitalitysuite">Hospitality suite</ui:msg></h2>
+                                <p>
+                                    <ui:msg description="Program > Ui > From23">From 23:00</ui:msg>
+                                </p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Hospitality Suite hosted by Contest Winner!</h2>
+                                <h2><ui:msg description="Program > Content > HospitalitysuiteWinner">Hospitality Suite hosted by Contest Winner!</ui:msg></h2>
                                 <p>
                                     <b>Date :</b>
-                                    Thursday, September 19, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
-                                    From 23:00
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Program > Ui > From23">From 23:00</ui:msg>
                                     <br/>
-                                    <b>Venue :</b>
-                                    To be determined
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
-                                    To be determined
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
+                                    <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
                                 </p>
                             </div>
                         </div>
                     </g:HTMLPanel>
                     <g:HTMLPanel styleName="item {programRes.style.carouselInnerDiv}">
                         <ul class="{programRes.style.rooms} clearfix">
-                            <li>Room AB</li>
-                            <li>Room C</li>
-                            <li>Room G</li>
-                            <li>Room H</li>
+                            <li>
+                                <ui:msg description="Common > Room">Room</ui:msg>
+                                AB
+                            </li>
+                            <li>
+                                <ui:msg description="Common > Room">Room</ui:msg>
+                                C
+                            </li>
+                            <li>
+                                <ui:msg description="Common > Room">Room</ui:msg>
+                                G
+                            </li>
+                            <li>
+                                <ui:msg description="Common > Room">Room</ui:msg>
+                                H
+                            </li>
                             <li>Foyer</li>
-                            <li>Others</li>
+                            <li><ui:msg description="Program > Ui > Others">Others</ui:msg></li>
                         </ul>
                         <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t800} {programRes.style.h100} {programRes.style.w1} {programRes.style.cRed}">
                             <div>
@@ -781,16 +1066,25 @@
                                 <h2>Delegates Breakfast</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Friday, September 20, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     8:00 - 9:00
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
-                                    Room AB
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
+                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    AB
                                 </p>
                             </div>
                         </div>
@@ -804,16 +1098,25 @@
                                 <h2>Keynote speaker</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Friday, September 20, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     12:00 - 13:30
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
-                                    Room AB
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
+                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    AB
                                 </p>
                             </div>
                         </div>
@@ -827,16 +1130,25 @@
                                 <h2>Effective speaking</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Friday, September 20, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     13:45 - 15:00
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
-                                    Room AB
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
+                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    AB
                                 </p>
                             </div>
                         </div>
@@ -850,16 +1162,25 @@
                                 <h2>General Assembly</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Friday, September 20, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     9:00 - 11:45
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
-                                    Room C
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
+                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    C
                                 </p>
                             </div>
                         </div>
@@ -873,16 +1194,25 @@
                                 <h2>General Assembly</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Friday, September 20, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     15:15 - 16:30
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
-                                    Room C
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
+                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    C
                                 </p>
                             </div>
                         </div>
@@ -896,16 +1226,25 @@
                                 <h2>Training 9</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Friday, September 20, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     9:00 - 10:15
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
-                                    Room G
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
+                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    G
                                 </p>
                             </div>
                         </div>
@@ -919,16 +1258,25 @@
                                 <h2>Training 11</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Friday, September 20, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     10:30 - 11:45
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
-                                    Room G
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
+                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    G
                                 </p>
                             </div>
                         </div>
@@ -942,16 +1290,25 @@
                                 <h2>Training 10</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Friday, September 20, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     9:00 - 10:15
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
-                                    Room H
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
+                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    H
                                 </p>
                             </div>
                         </div>
@@ -965,16 +1322,25 @@
                                 <h2>Training 12</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Friday, September 20, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     10:30 - 11:45
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
-                                    Room H
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
+                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    H
                                 </p>
                             </div>
                         </div>
@@ -988,15 +1354,23 @@
                                 <h2>Trade Show</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Friday, September 20, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     9:00 - 10:15
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
                                     Foyer
                                 </p>
                             </div>
@@ -1011,15 +1385,23 @@
                                 <h2>Coffee break</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Friday, September 20, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     10:15 - 10:30
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
                                     Foyer
                                 </p>
                             </div>
@@ -1034,15 +1416,23 @@
                                 <h2>Trade Show</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Friday, September 20, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     10:30 - 11:45
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
                                     Foyer
                                 </p>
                             </div>
@@ -1057,15 +1447,23 @@
                                 <h2>Trade Show</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Friday, September 20, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     13:45 - 15:00
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
                                     Foyer
                                 </p>
                             </div>
@@ -1080,15 +1478,23 @@
                                 <h2>Coffee break</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Friday, September 20, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     15:00 - 15:15
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
                                     Foyer
                                 </p>
                             </div>
@@ -1103,15 +1509,23 @@
                                 <h2>Trade Show</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Friday, September 20, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     15:15 - 16:30
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
                                     Foyer
                                 </p>
                             </div>
@@ -1128,15 +1542,23 @@
                                         <h2>Boat Cruise</h2>
                                         <p>
                                             <b>Date :</b>
-                                            Friday, September 20, 2013
+                                            <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20,
+                                                2013
+                                            </ui:msg>
                                             <br/>
-                                            <b>Time :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            </b>
                                             13:30 - 16:30
                                             <br/>
-                                            <b>Venue :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            </b>
                                             Louis-Jolliet Boat
                                             <br/>
-                                            <b>Price :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Price">Price :</ui:msg>
+                                            </b>
                                             $40.00
                                         </p>
                                         <p>
@@ -1148,13 +1570,15 @@
                                                  alt="Louis-Jolliet Boat Cruise"/>
                                         </p>
                                         <p>
-                                            Discover Quebec city the way it’s very founders did it. The boat cruise on
-                                            St-Lawrence
-                                            river will show you to the most beautiful sites of the city, its very own
-                                            Château
-                                            Frontenac, our magnificent waterfall along with numerous others attractions.
-                                            Louis Jolliet
-                                            himself awaits you!
+                                            <ui:msg description="Program > Excursions > BoatCruise > p1">
+                                                Discover Quebec city the way it’s very founders did it. The boat cruise
+                                                on St-Lawrence
+                                                river will show you to the most beautiful sites of the city, its very
+                                                own Château
+                                                Frontenac, our magnificent waterfall along with numerous others
+                                                attractions. Louis Jolliet
+                                                himself awaits you!
+                                            </ui:msg>
                                         </p>
                                         <p>
                                             <a href="http://www.croisieresaml.com/l-experience-aml/bateaux/louis-jolliet/"
@@ -1167,15 +1591,23 @@
                                         <h2>Shopping</h2>
                                         <p>
                                             <b>Date :</b>
-                                            Friday, September 20, 2013
+                                            <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20,
+                                                2013
+                                            </ui:msg>
                                             <br/>
-                                            <b>Time :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            </b>
                                             13:30 - 16:30
                                             <br/>
-                                            <b>Venue :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            </b>
                                             Place Laurier
                                             <br/>
-                                            <b>Price :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Price">Price :</ui:msg>
+                                            </b>
                                             Free
                                         </p>
                                         <p>
@@ -1183,11 +1615,13 @@
                                                  alt="Place Laurier"/>
                                         </p>
                                         <p>
-                                            You want to go shopping? Hop on a daily bus ride that will get you to the
-                                            biggest
-                                            shopping mall in Quebec city where tons of different boutiques and shops
-                                            will surely
-                                            satisfy your need of a nice souvenir.
+                                            <ui:msg description="Program > Excursions > Shopping > p1">
+                                                You want to go shopping? Hop on a daily bus ride that will get you to
+                                                the
+                                                biggest shopping mall in Quebec city where tons of different boutiques
+                                                and shops
+                                                will surely satisfy your need of a nice souvenir.
+                                            </ui:msg>
                                         </p>
                                         <p>
                                             <a href="http://www.laurierquebec.com/" target="_blank">
@@ -1199,15 +1633,23 @@
                                         <h2>Guided Tour</h2>
                                         <p>
                                             <b>Date :</b>
-                                            Friday, September 20, 2013
+                                            <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20,
+                                                2013
+                                            </ui:msg>
                                             <br/>
-                                            <b>Time :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            </b>
                                             13:30 - 16:30
                                             <br/>
-                                            <b>Venue :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            </b>
                                             Old Quebec City
                                             <br/>
-                                            <b>Price :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Price">Price :</ui:msg>
+                                            </b>
                                             $20.00
                                         </p>
                                         <p>
@@ -1219,26 +1661,36 @@
                                                  alt="Old Quebec City Guided Tours"/>
                                         </p>
                                         <p>
-                                            Quebec has the perfect setting for history amateurs. Come and discover the
-                                            magnificent
-                                            city of Quebec on a walking guided tour that will take you inside the
-                                            deepest secrets on
-                                            this 400 years old town.
+                                            <ui:msg description="Program > Excursions > Tours > p1">
+                                                Quebec has the perfect setting for history amateurs. Come and discover
+                                                the magnificent
+                                                city of Quebec on a walking guided tour that will take you inside the
+                                                deepest secrets on
+                                                this 400 years old town.
+                                            </ui:msg>
                                         </p>
                                     </span>
                                     <span id="karting2Div" style="display: none">
                                         <h2>Karting</h2>
                                         <p>
                                             <b>Date :</b>
-                                            Friday, September 20, 2013
+                                            <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20,
+                                                2013
+                                            </ui:msg>
                                             <br/>
-                                            <b>Time :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            </b>
                                             13:30 - 16:30
                                             <br/>
-                                            <b>Venue :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            </b>
                                             Karting Extreme
                                             <br/>
-                                            <b>Price :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Price">Price :</ui:msg>
+                                            </b>
                                             $40.00
                                         </p>
                                         <p>
@@ -1246,11 +1698,13 @@
                                                  alt="Karting Extreme"/>
                                         </p>
                                         <p>
-                                            Here’s the activity to compete with your fellow JCI members. Behind the
-                                            wheel of your
-                                            kart, try to beat records and friends. Be careful though, having the first
-                                            line at the start,
-                                            does not guarantee victory!
+                                            <ui:msg description="Program > Excursions > Karting > p1">
+                                                Here’s the activity to compete with your fellow JCI members. Behind the
+                                                wheel of your
+                                                kart, try to beat records and friends. Be careful though, having the
+                                                first line at the start,
+                                                does not guarantee victory!
+                                            </ui:msg>
                                         </p>
                                         <p>
                                             <a href="http://www.kartingextreme.com/" target="_blank">
@@ -1260,11 +1714,13 @@
                                     </span>
                                 </span>
                                 <span class="{programRes.style.excursions}">
-                                    <b>Other excursions :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > OtherExcursions">Other excursions :</ui:msg>
+                                    </b>
                                     <a id="cruise2" class="{programRes.style.excursionsActive}">•</a>
-                                    <a id="shopping2">◦</a>
-                                    <a id="tours2">◦</a>
-                                    <a id="karting2">◦</a>
+                                    <a id="shopping2">?</a>
+                                    <a id="tours2">?</a>
+                                    <a id="karting2">?</a>
                                 </span>
                             </div>
                         </div>
@@ -1278,12 +1734,17 @@
                                 <h2>Theme Night</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Friday, September 20, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     18:00 - 20:30
                                     <br/>
-                                    <b>Venue :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
                                     Le Milsa Restaurant
                                 </p>
                             </div>
@@ -1298,48 +1759,78 @@
                                 <h2>Grande Allée Clubbing</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Friday, September 20, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     20:30 - 23:00
                                     <br/>
-                                    <b>Venue :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
                                     Grande Allée Street
                                 </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t2300} {programRes.style.h400} {programRes.style.w1} {programRes.style.cPurple}">
                             <div>
-                                <h2>Hospitality suite</h2>
-                                <p>From 23:00</p>
+                                <h2><ui:msg description="Program > Content > Hospitalitysuite">Hospitality suite</ui:msg></h2>
+                                <p>
+                                    <ui:msg description="Program > Ui > From23">From 23:00</ui:msg>
+                                </p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Hospitality suite hosted by 2015 Bidding Chapter</h2>
+                                <h2><ui:msg description="Program > Content > HospitalitysuiteBidding">Hospitality suite hosted by 2015 Bidding Chapter</ui:msg></h2>
                                 <p>
                                     <b>Date :</b>
-                                    Friday, September 20, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
-                                    From 23:00
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Program > Ui > From23">From 23:00</ui:msg>
                                     <br/>
-                                    <b>Venue :</b>
-                                    To be determined
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
-                                    To be determined
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
+                                    <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
                                 </p>
                             </div>
                         </div>
                     </g:HTMLPanel>
                     <g:HTMLPanel styleName="item {programRes.style.carouselInnerDiv}">
                         <ul class="{programRes.style.rooms} clearfix">
-                            <li>Room AB</li>
-                            <li>Room C</li>
-                            <li>Room G</li>
-                            <li>Room H</li>
-                            <li>Room J</li>
-                            <li>Others</li>
+                            <li>
+                                <ui:msg description="Common > Room">Room</ui:msg>
+                                AB
+                            </li>
+                            <li>
+                                <ui:msg description="Common > Room">Room</ui:msg>
+                                C
+                            </li>
+                            <li>
+                                <ui:msg description="Common > Room">Room</ui:msg>
+                                G
+                            </li>
+                            <li>
+                                <ui:msg description="Common > Room">Room</ui:msg>
+                                H
+                            </li>
+                            <li>
+                                <ui:msg description="Common > Room">Room</ui:msg>
+                                J
+                            </li>
+                            <li><ui:msg description="Program > Ui > Others">Others</ui:msg></li>
                         </ul>
                         <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t800} {programRes.style.h100} {programRes.style.w1} {programRes.style.cRed}">
                             <div>
@@ -1351,16 +1842,25 @@
                                 <h2>Delegates Breakfast</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Saturday, September 21, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     8:00 - 9:00
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
-                                    Room AB
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
+                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    AB
                                 </p>
                             </div>
                         </div>
@@ -1374,16 +1874,25 @@
                                 <h2>Keynote speaker</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Saturday, September 21, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     12:00 - 13:30
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
-                                    Room AB
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
+                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    AB
                                 </p>
                             </div>
                         </div>
@@ -1397,15 +1906,23 @@
                                 <h2>JCI Canada President Gala presented by Lavery</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Saturday, September 21, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     18:00 - 23:00
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
                                     Ballroom (ABC)
                                 </p>
                                 <p>
@@ -1428,8 +1945,9 @@
                                 <p>Come join us for this special evening to close our 78th JCI Canada National
                                     Convention.
                                 </p>
-                                <p><img src="{programRes.img_presidentGala_2.getSafeUri}"
-                                        alt="Lavery Logo" class="{programRes.style.third}"/>
+                                <p>
+                                    <img src="{programRes.img_presidentGala_2.getSafeUri}"
+                                         alt="Lavery Logo" class="{programRes.style.third}"/>
                                 </p>
                             </div>
                         </div>
@@ -1443,16 +1961,25 @@
                                 <h2>General Assembly</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Saturday, September 21, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     9:00 - 11:45
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
-                                    Room C
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
+                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    C
                                 </p>
                             </div>
                         </div>
@@ -1466,16 +1993,25 @@
                                 <h2>General Assembly</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Saturday, September 21, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     13:45 - 15:00
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
-                                    Room C
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
+                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    C
                                 </p>
                             </div>
                         </div>
@@ -1489,16 +2025,25 @@
                                 <h2>Training 13</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Saturday, September 21, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     9:00 - 10:15
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
-                                    Room G
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
+                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    G
                                 </p>
                             </div>
                         </div>
@@ -1512,16 +2057,25 @@
                                 <h2>Training 15</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Saturday, September 21, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     10:30 - 11:45
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
-                                    Room G
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
+                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    G
                                 </p>
                             </div>
                         </div>
@@ -1535,16 +2089,25 @@
                                 <h2>Training 14</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Saturday, September 21, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     9:00 - 10:15
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
-                                    Room H
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
+                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    H
                                 </p>
                             </div>
                         </div>
@@ -1558,16 +2121,25 @@
                                 <h2>Training 16</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Saturday, September 21, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     10:30 - 11:45
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
-                                    Room H
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
+                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    H
                                 </p>
                             </div>
                         </div>
@@ -1581,16 +2153,25 @@
                                 <h2>Senators' Breakfast</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Saturday, September 21, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     7:30 - 9:00
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
-                                    Room J
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
+                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    J
                                 </p>
                             </div>
                         </div>
@@ -1604,16 +2185,25 @@
                                 <h2>JCI Canada VIP Reception (invitation only)</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Saturday, September 21, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     17:00 - 18:00
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
-                                    Room J
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
+                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    J
                                 </p>
                             </div>
                         </div>
@@ -1627,15 +2217,23 @@
                                 <h2>Trade Show</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Saturday, September 21, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     9:00 - 10:15
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
                                     Foyer
                                 </p>
                             </div>
@@ -1650,15 +2248,23 @@
                                 <h2>Coffee break</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Saturday, September 21, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     10:15 - 10:30
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
                                     Foyer
                                 </p>
                             </div>
@@ -1673,15 +2279,23 @@
                                 <h2>Trade Show</h2>
                                 <p>
                                     <b>Date :</b>
-                                    Saturday, September 21, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
                                     10:30 - 11:45
                                     <br/>
-                                    <b>Venue :</b>
-                                    TRYP Quebec Hotel Pur
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
                                     Foyer
                                 </p>
                             </div>
@@ -1698,15 +2312,23 @@
                                         <h2>Boat Cruise</h2>
                                         <p>
                                             <b>Date :</b>
-                                            Saturday, September 21, 2013
+                                            <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21,
+                                                2013
+                                            </ui:msg>
                                             <br/>
-                                            <b>Time :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            </b>
                                             13:30 - 16:30
                                             <br/>
-                                            <b>Venue :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            </b>
                                             Louis-Jolliet Boat
                                             <br/>
-                                            <b>Price :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Price">Price :</ui:msg>
+                                            </b>
                                             $40.00
                                         </p>
                                         <p>
@@ -1718,13 +2340,15 @@
                                                  alt="Louis-Jolliet Boat Cruise"/>
                                         </p>
                                         <p>
-                                            Discover Quebec city the way it’s very founders did it. The boat cruise on
-                                            St-Lawrence
-                                            river will show you to the most beautiful sites of the city, its very own
-                                            Château
-                                            Frontenac, our magnificent waterfall along with numerous others attractions.
-                                            Louis Jolliet
-                                            himself awaits you!
+                                            <ui:msg description="Program > Excursions > BoatCruise > p1">
+                                                Discover Quebec city the way it’s very founders did it. The boat cruise
+                                                on St-Lawrence
+                                                river will show you to the most beautiful sites of the city, its very
+                                                own Château
+                                                Frontenac, our magnificent waterfall along with numerous others
+                                                attractions. Louis Jolliet
+                                                himself awaits you!
+                                            </ui:msg>
                                         </p>
                                         <p>
                                             <a href="http://www.croisieresaml.com/l-experience-aml/bateaux/louis-jolliet/"
@@ -1737,15 +2361,23 @@
                                         <h2>Shopping</h2>
                                         <p>
                                             <b>Date :</b>
-                                            Saturday, September 21, 2013
+                                            <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21,
+                                                2013
+                                            </ui:msg>
                                             <br/>
-                                            <b>Time :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            </b>
                                             13:30 - 16:30
                                             <br/>
-                                            <b>Venue :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            </b>
                                             Place Laurier
                                             <br/>
-                                            <b>Price :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Price">Price :</ui:msg>
+                                            </b>
                                             Free
                                         </p>
                                         <p>
@@ -1753,11 +2385,13 @@
                                                  alt="Place Laurier"/>
                                         </p>
                                         <p>
-                                            You want to go shopping? Hop on a daily bus ride that will get you to the
-                                            biggest
-                                            shopping mall in Quebec city where tons of different boutiques and shops
-                                            will surely
-                                            satisfy your need of a nice souvenir.
+                                            <ui:msg description="Program > Excursions > Shopping > p1">
+                                                You want to go shopping? Hop on a daily bus ride that will get you to
+                                                the
+                                                biggest shopping mall in Quebec city where tons of different boutiques
+                                                and shops
+                                                will surely satisfy your need of a nice souvenir.
+                                            </ui:msg>
                                         </p>
                                         <p>
                                             <a href="http://www.laurierquebec.com/" target="_blank">
@@ -1769,15 +2403,23 @@
                                         <h2>Karting</h2>
                                         <p>
                                             <b>Date :</b>
-                                            Saturday, September 21, 2013
+                                            <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21,
+                                                2013
+                                            </ui:msg>
                                             <br/>
-                                            <b>Time :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            </b>
                                             13:30 - 16:30
                                             <br/>
-                                            <b>Venue :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            </b>
                                             Karting Extreme
                                             <br/>
-                                            <b>Price :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Price">Price :</ui:msg>
+                                            </b>
                                             $40.00
                                         </p>
                                         <p>
@@ -1785,11 +2427,13 @@
                                                  alt="Karting Extreme"/>
                                         </p>
                                         <p>
-                                            Here’s the activity to compete with your fellow JCI members. Behind the
-                                            wheel of your
-                                            kart, try to beat records and friends. Be careful though, having the first
-                                            line at the start,
-                                            does not guarantee victory!
+                                            <ui:msg description="Program > Excursions > Karting > p1">
+                                                Here’s the activity to compete with your fellow JCI members. Behind the
+                                                wheel of your
+                                                kart, try to beat records and friends. Be careful though, having the
+                                                first line at the start,
+                                                does not guarantee victory!
+                                            </ui:msg>
                                         </p>
                                         <p>
                                             <a href="http://www.kartingextreme.com/" target="_blank">
@@ -1801,15 +2445,23 @@
                                         <h2>High-Wire and Zip-Line adventure</h2>
                                         <p>
                                             <b>Date :</b>
-                                            Saturday, September 21, 2013
+                                            <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21,
+                                                2013
+                                            </ui:msg>
                                             <br/>
-                                            <b>Time :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            </b>
                                             13:30 - 16:30
                                             <br/>
-                                            <b>Venue :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            </b>
                                             Arbraska Duchesnay
                                             <br/>
-                                            <b>Price :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Price">Price :</ui:msg>
+                                            </b>
                                             $40.00
                                         </p>
                                         <p>
@@ -1817,18 +2469,15 @@
                                                  alt="High-Wire and Zip-Line adventure"/>
                                         </p>
                                         <p>
-                                            Want a real challenge? The Arbre en arbre activity has just the one for you!
-                                            In
-                                            the
-                                            heart
-                                            of the Jacques Cartier river’s park, you will stroll from one tree to
-                                            another on
-                                            courses
-                                            ranging from easy to very hard. Register and test your limits. Do not
-                                            register
-                                            if
-                                            you’ve
-                                            experienced vertigo in the past.
+                                            <ui:msg description="Program > Excursions > Ziplining > p1">
+                                                Want a real challenge? The Arbre en arbre activity has just the one for
+                                                you! In the heart
+                                                of the Jacques Cartier river’s park, you will stroll from one tree to
+                                                another on courses
+                                                ranging from easy to very hard. Register and test your limits. Do not
+                                                register if you’ve
+                                                experienced vertigo in the past.
+                                            </ui:msg>
                                         </p>
                                         <p>
                                             <a href="http://www.arbraskaduchesnay.com/" target="_blank">
@@ -1840,15 +2489,23 @@
                                         <h2>Drive a Ferrari</h2>
                                         <p>
                                             <b>Date :</b>
-                                            Saturday, September 21, 2013
+                                            <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21,
+                                                2013
+                                            </ui:msg>
                                             <br/>
-                                            <b>Time :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            </b>
                                             13:30 - 16:30
                                             <br/>
-                                            <b>Venue :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            </b>
                                             Circuit ICAR
                                             <br/>
-                                            <b>Price :</b>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Price">Price :</ui:msg>
+                                            </b>
                                             $250.00
                                         </p>
                                         <p>
@@ -1860,9 +2517,10 @@
                                                  alt="Ferrari F430"/>
                                         </p>
                                         <p>
-                                            A dream come true ! Come live that unforgettable experience behind the wheel
-                                            of a
-                                            legendary car and show what you’re worth on aclosed circuit!
+                                            <ui:msg description="Program > Excursions > Ferrari > p1">
+                                                A dream come true ! Come live that unforgettable experience behind the
+                                                wheel of a legendary car and show what you’re worth on aclosed circuit!
+                                            </ui:msg>
                                         </p>
                                         <p>
                                             <a href="http://www.circuiticar.com/academie/15-forfait-top-speed-f430.html"
@@ -1873,35 +2531,47 @@
                                     </span>
                                 </span>
                                 <span class="{programRes.style.excursions}">
-                                    <b>Other excursions :</b>
+                                    <b>
+                                        <ui:msg description="Program > Ui > OtherExcursions">Other excursions :</ui:msg>
+                                    </b>
                                     <a id="cruise3" class="{programRes.style.excursionsActive}">•</a>
-                                    <a id="shopping3">◦</a>
-                                    <a id="karting3">◦</a>
-                                    <a id="arbraska3">◦</a>
-                                    <a id="ferrari3">◦</a>
+                                    <a id="shopping3">?</a>
+                                    <a id="karting3">?</a>
+                                    <a id="arbraska3">?</a>
+                                    <a id="ferrari3">?</a>
                                 </span>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t2300} {programRes.style.h400} {programRes.style.w1} {programRes.style.cPurple}">
                             <div>
-                                <h2>Hospitality suite</h2>
-                                <p>From 23:00</p>
+                                <h2><ui:msg description="Program > Content > Hospitalitysuite">Hospitality suite</ui:msg></h2>
+                                <p>
+                                    <ui:msg description="Program > Ui > From23">From 23:00</ui:msg>
+                                </p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Hospitality Suite hosted by JCI Durham</h2>
+                                <h2><ui:msg description="Program > Content > HospitalitysuiteDurham">Hospitality Suite hosted by JCI Durham</ui:msg></h2>
                                 <p>
                                     <b>Date :</b>
-                                    Saturday, September 21, 2013
+                                    <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
+                                    </ui:msg>
                                     <br/>
-                                    <b>Time :</b>
-                                    From 23:00
+                                    <b>
+                                        <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Program > Ui > From23">From 23:00</ui:msg>
                                     <br/>
-                                    <b>Venue :</b>
-                                    To be determined
+                                    <b>
+                                        <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                    </b>
+                                    <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
                                     <br/>
-                                    <b>Room :</b>
-                                    To be determined
+                                    <b>
+                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        :
+                                    </b>
+                                    <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
                                 </p>
                             </div>
                         </div>

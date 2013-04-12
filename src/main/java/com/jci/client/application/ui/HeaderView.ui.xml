@@ -39,7 +39,7 @@
                         <ui:msg description="Header > Travel">Travel</ui:msg>
                     </a>
                     <a href="#{nameTokens.getProgram}" class="{nameTokens.getProgram}">
-                        <ui:msg description="Header > Program">Program</ui:msg>
+                        <ui:msg description="Common > Program">Program</ui:msg>
                     </a>
                     <a href="#{nameTokens.getAbout}" class="{nameTokens.getAbout}">
                         <ui:msg description="Header > About">About</ui:msg>
