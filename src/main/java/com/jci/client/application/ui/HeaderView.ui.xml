@@ -9,7 +9,7 @@
 
     <g:HTMLPanel addStyleNames="{headRes.style.bottomBorder} {headRes.style.rootWrapper} {res.style.white}">
         <div class="{res.style.width}">
-            <a ui:field="localeSwitch" class="{headRes.style.headLangue} bebas">
+            <a ui:field="localeSwitch" class="{headRes.style.languageSelector} bebas">
                 <ui:msg description="Header > LanguageSwitcher">
                     FR
                 </ui:msg>
