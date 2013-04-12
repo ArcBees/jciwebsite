@@ -16,7 +16,7 @@
             </a>
             <div class="{headRes.style.left}">
                 <a href="#{nameTokens.getHome}">
-                    <g:Image resource="{headRes.headLogoJCI_EN}" addStyleNames="{headRes.style.logoMargin}"/>
+                    <g:Image resource="{headRes.headLogoJCI}" addStyleNames="{headRes.style.logoMargin}"/>
                 </a>
             </div>
             <div class="{headRes.style.right} {headRes.style.rightColumn}">
