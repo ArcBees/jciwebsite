@@ -6,16 +6,14 @@
     <ui:with field="res" type="com.jci.client.resource.CommonResource"/>
     <ui:with field="headRes" type="com.jci.client.resource.header.HeaderResource"/>
     <ui:with field="nameTokens" type="com.jci.client.place.NameTokens"/>
-    <ui:style>
-        .localeSwitch:hover {
-            cursor: pointer;
-        }
-    </ui:style>
 
     <g:HTMLPanel addStyleNames="{headRes.style.bottomBorder} {headRes.style.rootWrapper} {res.style.white}">
         <div class="{res.style.width}">
-            <g:Image resource="{headRes.headLangue_EN}" addStyleNames="{headRes.style.headLangue} {style.localeSwitch}"
-                     ui:field="localeSwitchImage"/>
+            <a ui:field="localeSwitch" class="{headRes.style.languageSelector} bebas">
+                <ui:msg description="Header > LanguageSwitcher">
+                    FR
+                </ui:msg>
+            </a>
             <div class="{headRes.style.left}">
                 <a href="#{nameTokens.getHome}">
                     <g:Image resource="{headRes.headLogoJCI_EN}" addStyleNames="{headRes.style.logoMargin}"/>
@@ -23,14 +21,10 @@
             </div>
             <div class="{headRes.style.right} {headRes.style.rightColumn}">
                 <div class="{headRes.style.title}">
-                    <ui:msg description="Common > Unlimited JCI Canada National Convention 2013">Unlimited JCI Canada
-                        National Convention 2013
-                    </ui:msg>
+                    <ui:msg description="Header > Title">Unlimited JCI Canada National Convention 2013</ui:msg>
                 </div>
                 <div class="{headRes.style.subtitle}">
-                    <ui:msg description="Common > September 18th to 21st, Hosted by JCI Quebec City">September 18th to
-                        21st, Hosted by JCI Quebec City
-                    </ui:msg>
+                    <ui:msg description="Header > Subtitle">September 18th to 21st, Hosted by JCI Quebec City</ui:msg>
                 </div>
                 <div class="{headRes.style.blackbar}"/>
                 <a href="http://www.jccq.qc.ca/Categorie-dactivites/Congres-National-et-AGA-JCI-Canada/Convention-Nationale-JCI-Canada-2013-2013-JCI-Canada-National-Convention.aspx"
