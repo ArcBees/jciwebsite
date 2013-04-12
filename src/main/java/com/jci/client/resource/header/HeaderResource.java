@@ -32,8 +32,6 @@ public interface HeaderResource extends ClientBundle {
 
         String rootWrapper();
 
-        String headLangue();
-
         String title();
 
         String subtitle();
@@ -45,11 +43,15 @@ public interface HeaderResource extends ClientBundle {
         String logoMargin();
 
         String active();
+
+        String languageSelector();
     }
 
-    ImageResource headLogoJCI_EN();
+    ImageResource headLogoJCI();
 
-    ImageResource headLangue_EN();
+    ImageResource headLogoJCI_fr();
+
+    ImageResource languageSelectorBackground();
 
     ImageResource headMouseOver();
 

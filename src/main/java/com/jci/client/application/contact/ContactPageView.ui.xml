@@ -166,8 +166,9 @@
                     <span>Marie-Lou Lefebvre</span>
                     <i>
                         <ui:msg description="Contact > Project manager">
-                            Project manager (web), Orage communication
+                            Project manager
                         </ui:msg>
+                        (web), Orage communication
                     </i>
                 </p>
                 <p>
