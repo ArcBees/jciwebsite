@@ -16,12 +16,12 @@
 
 package com.jci.client.application.ui;
 
+import com.google.gwt.dom.client.AnchorElement;
 import com.google.gwt.dom.client.DivElement;
-import com.google.gwt.event.dom.client.ClickEvent;
+import com.google.gwt.event.logical.shared.AttachEvent;
+import com.google.gwt.query.client.Function;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
-import com.google.gwt.uibinder.client.UiHandler;
-import com.google.gwt.user.client.ui.Image;
 import com.google.gwt.user.client.ui.Widget;
 import com.gwtplatform.mvp.client.ViewWithUiHandlers;
 import com.jci.client.resource.header.HeaderResource;
@@ -30,14 +30,14 @@ import javax.inject.Inject;
 
 import static com.google.gwt.query.client.GQuery.$;
 
-public class HeaderView extends ViewWithUiHandlers<HeaderUiHandlers> implements HeaderPresenter.MyView {
+public class HeaderView extends ViewWithUiHandlers<HeaderUiHandlers> implements HeaderPresenter.MyView, AttachEvent.Handler {
     interface Binder extends UiBinder<Widget, HeaderView> {
     }
 
     @UiField
     DivElement menu;
     @UiField
-    Image localeSwitchImage;
+    AnchorElement localeSwitch;
 
     private final String activeStyleName;
 
@@ -47,6 +47,15 @@ public class HeaderView extends ViewWithUiHandlers<HeaderUiHandlers> implements 
         initWidget(binder.createAndBindUi(this));
 
         activeStyleName = headerResource.style().active();
+
+        asWidget().addAttachHandler(this);
+    }
+
+    @Override
+    public void onAttachOrDetach(AttachEvent attachEvent) {
+        if (attachEvent.isAttached()) {
+            bindGwtQuery();
+        }
     }
 
     @Override
@@ -55,8 +64,12 @@ public class HeaderView extends ViewWithUiHandlers<HeaderUiHandlers> implements 
         $("." + nameTokens).addClass(activeStyleName);
     }
 
-    @UiHandler("localeSwitchImage")
-    public void onLocaleSwitchImage(ClickEvent event) {
-        getUiHandlers().switchLocale();
+    private void bindGwtQuery() {
+        $(localeSwitch).click(new Function() {
+            @Override
+            public void f() {
+                getUiHandlers().switchLocale();
+            }
+        });
     }
 }
