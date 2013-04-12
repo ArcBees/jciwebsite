@@ -62,7 +62,7 @@
 
                 <p>
                     <b>
-                        <ui:msg description="Travel > Title 2">
+                        <ui:msg description="Common > TrypQhp">
                             TRYP Quebec Hotel Pur
                         </ui:msg>
                     </b>
@@ -92,7 +92,7 @@
                     <table>
                         <thead>
                             <td>
-                                <ui:msg description="Travel > Room">
+                                <ui:msg description="Common > Room">
                                     Room
                                 </ui:msg>
                             </td>
