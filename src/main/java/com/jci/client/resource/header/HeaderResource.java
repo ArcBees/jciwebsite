@@ -47,7 +47,9 @@ public interface HeaderResource extends ClientBundle {
         String languageSelector();
     }
 
-    ImageResource headLogoJCI_EN();
+    ImageResource headLogoJCI();
+
+    ImageResource headLogoJCI_fr();
 
     ImageResource languageSelectorBackground();
 
