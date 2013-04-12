@@ -6,7 +6,7 @@
 
     <g:HTMLPanel addStyleNames="{headRes.style.bottomBorder} {headRes.style.rootWrapper} {res.style.white}">
         <div class="{res.style.width}">
-            <g:Image resource="{headRes.headLangue_EN}" addStyleNames="{headRes.style.headLangue}"/>
+            <a class="{headRes.style.headLangue} bebas">FR</a>
             <div class="{headRes.style.left}">
                 <a href="#{nameTokens.getHome}">
                     <g:Image resource="{headRes.headLogoJCI_EN}" addStyleNames="{headRes.style.logoMargin}"/>
