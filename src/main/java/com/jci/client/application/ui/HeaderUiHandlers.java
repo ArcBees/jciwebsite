@@ -14,8 +14,10 @@
  * the License.
  */
 
-package com.jci.client.utils;
+package com.jci.client.application.ui;
 
-public class Regexes {
-    public static final String emailRegex = "^[a-z0-9][a-z0-9_\\.-]{0,}[a-z0-9]@[a-z0-9][a-z0-9_\\.-]{0,}[a-z0-9][\\.][a-z0-9]{2,4}$";
+import com.gwtplatform.mvp.client.UiHandlers;
+
+public interface HeaderUiHandlers extends UiHandlers {
+    void switchLocale();
 }

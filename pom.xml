@@ -110,6 +110,8 @@
 
                     <runTarget>myproject.html</runTarget>
                     <module>com.jci.MyProject</module>
+                    <extraParam>true</extraParam>
+                    <extra>extras</extra>
                 </configuration>
                 <executions>
                     <execution>
@@ -268,8 +270,13 @@
             <version>${gae.version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.arcbees.appengine</groupId>
+            <artifactId>mail</artifactId>
+            <version>1.0</version>
+        </dependency>
 
-        <!--Rest-->
+        <!--Rest -->
         <dependency>
             <groupId>org.jboss.resteasy</groupId>
             <artifactId>resteasy-jaxrs</artifactId>

@@ -1,7 +1,12 @@
 <ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
-             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'
+             ui:generateFormat='com.google.gwt.i18n.rebind.format.PropertiesFormat'
+             ui:generateKeys="com.google.gwt.i18n.server.keygen.MD5KeyGenerator"
+             ui:generateLocales='en'>
+
     <ui:with field="res" type="com.jci.client.resource.CommonResource"/>
     <ui:with field="aboutRes" type="com.jci.client.resource.about.AboutResource"/>
+
     <g:HTMLPanel>
         <div class="{res.style.width} {res.style.white} {res.style.dragUp} {res.style.round}
             {res.style.content}">
@@ -13,185 +18,327 @@
             </div>
 
             <div ui:field="canada">
-                <h1>About JCI Canada</h1>
+                <h1>
+                    <ui:msg description="About > Title 1">
+                        About JCI Canada
+                    </ui:msg>
+                </h1>
                 <p>
-                    The Junior Chamber movement came into existence in Canada in 1923 with the formation of its first
-                    chapter, the Young Men’s Section of the Winnipeg Board of Trade. Just as it was when it was founded
-                    in St. Louis, the Junior Chamber movement in Canada involved organizing young people to meet their
-                    needs in terms of learning and development, and in turn meeting both the current and future needs of
-                    their community.
+                    <ui:msg description="About > paragraph 1">
+                        The Junior Chamber movement came into existence in Canada in 1923 with the formation of its first
+                        chapter, the Young Men’s Section of the Winnipeg Board of Trade. Just as it was when it was founded
+                        in St. Louis, the Junior Chamber movement in Canada involved organizing young people to meet their
+                        needs in terms of learning and development, and in turn meeting both the current and future needs of
+                        their community.
+                    </ui:msg>
                 </p>
                 <p>
-                    In 1936 representatives from chapters across Canada met in Toronto on February 2 and wrote a
-                    constitution that officially founded the Canadian Junior Chamber of Commerce. History is rich with
-                    examples of JCI Canada members who have been actively involved in the success of the International
-                    Junior Chamber. One of the most outstanding members was certainly Phil Pugsley of Montreal, Canada
-                    who became the seventh JCI President in 1951. Pugsley envisioned the idea of a Senatorship which
-                    could honour and recognize the achievements of exceptional members and could enable them to remain
-                    in contact with the Junior Chamber movement throughout their life. Through his perseverance, the JCI
-                    Senate was created in 1952 at the 7th JCI World Congress in Melbourne, Australia.
+                    <ui:msg description="About > paragraph 2">
+                        In 1936 representatives from chapters across Canada met in Toronto on February 2 and wrote a
+                        constitution that officially founded the Canadian Junior Chamber of Commerce. History is rich with
+                        examples of JCI Canada members who have been actively involved in the success of the International
+                        Junior Chamber. One of the most outstanding members was certainly Phil Pugsley of Montreal, Canada
+                        who became the seventh JCI President in 1951. Pugsley envisioned the idea of a Senatorship which
+                        could honour and recognize the achievements of exceptional members and could enable them to remain
+                        in contact with the Junior Chamber movement throughout their life. Through his perseverance, the JCI
+                        Senate was created in 1952 at the 7th JCI World Congress in Melbourne, Australia.
+                    </ui:msg>
                 </p>
                 <p class="{res.style.noBottomMargin}">
-                    On the organizational level, JCI Canada hosted and organized many events throughout the years,
-                    where members from across the world participated in a wide variety of high-quality training courses
-                    and
-                    opportunities for networking and fellowship, namely:
-                </p>
-                <ul>
-                    <li>6th World Congress, Montreal, 1951</li>
-                    <li>22nd World Congress, Toronto, 1967</li>
-                    <li>39th World Congress, Montreal ,1984</li>
-                    <li>Americas Conference, Edmonton 2003</li>
-                    <li>National Conventions since 1936.</li>
-                </ul>
-                <p>
-                    Active participation in a local becomes the primary vehicle by which a member can explore the
-                    opportunities offered by JCI.
-                </p>
-                <p class="{res.style.noBottomMargin}">
-                    JCI is proud to offer opportunities in the following four areas:
+                    <ui:msg description="About > paragraph 3">
+                        On the organizational level, JCI Canada hosted and organized many events throughout the years,
+                        where members from across the world participated in a wide variety of high-quality training courses
+                        and
+                        opportunities for networking and fellowship, namely:
+                    </ui:msg>
                 </p>
                 <ul>
                     <li>
-                        <b>Individual development</b>
+                        <ui:msg description="About > list congress > element 1">
+                            6th World Congress, Montreal, 1951
+                        </ui:msg>
                     </li>
                     <li>
-                        <b>Business development</b>
+                        <ui:msg description="About > list congress > element 2">
+                            22nd World Congress, Toronto, 1967
+                        </ui:msg>
                     </li>
                     <li>
-                        <b>Community Development</b>
+                        <ui:msg description="About > list congress > element 3">
+                            39th World Congress, Montreal ,1984
+                        </ui:msg>
                     </li>
                     <li>
-                        <b>International Development</b>
+                        <ui:msg description="About > list congress > element 4">
+                            Americas Conference, Edmonton 2003
+                        </ui:msg>
+                    </li>
+                    <li>
+                        <ui:msg description="About > list congress > element 5">
+                            National Conventions since 1936.
+                        </ui:msg>
                     </li>
                 </ul>
                 <p>
-                    The range of programs and projects that provide these opportunities to members varies depending on
-                    the local organization, which itself is based on the preferences and desires of its members. Every
-                    year,
-                    JCI Canada awards prizes for the programs, specific projects and achievements of individuals, and
-                    all
-                    this emphasis on the variety of activities undertaken by the different sections of the JCI Canada.
-                    Our
-                    members are very active both in their local community by participating in activities that range from
-                    the organization of training programs on trade and development staff, to participation in
-                    international
-                    conferences, to through participation in networking events and fundraising for various charities.
-                </p>
-                <p>
-                    We organize a number of national programs to encourage the development of leadership skills among
-                    our
-                    members and in their communities. Our flagship programs include the Outstanding Young Person Award
-                    (TOYP) (which are among its former winners Margaret Atwood, the Honourable Jean Charest, and Wayne
-                    Gretzky), the Best Business Plan Competition and Effective Speaking Competition. We hold regional
-                    conferences across Canada, as well as a National Convention every year in September in which we
-                    offer
-                    meetings, training, competitions and activities that promote collegiality.
-                </p>
-                <p>
-                    Since their affiliation with the Junior Chamber movement, many Canadians have contributed to the
-                    advancement of youth. In keeping with this tradition, JCI Canada is now a growing presence from
-                    coast to
-                    coast with 30 local chapters and more on the way.
+                    <ui:msg description="About > paragraph 4">
+                        Active participation in a local becomes the primary vehicle by which a member can explore the
+                        opportunities offered by JCI.
+                    </ui:msg>
                 </p>
                 <p class="{res.style.noBottomMargin}">
-                    For more information,
-                    <a href="http://www.jcicanada.com/" target="_blank">visit www.jcicanada.com</a>
+                    <ui:msg description="About > paragraph 5">
+                        JCI is proud to offer opportunities in the following four areas:
+                    </ui:msg>
+                </p>
+                <ul>
+                    <li>
+                        <b>
+                            <ui:msg description="About > list type > element 1">
+                                Individual development
+                            </ui:msg>
+                        </b>
+                    </li>
+                    <li>
+                        <b>
+                            <ui:msg description="About > list type > element 2">
+                                Business development
+                            </ui:msg>
+                        </b>
+                    </li>
+                    <li>
+                        <b>
+                            <ui:msg description="About > list type > element 3">
+                                Community Development
+                            </ui:msg>
+                        </b>
+                    </li>
+                    <li>
+                        <b>
+                            <ui:msg description="About > list type > element 4">
+                                International Development
+                            </ui:msg>
+                        </b>
+                    </li>
+                </ul>
+                <p>
+                    <ui:msg description="About > paragraph 6">
+                        The range of programs and projects that provide these opportunities to members varies depending on
+                        the local organization, which itself is based on the preferences and desires of its members. Every
+                        year,
+                        JCI Canada awards prizes for the programs, specific projects and achievements of individuals, and
+                        all
+                        this emphasis on the variety of activities undertaken by the different sections of the JCI Canada.
+                        Our
+                        members are very active both in their local community by participating in activities that range from
+                        the organization of training programs on trade and development staff, to participation in
+                        international
+                        conferences, to through participation in networking events and fundraising for various charities.
+                    </ui:msg>
+                </p>
+                <p>
+                    <ui:msg description="About > paragraph 7">
+                        We organize a number of national programs to encourage the development of leadership skills among
+                        our
+                        members and in their communities. Our flagship programs include the Outstanding Young Person Award
+                        (TOYP) (which are among its former winners Margaret Atwood, the Honourable Jean Charest, and Wayne
+                        Gretzky), the Best Business Plan Competition and Effective Speaking Competition. We hold regional
+                        conferences across Canada, as well as a National Convention every year in September in which we
+                        offer
+                        meetings, training, competitions and activities that promote collegiality.
+                    </ui:msg>
+                </p>
+                <p>
+                    <ui:msg description="About > paragraph 8">
+                        Since their affiliation with the Junior Chamber movement, many Canadians have contributed to the
+                        advancement of youth. In keeping with this tradition, JCI Canada is now a growing presence from
+                        coast to
+                        coast with 30 local chapters and more on the way.
+                    </ui:msg>
+                </p>
+                <p class="{res.style.noBottomMargin}">
+                    <ui:msg description="About > paragraph 9">
+                        For more information, visit
+                    </ui:msg>
+                    <a href="http://www.jcicanada.com/" target="_blank">
+                        <ui:msg description="About > link 1">
+                            www.jcicanada.com
+                        </ui:msg>
+                    </a>
                 </p>
                 <g:Image addStyleNames="{aboutRes.style.imgLogo}" resource="{aboutRes.jci_canada}" altText="JCI Canada Logo"/>
             </div>
 
             <div ui:field="quebec" style="display: none">
-                <h1>About JCI Quebec City</h1>
+                <h1>
+                    <ui:msg description="About > Title 2">
+                        About JCI Quebec City
+                    </ui:msg>
+                </h1>
                 <p>
-                    Established in 1987, JCI Quebec City was founded to provide the opportunity for young entrepreneurs
-                    and professionals to expand their networks and to learn how to develop leadership and social skills.
-                    Considered as an important actor in the community, JCI Quebec City organizes more than 50 activities
-                    each year and, as a result, has an impact on the social economic landscape of the region by
-                    promoting personal and professional development of Quebec City youth.
+                    <ui:msg description="About > paragraph 10">
+                        Established in 1987, JCI Quebec City was founded to provide the opportunity for young entrepreneurs
+                        and professionals to expand their networks and to learn how to develop leadership and social skills.
+                        Considered as an important actor in the community, JCI Quebec City organizes more than 50 activities
+                        each year and, as a result, has an impact on the social economic landscape of the region by
+                        promoting personal and professional development of Quebec City youth.
+                    </ui:msg>
                 </p>
                 <p>
-                    In 2000, members from the Quebec City local chapter voted to adhere to the JCI movement to enhance
-                    our capability to serve the community and to twin with organizations of similar values and purpose
-                    both across Canada and the world. Since becoming a member, JCI Quebec City has sent delegates to
-                    attend several national conventions, area conferences and the 13 past world congresses. Numerous
-                    members held National Offices, two of which served as JCI Canada National President in 2008 and
-                    2012. Our own François Begin is currently serving as JCI International Vice president assigned to
-                    Europe.
+                    <ui:msg description="About > paragraph 11">
+                        In 2000, members from the Quebec City local chapter voted to adhere to the JCI movement to enhance
+                        our capability to serve the community and to twin with organizations of similar values and purpose
+                        both across Canada and the world. Since becoming a member, JCI Quebec City has sent delegates to
+                        attend several national conventions, area conferences and the 13 past world congresses. Numerous
+                        members held National Offices, two of which served as JCI Canada National President in 2008 and
+                        2012. Our own François Begin is currently serving as JCI International Vice president assigned to
+                        Europe.
+                    </ui:msg>
                 </p>
                 <p class="{res.style.noBottomMargin}">
-                    JCI Quebec City also won many awards throughout the years, thus proving its dynamism within the JCI
-                    movement:
+                    <ui:msg description="About > paragraph 12">
+                        JCI Quebec City also won many awards throughout the years, thus proving its dynamism within the JCI
+                        movement:
+                    </ui:msg>
                 </p>
                 <div class="{res.style.ulNoPoints}">
                     <ul>
                         <li>
-                            <b>Most Outstanding New JCI Organization in Canada</b>
-                            at JCI Canada National Convention
+                            <b>
+                                <ui:msg description="About > list 3 > element 1 > b">
+                                    Most Outstanding New JCI Organization in Canada
+                                </ui:msg>
+                            </b>
+                            <ui:msg description="About > list 3 > element 1">
+                                at JCI Canada National Convention
+                            </ui:msg>
                         </li>
                         <li>
                             <ul>
-                                <li>Edmonton, Canada, May 15 , 2003</li>
+                                <li>
+                                    <ui:msg description="About > list 3 > element 2">
+                                        Edmonton, Canada, May 15 , 2003
+                                    </ui:msg>
+                                </li>
                             </ul>
                         </li>
                     </ul>
                     <ul>
                         <li>
-                            <b>Most Outstanding JCI Organization in Canada</b>
-                            at JCI Canada National Conventions
+                            <b>
+                                <ui:msg description="About > list 3 > element 3 > b">
+                                    Most Outstanding JCI Organization in Canada
+                                </ui:msg>
+                            </b>
+                            <ui:msg description="About > list 3 > element 3">
+                                at JCI Canada National Conventions
+                            </ui:msg>
                         </li>
                         <li>
                             <ul>
-                                <li>Edmonton, Canada, May 15 , 2003</li>
-                                <li>Quebec City, September 29, 2004</li>
-                                <li>Cap Breton, September 2005</li>
-                                <li>Toronto, September 2011</li>
-                                <li>Cranbrooke, September 2012</li>
+                                <li>
+                                    <ui:msg description="About > list 3 > element 4 > list 4 > element 1">
+                                        Edmonton, Canada, May 15 , 2003
+                                    </ui:msg>
+                                </li>
+                                <li>
+                                    <ui:msg description="About > list 3 > element 4 > list 4 > element 2">
+                                        Quebec City, September 29, 2004
+                                    </ui:msg>
+                                </li>
+                                <li>
+                                    <ui:msg description="About > list 3 > element 4 > list 4 > element 3">
+                                        Cap Breton, September 2005
+                                    </ui:msg>
+                                </li>
+                                <li>
+                                    <ui:msg description="About > list 3 > element 4 > list 4 > element 4">
+                                        Toronto, September 2011
+                                    </ui:msg>
+                                </li>
+                                <li>
+                                    <ui:msg description="About > list 3 > element 4 > list 4 > element 5">
+                                        Cranbrooke, September 2012
+                                    </ui:msg>
+                                </li>
                             </ul>
                         </li>
                     </ul>
                     <ul>
                         <li>
-                            <b>Most Outstanding New JCI Organization in the Americas</b>
-                            at Area Conferences
+                            <b>
+                                <ui:msg description="About > list 3 > element 5 > b">
+                                    Most Outstanding New JCI Organization in the Americas
+                                </ui:msg>
+                            </b>
+                            <ui:msg description="About > list 3 > element 5">
+                                at Area Conferences
+                            </ui:msg>
                         </li>
                         <li>
                             <ul>
-                                <li>Quito, Equator, May 19, 2003</li>
+                                <li>
+                                    <ui:msg description="About > list 3 > element 6 > list 5 > element 1">
+                                        Quito, Equator, May 19, 2003
+                                    </ui:msg>
+                                </li>
 
-                                <li>Sao Paulo, May 7, 2005</li>
+                                <li>
+                                    <ui:msg description="About > list 3 > element 6 > list 5 > element 2">
+                                        Sao Paulo, May 7, 2005
+                                    </ui:msg>
+                                </li>
                             </ul>
                         </li>
                     </ul>
                     <ul>
                         <li>
-                            <b>Most Outstanding New JCI Organization in the World</b>
-                            at World Congress
+                            <b>
+                                <ui:msg description="About > list 3 > element 7 > b">
+                                    Most Outstanding New JCI Organization in the World
+                                </ui:msg>
+                            </b>
+                            <ui:msg description="About > list 3 > element 7">
+                                at World Congress
+                            </ui:msg>
                         </li>
                         <li>
                             <ul>
-                                <li>Copenhagen, Denmark, Nov, 2003</li>
+                                <li>
+                                    <ui:msg description="About > list 3 > element 8">
+                                        Copenhagen, Denmark, Nov, 2003
+                                    </ui:msg>
+                                </li>
                             </ul>
                         </li>
                     </ul>
                 </div>
                 <p>
-                    In 2004, JCI Quebec City hosted the National Convention after being part of JCI and JCI Canada for
-                    only two years. Quebec City established a benchmark for conventions in Canada by offering VIP
-                    treatment to all of our guests. JCI Quebec City maintains relationships with a number of external
-                    organizations among local chapters and national organisations of the JCI movement.
+                    <ui:msg description="About > paragraph 13">
+                        In 2004, JCI Quebec City hosted the National Convention after being part of JCI and JCI Canada for
+                        only two years. Quebec City established a benchmark for conventions in Canada by offering VIP
+                        treatment to all of our guests. JCI Quebec City maintains relationships with a number of external
+                        organizations among local chapters and national organisations of the JCI movement.
+                    </ui:msg>
                 </p>
                 <p>
-                    JCI Quebec City
-                    being the only French speaking chapter in North America, contacts were also made with other junior
-                    chambers of French background. Since 2005, JCI Quebec City though JCI Canada has become a member of
-                    JCI’s Association Internationale des Jeunes Chambres Francophones (International Francophone Junior
-                    Chambers Association). Finally, JCI Quebec City is twinned with JCI Calgary and JCI Reims to develop
-                    relations that are mutually beneficial.
+                    <ui:msg description="About > paragraph 14">
+                        JCI Quebec City
+                        being the only French speaking chapter in North America, contacts were also made with other junior
+                        chambers of French background. Since 2005, JCI Quebec City though JCI Canada has become a member of
+                        JCI’s Association Internationale des Jeunes Chambres Francophones (International Francophone Junior
+                        Chambers Association). Finally, JCI Quebec City is twinned with JCI Calgary and JCI Reims to develop
+                        relations that are mutually beneficial.
+                    </ui:msg>
                 </p>
                 <p class="{res.style.noBottomMargin}">
-                    For more information,
-                    <a href="http://www.jccq.qc.ca/" target="_blank">visit www.jccq.qc.ca</a>
+                    <ui:msg description="About > paragraph 9">
+                        For more information, visit
+                    </ui:msg>
+                    <a href="http://www.jccq.qc.ca/" target="_blank">
+                        <ui:msg description="About > link 2">
+                            www.jccq.qc.ca
+                        </ui:msg>
+                    </a>
                 </p>
                 <g:Image addStyleNames="{aboutRes.style.imgLogo}" resource="{aboutRes.jccq}" altText="JCCQ Logo"/>
             </div>

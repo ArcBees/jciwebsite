@@ -1,5 +1,8 @@
 <ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
-             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'
+             ui:generateFormat='com.google.gwt.i18n.rebind.format.PropertiesFormat'
+             ui:generateKeys="com.google.gwt.i18n.server.keygen.MD5KeyGenerator"
+             ui:generateLocales='default'>
     <ui:with field="res" type="com.jci.client.resource.CommonResource"/>
     <ui:with field="mainRes" type="com.jci.client.resource.main.MainResource"/>
     <ui:with field="nameTokens" type="com.jci.client.place.NameTokens"/>
@@ -11,45 +14,55 @@
                     <div class="carousel-inner">
                         <div class="item active clearfix">
                             <div class="{mainRes.style.textSlider}">
-                                <p class="bebas">A
-                                    <span>modern</span>
-                                    city
+                                <p class="bebas">
+                                    <ui:msg description="Home > A Modern City">A
+                                        <span ui:ph="span">modern</span>
+                                        city
+                                    </ui:msg>
                                 </p>
                             </div>
                             <g:Image resource="{mainRes.homeImage005}" altText="Port of Quebec"/>
                         </div>
                         <div class="item clearfix">
                             <div class="{mainRes.style.textSlider}">
-                                <p class="bebas">An
-                                    <span>endless</span>
-                                    nightlife
+                                <p class="bebas">
+                                    <ui:msg description="Home > An endless nightlife">An
+                                        <span ui:ph="span">endless</span>
+                                        nightlife
+                                    </ui:msg>
                                 </p>
                             </div>
                             <g:Image resource="{mainRes.homeImage002}" altText="Nightlife of Quebec city"/>
                         </div>
                         <div class="item clearfix">
                             <div class="{mainRes.style.textSlider}">
-                                <p class="bebas">An
-                                    <span>historical</span>
-                                    city
+                                <p class="bebas">
+                                    <ui:msg description="Home > An Historical City">An
+                                        <span ui:ph="span">historical</span>
+                                        city
+                                    </ui:msg>
                                 </p>
                             </div>
                             <g:Image resource="{mainRes.homeImage003}" altText="The Battlefields Park of Quebec"/>
                         </div>
                         <div class="item clearfix">
                             <div class="{mainRes.style.textSlider}">
-                                <p class="bebas">A
-                                    <span>romantic</span>
-                                    atmosphere
+                                <p class="bebas">
+                                    <ui:msg description="Home > A Romantic Atmosphere">A
+                                        <span ui:ph="span">romantic</span>
+                                        atmosphere
+                                    </ui:msg>
                                 </p>
                             </div>
                             <g:Image resource="{mainRes.homeImage001}" altText="Romantic atmosphere of Quebec city"/>
                         </div>
                         <div class="item clearfix">
                             <div class="{mainRes.style.textSlider}">
-                                <p class="bebas">A
-                                    <span>wonderful</span>
-                                    city
+                                <p class="bebas">
+                                    <ui:msg description="Home > A Wonderful City">A
+                                        <span ui:ph="span">wonderful</span>
+                                        city
+                                    </ui:msg>
                                 </p>
                             </div>
                             <g:Image resource="{mainRes.homeImage004}" altText="Quebec city"/>
@@ -70,11 +83,12 @@
                         <p>
                             <a href="http://www.jccq.qc.ca/Categorie-dactivites/Congres-National-et-AGA-JCI-Canada/Convention-Nationale-JCI-Canada-2013-2013-JCI-Canada-National-Convention.aspx"
                                target="_blank">
-                                <span>Register
-                                <br/>
-                                NOW!
+                                <span>
+                                    <ui:msg description="Home > Register NOW">Register
+                                        <br/>
+                                        NOW!
+                                    </ui:msg>
                                 </span>
-
                             </a>
                         </p>
                     </div>
@@ -82,11 +96,12 @@
                     <div>
                         <p>
                             <a href="#{nameTokens.getTravel};id=travel">
-                                <span>Getting to
-                                <br/>
-                                Quebec City
+                                <span>
+                                    <ui:msg description="Home > Getting to Quebec City">Getting to
+                                        <br/>
+                                        Quebec City
+                                    </ui:msg>
                                 </span>
-
                             </a>
                         </p>
                     </div>
@@ -94,11 +109,12 @@
                     <div>
                         <p>
                             <a href="#{nameTokens.getTravel};id=hotel">
-                                <span>Convention
-                                <br/>
-                                Hotel
+                                <span>
+                                    <ui:msg description="Home > Convention Hotel">Convention
+                                        <br/>
+                                        Hotel
+                                    </ui:msg>
                                 </span>
-
                             </a>
                         </p>
                     </div>
@@ -106,16 +122,16 @@
                     <div>
                         <p>
                             <a href="#{nameTokens.getProgram}">
-                                <span>Look at the
-                                <br/>
-                                Program
+                                <span>
+                                    <ui:msg description="Home > Look at the Program">Look at the
+                                        <br/>
+                                        Program
+                                    </ui:msg>
                                 </span>
-
                             </a>
                         </p>
                     </div>
                 </div>
-
             </div>
         </div>
 

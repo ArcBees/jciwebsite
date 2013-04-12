@@ -17,8 +17,17 @@
 
     <entry-point class='com.jci.client.Website'/>
 
+    <!-- French language, independent of country -->
+    <extend-property name="locale" values="fr" />
+    <!-- English language, independent of country -->
+    <extend-property name="locale" values="en" />
+    <set-property-fallback name="locale" value="en" />
+
     <source path='client'/>
     <source path='shared'/>
+
+    <!--TODO: remove this before uploading to appengine (only used to speed up permutations during debugging)-->
+    <!--<set-property name="user.agent" value="safari"/>-->
 
     <set-configuration-property name="gin.ginjector.modules"
                               value="com.jci.client.gin.ClientModule"/>
