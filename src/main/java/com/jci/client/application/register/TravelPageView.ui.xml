@@ -11,7 +11,7 @@
         {res.style.content}">
             <div class="{res.style.actions}">
                 <a ui:field="buttonHotel" class="{res.style.button_gray} {res.style.active}">
-                    <ui:msg description="About > Title 1">
+                    <ui:msg description="Travel > Title 1">
                         Convention Hotel
                     </ui:msg>
                 </a>
