@@ -9,7 +9,7 @@
         <div class="{res.style.width} {res.style.white} {res.style.dragUp} {res.style.round}
         {res.style.content}">
             <div ui:field="divButtons" class="{res.style.actions} carousel-indicators">
-                <a class="{res.style.button_gray} {res.style.active}" data-target="#myCarouselProgram"
+                <a class="{res.style.button_gray} {res.style.active} {programRes.style.firstBT}" data-target="#myCarouselProgram"
                    data-slide-to="0">
                     <ui:msg description="Program > Ui > Date > 18">September, 18</ui:msg>
 
@@ -29,6 +29,7 @@
                 <ui:msg description="Common > Program">Program</ui:msg>
             </h1>
             <div class="carousel slide clearfix {programRes.style.visioProgram}" id="myCarouselProgram">
+                <div class="{programRes.style.overflow} {programRes.style.down}">
                 <ul class="{programRes.style.hoursTable}">
                     <li class="{programRes.style.odd}"></li>
                     <li>7h00</li>
@@ -57,26 +58,28 @@
                     <g:HTMLPanel styleName="item active {programRes.style.carouselInnerDiv}">
                         <ul class="{programRes.style.rooms} clearfix">
                             <li>
-                                <ui:msg description="Common > Room">Room</ui:msg>
+                                <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                 A
                             </li>
                             <li>
-                                <ui:msg description="Common > Room">Room</ui:msg>
+                                <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                 B
                             </li>
                             <li>
-                                <ui:msg description="Common > Room">Room</ui:msg>
+                                <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                 C
                             </li>
                             <li>
-                                <ui:msg description="Common > Room">Room</ui:msg>
+                                <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                 G
                             </li>
                             <li>
-                                <ui:msg description="Common > Room">Room</ui:msg>
+                                <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                 H
                             </li>
-                            <li><ui:msg description="Program > Ui > Others">Others</ui:msg></li>
+                            <li>
+                                <ui:msg description="Program > Ui > Others">Others</ui:msg>
+                            </li>
                         </ul>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1400} {programRes.style.h400} {programRes.style.w1}">
                             <div>
@@ -106,7 +109,7 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
                                     Foyer
@@ -115,12 +118,16 @@
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1800} {programRes.style.h500} {programRes.style.w1} {programRes.style.cYellow}">
                             <div>
-                                <h2><ui:msg description="Program > Content > OpenCeremonies">Opening Ceremonies</ui:msg></h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > OpenCeremonies">Opening Ceremonies</ui:msg>
+                                </h2>
                                 <p>18:00 - 23:00</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2><ui:msg description="Program > Content > OpenCeremonies">Opening Ceremonies</ui:msg></h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > OpenCeremonies">Opening Ceremonies</ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 18">Wednesday, September 18, 2013
@@ -137,23 +144,30 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
                                     Restaurant Table
                                 </p>
                             </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t2300} {programRes.style.h400} {programRes.style.w1} {programRes.style.cPurple}">
+                        <g:HTMLPanel addStyleNames="{programRes.style.event} {programRes.style.l6} {programRes.style.t2300} {programRes.style.h400} {programRes.style.w1} {programRes.style.cPurple}">
                             <div>
-                                <h2><ui:msg description="Program > Content > Hospitalitysuite">Hospitality suite</ui:msg></h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Hospitalitysuite">Hospitality suite
+                                    </ui:msg>
+                                </h2>
                                 <p>
                                     <ui:msg description="Program > Ui > From23">From 23:00</ui:msg>
                                 </p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2><ui:msg description="Program > Content > HospitalitysuiteJCI">Hospitality suite hosted by JCI Quebec City</ui:msg></h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > HospitalitysuiteJCI">Hospitality suite
+                                        hosted by JCI Quebec City
+                                    </ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 18">Wednesday, September 18, 2013
@@ -170,43 +184,50 @@
                                     <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
                                     <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
                                 </p>
                             </div>
-                        </div>
+                        </g:HTMLPanel>
                     </g:HTMLPanel>
                     <g:HTMLPanel styleName="item {programRes.style.carouselInnerDiv}">
                         <ul class="{programRes.style.rooms} clearfix">
                             <li>
-                                <ui:msg description="Common > Room">Room</ui:msg>
+                                <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                 AB
                             </li>
                             <li>
-                                <ui:msg description="Common > Room">Room</ui:msg>
+                                <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                 C
                             </li>
                             <li>
-                                <ui:msg description="Common > Room">Room</ui:msg>
+                                <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                 G
                             </li>
                             <li>
-                                <ui:msg description="Common > Room">Room</ui:msg>
+                                <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                 H
                             </li>
                             <li>Foyer</li>
-                            <li><ui:msg description="Program > Ui > Others">Others</ui:msg></li>
+                            <li>
+                                <ui:msg description="Program > Ui > Others">Others</ui:msg>
+                            </li>
                         </ul>
                         <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t800} {programRes.style.h100} {programRes.style.w1} {programRes.style.cRed}">
                             <div>
-                                <h2>Breakfast</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Breakfast">Breakfast</ui:msg>
+                                </h2>
                                 <p>8:00 - 9:00</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Delegates Breakfast</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > DelegatesBreakfast">Delegates Breakfast
+                                    </ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
@@ -223,22 +244,26 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
-                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                     AB
                                 </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t900} {programRes.style.h275} {programRes.style.w1} {programRes.style.cBlue}">
                             <div>
-                                <h2>General Assembly</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > GeneralAssembly">General Assembly</ui:msg>
+                                </h2>
                                 <p>9:00 - 11:45</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>General Assembly</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > GeneralAssembly">General Assembly</ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
@@ -255,22 +280,26 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
-                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                     C
                                 </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t1375} {programRes.style.h275} {programRes.style.w1} {programRes.style.cBlue}">
                             <div>
-                                <h2>General Assembly</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > GeneralAssembly">General Assembly</ui:msg>
+                                </h2>
                                 <p>13:45 - 16:30</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>General Assembly</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > GeneralAssembly">General Assembly</ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
@@ -287,22 +316,27 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
-                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                     C
                                 </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
-                                <h2>Training</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                </h2>
                                 <p>9:00 - 10:15</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Training 1</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                    1
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
@@ -319,22 +353,27 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
-                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                     G
                                 </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
-                                <h2>Training</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                </h2>
                                 <p>10:30 - 11:45</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Training 3</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                    3
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
@@ -351,22 +390,27 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
-                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                     G
                                 </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t1375} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
-                                <h2>Training</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                </h2>
                                 <p>13:45 - 15:00</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Training 5</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                    5
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
@@ -383,22 +427,27 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
-                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                     G
                                 </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t1525} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
-                                <h2>Training</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                </h2>
                                 <p>15:15 - 16:30</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Training 7</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                    7
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
@@ -415,22 +464,27 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
-                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                     G
                                 </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
-                                <h2>Training</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                </h2>
                                 <p>9:00 - 10:15</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Training 2</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                    2
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
@@ -447,22 +501,27 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
-                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                     H
                                 </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
-                                <h2>Training</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                </h2>
                                 <p>10:30 - 11:45</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Training 4</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                    4
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
@@ -479,22 +538,27 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
-                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                     H
                                 </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t1375} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
-                                <h2>Training</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                </h2>
                                 <p>13:45 - 15:00</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Training 6</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                    6
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
@@ -511,22 +575,27 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
-                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                     H
                                 </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t1525} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
-                                <h2>Training</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                </h2>
                                 <p>15:15 - 16:30</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Training 8</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                    8
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
@@ -543,22 +612,26 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
-                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                     H
                                 </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1025} {programRes.style.h025} {programRes.style.w1} {programRes.style.cRed}">
                             <div>
-                                <h2>Pause</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > CoffeeBreak">Coffee Break</ui:msg>
+                                </h2>
                                 <p>10:15 - 10:30</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Coffee break</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > CoffeeBreak">Coffee Break</ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
@@ -575,7 +648,7 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
                                     Foyer
@@ -584,12 +657,16 @@
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1}">
                             <div>
-                                <h2>Trade Show</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
+                                </h2>
                                 <p>10:30 - 11:45</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Trade Show</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
@@ -606,7 +683,7 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
                                     Foyer
@@ -615,12 +692,16 @@
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1375} {programRes.style.h125} {programRes.style.w1}">
                             <div>
-                                <h2>Trade Show</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
+                                </h2>
                                 <p>13:45 - 15:00</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Trade Show</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
@@ -637,7 +718,7 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
                                     Foyer
@@ -646,12 +727,16 @@
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1500} {programRes.style.h025} {programRes.style.w1} {programRes.style.cRed}">
                             <div>
-                                <h2>Pause</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > CoffeeBreak">Coffee Break</ui:msg>
+                                </h2>
                                 <p>15:00 - 15:15</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Coffee break</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > CoffeeBreak">Coffee Break</ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
@@ -668,7 +753,7 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
                                     Foyer
@@ -677,12 +762,16 @@
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1525} {programRes.style.h125} {programRes.style.w1}">
                             <div>
-                                <h2>Trade Show</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
+                                </h2>
                                 <p>15:15 - 16:30</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Trade Show</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
@@ -699,7 +788,7 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
                                     Foyer
@@ -708,12 +797,16 @@
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1200} {programRes.style.h150} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
-                                <h2>Keynote speaker</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > KeynoteSpeaker">Keynote speaker</ui:msg>
+                                </h2>
                                 <p>12:00 - 13:30</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Keynote speaker</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > KeynoteSpeaker">Keynote speaker</ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
@@ -731,7 +824,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1350} {programRes.style.h300} {programRes.style.w1} {programRes.style.cPurple}">
+                        <g:HTMLPanel addStyleNames="{programRes.style.event} {programRes.style.l6} {programRes.style.t1350} {programRes.style.h300} {programRes.style.w1} {programRes.style.cPurple}">
                             <div>
                                 <h2>Excursions</h2>
                                 <p>13:30 - 16:30</p>
@@ -915,20 +1008,26 @@
                                         <ui:msg description="Program > Ui > OtherExcursions">Other excursions :</ui:msg>
                                     </b>
                                     <a id="cruise1" class="{programRes.style.excursionsActive}">•</a>
-                                    <a id="shopping1">?</a>
-                                    <a id="tours1">?</a>
-                                    <a id="beer1">?</a>
+                                    <a id="shopping1">◦</a>
+                                    <a id="tours1">◦</a>
+                                    <a id="beer1">◦</a>
                                 </span>
                             </div>
-                        </div>
+                        </g:HTMLPanel>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1700} {programRes.style.h100} {programRes.style.w1} {programRes.style.cYellow}">
                             <div>
-                                <h2>VIP Reception</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > VIPReception">VIP Reception</ui:msg>
+                                </h2>
                                 <p>17:00 - 18:00</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Governor's VIP Reception (invitation only)</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > GovernorReception">Governor's VIP Reception
+                                        (invitation only)
+                                    </ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
@@ -945,7 +1044,7 @@
                                     National Assembly of Quebec
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
                                     Le Parlementaire Restaurant
@@ -954,12 +1053,16 @@
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1800} {programRes.style.h500} {programRes.style.w1} {programRes.style.cYellow}">
                             <div>
-                                <h2>Awards Night</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > AwardsNight">Awards Night</ui:msg>
+                                </h2>
                                 <p>18:00 - 23:00</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Awards Night</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > AwardsNight">Awards Night</ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
@@ -976,7 +1079,7 @@
                                     National Assembly of Quebec
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
                                     Le Parlementaire Restaurant
@@ -1001,16 +1104,23 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t2300} {programRes.style.h400} {programRes.style.w1} {programRes.style.cPurple}">
+                        <g:HTMLPanel addStyleNames="{programRes.style.event} {programRes.style.l6} {programRes.style.t2300} {programRes.style.h400} {programRes.style.w1} {programRes.style.cPurple}">
                             <div>
-                                <h2><ui:msg description="Program > Content > Hospitalitysuite">Hospitality suite</ui:msg></h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Hospitalitysuite">Hospitality suite
+                                    </ui:msg>
+                                </h2>
                                 <p>
                                     <ui:msg description="Program > Ui > From23">From 23:00</ui:msg>
                                 </p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2><ui:msg description="Program > Content > HospitalitysuiteWinner">Hospitality Suite hosted by Contest Winner!</ui:msg></h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > HospitalitysuiteWinner">Hospitality Suite
+                                        hosted by Contest Winner!
+                                    </ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
@@ -1027,43 +1137,50 @@
                                     <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
                                     <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
                                 </p>
                             </div>
-                        </div>
+                        </g:HTMLPanel>
                     </g:HTMLPanel>
                     <g:HTMLPanel styleName="item {programRes.style.carouselInnerDiv}">
                         <ul class="{programRes.style.rooms} clearfix">
                             <li>
-                                <ui:msg description="Common > Room">Room</ui:msg>
+                                <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                 AB
                             </li>
                             <li>
-                                <ui:msg description="Common > Room">Room</ui:msg>
+                                <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                 C
                             </li>
                             <li>
-                                <ui:msg description="Common > Room">Room</ui:msg>
+                                <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                 G
                             </li>
                             <li>
-                                <ui:msg description="Common > Room">Room</ui:msg>
+                                <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                 H
                             </li>
                             <li>Foyer</li>
-                            <li><ui:msg description="Program > Ui > Others">Others</ui:msg></li>
+                            <li>
+                                <ui:msg description="Program > Ui > Others">Others</ui:msg>
+                            </li>
                         </ul>
                         <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t800} {programRes.style.h100} {programRes.style.w1} {programRes.style.cRed}">
                             <div>
-                                <h2>Breakfast</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Breakfast">Breakfast</ui:msg>
+                                </h2>
                                 <p>8:00 - 9:00</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Delegates Breakfast</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > DelegatesBreakfast">Delegates Breakfast
+                                    </ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
@@ -1080,22 +1197,26 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
-                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                     AB
                                 </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t1200} {programRes.style.h150} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
-                                <h2>Keynote speaker</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > KeynoteSpeaker">Keynote speaker</ui:msg>
+                                </h2>
                                 <p>12:00 - 13:30</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Keynote speaker</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > KeynoteSpeaker">Keynote speaker</ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
@@ -1112,22 +1233,28 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
-                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                     AB
                                 </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t1375} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
-                                <h2>Effective speaking</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > EffectiveSpeaking">Effective speaking
+                                    </ui:msg>
+                                </h2>
                                 <p>13:45 - 15:00</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Effective speaking</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > EffectiveSpeaking">Effective speaking
+                                    </ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
@@ -1144,22 +1271,26 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
-                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                     AB
                                 </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t900} {programRes.style.h275} {programRes.style.w1} {programRes.style.cBlue}">
                             <div>
-                                <h2>General Assembly</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > GeneralAssembly">General Assembly</ui:msg>
+                                </h2>
                                 <p>9:00 - 11:45</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>General Assembly</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > GeneralAssembly">General Assembly</ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
@@ -1176,22 +1307,26 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
-                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                     C
                                 </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t1525} {programRes.style.h125} {programRes.style.w1} {programRes.style.cBlue}">
                             <div>
-                                <h2>General Assembly</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > GeneralAssembly">General Assembly</ui:msg>
+                                </h2>
                                 <p>15:15 - 16:30</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>General Assembly</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > GeneralAssembly">General Assembly</ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
@@ -1208,22 +1343,27 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
-                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                     C
                                 </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
-                                <h2>Training</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                </h2>
                                 <p>9:00 - 10:15</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Training 9</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                    9
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
@@ -1240,22 +1380,27 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
-                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                     G
                                 </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
-                                <h2>Training</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                </h2>
                                 <p>10:30 - 11:45</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Training 11</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                    11
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
@@ -1272,22 +1417,27 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
-                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                     G
                                 </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
-                                <h2>Training</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                </h2>
                                 <p>9:00 - 10:15</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Training 10</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                    10
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
@@ -1304,22 +1454,27 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
-                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                     H
                                 </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
-                                <h2>Training</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                </h2>
                                 <p>10:30 - 11:45</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Training 12</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                    12
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
@@ -1336,22 +1491,26 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
-                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                     H
                                 </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1}">
                             <div>
-                                <h2>Trade Show</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
+                                </h2>
                                 <p>9:00 - 10:15</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Trade Show</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
@@ -1368,7 +1527,7 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
                                     Foyer
@@ -1377,12 +1536,16 @@
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1025} {programRes.style.h025} {programRes.style.w1} {programRes.style.cRed}">
                             <div>
-                                <h2>Pause</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > CoffeeBreak">Coffee Break</ui:msg>
+                                </h2>
                                 <p>10:15 - 10:30</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Coffee break</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > CoffeeBreak">Coffee Break</ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
@@ -1399,7 +1562,7 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
                                     Foyer
@@ -1408,12 +1571,16 @@
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1}">
                             <div>
-                                <h2>Trade Show</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
+                                </h2>
                                 <p>10:30 - 11:45</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Trade Show</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
@@ -1430,7 +1597,7 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
                                     Foyer
@@ -1439,12 +1606,16 @@
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1375} {programRes.style.h125} {programRes.style.w1}">
                             <div>
-                                <h2>Trade Show</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
+                                </h2>
                                 <p>13:45 - 15:00</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Trade Show</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
@@ -1461,7 +1632,7 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
                                     Foyer
@@ -1470,12 +1641,16 @@
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1500} {programRes.style.h025} {programRes.style.w1} {programRes.style.cRed}">
                             <div>
-                                <h2>Pause</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > CoffeeBreak">Coffee Break</ui:msg>
+                                </h2>
                                 <p>15:00 - 15:15</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Coffee break</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > CoffeeBreak">Coffee Break</ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
@@ -1492,7 +1667,7 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
                                     Foyer
@@ -1501,12 +1676,16 @@
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1525} {programRes.style.h125} {programRes.style.w1}">
                             <div>
-                                <h2>Trade Show</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
+                                </h2>
                                 <p>15:15 - 16:30</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Trade Show</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
@@ -1523,14 +1702,14 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
                                     Foyer
                                 </p>
                             </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1350} {programRes.style.h300} {programRes.style.w1} {programRes.style.cPurple}">
+                        <g:HTMLPanel addStyleNames="{programRes.style.event} {programRes.style.l6} {programRes.style.t1350} {programRes.style.h300} {programRes.style.w1} {programRes.style.cPurple}">
                             <div>
                                 <h2>Excursions</h2>
                                 <p>13:30 - 16:30</p>
@@ -1718,20 +1897,24 @@
                                         <ui:msg description="Program > Ui > OtherExcursions">Other excursions :</ui:msg>
                                     </b>
                                     <a id="cruise2" class="{programRes.style.excursionsActive}">•</a>
-                                    <a id="shopping2">?</a>
-                                    <a id="tours2">?</a>
-                                    <a id="karting2">?</a>
+                                    <a id="shopping2">◦</a>
+                                    <a id="tours2">◦</a>
+                                    <a id="karting2">◦</a>
                                 </span>
                             </div>
-                        </div>
+                        </g:HTMLPanel>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1800} {programRes.style.h250} {programRes.style.w1} {programRes.style.cYellow}">
                             <div>
-                                <h2>Theme Night</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > ThemeNight">Theme Night</ui:msg>
+                                </h2>
                                 <p>18:00 - 20:30</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Theme Night</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > ThemeNight">Theme Night</ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
@@ -1749,14 +1932,22 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t2050} {programRes.style.h250} {programRes.style.w1} {programRes.style.cPurple}">
+                        <g:HTMLPanel addStyleNames="{programRes.style.event} {programRes.style.l6} {programRes.style.t2050} {programRes.style.h250} {programRes.style.w1} {programRes.style.cPurple}">
                             <div>
-                                <h2>Grande Allée Clubbing</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > GrandeAlleeClubbing">Grande Allée
+                                        Clubbing
+                                    </ui:msg>
+                                </h2>
                                 <p>20:30 - 23:00</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Grande Allée Clubbing</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > GrandeAlleeClubbing">Grande Allée
+                                        Clubbing
+                                    </ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
@@ -1773,17 +1964,24 @@
                                     Grande Allée Street
                                 </p>
                             </div>
-                        </div>
-                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t2300} {programRes.style.h400} {programRes.style.w1} {programRes.style.cPurple}">
+                        </g:HTMLPanel>
+                        <g:HTMLPanel addStyleNames="{programRes.style.event} {programRes.style.l6} {programRes.style.t2300} {programRes.style.h400} {programRes.style.w1} {programRes.style.cPurple}">
                             <div>
-                                <h2><ui:msg description="Program > Content > Hospitalitysuite">Hospitality suite</ui:msg></h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Hospitalitysuite">Hospitality suite
+                                    </ui:msg>
+                                </h2>
                                 <p>
                                     <ui:msg description="Program > Ui > From23">From 23:00</ui:msg>
                                 </p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2><ui:msg description="Program > Content > HospitalitysuiteBidding">Hospitality suite hosted by 2015 Bidding Chapter</ui:msg></h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > HospitalitysuiteBidding">Hospitality suite
+                                        hosted by 2015 Bidding Chapter
+                                    </ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
@@ -1800,46 +1998,53 @@
                                     <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
                                     <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
                                 </p>
                             </div>
-                        </div>
+                        </g:HTMLPanel>
                     </g:HTMLPanel>
                     <g:HTMLPanel styleName="item {programRes.style.carouselInnerDiv}">
                         <ul class="{programRes.style.rooms} clearfix">
                             <li>
-                                <ui:msg description="Common > Room">Room</ui:msg>
+                                <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                 AB
                             </li>
                             <li>
-                                <ui:msg description="Common > Room">Room</ui:msg>
+                                <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                 C
                             </li>
                             <li>
-                                <ui:msg description="Common > Room">Room</ui:msg>
+                                <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                 G
                             </li>
                             <li>
-                                <ui:msg description="Common > Room">Room</ui:msg>
+                                <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                 H
                             </li>
                             <li>
-                                <ui:msg description="Common > Room">Room</ui:msg>
+                                <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                 J
                             </li>
-                            <li><ui:msg description="Program > Ui > Others">Others</ui:msg></li>
+                            <li>
+                                <ui:msg description="Program > Ui > Others">Others</ui:msg>
+                            </li>
                         </ul>
                         <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t800} {programRes.style.h100} {programRes.style.w1} {programRes.style.cRed}">
                             <div>
-                                <h2>Breakfast</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Breakfast">Breakfast</ui:msg>
+                                </h2>
                                 <p>8:00 - 9:00</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Delegates Breakfast</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > DelegatesBreakfast">Delegates Breakfast
+                                    </ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
@@ -1856,22 +2061,26 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
-                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                     AB
                                 </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t1200} {programRes.style.h150} {programRes.style.w1}  {programRes.style.cGreen}">
                             <div>
-                                <h2>Keynote speaker</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > KeynoteSpeaker">Keynote speaker</ui:msg>
+                                </h2>
                                 <p>12:00 - 13:30</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Keynote speaker</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > KeynoteSpeaker">Keynote speaker</ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
@@ -1888,22 +2097,28 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
-                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                     AB
                                 </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l1} {programRes.style.t1800} {programRes.style.h500} {programRes.style.w2} {programRes.style.cYellow}">
                             <div>
-                                <h2>President's Gala</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > PresidentGala">President's Gala</ui:msg>
+                                </h2>
                                 <p>18:00 - 23:00</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>JCI Canada President Gala presented by Lavery</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > PresidentGala > Title">JCI Canada President
+                                        Gala presented by Lavery
+                                    </ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
@@ -1920,7 +2135,7 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
                                     Ballroom (ABC)
@@ -1953,12 +2168,16 @@
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t900} {programRes.style.h275} {programRes.style.w1} {programRes.style.cBlue}">
                             <div>
-                                <h2>General Assembly</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > GeneralAssembly">General Assembly</ui:msg>
+                                </h2>
                                 <p>9:00 - 11:45</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>General Assembly</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > GeneralAssembly">General Assembly</ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
@@ -1975,22 +2194,26 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
-                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                     C
                                 </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l2} {programRes.style.t1375} {programRes.style.h225} {programRes.style.w1} {programRes.style.cBlue}">
                             <div>
-                                <h2>General Assembly</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > GeneralAssembly">General Assembly</ui:msg>
+                                </h2>
                                 <p>13:45 - 15:00</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>General Assembly</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > GeneralAssembly">General Assembly</ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
@@ -2007,22 +2230,27 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
-                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                     C
                                 </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
-                                <h2>Training</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                </h2>
                                 <p>9:00 - 10:15</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Training 13</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                    13
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
@@ -2039,22 +2267,27 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
-                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                     G
                                 </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l3} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
-                                <h2>Training</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                </h2>
                                 <p>10:30 - 11:45</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Training 15</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                    15
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
@@ -2071,22 +2304,27 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
-                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                     G
                                 </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
-                                <h2>Training</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                </h2>
                                 <p>9:00 - 10:15</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Training 14</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                    14
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
@@ -2103,22 +2341,27 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
-                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                     H
                                 </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l4} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                             <div>
-                                <h2>Training</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                </h2>
                                 <p>10:30 - 11:45</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Training 16</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                    16
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
@@ -2135,22 +2378,28 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
-                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                     H
                                 </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t750} {programRes.style.h150} {programRes.style.w1} {programRes.style.cRed}">
                             <div>
-                                <h2>Senators' Breakfast</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > SenatorsBreakfast">Senators' Breakfast
+                                    </ui:msg>
+                                </h2>
                                 <p>7:30 - 9:00</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Senators' Breakfast</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > SenatorsBreakfast">Senators' Breakfast
+                                    </ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
@@ -2167,22 +2416,28 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
-                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                     J
                                 </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l5} {programRes.style.t1700} {programRes.style.h100} {programRes.style.w1} {programRes.style.cYellow}">
                             <div>
-                                <h2>VIP Reception</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > VIPReception">VIP Reception</ui:msg>
+                                </h2>
                                 <p>17:00 - 18:00</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>JCI Canada VIP Reception (invitation only)</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > JCIReception">JCI Canada VIP Reception
+                                        (invitation only)
+                                    </ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
@@ -2199,22 +2454,26 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
-                                    <ui:msg description="Common > Room">Room</ui:msg>
+                                    <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                     J
                                 </p>
                             </div>
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1}">
                             <div>
-                                <h2>Trade Show</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
+                                </h2>
                                 <p>9:00 - 10:15</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Trade Show</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
@@ -2231,7 +2490,7 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
                                     Foyer
@@ -2240,12 +2499,16 @@
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1025} {programRes.style.h025} {programRes.style.w1} {programRes.style.cRed}">
                             <div>
-                                <h2>Pause</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > CoffeeBreak">Coffee Break</ui:msg>
+                                </h2>
                                 <p>10:15 - 10:30</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Coffee break</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > CoffeeBreak">Coffee Break</ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
@@ -2262,7 +2525,7 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
                                     Foyer
@@ -2271,12 +2534,16 @@
                         </div>
                         <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1}">
                             <div>
-                                <h2>Trade Show</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
+                                </h2>
                                 <p>10:30 - 11:45</p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2>Trade Show</h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
@@ -2293,14 +2560,14 @@
                                     <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
                                     Foyer
                                 </p>
                             </div>
                         </div>
-                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t1350} {programRes.style.h300} {programRes.style.w1} {programRes.style.cPurple}">
+                        <g:HTMLPanel addStyleNames="{programRes.style.event} {programRes.style.l6} {programRes.style.t1350} {programRes.style.h300} {programRes.style.w1} {programRes.style.cPurple}">
                             <div>
                                 <h2>Excursions</h2>
                                 <p>13:30 - 16:30</p>
@@ -2535,23 +2802,30 @@
                                         <ui:msg description="Program > Ui > OtherExcursions">Other excursions :</ui:msg>
                                     </b>
                                     <a id="cruise3" class="{programRes.style.excursionsActive}">•</a>
-                                    <a id="shopping3">?</a>
-                                    <a id="karting3">?</a>
-                                    <a id="arbraska3">?</a>
-                                    <a id="ferrari3">?</a>
+                                    <a id="shopping3">◦</a>
+                                    <a id="karting3">◦</a>
+                                    <a id="arbraska3">◦</a>
+                                    <a id="ferrari3">◦</a>
                                 </span>
                             </div>
-                        </div>
-                        <div class="{programRes.style.event} {programRes.style.l6} {programRes.style.t2300} {programRes.style.h400} {programRes.style.w1} {programRes.style.cPurple}">
+                        </g:HTMLPanel>
+                        <g:HTMLPanel addStyleNames="{programRes.style.event} {programRes.style.l6} {programRes.style.t2300} {programRes.style.h400} {programRes.style.w1} {programRes.style.cPurple}">
                             <div>
-                                <h2><ui:msg description="Program > Content > Hospitalitysuite">Hospitality suite</ui:msg></h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > Hospitalitysuite">Hospitality suite
+                                    </ui:msg>
+                                </h2>
                                 <p>
                                     <ui:msg description="Program > Ui > From23">From 23:00</ui:msg>
                                 </p>
                             </div>
                             <div class="{programRes.style.tooltip}">
                                 <span class="{programRes.style.arrow}"/>
-                                <h2><ui:msg description="Program > Content > HospitalitysuiteDurham">Hospitality Suite hosted by JCI Durham</ui:msg></h2>
+                                <h2>
+                                    <ui:msg description="Program > Content > HospitalitysuiteDurham">Hospitality Suite
+                                        hosted by JCI Durham
+                                    </ui:msg>
+                                </h2>
                                 <p>
                                     <b>Date :</b>
                                     <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
@@ -2568,14 +2842,15 @@
                                     <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
                                     <br/>
                                     <b>
-                                        <ui:msg description="Common > Room">Room</ui:msg>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         :
                                     </b>
                                     <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
                                 </p>
                             </div>
-                        </div>
+                        </g:HTMLPanel>
                     </g:HTMLPanel>
+                </div>
                 </div>
             </div>
         </div>

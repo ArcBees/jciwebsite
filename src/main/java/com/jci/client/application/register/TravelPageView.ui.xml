@@ -92,7 +92,7 @@
                     <table>
                         <thead>
                             <td>
-                                <ui:msg description="Common > Room">
+                                <ui:msg description="Travel > Room" meaning="chambre">
                                     Room
                                 </ui:msg>
                             </td>
@@ -236,12 +236,12 @@
                 <ul>
                     <li>
                         <ui:msg description="Travel > ul2 > li1">
-                            Taxi: flat rate of $34,50, 14 km - 15 minutes driving distance.
+                            Taxi: flat rate of $34,50, 14 km - 15 minutes driving distance
                         </ui:msg>
                     </li>
                     <li>
                         <ui:msg description="Travel > ul2 > li2">
-                            Car: all major car rental companies are located in the Airport.
+                            Car: all major car rental companies are located in the Airport
                         </ui:msg>
                     </li>
                 </ul>
