@@ -40,8 +40,7 @@
                         <ui:msg description="Contact > facebook link">
                             Facebook page
                         </ui:msg>
-                    </a>
-                    .
+                    </a>.
                 </p>
                 <form>
                     <fieldset>
