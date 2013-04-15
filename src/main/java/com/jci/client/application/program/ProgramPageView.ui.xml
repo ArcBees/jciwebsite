@@ -1076,7 +1076,7 @@
                                                 <a href="http://www.croisieresaml.com/en/the-aml-experience/boats/louis-jolliet/"
                                                    target="_blank">
                                                     <ui:attribute name="href" description="Href > BoatCruise"/>
-                                                    http://www.croisieresaml.com/en/the-aml-experience/boats/louis-jolliet/
+                                                    www.croisieresaml.com
                                                 </a>
                                             </p>
                                         </span>
@@ -1123,7 +1123,7 @@
                                             </p>
                                             <p>
                                                 <a href="http://www.laurierquebec.com/" target="_blank">
-                                                    http://www.laurierquebec.com/
+                                                    www.laurierquebec.com
                                                 </a>
                                             </p>
                                         </span>
@@ -1210,7 +1210,7 @@
                                             </p>
                                             <p>
                                                 <a href="http://www.labarberie.com/" target="_blank">
-                                                    http://www.labarberie.com/
+                                                    www.labarberie.com
                                                 </a>
                                             </p>
                                         </span>
@@ -2118,7 +2118,7 @@
                                                 <a href="http://www.croisieresaml.com/en/the-aml-experience/boats/louis-jolliet/"
                                                    target="_blank">
                                                     <ui:attribute name="href" description="Href > BoatCruise"/>
-                                                    http://www.croisieresaml.com/en/the-aml-experience/boats/louis-jolliet/
+                                                    www.croisieresaml.com
                                                 </a>
                                             </p>
                                         </span>
@@ -2164,7 +2164,7 @@
                                             </p>
                                             <p>
                                                 <a href="http://www.laurierquebec.com/" target="_blank">
-                                                    http://www.laurierquebec.com/
+                                                    www.laurierquebec.com
                                                 </a>
                                             </p>
                                         </span>
@@ -2253,8 +2253,8 @@
                                                 </ui:msg>
                                             </p>
                                             <p>
-                                                <a href="http://www.kartingextreme.com/" target="_blank">
-                                                    http://www.kartingextreme.com/
+                                                <a href="www.laurierquebec.com" target="_blank">
+                                                    www.kartingextreme.com
                                                 </a>
                                             </p>
                                         </span>
@@ -2573,9 +2573,11 @@
                                     <p>Come join us for this special evening to close our 78th JCI Canada National
                                         Convention.
                                     </p>
-                                    <p>
+                                    <p><a href="http://www.lavery.ca/lavery-laywer-firm/" target="_blank">
+                                        <ui:attribute name="href" description="Href > Lavery"/>
                                         <img src="{programRes.img_presidentGala_2.getSafeUri}"
                                              alt="Lavery Logo" class="{programRes.style.third}"/>
+                                    </a>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -3125,7 +3127,7 @@
                                                 <a href="http://www.croisieresaml.com/en/the-aml-experience/boats/louis-jolliet/"
                                                    target="_blank">
                                                     <ui:attribute name="href" description="Href > BoatCruise"/>
-                                                    http://www.croisieresaml.com/en/the-aml-experience/boats/louis-jolliet/
+                                                    www.croisieresaml.com
                                                 </a>
                                             </p>
                                         </span>
@@ -3172,7 +3174,7 @@
                                             </p>
                                             <p>
                                                 <a href="http://www.laurierquebec.com/" target="_blank">
-                                                    http://www.laurierquebec.com/
+                                                    www.laurierquebec.com
                                                 </a>
                                             </p>
                                         </span>
@@ -3218,7 +3220,7 @@
                                             </p>
                                             <p>
                                                 <a href="http://www.kartingextreme.com/" target="_blank">
-                                                    http://www.kartingextreme.com/
+                                                    www.kartingextreme.com
                                                 </a>
                                             </p>
                                         </span>
@@ -3268,7 +3270,7 @@
                                             </p>
                                             <p>
                                                 <a href="http://www.arbraskaduchesnay.com/" target="_blank">
-                                                    http://www.arbraskaduchesnay.com/
+                                                    www.arbraskaduchesnay.com
                                                 </a>
                                             </p>
                                         </span>
@@ -3317,7 +3319,7 @@
                                             <p>
                                                 <a href="http://www.circuiticar.com/academie/15-forfait-top-speed-f430.html"
                                                    target="_blank">
-                                                    http://www.circuiticar.com/academie/15-forfait-top-speed-f430.html
+                                                    www.circuiticar.com
                                                 </a>
                                             </p>
                                         </span>
