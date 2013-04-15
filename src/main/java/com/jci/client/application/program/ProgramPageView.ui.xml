@@ -1008,7 +1008,8 @@
                                         <b>
                                             <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
                                         </b>
-                                        Imperial Theatre
+                                        <ui:msg description="Program > Content > ImperialTheatre">Imperial Theatre
+                                        </ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -1228,25 +1229,22 @@
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
-                                    addStyleNames="{programRes.style.event} {programRes.style.l6} {programRes.style.t1700} {programRes.style.h100} {programRes.style.w1} {programRes.style.cYellow}">
+                                    addStyleNames="{programRes.style.event} {programRes.style.l6} {programRes.style.t1800} {programRes.style.h250} {programRes.style.w1} {programRes.style.cYellow}">
                                 <div>
                                     <h2>
-                                        <ui:msg description="Program > Content > VIPReception">VIP Reception</ui:msg>
+                                        <ui:msg description="Program > Content > BrazilNight">Brazil Night</ui:msg>
                                     </h2>
                                     <p>
-                                        <ui:msg description="Program > Ui > Hours > 17:00">5:00</ui:msg>
+                                        <ui:msg description="Program > Ui > Hours > 18:00">6:00</ui:msg>
                                         -
-                                        <ui:msg description="Program > Ui > Hours > 18:00">6:00
-                                        </ui:msg>
+                                        <ui:msg description="Program > Ui > Hours > 20:30">8:30</ui:msg>
+
                                     </p>
                                 </div>
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > GovernorReception">Governor's VIP
-                                            Reception
-                                            (invitation only)
-                                        </ui:msg>
+                                        <ui:msg description="Program > Content > BrazilNight">Brazil Night</ui:msg>
                                     </h2>
                                     <p>
                                         <b>Date :</b>
@@ -1256,31 +1254,29 @@
                                         <b>
                                             <ui:msg description="Program > Ui > Time">Time :</ui:msg>
                                         </b>
-                                        <ui:msg description="Program > Ui > Hours > 17h00">5:00 pm</ui:msg>
-                                        -
                                         <ui:msg description="Program > Ui > Hours > 18h00">6:00 pm</ui:msg>
+                                        -
+                                        <ui:msg description="Program > Ui > Hours > 20h30">8:30 pm</ui:msg>
+
                                         <br/>
                                         <b>
                                             <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
                                         </b>
-                                        National Assembly of Quebec
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
-                                        </b>
-                                        Le Parlementaire Restaurant
+                                        <ui:msg description="Program > Content > MilsaRestaurant">Le Milsa Restaurant
+                                        </ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
-                                    addStyleNames="{programRes.style.event} {programRes.style.l6} {programRes.style.t1800} {programRes.style.h500} {programRes.style.w1} {programRes.style.cYellow}">
+                                    addStyleNames="{programRes.style.event} {programRes.style.l6} {programRes.style.t2050} {programRes.style.h250} {programRes.style.w1} {programRes.style.cPurple}">
                                 <div>
                                     <h2>
-                                        <ui:msg description="Program > Content > AwardsNight">Awards Night</ui:msg>
+                                        <ui:msg description="Program > Content > GrandeAlleeClubbing">Grande Allée
+                                            Clubbing
+                                        </ui:msg>
                                     </h2>
                                     <p>
-                                        <ui:msg description="Program > Ui > Hours > 18:00">6:00</ui:msg>
+                                        <ui:msg description="Program > Ui > Hours > 20:30">8:30</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 23:00">11:00</ui:msg>
                                     </p>
@@ -1288,7 +1284,9 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > AwardsNight">Awards Night</ui:msg>
+                                        <ui:msg description="Program > Content > GrandeAlleeClubbing">Grande Allée
+                                            Clubbing
+                                        </ui:msg>
                                     </h2>
                                     <p>
                                         <b>Date :</b>
@@ -1298,42 +1296,14 @@
                                         <b>
                                             <ui:msg description="Program > Ui > Time">Time :</ui:msg>
                                         </b>
-                                        <ui:msg description="Program > Ui > Hours > 18h00">6:00 pm</ui:msg>
+                                        <ui:msg description="Program > Ui > Hours > 20h30">8:30 pm</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 23h00">11:00 pm</ui:msg>
                                         <br/>
                                         <b>
                                             <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
                                         </b>
-                                        National Assembly of Quebec
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
-                                        </b>
-                                        Le Parlementaire Restaurant
-                                    </p>
-                                    <p>
-                                        <img src="{programRes.img_awardNight_1.getSafeUri}"
-                                             alt="Le Parlementaire Restaurant" class="{programRes.style.half}"/>
-                                        <img src="{programRes.img_awardNight_2.getSafeUri}"
-                                             alt="Le Parlementaire Restaurant" class="{programRes.style.half}"/>
-                                    </p>
-                                    <p>Come enjoy with us a special evening for the JCI awards night on Thursday
-                                        September
-                                        19, 2013 at Le Parlementaire. Located at National assembly, The parliament
-                                        building
-                                        is imposing with its four wings forming a square roughly 100m on each side. The
-                                        eloquent architecture and interior decoration offer a veritable fresco of Québec
-                                        history. Witness to parliamentary social life, host of numerous State Dinners
-                                        and
-                                        formal receptions and venue par excellence for Québec products, Le Parlementaire
-                                        is
-                                        unique among the region’s restaurants.
-                                    </p>
-                                    <p>The JCI Quebec team is awaiting for this formal evening in a unique setting.
-                                    </p>
-                                    <p>Le Parlementaire, the best kept secret of Quebec City!
+                                        Charlotte Ultra lounge
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -2272,22 +2242,71 @@
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
-                                    addStyleNames="{programRes.style.event} {programRes.style.l6} {programRes.style.t1800} {programRes.style.h250} {programRes.style.w1} {programRes.style.cYellow}">
+                                    addStyleNames="{programRes.style.event} {programRes.style.l6} {programRes.style.t1700} {programRes.style.h100} {programRes.style.w1} {programRes.style.cYellow}">
                                 <div>
                                     <h2>
-                                        <ui:msg description="Program > Content > BrazilNight">Brazil Night</ui:msg>
+                                        <ui:msg description="Program > Content > VIPReception">VIP Reception</ui:msg>
                                     </h2>
                                     <p>
-                                        <ui:msg description="Program > Ui > Hours > 18:00">6:00</ui:msg>
+                                        <ui:msg description="Program > Ui > Hours > 17:00">5:00</ui:msg>
                                         -
-                                        <ui:msg description="Program > Ui > Hours > 20:30">8:30</ui:msg>
-
+                                        <ui:msg description="Program > Ui > Hours > 18:00">6:00
+                                        </ui:msg>
                                     </p>
                                 </div>
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > BrazilNight">Brazil Night</ui:msg>
+                                        <ui:msg description="Program > Content > GovernorReception">Governor's VIP
+                                            Reception
+                                            (invitation only)
+                                        </ui:msg>
+                                    </h2>
+                                    <p>
+                                        <b>Date :</b>
+                                        <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
+                                        </ui:msg>
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > Hours > 17h00">5:00 pm</ui:msg>
+                                        -
+                                        <ui:msg description="Program > Ui > Hours > 18h00">6:00 pm</ui:msg>
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Content > NationalAssemblyQuebec">National
+                                            Assembly of Quebec
+                                        </ui:msg>
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
+                                            :
+                                        </b>
+                                        <ui:msg description="Program > Content >  ParlementaireRestaurant">Le
+                                            Parlementaire Restaurant
+                                        </ui:msg>
+                                    </p>
+                                </div>
+                            </g:HTMLPanel>
+                            <g:HTMLPanel
+                                    addStyleNames="{programRes.style.event} {programRes.style.l6} {programRes.style.t1800} {programRes.style.h500} {programRes.style.w1} {programRes.style.cYellow}">
+                                <div>
+                                    <h2>
+                                        <ui:msg description="Program > Content > AwardsNight">Awards Night</ui:msg>
+                                    </h2>
+                                    <p>
+                                        <ui:msg description="Program > Ui > Hours > 18:00">6:00</ui:msg>
+                                        -
+                                        <ui:msg description="Program > Ui > Hours > 23:00">11:00</ui:msg>
+                                    </p>
+                                </div>
+                                <div class="{programRes.style.tooltip}">
+                                    <span class="{programRes.style.arrow}"/>
+                                    <h2>
+                                        <ui:msg description="Program > Content > AwardsNight">Awards Night</ui:msg>
                                     </h2>
                                     <p>
                                         <b>Date :</b>
@@ -2299,53 +2318,44 @@
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 18h00">6:00 pm</ui:msg>
                                         -
-                                        <ui:msg description="Program > Ui > Hours > 20h30">8:30 pm</ui:msg>
-
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
-                                        </b>
-                                        Le Milsa Restaurant
-                                    </p>
-                                </div>
-                            </g:HTMLPanel>
-                            <g:HTMLPanel
-                                    addStyleNames="{programRes.style.event} {programRes.style.l6} {programRes.style.t2050} {programRes.style.h250} {programRes.style.w1} {programRes.style.cPurple}">
-                                <div>
-                                    <h2>
-                                        <ui:msg description="Program > Content > GrandeAlleeClubbing">Grande Allée
-                                            Clubbing
-                                        </ui:msg>
-                                    </h2>
-                                    <p>
-                                        <ui:msg description="Program > Ui > Hours > 20:30">8:30</ui:msg>
-                                        -
-                                        <ui:msg description="Program > Ui > Hours > 23:00">11:00</ui:msg>
-                                    </p>
-                                </div>
-                                <div class="{programRes.style.tooltip}">
-                                    <span class="{programRes.style.arrow}"/>
-                                    <h2>
-                                        <ui:msg description="Program > Content > GrandeAlleeClubbing">Grande Allée
-                                            Clubbing
-                                        </ui:msg>
-                                    </h2>
-                                    <p>
-                                        <b>Date :</b>
-                                        <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
-                                        </ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > Hours > 20h30">8:30 pm</ui:msg>
-                                        -
                                         <ui:msg description="Program > Ui > Hours > 23h00">11:00 pm</ui:msg>
                                         <br/>
                                         <b>
                                             <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
                                         </b>
-                                        Charlotte Ultra lounge
+                                        <ui:msg description="Program > Content > NationalAssemblyQuebec">National
+                                            Assembly of Quebec
+                                        </ui:msg>
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
+                                            :
+                                        </b>
+                                        <ui:msg description="Program > Content >  ParlementaireRestaurant">Le
+                                            Parlementaire Restaurant
+                                        </ui:msg>
+                                    </p>
+                                    <p>
+                                        <img src="{programRes.img_awardNight_1.getSafeUri}"
+                                             alt="Le Parlementaire Restaurant" class="{programRes.style.half}"/>
+                                        <img src="{programRes.img_awardNight_2.getSafeUri}"
+                                             alt="Le Parlementaire Restaurant" class="{programRes.style.half}"/>
+                                    </p>
+                                    <p>Come enjoy with us a special evening for the JCI awards night on Thursday
+                                        September
+                                        19, 2013 at Le Parlementaire. Located at National assembly, The parliament
+                                        building
+                                        is imposing with its four wings forming a square roughly 100m on each side. The
+                                        eloquent architecture and interior decoration offer a veritable fresco of Québec
+                                        history. Witness to parliamentary social life, host of numerous State Dinners
+                                        and
+                                        formal receptions and venue par excellence for Québec products, Le Parlementaire
+                                        is
+                                        unique among the region’s restaurants.
+                                    </p>
+                                    <p>The JCI Quebec team is awaiting for this formal evening in a unique setting.
+                                    </p>
+                                    <p>Le Parlementaire, the best kept secret of Quebec City!
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -2549,7 +2559,8 @@
                                             <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                             :
                                         </b>
-                                        Ballroom (ABC)
+                                        <ui:msg description="Program > Content > Ballroom ">Ballroom</ui:msg>
+                                        (ABC)
                                     </p>
                                     <p>
                                         <img src="{programRes.img_presidentGala_1.getSafeUri}"
@@ -2573,11 +2584,12 @@
                                     <p>Come join us for this special evening to close our 78th JCI Canada National
                                         Convention.
                                     </p>
-                                    <p><a href="http://www.lavery.ca/lavery-laywer-firm/" target="_blank">
-                                        <ui:attribute name="href" description="Href > Lavery"/>
-                                        <img src="{programRes.img_presidentGala_2.getSafeUri}"
-                                             alt="Lavery Logo" class="{programRes.style.third}"/>
-                                    </a>
+                                    <p>
+                                        <a href="http://www.lavery.ca/lavery-laywer-firm/" target="_blank">
+                                            <ui:attribute name="href" description="Href > Lavery"/>
+                                            <img src="{programRes.img_presidentGala_2.getSafeUri}"
+                                                 alt="Lavery Logo" class="{programRes.style.third}"/>
+                                        </a>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
