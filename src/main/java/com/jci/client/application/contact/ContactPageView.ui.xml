@@ -291,7 +291,7 @@
                     <span>Rudy Boutet</span>
                     <b>
                         <ui:msg description="Contact > Director formal">
-                            Director, formal events and logistics
+                            Director, formal events and registration
                         </ui:msg>
                     </b>
                     <i>
@@ -327,7 +327,7 @@
                     <span>Patrick Roberge</span>
                     <b>
                         <ui:msg description="Contact > Director registration">
-                            Director, registration and VIP
+                            Director, Senators and VIPs
                         </ui:msg>
                     </b>
                     <i>

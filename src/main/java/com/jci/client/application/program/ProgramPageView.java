@@ -24,6 +24,7 @@ import com.google.gwt.event.logical.shared.AttachEvent;
 import com.google.gwt.query.client.Function;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
+import com.google.gwt.user.client.ui.HTMLPanel;
 import com.google.gwt.user.client.ui.Widget;
 import com.jci.client.resource.CommonResource;
 import com.jci.client.resource.program.ProgramResource;
@@ -39,7 +40,7 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
     @UiField
     DivElement divButtons;
     @UiField
-    DivElement divCalendar;
+    HTMLPanel divCalendar;
     @UiField
     DivElement excursion1;
     @UiField
@@ -111,7 +112,7 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
     public static native void pauseCarouselNative() /*-{
         $wnd.$('#myCarouselProgram').bind('slid', function () {
             $wnd.$('#myCarouselProgram').carousel('pause');
-        });​
+        });
     }-*/;
 
     private void bindGwtQuery() {

@@ -37,7 +37,7 @@
     transition: top .4s ease, bottom .4s ease;
 }
 
-.visioProgram  .overflow.down > ul, .visioProgram  .overflow.down > div {
+.visioProgram  .overflow.down > div > ul, .visioProgram  .overflow.down > div {
     bottom: 480px;
 }
 
