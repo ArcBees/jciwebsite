@@ -38,9 +38,7 @@
                     </ui:msg>
                     <a href="https://www.facebook.com/Unlimited2013" target="_blank">
                         <ui:msg description="Contact > facebook link">
-                            Facebook page
-                        </ui:msg>
-                    </a>.
+                            Facebook page</ui:msg></a>.
                 </p>
                 <form>
                     <fieldset>
