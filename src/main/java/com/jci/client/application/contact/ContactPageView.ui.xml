@@ -171,7 +171,6 @@
                         </ui:msg>
                         <a href="http://www.arcbees.com/" target="_blank">
                             <ui:attribute name="href" description="Href > Arcbees"/>
-
                             ArcBees
                         </a>
                     </i>
