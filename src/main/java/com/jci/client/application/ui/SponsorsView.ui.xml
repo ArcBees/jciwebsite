@@ -1,17 +1,23 @@
 <ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
-             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'
+             ui:generateFormat='com.google.gwt.i18n.rebind.format.PropertiesFormat'
+             ui:generateKeys="com.google.gwt.i18n.server.keygen.MD5KeyGenerator"
+             ui:generateLocales='en'>
     <ui:with field="res" type="com.jci.client.resource.CommonResource"/>
     <ui:with field="sponsRes" type="com.jci.client.resource.sponsors.SponsorsResource"/>
 
     <g:HTMLPanel>
         <div class="{res.style.width} {sponsRes.style.sponsorWrapper} {res.style.round} {res.style.shadow}">
-            <a href="http://www.arcbees.com/?locale=en" target="_blank">
+            <a href="http://www.arcbees.com/" target="_blank">
+                <ui:attribute name="href" description="Href > Arcbees"/>
                 <g:Image resource="{sponsRes.arcbees}" altText="ArcBees"/>
             </a>
             <a href="http://www.qvc.qc.ca/eng/QVC-01-About-us/QVC-About-us.htm" target="_blank">
+                <ui:attribute name="href" description="Href > QVC"/>
                 <g:Image resource="{sponsRes.qvc}" altText="QVC"/>
             </a>
-            <a href="http://www.lavery.ca/lavery-laywer-firm/#.UUsv1Ryzjyg" target="_blank">
+            <a href="http://www.lavery.ca/lavery-laywer-firm/" target="_blank">
+                <ui:attribute name="href" description="Href > Lavery"/>
                 <g:Image resource="{sponsRes.lavery_en}" altText="Lavery"/>
             </a>
         </div>

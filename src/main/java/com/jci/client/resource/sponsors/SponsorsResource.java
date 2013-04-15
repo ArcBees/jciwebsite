@@ -34,7 +34,7 @@ public interface SponsorsResource extends ClientBundle {
 
     ImageResource lavery_en();
 
-    ImageResource lavery_fr();
+    ImageResource lavery_en_fr();
 
     ImageResource arcbees();
 

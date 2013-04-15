@@ -1073,9 +1073,10 @@
                                                 </ui:msg>
                                             </p>
                                             <p>
-                                                <a href="http://www.croisieresaml.com/l-experience-aml/bateaux/louis-jolliet/"
+                                                <a href="http://www.croisieresaml.com/en/the-aml-experience/boats/louis-jolliet/"
                                                    target="_blank">
-                                                    http://www.croisieresaml.com/l-experience-aml/bateaux/louis-jolliet/
+                                                    <ui:attribute name="href" description="Href > BoatCruise"/>
+                                                    http://www.croisieresaml.com/en/the-aml-experience/boats/louis-jolliet/
                                                 </a>
                                             </p>
                                         </span>
@@ -2114,9 +2115,10 @@
                                                 </ui:msg>
                                             </p>
                                             <p>
-                                                <a href="http://www.croisieresaml.com/l-experience-aml/bateaux/louis-jolliet/"
+                                                <a href="http://www.croisieresaml.com/en/the-aml-experience/boats/louis-jolliet/"
                                                    target="_blank">
-                                                    http://www.croisieresaml.com/l-experience-aml/bateaux/louis-jolliet/
+                                                    <ui:attribute name="href" description="Href > BoatCruise"/>
+                                                    http://www.croisieresaml.com/en/the-aml-experience/boats/louis-jolliet/
                                                 </a>
                                             </p>
                                         </span>
@@ -2550,8 +2552,8 @@
                                         Ballroom (ABC)
                                     </p>
                                     <p>
-                                        <img src="{programRes.img_awardNight_1.getSafeUri}"
-                                             alt="Ballroom" class="{programRes.style.half}"/>
+                                        <img src="{programRes.img_presidentGala_1.getSafeUri}"
+                                             alt="Ballroom"/>
                                     </p>
                                     <p>Join the JCI Canada community for the presentation of the
                                         <b>78th JCI Canada President Gala</b>
@@ -3120,9 +3122,10 @@
                                                 </ui:msg>
                                             </p>
                                             <p>
-                                                <a href="http://www.croisieresaml.com/l-experience-aml/bateaux/louis-jolliet/"
+                                                <a href="http://www.croisieresaml.com/en/the-aml-experience/boats/louis-jolliet/"
                                                    target="_blank">
-                                                    http://www.croisieresaml.com/l-experience-aml/bateaux/louis-jolliet/
+                                                    <ui:attribute name="href" description="Href > BoatCruise"/>
+                                                    http://www.croisieresaml.com/en/the-aml-experience/boats/louis-jolliet/
                                                 </a>
                                             </p>
                                         </span>

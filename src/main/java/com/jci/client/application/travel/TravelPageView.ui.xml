@@ -15,7 +15,11 @@
                         Convention Hotel
                     </ui:msg>
                 </a>
-                <a ui:field="buttonTravel" class="{res.style.button_gray}">Getting to Quebec City</a>
+                <a ui:field="buttonTravel" class="{res.style.button_gray}">
+                    <ui:msg description="Travel > Title 5">
+                        Getting to Quebec City
+                    </ui:msg>
+                </a>
             </div>
 
             <div ui:field="hotel">
@@ -28,7 +32,9 @@
                     <ui:msg description="Travel > Paragraph 1.1">
                         Find the best of everything at TRYP Quebec Hotel Pur (
                     </ui:msg>
-                    <a href="http://www.hotelpur.com" target="_blank">http://www.hotelpur.com/</a>
+                    <a href="http://www.hotelpur.com" target="_blank">
+                        <ui:attribute name="href" description="Href > Hotel Pur"/>
+                        http://www.hotelpur.com</a>
                     <ui:msg description="Travel > Paragraph 1.2">
                         ), winner of a 2012 Trip Advisor
                         Travelers' Choice Award in the category Top 25 Trendiest Hotels in Canada.
@@ -36,26 +42,31 @@
                 </p>
                 <p>
                     <ui:msg description="Travel > Paragraph 2">
-                        In the heart of the revitalised Saint-Roch historic district and steps from the fortified old city,
+                        In the heart of the revitalised Saint-Roch historic district and steps from the fortified old
+                        city,
                         Hotel Pur put you near hip downtown, shops, eatery night life and Quebec City technology
                         district.
                     </ui:msg>
                 </p>
                 <p>
                     <ui:msg description="Travel > Paragraph 3">
-                        TRYP Quebec Hotel Pur is a haven of minimalist design and urban sophistication. Our rooms feature
-                        commanding views of the city with floor-to-ceiling windows and premium comforts like fine linens,
+                        TRYP Quebec Hotel Pur is a haven of minimalist design and urban sophistication. Our rooms
+                        feature
+                        commanding views of the city with floor-to-ceiling windows and premium comforts like fine
+                        linens,
                         pillow
-                        top mattresses, European-style showers or invigorating Japanese bathtubs, and flat screen LCD TVs.
+                        top mattresses, European-style showers or invigorating Japanese bathtubs, and flat screen LCD
+                        TVs.
                         There
-                        is free Wi-Fi everywhere and plenty of ways to indulge yourself right on the premises with a 24/7
+                        is free Wi-Fi everywhere and plenty of ways to indulge yourself right on the premises with a
+                        24/7
                         gym,
                         free Italian coffee in the lobby, and an indoor heated pool and sauna.
                     </ui:msg>
                 </p>
                 <p>
                     <ui:msg description="Travel > Paragraph 4">
-                        To book your room, use the following contact information and mention the Convention Group:
+                        To book your room, use the following contact information and mention the Convention Group :
                     </ui:msg>
                     <b>JCI Canada</b>.
                 </p>
@@ -68,8 +79,8 @@
                     </b>
                     <br/>
                     <a href="https://maps.google.ca/maps?q=395+Couronne+Street,+Qu%C3%A9bec+(QC),+G1K+7X4&amp;hl=en&amp;authuser=0&amp;ie=UTF-8&amp;ei=ZcFIUfJe16ngA_DSgegN&amp;ved=0CAsQ_AUoAg">
-                        395 Couronne Street, Quebec City (QC), G1K 7X4
-                    </a>
+                        <ui:attribute name="href" description="Href > Maps Hotel Pur"/>
+                        <ui:msg description="Footer > Address">395 Couronne Street, Quebec City (QC), G1K 7X4</ui:msg></a>
                     <br/>
                     Tel :
                     <a href="tel:18002672002">1-800-267-2002</a>
@@ -104,7 +115,9 @@
                         </thead>
                         <tr>
                             <td>
-                                TRYP room with king bed
+                                <ui:msg description="Travel > Room KB simple">
+                                    TRYP room with king bed
+                                </ui:msg>
                             </td>
                             <td>
                                 $169 CAN
@@ -137,7 +150,8 @@
                         <tr>
                             <td>
                                 <ui:msg description="Travel > Premium Room">
-                                    Premium room, located on the highest floors (16th to 18th) of the hotel. Breathtaking
+                                    Premium room, located on the highest floors (16th to 18th) of the hotel.
+                                    Breathtaking
                                     views
                                     of Quebec City with floor to ceiling windows.
                                 </ui:msg>
@@ -148,7 +162,8 @@
                 </div>
                 <p>
                     <ui:msg description="Travel > Paragraph 5">
-                        * Plus taxes. Room rates are based on single and double occupancy. An extra person charge ($20) will
+                        * Plus taxes. Room rates are based on single and double occupancy. An extra person charge ($20)
+                        will
                         be
                         added to your room rate for each additional adult.
                     </ui:msg>
@@ -218,10 +233,12 @@
                     <ui:msg description="Travel > Paragraph 5.1">
                         Quebec City’s Jean Lesage International Airport (YQB)
                     </ui:msg>
-                    <a href="http://www.aeroportdequebec.com/en/" target="_blank">http://www.aeroportdequebec.com/en/
-                    </a>
+                    <a href="http://www.aeroportdequebec.com/en/" target="_blank">
+                        <ui:attribute name="href" description="Href > Aeroport"/>
+                        www.aeroportdequebec.com</a>
                     <ui:msg description="Travel > Paragraph 5.2">
-                        offers flights from the major hubs in Eastern North America. Major carriers (Air Canada, West jet,
+                        offers flights from the major hubs in Eastern North America. Major carriers (Air Canada, West
+                        jet,
                         Delta, United Airlines, Porter and U.S Airways to name a few) provide flights from Toronto,
                         Montreal,
                         Ottawa, New York, Chicago, Philadelphia and Punta Cana (why not!).
@@ -229,8 +246,9 @@
                 </p>
                 <p class="{res.style.noBottomMargin}">
                     <ui:msg description="Travel > Paragraph 6">
-                        Quebec City’s Jean Lesage International Airport (YQB) is located 14 kilometres from the Convention
-                        Hotel which can be reached by various means of transportation:
+                        Quebec City’s Jean Lesage International Airport (YQB) is located 14 kilometres from the
+                        Convention
+                        Hotel which can be reached by various means of transportation :
                     </ui:msg>
                 </p>
                 <ul>
@@ -249,7 +267,7 @@
                 <h2 class="{res.style.round}">By car</h2>
                 <p class="{res.style.noBottomMargin}">
                     <ui:msg description="Travel > Paragraph 7">
-                        Obviously, you can drive to Quebec City:
+                        Obviously, you can drive to Quebec City :
                     </ui:msg>
                 </p>
                 <ul>
@@ -273,10 +291,13 @@
                 </h2>
                 <p class="{res.style.noBottomMargin}">
                     <ui:msg description="Travel > Paragraph 7.1">
-                        It is possible to reach Quebec City Central Train Station, located 1.1 km from the Convention Hotel,
+                        It is possible to reach Quebec City Central Train Station, located 1.1 km from the Convention
+                        Hotel,
                         boarding a VIA Rail train. Visit
                     </ui:msg>
-                    <a href="http://www.viarail.ca" target="_blank">www.viarail.ca</a>
+                    <a href="http://www.viarail.ca" target="_blank">
+                        <ui:attribute name="href" description="Href > Viarail"/>
+                        www.viarail.ca</a>
                     <ui:msg description="Travel > Paragraph 7.2">
                         for more details.
                     </ui:msg>

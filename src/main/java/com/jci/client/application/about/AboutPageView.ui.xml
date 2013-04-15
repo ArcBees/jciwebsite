@@ -14,7 +14,9 @@
                 <a ui:field="buttonCanada" class="{res.style.button_gray} {res.style.active}">
                     JCI Canada
                 </a>
-                <a ui:field="buttonQuebec" class="{res.style.button_gray}">JCI Quebec City</a>
+                <a ui:field="buttonQuebec" class="{res.style.button_gray}">
+                    <ui:msg description="About > JCI Quebec City" meaning="JCI Ville de Québec">JCI Quebec City</ui:msg>
+                </a>
             </div>
 
             <div ui:field="canada">
@@ -49,7 +51,7 @@
                         On the organizational level, JCI Canada hosted and organized many events throughout the years,
                         where members from across the world participated in a wide variety of high-quality training courses
                         and
-                        opportunities for networking and fellowship, namely:
+                        opportunities for networking and fellowship, namely :
                     </ui:msg>
                 </p>
                 <ul>
@@ -65,7 +67,7 @@
                     </li>
                     <li>
                         <ui:msg description="About > list congress > element 3">
-                            39th World Congress, Montreal ,1984
+                            39th World Congress, Montreal, 1984
                         </ui:msg>
                     </li>
                     <li>
@@ -75,7 +77,7 @@
                     </li>
                     <li>
                         <ui:msg description="About > list congress > element 5">
-                            National Conventions since 1936.
+                            National Conventions since 1936
                         </ui:msg>
                     </li>
                 </ul>
@@ -87,7 +89,7 @@
                 </p>
                 <p class="{res.style.noBottomMargin}">
                     <ui:msg description="About > paragraph 5">
-                        JCI is proud to offer opportunities in the following four areas:
+                        JCI is proud to offer opportunities in the following four areas :
                     </ui:msg>
                 </p>
                 <ul>
@@ -160,10 +162,11 @@
                         For more information, visit
                     </ui:msg>
                     <a href="http://www.jcicanada.com/" target="_blank">
+                        <ui:attribute name="href" description="Href > JCI Canada"/>
                         <ui:msg description="About > link 1">
                             www.jcicanada.com
                         </ui:msg>
-                    </a>
+                    </a>.
                 </p>
                 <g:Image addStyleNames="{aboutRes.style.imgLogo}" resource="{aboutRes.jci_canada}" altText="JCI Canada Logo"/>
             </div>
@@ -197,7 +200,7 @@
                 <p class="{res.style.noBottomMargin}">
                     <ui:msg description="About > paragraph 12">
                         JCI Quebec City also won many awards throughout the years, thus proving its dynamism within the JCI
-                        movement:
+                        movement :
                     </ui:msg>
                 </p>
                 <div class="{res.style.ulNoPoints}">
@@ -216,7 +219,7 @@
                             <ul>
                                 <li>
                                     <ui:msg description="About > list 3 > element 2">
-                                        Edmonton, Canada, May 15 , 2003
+                                        Edmonton, Canada, May 15, 2003
                                     </ui:msg>
                                 </li>
                             </ul>
@@ -237,7 +240,7 @@
                             <ul>
                                 <li>
                                     <ui:msg description="About > list 3 > element 4 > list 4 > element 1">
-                                        Edmonton, Canada, May 15 , 2003
+                                        Edmonton, Canada, May 15, 2003
                                     </ui:msg>
                                 </li>
                                 <li>
@@ -338,7 +341,7 @@
                         <ui:msg description="About > link 2">
                             www.jccq.qc.ca
                         </ui:msg>
-                    </a>
+                    </a>.
                 </p>
                 <g:Image addStyleNames="{aboutRes.style.imgLogo}" resource="{aboutRes.jccq}" altText="JCCQ Logo"/>
             </div>
