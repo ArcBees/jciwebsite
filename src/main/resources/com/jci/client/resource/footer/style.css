@@ -3,7 +3,6 @@
     background-position: bottom right;
     height: 170px;
     margin-top: 50px;
-
     color: #202020;
 }
 
@@ -15,11 +14,9 @@
     color: #202020;
     display: block;
     background: none;
-
     margin: 0;
     margin-top: 10px;
     padding: 0;
-
     font-size: 19px;
     font-weight: normal;
 }
@@ -76,6 +73,7 @@
     display: inline-block;
     padding: 8px 10px;
     margin-bottom: 10px;
+    height: 26px;
 }
 
 @sprite .follow {
@@ -88,17 +86,29 @@
     gwt-image: "share";
 }
 
+.share span {
+    display: inline-block;
+    width: 5px;
+    color: #4d5458;
+    font-size: 27px;
+    line-height: 29px;
+    position: relative;
+    bottom: 2px;
+}
+
 a.follow, a.share {
+    cursor: pointer;
     display: inline-block;
     width: auto;
-
     color: #4d5458;
     font-size: 27px;
     line-height: 29px;
     text-transform: uppercase;
-
     margin: 0 10px;
-
+    position: relative;
+    bottom: 1px;
+    padding-bottom: 2px;
+    background-position: left bottom;
     -moz-opacity: 1;
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha"(Opacity = 100 );
@@ -116,13 +126,59 @@ a.follow:hover, a.share:hover {
 
 @sprite .location {
     gwt-image: "pin";
-
     height: auto;
     width: auto;
-
     background-position: center left;
-
     font-size: 13px;
     padding: 12px 0 10px 35px;
     margin-top: 5px;
+}
+
+.spanHidden {
+    width: 0;
+    height: 24px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+@sprite .facebook {
+    gwt-image: "share_facebook";
+}
+
+@sprite .twitter {
+    gwt-image: "share_twitter";
+}
+
+@sprite .google {
+    gwt-image: "share_google";
+}
+
+.spanHidden a {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin-left: 10px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.spanHidden a:hover {
+    -moz-opacity: 0.85;
+    opacity: 0.85;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha"(Opacity = 85 );
+}
+
+.spanHidden a:first-child {
+    margin-left: 5px;
+}
+
+.spanVisible {
+    width: 110px;
+}
+
+.social, .spanHidden, .share {
+    -webkit-transition: .3s ease width;
+    -moz-transition: .3s ease width;
+    -o-transition: .3s ease width;
+    transition: .3s ease width;
 }

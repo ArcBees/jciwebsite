@@ -14,13 +14,18 @@
  * the License.
  */
 
-package com.jci.client.application.ui;
+package com.jci.client.application.ui.socialmedia;
 
-import com.gwtplatform.mvp.client.gin.AbstractPresenterModule;
+import com.google.inject.BindingAnnotation;
 
-public class HeaderModule extends AbstractPresenterModule {
-    @Override
-    protected void configure() {
-        bindSingletonPresenterWidget(HeaderPresenter.class, HeaderPresenter.MyView.class, HeaderView.class);
-    }
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.Target;
+
+import static java.lang.annotation.RetentionPolicy.RUNTIME;
+
+@BindingAnnotation
+@Target(ElementType.PARAMETER)
+@Retention(RUNTIME)
+public @interface GooglePlus {
 }

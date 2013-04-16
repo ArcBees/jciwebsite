@@ -13,9 +13,21 @@
                    class="{footRes.style.follow}">
                     <ui:msg description="Footer > Follow Us">Follow Us</ui:msg>
                 </a>
-                <a href="javascript:" class="{footRes.style.share}">
+                <a class="{footRes.style.share}">
                     <ui:msg description="Footer > Share">Share</ui:msg>
+                    <span/>
                 </a>
+                <span class="{footRes.style.spanHidden}">
+                    <a class="{footRes.style.facebook}" title="Share on Facebook">
+                        <ui:attribute name="title" description="Footer > Title > ShareFacebook"/>
+                    </a>
+                    <a class="{footRes.style.twitter}" title="Share on Twitter">
+                        <ui:attribute name="title" description="Footer > Title > ShareTwitter"/>
+                    </a>
+                    <a class="{footRes.style.google}" title="Share on Google">
+                        <ui:attribute name="title" description="Footer > Title > ShareGoogle"/>
+                    </a>
+                </span>
             </div>
             <h2>
                 <ui:msg description="Common > Unlimited JCI Canada National Convention 2013">Unlimited JCI Canada

@@ -68,5 +68,9 @@ public interface CommonResource extends ClientBundle {
 
     ImageResource ajaxloader();
 
+    ImageResource headLogoJCIBig();
+
+    ImageResource headLogoJCIBig_fr();
+
     Style style();
 }
