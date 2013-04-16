@@ -24,6 +24,7 @@ import com.google.gwt.event.logical.shared.AttachEvent;
 import com.google.gwt.query.client.Function;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
+import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.ui.HTMLPanel;
 import com.google.gwt.user.client.ui.Widget;
 import com.jci.client.resource.CommonResource;
@@ -64,6 +65,8 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
     private final String overflowNameProgram;
     private final String downNameProgram;
 
+    private boolean isBound;
+
     @Inject
     public ProgramPageView(Binder uiBinder,
                            CommonResource commonResource,
@@ -87,6 +90,7 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
     public void onAttachOrDetach(AttachEvent attachEvent) {
         if (attachEvent.isAttached()) {
             bindGwtQuery();
+            isBound = true;
         }
     }
 
@@ -114,6 +118,7 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
     }-*/;
 
     private void bindGwtQuery() {
+        $("." + tooltipStyleNameProgram).unbind("click");
         $("." + tooltipStyleNameProgram).click(new Function() {
             @Override
             public void f(Element e) {
@@ -121,6 +126,7 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
             }
         });
 
+        $("a", divButtons).unbind("click");
         $("a", divButtons).click(new Function() {
             @Override
             public void f(Element e) {
@@ -136,6 +142,7 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
             }
         });
 
+        $(divCalendar).unbind("click");
         $(divCalendar).click(new Function() {
             @Override
             public void f(Element e) {
@@ -143,6 +150,7 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
             }
         });
 
+        $("." + eventStyleNameProgram, divCalendar).unbind("click");
         $("." + eventStyleNameProgram, divCalendar).click(new Function() {
             @Override
             public void f(Element e) {
@@ -157,6 +165,7 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
             }
         });
 
+        $("." + excursionStyleNameProgram + " a", excursion1).unbind("click");
         $("." + excursionStyleNameProgram + " a", excursion1).click(new Function() {
             @Override
             public void f(Element e) {
@@ -169,6 +178,7 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
             }
         });
 
+        $("." + excursionStyleNameProgram + " a", excursion2).unbind("click");
         $("." + excursionStyleNameProgram + " a", excursion2).click(new Function() {
             @Override
             public void f(Element e) {
@@ -181,6 +191,7 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
             }
         });
 
+        $("." + excursionStyleNameProgram + " a", excursion3).unbind("click");
         $("." + excursionStyleNameProgram + " a", excursion3).click(new Function() {
             @Override
             public void f(Element e) {
