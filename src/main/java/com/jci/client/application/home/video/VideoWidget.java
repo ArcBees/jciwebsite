@@ -22,12 +22,12 @@ import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.HTMLPanel;
 
 public class VideoWidget extends Composite {
-    interface VideoWidgetUiBinder extends UiBinder<HTMLPanel, VideoWidget> {
+    interface Binder extends UiBinder<HTMLPanel, VideoWidget> {
     }
 
-    private static VideoWidgetUiBinder ourUiBinder = GWT.create(VideoWidgetUiBinder.class);
+    private static Binder binder = GWT.create(Binder.class);
 
     public VideoWidget() {
-        initWidget(ourUiBinder.createAndBindUi(this));
+        initWidget(binder.createAndBindUi(this));
     }
 }
