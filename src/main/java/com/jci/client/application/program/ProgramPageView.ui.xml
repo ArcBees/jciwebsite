@@ -1027,7 +1027,7 @@
                                     <span class="{programRes.style.arrow}"/>
                                     <span ui:field="excursionDiv1">
                                         <span id="cruise1Div">
-                                            <h2>Boat Cruise</h2>
+                                            <h2><ui:msg description="Program > Excursions > BoatCruise > Title">Boat Cruise</ui:msg></h2>
                                             <p>
                                                 <b>Date :</b>
                                                 <ui:msg description="Program > Ui > DateFull > 19">Thursday, September
@@ -1045,12 +1045,12 @@
                                                 <b>
                                                     <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
                                                 </b>
-                                                Louis-Jolliet Boat
+                                                <ui:msg description="Program > Excursions > BoatCruise > Location">Louis-Jolliet Boat</ui:msg>
                                                 <br/>
                                                 <b>
                                                     <ui:msg description="Program > Ui > Price">Price :</ui:msg>
                                                 </b>
-                                                $40.00
+                                                <ui:msg description="Program > Ui > Price > 40">$40 CAN</ui:msg>
                                             </p>
                                             <p>
                                                 <img class="{programRes.style.half}"
@@ -1082,7 +1082,7 @@
                                             </p>
                                         </span>
                                         <span id="shopping1Div" style="display: none">
-                                            <h2>Shopping</h2>
+                                            <h2><ui:msg description="Program > Excursions > Shopping > Title">Shopping</ui:msg></h2>
                                             <p>
                                                 <b>Date :</b>
                                                 <ui:msg description="Program > Ui > DateFull > 19">Thursday, September
@@ -1105,7 +1105,7 @@
                                                 <b>
                                                     <ui:msg description="Program > Ui > Price">Price :</ui:msg>
                                                 </b>
-                                                Free
+                                                <ui:msg description="Program > Ui > Price > 0">Free</ui:msg>
                                             </p>
                                             <p>
                                                 <img src="{programRes.img_excursionShopping_1.getSafeUri}"
@@ -1129,7 +1129,7 @@
                                             </p>
                                         </span>
                                         <span id="tours1Div" style="display: none">
-                                            <h2>Guided Tour</h2>
+                                            <h2><ui:msg description="Program > Excursions > Tours > Title">Guided Tour</ui:msg></h2>
                                             <p>
                                                 <b>Date :</b>
                                                 <ui:msg description="Program > Ui > DateFull > 19">Thursday, September
@@ -1147,12 +1147,12 @@
                                                 <b>
                                                     <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
                                                 </b>
-                                                Old Quebec City
+                                                <ui:msg description="Program > Excursions > Tours > Location">Old Quebec City</ui:msg>
                                                 <br/>
                                                 <b>
                                                     <ui:msg description="Program > Ui > Price">Price :</ui:msg>
                                                 </b>
-                                                $20.00
+                                                <ui:msg description="Program > Ui > Price > 20">$20 CAN</ui:msg>
                                             </p>
                                             <p>
                                                 <img class="{programRes.style.half}"
@@ -1175,7 +1175,7 @@
                                             </p>
                                         </span>
                                         <span id="beer1Div" style="display: none">
-                                            <h2>Beer and cheese tasting</h2>
+                                            <h2><ui:msg description="Program > Excursions > Beers > Title">Beer and cheese tasting</ui:msg></h2>
                                             <p>
                                                 <b>Date :</b>
                                                 <ui:msg description="Program > Ui > DateFull > 19">Thursday, September
@@ -1193,21 +1193,21 @@
                                                 <b>
                                                     <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
                                                 </b>
-                                                La Barberie Microbrewery
+                                                <ui:msg description="Program > Excursions > Beers > Location">La Barberie Microbrewery</ui:msg>
                                                 <br/>
                                                 <b>
                                                     <ui:msg description="Program > Ui > Price">Price :</ui:msg>
                                                 </b>
-                                                $25.00
+                                                <ui:msg description="Program > Ui > Price > 25">$25 CAN</ui:msg>
                                             </p>
                                             <p>
                                                 <img src="{programRes.img_excursionBeer_1.getSafeUri}"
                                                      alt="La Barberie Microbrewery Beers"/>
                                             </p>
                                             <p>
-                                                La Barberie, a Quebec microbrewery proposes to explain its unique way of
+                                                <ui:msg description="Program > Excursions > Beers > p1">La Barberie, a Quebec microbrewery proposes to explain its unique way of
                                                 making beer.
-                                                Come and see how cheese and beer can marry their flavors together!
+                                                Come and see how cheese and beer can marry their flavors together!</ui:msg>
                                             </p>
                                             <p>
                                                 <a href="http://www.labarberie.com/" target="_blank">
@@ -2039,7 +2039,7 @@
                                     <span class="{programRes.style.arrow}"/>
                                     <span ui:field="excursionDiv2">
                                         <span id="cruise2Div">
-                                            <h2>Boat Cruise</h2>
+                                            <h2><ui:msg description="Program > Excursions > BoatCruise > Title">Boat Cruise</ui:msg></h2>
                                             <p>
                                                 <b>Date :</b>
                                                 <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20,
@@ -2056,12 +2056,12 @@
                                                 <b>
                                                     <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
                                                 </b>
-                                                Louis-Jolliet Boat
+                                                <ui:msg description="Program > Excursions > BoatCruise > Location">Louis-Jolliet Boat</ui:msg>
                                                 <br/>
                                                 <b>
                                                     <ui:msg description="Program > Ui > Price">Price :</ui:msg>
                                                 </b>
-                                                $40.00
+                                                <ui:msg description="Program > Ui > Price > 40">$40 CAN</ui:msg>
                                             </p>
                                             <p>
                                                 <img class="{programRes.style.half}"
@@ -2093,7 +2093,7 @@
                                             </p>
                                         </span>
                                         <span id="shopping2Div" style="display: none">
-                                            <h2>Shopping</h2>
+                                            <h2><ui:msg description="Program > Excursions > Shopping > Title">Shopping</ui:msg></h2>
                                             <p>
                                                 <b>Date :</b>
                                                 <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20,
@@ -2115,7 +2115,7 @@
                                                 <b>
                                                     <ui:msg description="Program > Ui > Price">Price :</ui:msg>
                                                 </b>
-                                                Free
+                                                <ui:msg description="Program > Ui > Price > 0">Free</ui:msg>
                                             </p>
                                             <p>
                                                 <img src="{programRes.img_excursionShopping_1.getSafeUri}"
@@ -2139,7 +2139,7 @@
                                             </p>
                                         </span>
                                         <span id="tours2Div" style="display: none">
-                                            <h2>Guided Tour</h2>
+                                            <h2><ui:msg description="Program > Excursions > Tours > Title">Guided Tour</ui:msg></h2>
                                             <p>
                                                 <b>Date :</b>
                                                 <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20,
@@ -2156,12 +2156,12 @@
                                                 <b>
                                                     <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
                                                 </b>
-                                                Old Quebec City
+                                                <ui:msg description="Program > Excursions > Tours > Location">Old Quebec City</ui:msg>
                                                 <br/>
                                                 <b>
                                                     <ui:msg description="Program > Ui > Price">Price :</ui:msg>
                                                 </b>
-                                                $20.00
+                                                <ui:msg description="Program > Ui > Price > 20">$20 CAN</ui:msg>
                                             </p>
                                             <p>
                                                 <img class="{programRes.style.half}"
@@ -2206,7 +2206,7 @@
                                                 <b>
                                                     <ui:msg description="Program > Ui > Price">Price :</ui:msg>
                                                 </b>
-                                                $40.00
+                                                <ui:msg description="Program > Ui > Price > 40">$40 CAN</ui:msg>
                                             </p>
                                             <p>
                                                 <img src="{programRes.img_excursionKarting_1.getSafeUri}"
@@ -3089,7 +3089,7 @@
                                     <span class="{programRes.style.arrow}"/>
                                     <span ui:field="excursionDiv3">
                                         <span id="cruise3Div">
-                                            <h2>Boat Cruise</h2>
+                                            <h2><ui:msg description="Program > Excursions > BoatCruise > Title">Boat Cruise</ui:msg></h2>
                                             <p>
                                                 <b>Date :</b>
                                                 <ui:msg description="Program > Ui > DateFull > 21">Saturday, September
@@ -3107,12 +3107,12 @@
                                                 <b>
                                                     <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
                                                 </b>
-                                                Louis-Jolliet Boat
+                                                <ui:msg description="Program > Excursions > BoatCruise > Location">Louis-Jolliet Boat</ui:msg>
                                                 <br/>
                                                 <b>
                                                     <ui:msg description="Program > Ui > Price">Price :</ui:msg>
                                                 </b>
-                                                $40.00
+                                                <ui:msg description="Program > Ui > Price > 40">$40 CAN</ui:msg>
                                             </p>
                                             <p>
                                                 <img class="{programRes.style.half}"
@@ -3144,7 +3144,7 @@
                                             </p>
                                         </span>
                                         <span id="shopping3Div" style="display: none">
-                                            <h2>Shopping</h2>
+                                            <h2><ui:msg description="Program > Excursions > Shopping > Title">Shopping</ui:msg></h2>
                                             <p>
                                                 <b>Date :</b>
                                                 <ui:msg description="Program > Ui > DateFull > 21">Saturday, September
@@ -3167,7 +3167,7 @@
                                                 <b>
                                                     <ui:msg description="Program > Ui > Price">Price :</ui:msg>
                                                 </b>
-                                                Free
+                                                <ui:msg description="Program > Ui > Price > 0">Free</ui:msg>
                                             </p>
                                             <p>
                                                 <img src="{programRes.img_excursionShopping_1.getSafeUri}"
@@ -3214,7 +3214,7 @@
                                                 <b>
                                                     <ui:msg description="Program > Ui > Price">Price :</ui:msg>
                                                 </b>
-                                                $40.00
+                                                <ui:msg description="Program > Ui > Price > 40">$40 CAN</ui:msg>
                                             </p>
                                             <p>
                                                 <img src="{programRes.img_excursionKarting_1.getSafeUri}"
@@ -3237,7 +3237,7 @@
                                             </p>
                                         </span>
                                         <span id="arbraska3Div" style="display: none">
-                                            <h2>High-Wire and Zip-Line adventure</h2>
+                                            <h2><ui:msg description="Program > Excursions > Ziplining > Title">High-Wire and Zip-Line adventure</ui:msg></h2>
                                             <p>
                                                 <b>Date :</b>
                                                 <ui:msg description="Program > Ui > DateFull > 21">Saturday, September
@@ -3260,7 +3260,7 @@
                                                 <b>
                                                     <ui:msg description="Program > Ui > Price">Price :</ui:msg>
                                                 </b>
-                                                $40.00
+                                                <ui:msg description="Program > Ui > Price > 40">$40 CAN</ui:msg>
                                             </p>
                                             <p>
                                                 <img src="{programRes.img_excursionArbraska_1.getSafeUri}"
@@ -3287,7 +3287,7 @@
                                             </p>
                                         </span>
                                         <span id="ferrari3Div" style="display: none">
-                                            <h2>Drive a Ferrari</h2>
+                                            <h2><ui:msg description="Program > Excursions > Ferrari > Title">Drive a Ferrari</ui:msg></h2>
                                             <p>
                                                 <b>Date :</b>
                                                 <ui:msg description="Program > Ui > DateFull > 21">Saturday, September
@@ -3310,7 +3310,7 @@
                                                 <b>
                                                     <ui:msg description="Program > Ui > Price">Price :</ui:msg>
                                                 </b>
-                                                $250.00
+                                                <ui:msg description="Program > Ui > Price > 250">$250 CAN</ui:msg>
                                             </p>
                                             <p>
                                                 <img class="{programRes.style.half}"
