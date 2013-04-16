@@ -51,6 +51,10 @@ public interface MainResource extends ClientBundle {
 
     ImageResource homeImage005();
 
+    ImageResource videoPlaceholder();
+
+    ImageResource videoPlaceholder_fr();
+
     @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.Horizontal)
     ImageResource degrade_bt();
 

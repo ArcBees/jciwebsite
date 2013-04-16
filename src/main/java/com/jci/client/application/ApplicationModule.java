@@ -22,7 +22,7 @@ import com.jci.client.application.contact.ContactModule;
 import com.jci.client.application.home.HomeModule;
 import com.jci.client.application.program.ProgramModule;
 import com.jci.client.application.travel.TravelModule;
-import com.jci.client.application.ui.HeaderModule;
+import com.jci.client.application.ui.UiModule;
 
 public class ApplicationModule extends AbstractPresenterModule {
     @Override
@@ -32,7 +32,7 @@ public class ApplicationModule extends AbstractPresenterModule {
         install(new ProgramModule());
         install(new AboutModule());
         install(new ContactModule());
-        install(new HeaderModule());
+        install(new UiModule());
 
         bindPresenter(ApplicationPresenter.class, ApplicationPresenter.MyView.class, ApplicationView.class,
                 ApplicationPresenter.MyProxy.class);

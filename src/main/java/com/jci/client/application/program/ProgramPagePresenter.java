@@ -34,8 +34,6 @@ import com.jci.client.place.NameTokens;
 import javax.inject.Inject;
 
 public class ProgramPagePresenter extends Presenter<ProgramPagePresenter.MyView, ProgramPagePresenter.MyProxy> {
-    private HandlerRegistration handlerRegistration;
-
     public interface MyView extends View {
         void pauseCarousel();
 
@@ -43,6 +41,8 @@ public class ProgramPagePresenter extends Presenter<ProgramPagePresenter.MyView,
 
         void untoggleTooltip();
     }
+
+    private HandlerRegistration handlerRegistration;
 
     @ProxyStandard
     @NameToken(NameTokens.program)
@@ -61,13 +61,13 @@ public class ProgramPagePresenter extends Presenter<ProgramPagePresenter.MyView,
         super.onReveal();
 
         handlerRegistration = RootPanel.get().addDomHandler(new KeyDownHandler() {
-             @Override
-             public void onKeyDown(KeyDownEvent keyDownEvent) {
-                 if (keyDownEvent.getNativeKeyCode() == KeyCodes.KEY_ESCAPE) {
-                     getView().untoggleTooltip();
-                 }
-             }
-         }, KeyDownEvent.getType());
+            @Override
+            public void onKeyDown(KeyDownEvent keyDownEvent) {
+                if (keyDownEvent.getNativeKeyCode() == KeyCodes.KEY_ESCAPE) {
+                    getView().untoggleTooltip();
+                }
+            }
+        }, KeyDownEvent.getType());
     }
 
     @Override
