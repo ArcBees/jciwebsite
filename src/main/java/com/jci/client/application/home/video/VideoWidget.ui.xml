@@ -1,0 +1,18 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'
+             ui:generateFormat='com.google.gwt.i18n.rebind.format.PropertiesFormat'
+             ui:generateKeys="com.google.gwt.i18n.server.keygen.MD5KeyGenerator"
+             ui:generateLocales='default'>
+    <g:HTMLPanel>
+        <object type="application/x-shockwave-flash"
+                data="http://dev.viral.o2web.ws/swf/momentum_INVITATION_EN.swf" width="720" height="421"
+                style="visibility: visible;">
+            <ui:attribute name="data" description="Home > Video > Data"/>
+            <param name="wmode" value="window"/>
+            <param name="flashvars"
+                   value="name=Dear JCI Member&amp;compagny=&amp;event=Unlimited JCI Canada National Convention 2013&amp;date=September 18th to 21th">
+                <ui:attribute name="value" description="Home > Video > Value"/>
+            </param>
+        </object>
+    </g:HTMLPanel>
+</ui:UiBinder>
