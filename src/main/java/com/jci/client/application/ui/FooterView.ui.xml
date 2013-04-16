@@ -24,7 +24,7 @@
                     <a class="{footRes.style.twitter}" title="Share on Twitter">
                         <ui:attribute name="title" description="Footer > Title > ShareTwitter"/>
                     </a>
-                    <a class="{footRes.style.google}" title="Share on Google">
+                    <a class="{footRes.style.google}" title="Share on Google+">
                         <ui:attribute name="title" description="Footer > Title > ShareGoogle"/>
                     </a>
                 </span>
