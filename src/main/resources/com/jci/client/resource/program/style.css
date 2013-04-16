@@ -2,6 +2,46 @@
     margin-bottom: 0;
 }
 
+@eval HEIGHT_CALENDAR com.jci.client.resource.program.ProgramResource.COL_HEIGTH*21+30+"px";
+
+.visioProgram  .overflow {
+    overflow: hidden;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    border: 1px solid #2a5b8c;
+    margin-top: 5px;
+    position: relative;
+    height: HEIGHT_CALENDAR;
+    -webkit-transition: height .4s ease;
+    -moz-transition: height .4s ease;
+    -o-transition: height .4s ease;
+    -ms-transition: height .4s ease;
+    transition: height .4s ease;
+}
+
+@eval HEIGHT_OVERFLOW com.jci.client.resource.program.ProgramResource.COL_HEIGTH*15+30+"px";
+
+.visioProgram  .overflow.down {
+    height: HEIGHT_OVERFLOW;
+}
+
+.visioProgram  .overflow > ul, .visioProgram  .overflow > div, .visioProgram  .overflow > div > div > ul {
+    -webkit-transition: top .4s ease, bottom .4s ease;
+    -moz-transition: top .4s ease, bottom .4s ease;
+    -o-transition: top .4s ease, bottom .4s ease;
+    -ms-transition: top .4s ease, bottom .4s ease;
+    transition: top .4s ease, bottom .4s ease;
+}
+
+.visioProgram  .overflow.down > div > ul, .visioProgram  .overflow.down > div {
+    bottom: 480px;
+}
+
+.visioProgram  .overflow.down > div > div > ul {
+    top: 480px;
+}
+
 .visioProgram ul, .visioProgram ul li, .visioProgram div {
     margin: 0;
     padding: 0;
@@ -14,15 +54,6 @@
 .visioProgram ul.hoursTable {
     width: 55px;
     float: left;
-    margin-top: 5px;
-    border: 1px solid #2a5b8c;
-    border-right: 0;
-    -webkit-border-top-left-radius: 8px;
-    -webkit-border-bottom-left-radius: 8px;
-    -moz-border-radius-topleft: 8px;
-    -moz-border-radius-bottomleft: 8px;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
     -webkit-box-shadow: 8px 0 12px -2px rgba(50, 50, 50, 0.15);
     -moz-box-shadow: 8px 0 12px -2px rgba(50, 50, 50, 0.15);
     box-shadow: 8px 0 12px -2px rgba(50, 50, 50, 0.15);
@@ -58,28 +89,11 @@
 
 .visioProgram .carouselInner {
     float: left;
-    width: 872px;
-    margin-top: 5px;
+    width: 873px;
     overflow: hidden;
-    border: 1px solid #2a5b8c;
-    border-left: 0;
-    -webkit-border-top-left-radius: 0px;
-    -webkit-border-bottom-left-radius: 0px;
-    -moz-border-radius-topleft: 0px;
-    -moz-border-radius-bottomleft: 0px;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-    -webkit-border-top-right-radius: 8px;
-    -webkit-border-bottom-right-radius: 8px;
-    -moz-border-radius-topright: 8px;
-    -moz-border-radius-bottomright: 8px;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
     z-index: 10;
     position: relative;
 }
-
-@eval HEIGHT_CALENDAR com.jci.client.resource.program.ProgramResource.COL_HEIGTH*21+30+"px";
 
 @sprite .visioProgram  .carouselInner .carouselInnerDiv {
     height: HEIGHT_CALENDAR;
@@ -891,7 +905,7 @@
     background: rgba(0, 0, 0, 0.35);
 }
 
-.visioProgram .event > div.tooltip span b{
+.visioProgram .event > div.tooltip span b {
     vertical-align: text-top;
 }
 
@@ -900,6 +914,7 @@
     line-height: 16px;
     vertical-align: middle;
 }
+
 .visioProgram .event > div.tooltip span.excursions a {
     font-weight: bold;
     cursor: pointer;

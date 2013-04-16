@@ -81,8 +81,9 @@
                 <div class="{mainRes.style.sliderButtons}">
                     <div>
                         <p>
-                            <a href="http://www.jccq.qc.ca/Categorie-dactivites/Congres-National-et-AGA-JCI-Canada/Convention-Nationale-JCI-Canada-2013-2013-JCI-Canada-National-Convention.aspx"
+                            <a href="http://www.jccq.qc.ca/logiciel/gestion_securite/telechargement/?id=24441"
                                target="_blank">
+                                <ui:attribute name="href" description="Href > Registration"/>
                                 <span>
                                     <ui:msg description="Home > Register NOW">Register
                                         <br/>

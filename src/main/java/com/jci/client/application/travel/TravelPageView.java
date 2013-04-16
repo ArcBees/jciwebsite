@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.jci.client.application.register;
+package com.jci.client.application.travel;
 
 import com.arcbees.core.client.mvp.ViewImpl;
 import com.google.gwt.dom.client.AnchorElement;
