@@ -46,7 +46,7 @@
                     <ui:msg description="Footer > Copyright">© JCI Quebec City 2013. All rights reserved. This website
                         is a courtesy of
                     </ui:msg>
-                    <a href="http://www.arcbees.com" target="_blank">
+                    <a href="http://www.arcbees.com/" target="_blank">
                         <ui:attribute name="href" description="Href > Arcbees"/>
                         ArcBees</a>.
                 </p>

@@ -140,8 +140,6 @@ public interface ProgramResource extends ClientBundle {
         String overflow();
 
         String down();
-
-        String firstBT();
     }
 
     @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.Both)

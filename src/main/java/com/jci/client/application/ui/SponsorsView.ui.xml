@@ -12,7 +12,7 @@
                 <ui:attribute name="href" description="Href > Arcbees"/>
                 <g:Image resource="{sponsRes.arcbees}" altText="ArcBees"/>
             </a>
-            <a href="http://www.qvc.qc.ca/eng/QVC-01-Abot-us/QVC-About-us.htm" target="_blank">
+            <a href="http://www.qvc.qc.ca/eng/QVC-01-About-us/QVC-About-us.htm" target="_blank">
                 <ui:attribute name="href" description="Href > QVC"/>
                 <g:Image resource="{sponsRes.qvc}" altText="QVC"/>
             </a>

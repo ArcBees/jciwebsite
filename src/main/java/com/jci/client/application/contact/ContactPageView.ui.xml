@@ -339,7 +339,7 @@
                         <ui:msg description="Contact > Project manager">
                             Project manager,
                         </ui:msg>
-                        <a href="http://qvc.qc.ca/eng/QVC-01-About-us/QVC-About-us.htm" target="_blank">
+                        <a href="http://www.qvc.qc.ca/eng/QVC-01-About-us/QVC-About-us.htm" target="_blank">
                             <ui:attribute name="href" description="Href > QVC"/>
                             QVC-Inscript
                         </a>

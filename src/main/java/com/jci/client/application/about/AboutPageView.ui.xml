@@ -200,7 +200,7 @@
                 <p class="{res.style.noBottomMargin}">
                     <ui:msg description="About > paragraph 12">
                         JCI Quebec City also won many awards throughout the years, thus proving its dynamism within the JCI
-                        movement :
+                        movement:
                     </ui:msg>
                 </p>
                 <div class="{res.style.ulNoPoints}">
