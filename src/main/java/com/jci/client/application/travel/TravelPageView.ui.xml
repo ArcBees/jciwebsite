@@ -120,7 +120,7 @@
                                 </ui:msg>
                             </td>
                             <td>
-                                $169 CAN
+                                <ui:msg description="Travel > Ui > Price > 169">$169 CAN</ui:msg>
                             </td>
                         </tr>
                         <tr class="{res.style.odd}">
@@ -129,7 +129,9 @@
                                     TRYP room with Church view - king bed
                                 </ui:msg>
                             </td>
-                            <td>$179 CAN</td>
+                            <td>
+                                <ui:msg description="Travel > Ui > Price > 179">$179 CAN</ui:msg>
+                            </td>
                         </tr>
                         <tr>
                             <td>
@@ -137,7 +139,9 @@
                                     TRYP room with two double beds
                                 </ui:msg>
                             </td>
-                            <td>$189 CAN</td>
+                            <td>
+                                <ui:msg description="Travel > Ui > Price > 189">$189 CAN</ui:msg>
+                            </td>
                         </tr>
                         <tr class="{res.style.odd}">
                             <td>
@@ -145,7 +149,9 @@
                                     TRYP room with Church view - double beds
                                 </ui:msg>
                             </td>
-                            <td>$199 CAN</td>
+                            <td>
+                                <ui:msg description="Travel > Ui > Price > 199">$199 CAN</ui:msg>
+                            </td>
                         </tr>
                         <tr>
                             <td>
@@ -156,7 +162,9 @@
                                     of Quebec City with floor to ceiling windows.
                                 </ui:msg>
                             </td>
-                            <td>+$30 CAN</td>
+                            <td>
+                                <ui:msg description="Travel > Ui > Price > +30">+$30 CAN</ui:msg>
+                            </td>
                         </tr>
                     </table>
                 </div>

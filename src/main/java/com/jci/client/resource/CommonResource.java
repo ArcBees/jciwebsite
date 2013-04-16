@@ -57,6 +57,8 @@ public interface CommonResource extends ClientBundle {
         String odd();
 
         String btn_green();
+
+        String eventUl();
     }
 
     @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.Both)

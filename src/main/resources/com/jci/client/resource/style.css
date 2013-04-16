@@ -254,7 +254,7 @@ div.content {
     background: none;
 }
 
-@sprite .content ul li {
+@sprite .content ul li, .content ul.eventUl li {
     margin: 5px 0;
     line-height: 20px;
     gwt-image: "puce";
@@ -262,6 +262,12 @@ div.content {
     width: auto;
     background-position: 0 7px;
     padding-left: 14px;
+}
+
+.content ul.eventUl {
+    margin-left: 20px;
+    margin-bottom: 15px;
+    margin-top: -15px;
 }
 
 .actions {
