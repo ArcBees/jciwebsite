@@ -165,8 +165,7 @@
                         <ui:attribute name="href" description="Href > JCI Canada"/>
                         <ui:msg description="About > link 1">
                             www.jcicanada.com
-                        </ui:msg>
-                    </a>.
+                        </ui:msg></a>.
                 </p>
                 <g:Image addStyleNames="{aboutRes.style.imgLogo}" resource="{aboutRes.jci_canada}" altText="JCI Canada Logo"/>
             </div>
@@ -340,8 +339,7 @@
                     <a href="http://www.jccq.qc.ca/" target="_blank">
                         <ui:msg description="About > link 2">
                             www.jccq.qc.ca
-                        </ui:msg>
-                    </a>.
+                        </ui:msg></a>.
                 </p>
                 <g:Image addStyleNames="{aboutRes.style.imgLogo}" resource="{aboutRes.jccq}" altText="JCCQ Logo"/>
             </div>
