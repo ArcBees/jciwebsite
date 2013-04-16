@@ -54,6 +54,10 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
     SpanElement excursionDiv2;
     @UiField
     SpanElement excursionDiv3;
+    @UiField
+    SpanElement awardsNightDiv;
+    @UiField
+    DivElement awardsNight;
 
     private final String activeStyleName;
     private final String activeStyleNameProgram;
@@ -133,7 +137,7 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
                 $("." + activeStyleName).removeClass(activeStyleName);
                 $("." + downNameProgram).removeClass(downNameProgram);
 
-                if ($(e).hasClass(".firstButton")) {
+                if ($(e).hasClass("firstButton")) {
                     $("." + overflowNameProgram).addClass(downNameProgram);
                 }
 
@@ -198,6 +202,19 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
                 $("." + activeExcursionStyleNameProgram, excursion3).text("◦");
                 $("." + activeExcursionStyleNameProgram, excursion3).removeClass(activeExcursionStyleNameProgram);
                 $("span", excursionDiv3).hide();
+                $("#" + e.getId() + "Div").show();
+                $(e).text("•");
+                $(e).addClass(activeExcursionStyleNameProgram);
+            }
+        });
+
+        $("." + excursionStyleNameProgram + " a", awardsNight).unbind("click");
+        $("." + excursionStyleNameProgram + " a", awardsNight).click(new Function() {
+            @Override
+            public void f(Element e) {
+                $("." + activeExcursionStyleNameProgram, awardsNight).text("◦");
+                $("." + activeExcursionStyleNameProgram, awardsNight).removeClass(activeExcursionStyleNameProgram);
+                $("span", awardsNightDiv).hide();
                 $("#" + e.getId() + "Div").show();
                 $(e).text("•");
                 $(e).addClass(activeExcursionStyleNameProgram);
