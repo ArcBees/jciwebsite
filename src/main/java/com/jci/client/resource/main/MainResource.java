@@ -32,6 +32,11 @@ public interface MainResource extends ClientBundle {
 
         String button_visio();
 
+        String video();
+
+        String videoTrigger();
+
+        String videoContainer();
     }
 
     Style style();

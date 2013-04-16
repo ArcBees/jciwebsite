@@ -1,5 +1,6 @@
 <ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
              xmlns:g='urn:import:com.google.gwt.user.client.ui'
+             xmlns:vid='urn:import:com.jci.client.application.home.video'
              ui:generateFormat='com.google.gwt.i18n.rebind.format.PropertiesFormat'
              ui:generateKeys="com.google.gwt.i18n.server.keygen.MD5KeyGenerator"
              ui:generateLocales='default'>
@@ -135,6 +136,9 @@
                 </div>
             </div>
         </div>
-
+        <div class="{res.style.width} {res.style.shadow} {mainRes.style.videoContainer}">
+            <img src="http://placehold.it/1000x421" class="{mainRes.style.videoTrigger}" ui:field="videoTrigger"/>
+            <vid:VideoWidget ui:field="videoWidget" visible="false" addStyleNames="{mainRes.style.video}"/>
+        </div>
     </g:HTMLPanel>
 </ui:UiBinder>
