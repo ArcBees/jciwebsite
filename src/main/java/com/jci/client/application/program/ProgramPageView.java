@@ -63,7 +63,6 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
     private final String excursionStyleNameProgram;
     private final String overflowNameProgram;
     private final String downNameProgram;
-    private final String firstBTNameProgram;
 
     @Inject
     public ProgramPageView(Binder uiBinder,
@@ -80,7 +79,6 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
         excursionStyleNameProgram = programResource.style().excursions();
         overflowNameProgram = programResource.style().overflow();
         downNameProgram = programResource.style().down();
-        firstBTNameProgram = programResource.style().firstBT();
 
         asWidget().addAttachHandler(this);
     }
@@ -129,9 +127,10 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
                 $("." + activeStyleName).removeClass(activeStyleName);
                 $("." + downNameProgram).removeClass(downNameProgram);
 
-                if ($(e).hasClass(firstBTNameProgram)) {
+                if ($(e).hasClass(".firstButton")) {
                     $("." + overflowNameProgram).addClass(downNameProgram);
                 }
+
                 $(e).addClass(activeStyleName);
                 pauseCarousel();
             }

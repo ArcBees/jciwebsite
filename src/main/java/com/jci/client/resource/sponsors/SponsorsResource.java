@@ -32,9 +32,9 @@ public interface SponsorsResource extends ClientBundle {
         String sponsorWrapper();
     }
 
-    ImageResource lavery_en();
+    ImageResource lavery();
 
-    ImageResource lavery_en_fr();
+    ImageResource lavery_fr();
 
     ImageResource arcbees();
 

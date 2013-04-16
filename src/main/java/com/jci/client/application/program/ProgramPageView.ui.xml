@@ -9,9 +9,9 @@
         <div class="{res.style.width} {res.style.white} {res.style.dragUp} {res.style.round}
         {res.style.content}">
             <div ui:field="divButtons" class="{res.style.actions} carousel-indicators">
-                <a class="{res.style.button_gray} {res.style.active} {programRes.style.firstBT}"
+                <a class="{res.style.button_gray} {res.style.active}"
                    data-target="#myCarouselProgram"
-                   data-slide-to="0">
+                   data-slide-to="0" id="firstButton">
                     <ui:msg description="Program > Ui > Date > 18">September 18</ui:msg>
                 </a>
                 <a class="{res.style.button_gray}" data-target="#myCarouselProgram" data-slide-to="1">

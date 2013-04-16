@@ -30,7 +30,7 @@
                 </h1>
                 <p>
                     <ui:msg description="Contact > Paragraph 1">
-                        For more information, send us an email :
+                        For more information, send us an email:
                     </ui:msg>
                     <a href="mailto:info@unlimited2013.ca">info@unlimited2013.ca</a>
                     <ui:msg description="Contact > Paragraph 1 > text">

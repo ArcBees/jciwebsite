@@ -26,9 +26,6 @@
     height: HEIGHT_OVERFLOW;
 }
 
-.firstBT {
-}
-
 .visioProgram  .overflow > ul, .visioProgram  .overflow > div, .visioProgram  .overflow > div > div > ul {
     -webkit-transition: top .4s ease, bottom .4s ease;
     -moz-transition: top .4s ease, bottom .4s ease;

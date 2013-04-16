@@ -51,7 +51,7 @@
                         On the organizational level, JCI Canada hosted and organized many events throughout the years,
                         where members from across the world participated in a wide variety of high-quality training courses
                         and
-                        opportunities for networking and fellowship, namely :
+                        opportunities for networking and fellowship, namely:
                     </ui:msg>
                 </p>
                 <ul>
@@ -89,7 +89,7 @@
                 </p>
                 <p class="{res.style.noBottomMargin}">
                     <ui:msg description="About > paragraph 5">
-                        JCI is proud to offer opportunities in the following four areas :
+                        JCI is proud to offer opportunities in the following four areas:
                     </ui:msg>
                 </p>
                 <ul>
