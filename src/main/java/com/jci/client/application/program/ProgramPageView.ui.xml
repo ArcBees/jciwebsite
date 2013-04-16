@@ -143,25 +143,24 @@
                                         <ui:msg description="Program > Content > Registration">Registration</ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 18">Wednesday, September 18, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 14h00">2:00 pm</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 18h00">6:00 pm</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         Foyer
                                     </p>
@@ -187,27 +186,31 @@
                                         </ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 18">Wednesday, September 18, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 18h00">6:00 pm</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 23h00">11:00 pm</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         Restaurant Table
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > Casual">Casual</ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -231,26 +234,30 @@
                                         </ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 18">Wednesday, September 18, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > From23h">From 11:00 pm
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > Casual">Casual</ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -297,25 +304,24 @@
                                         </ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 8h00">8:00 am</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 9h00">9:00 am</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         AB
@@ -342,28 +348,34 @@
                                         </ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 9h00">9:00 am</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 11h45">11:45 am</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         C
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                            Casual
+                                        </ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -387,28 +399,34 @@
                                         </ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 13h45">1:45 pm</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 16h30">4:30 pm</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         C
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                            Casual
+                                        </ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -431,28 +449,34 @@
                                         1
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 9h00">9:00 am</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 10h15">10:15 am</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         G
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                            Casual
+                                        </ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -475,28 +499,34 @@
                                         3
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 10h30">10:30 am</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 11h45">11:45 am</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         G
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                            Casual
+                                        </ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -519,28 +549,34 @@
                                         5
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 13h45">1:45 pm</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 15h00">3:00 pm</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         G
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                            Casual
+                                        </ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -563,28 +599,34 @@
                                         7
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 15h15">3:15 pm</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 16h30">4:30 pm</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         G
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                            Casual
+                                        </ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -607,28 +649,34 @@
                                         2
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 9h00">9:00 am</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 10h15">10:15 am</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         H
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                            Casual
+                                        </ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -651,28 +699,34 @@
                                         4
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 10h30">10:30 am</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 11h45">11:45 am</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         H
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                            Casual
+                                        </ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -695,28 +749,34 @@
                                         6
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 13h45">1:45 pm</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 15h00">3:00 pm</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         H
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                            Casual
+                                        </ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -739,28 +799,34 @@
                                         8
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 15h15">3:15 pm</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 16h30">4:30 pm</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         H
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                            Casual
+                                        </ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -782,25 +848,24 @@
                                         <ui:msg description="Program > Content > CoffeeBreak">Coffee Break</ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 10h15">10:15 am</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 10h30">10:30 am</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         Foyer
                                     </p>
@@ -824,25 +889,24 @@
                                         <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 10h30">10:30 am</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 11h45">11:45 am</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         Foyer
                                     </p>
@@ -866,25 +930,24 @@
                                         <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 13h45">1:45 pm</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 15h00">3:00 pm</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         Foyer
                                     </p>
@@ -908,25 +971,24 @@
                                         <ui:msg description="Program > Content > CoffeeBreak">Coffee Break</ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 15h00">3:00 pm</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 15h15">3:15 pm</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         Foyer
                                     </p>
@@ -950,25 +1012,24 @@
                                         <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 15h15">3:15 pm</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 16h30">4:30 pm</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         Foyer
                                     </p>
@@ -994,21 +1055,28 @@
                                         </ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 12h00">12:00 am</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 13h30">1:30 pm</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Content > ImperialTheatre">Imperial Theatre
+                                        </ui:msg>
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                            Casual
                                         </ui:msg>
                                     </p>
                                 </div>
@@ -1027,30 +1095,41 @@
                                     <span class="{programRes.style.arrow}"/>
                                     <span ui:field="excursionDiv1">
                                         <span id="cruise1Div">
-                                            <h2><ui:msg description="Program > Excursions > BoatCruise > Title">Boat Cruise</ui:msg></h2>
+                                            <h2>
+                                                <ui:msg description="Program > Excursions > BoatCruise > Title">Boat
+                                                    Cruise
+                                                </ui:msg>
+                                            </h2>
                                             <p>
-                                                <b>Date :</b>
+                                                <b>Date:</b>
                                                 <ui:msg description="Program > Ui > DateFull > 19">Thursday, September
                                                     19,
                                                     2013
                                                 </ui:msg>
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                                 </b>
                                                 <ui:msg description="Program > Ui > Hours > 13h30">1:30 pm</ui:msg>
                                                 -
                                                 <ui:msg description="Program > Ui > Hours > 16h30">4:30 pm</ui:msg>
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                                 </b>
-                                                <ui:msg description="Program > Excursions > BoatCruise > Location">Louis-Jolliet Boat</ui:msg>
+                                                <ui:msg description="Program > Excursions > BoatCruise > Location">
+                                                    Louis-Jolliet Boat
+                                                </ui:msg>
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Price">Price :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Price">Price:</ui:msg>
                                                 </b>
                                                 <ui:msg description="Program > Ui > Price > 40">$40 CAN</ui:msg>
+                                                <br/>
+                                                <b>
+                                                    <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                                </b>
+                                                <ui:msg description="Program > Ui > DressCode > Casual">Casual</ui:msg>
                                             </p>
                                             <p>
                                                 <img class="{programRes.style.half}"
@@ -1082,30 +1161,38 @@
                                             </p>
                                         </span>
                                         <span id="shopping1Div" style="display: none">
-                                            <h2><ui:msg description="Program > Excursions > Shopping > Title">Shopping</ui:msg></h2>
+                                            <h2>
+                                                <ui:msg description="Program > Excursions > Shopping > Title">Shopping
+                                                </ui:msg>
+                                            </h2>
                                             <p>
-                                                <b>Date :</b>
+                                                <b>Date:</b>
                                                 <ui:msg description="Program > Ui > DateFull > 19">Thursday, September
                                                     19,
                                                     2013
                                                 </ui:msg>
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                                 </b>
                                                 <ui:msg description="Program > Ui > Hours > 13h30">1:30 pm</ui:msg>
                                                 -
                                                 <ui:msg description="Program > Ui > Hours > 16h30">4:30 pm</ui:msg>
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                                 </b>
                                                 Place Laurier
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Price">Price :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Price">Price:</ui:msg>
                                                 </b>
                                                 <ui:msg description="Program > Ui > Price > 0">Free</ui:msg>
+                                                <br/>
+                                                <b>
+                                                    <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                                </b>
+                                                <ui:msg description="Program > Ui > DressCode > Casual">Casual</ui:msg>
                                             </p>
                                             <p>
                                                 <img src="{programRes.img_excursionShopping_1.getSafeUri}"
@@ -1129,30 +1216,40 @@
                                             </p>
                                         </span>
                                         <span id="tours1Div" style="display: none">
-                                            <h2><ui:msg description="Program > Excursions > Tours > Title">Guided Tour</ui:msg></h2>
+                                            <h2>
+                                                <ui:msg description="Program > Excursions > Tours > Title">Guided Tour
+                                                </ui:msg>
+                                            </h2>
                                             <p>
-                                                <b>Date :</b>
+                                                <b>Date:</b>
                                                 <ui:msg description="Program > Ui > DateFull > 19">Thursday, September
                                                     19,
                                                     2013
                                                 </ui:msg>
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                                 </b>
                                                 <ui:msg description="Program > Ui > Hours > 13h30">1:30 pm</ui:msg>
                                                 -
                                                 <ui:msg description="Program > Ui > Hours > 16h30">4:30 pm</ui:msg>
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                                 </b>
-                                                <ui:msg description="Program > Excursions > Tours > Location">Old Quebec City</ui:msg>
+                                                <ui:msg description="Program > Excursions > Tours > Location">Old Quebec
+                                                    City
+                                                </ui:msg>
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Price">Price :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Price">Price:</ui:msg>
                                                 </b>
                                                 <ui:msg description="Program > Ui > Price > 20">$20 CAN</ui:msg>
+                                                <br/>
+                                                <b>
+                                                    <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                                </b>
+                                                <ui:msg description="Program > Ui > DressCode > Casual">Casual</ui:msg>
                                             </p>
                                             <p>
                                                 <img class="{programRes.style.half}"
@@ -1175,39 +1272,52 @@
                                             </p>
                                         </span>
                                         <span id="beer1Div" style="display: none">
-                                            <h2><ui:msg description="Program > Excursions > Beers > Title">Beer and cheese tasting</ui:msg></h2>
+                                            <h2>
+                                                <ui:msg description="Program > Excursions > Beers > Title">Beer and
+                                                    cheese tasting
+                                                </ui:msg>
+                                            </h2>
                                             <p>
-                                                <b>Date :</b>
+                                                <b>Date:</b>
                                                 <ui:msg description="Program > Ui > DateFull > 19">Thursday, September
                                                     19,
                                                     2013
                                                 </ui:msg>
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                                 </b>
                                                 <ui:msg description="Program > Ui > Hours > 13h30">1:30 pm</ui:msg>
                                                 -
                                                 <ui:msg description="Program > Ui > Hours > 16h30">4:30 pm</ui:msg>
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                                 </b>
-                                                <ui:msg description="Program > Excursions > Beers > Location">La Barberie Microbrewery</ui:msg>
+                                                <ui:msg description="Program > Excursions > Beers > Location">La
+                                                    Barberie Microbrewery
+                                                </ui:msg>
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Price">Price :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Price">Price:</ui:msg>
                                                 </b>
                                                 <ui:msg description="Program > Ui > Price > 25">$25 CAN</ui:msg>
+                                                <br/>
+                                                <b>
+                                                    <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                                </b>
+                                                <ui:msg description="Program > Ui > DressCode > Casual">Casual</ui:msg>
                                             </p>
                                             <p>
                                                 <img src="{programRes.img_excursionBeer_1.getSafeUri}"
                                                      alt="La Barberie Microbrewery Beers"/>
                                             </p>
                                             <p>
-                                                <ui:msg description="Program > Excursions > Beers > p1">La Barberie, a Quebec microbrewery proposes to explain its unique way of
-                                                making beer.
-                                                Come and see how cheese and beer can marry their flavors together!</ui:msg>
+                                                <ui:msg description="Program > Excursions > Beers > p1">La Barberie, a
+                                                    Quebec microbrewery proposes to explain its unique way of
+                                                    making beer.
+                                                    Come and see how cheese and beer can marry their flavors together!
+                                                </ui:msg>
                                             </p>
                                             <p>
                                                 <a href="http://www.labarberie.com/" target="_blank">
@@ -1247,12 +1357,12 @@
                                         <ui:msg description="Program > Content > BrazilNight">Brazil Night</ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 18h00">6:00 pm</ui:msg>
                                         -
@@ -1260,9 +1370,15 @@
 
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Content > MilsaRestaurant">Le Milsa Restaurant
+                                        </ui:msg>
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > CasualBrazilian">Casual/Brazilian attire
                                         </ui:msg>
                                     </p>
                                 </div>
@@ -1289,21 +1405,26 @@
                                         </ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 20h30">8:30 pm</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 23h00">11:00 pm</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         Charlotte Ultra lounge
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > Casual">Casual</ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -1327,25 +1448,29 @@
                                         </ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > From23h">From 11:00 pm</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > Casual">Casual</ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -1392,25 +1517,24 @@
                                         </ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 8h00">8:00 am</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 9h00">9:00 am</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         AB
@@ -1437,28 +1561,34 @@
                                         </ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 12h00">12:00 am</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 13h30">1:30 pm</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         AB
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                            Casual
+                                        </ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -1482,28 +1612,34 @@
                                         </ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 13h45">1:45 pm</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 15h00">3:00 pm</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         AB
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                            Casual
+                                        </ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -1527,28 +1663,34 @@
                                         </ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 9h00">9:00 am</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 11h45">11:45 am</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         C
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                            Casual
+                                        </ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -1572,28 +1714,34 @@
                                         </ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 15h15">3:15 pm</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 16h30">4:30 pm</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         C
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                            Casual
+                                        </ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -1616,28 +1764,34 @@
                                         9
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 9h00">9:00 am</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 10h15">10:15 am</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         G
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                            Casual
+                                        </ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -1660,28 +1814,34 @@
                                         11
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 10h30">10:30 am</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 11h45">11:45 am</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         G
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                            Casual
+                                        </ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -1704,28 +1864,34 @@
                                         10
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 9h00">9:00 am</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 10h15">10:15 am</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         H
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                            Casual
+                                        </ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -1748,28 +1914,34 @@
                                         12
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 10h30">10:30 am</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 11h45">11:45 am</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         H
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                            Casual
+                                        </ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -1791,25 +1963,24 @@
                                         <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 9h00">9:00 am</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 10h15">10:15 am</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         Foyer
                                     </p>
@@ -1833,25 +2004,24 @@
                                         <ui:msg description="Program > Content > CoffeeBreak">Coffee Break</ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 10h15">10:15 am</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 10h30">10:30 am</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         Foyer
                                     </p>
@@ -1875,25 +2045,24 @@
                                         <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 10h30">10:30 am</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 11h45">11:45 am</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         Foyer
                                     </p>
@@ -1917,25 +2086,24 @@
                                         <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 13h45">1:45 pm</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 15h00">3:00 pm</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         Foyer
                                     </p>
@@ -1959,25 +2127,24 @@
                                         <ui:msg description="Program > Content > CoffeeBreak">Coffee Break</ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 15h00">3:00 pm</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 15h15">3:15 pm</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         Foyer
                                     </p>
@@ -2001,25 +2168,24 @@
                                         <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 15h15">3:15 pm</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 16h30">4:30 pm</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         Foyer
                                     </p>
@@ -2039,29 +2205,40 @@
                                     <span class="{programRes.style.arrow}"/>
                                     <span ui:field="excursionDiv2">
                                         <span id="cruise2Div">
-                                            <h2><ui:msg description="Program > Excursions > BoatCruise > Title">Boat Cruise</ui:msg></h2>
+                                            <h2>
+                                                <ui:msg description="Program > Excursions > BoatCruise > Title">Boat
+                                                    Cruise
+                                                </ui:msg>
+                                            </h2>
                                             <p>
-                                                <b>Date :</b>
+                                                <b>Date:</b>
                                                 <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20,
                                                     2013
                                                 </ui:msg>
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                                 </b>
                                                 <ui:msg description="Program > Ui > Hours > 13h30">1:30 pm</ui:msg>
                                                 -
                                                 <ui:msg description="Program > Ui > Hours > 16h30">4:30 pm</ui:msg>
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                                 </b>
-                                                <ui:msg description="Program > Excursions > BoatCruise > Location">Louis-Jolliet Boat</ui:msg>
+                                                <ui:msg description="Program > Excursions > BoatCruise > Location">
+                                                    Louis-Jolliet Boat
+                                                </ui:msg>
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Price">Price :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Price">Price:</ui:msg>
                                                 </b>
                                                 <ui:msg description="Program > Ui > Price > 40">$40 CAN</ui:msg>
+                                                <br/>
+                                                <b>
+                                                    <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                                </b>
+                                                <ui:msg description="Program > Ui > DressCode > Casual">Casual</ui:msg>
                                             </p>
                                             <p>
                                                 <img class="{programRes.style.half}"
@@ -2093,29 +2270,37 @@
                                             </p>
                                         </span>
                                         <span id="shopping2Div" style="display: none">
-                                            <h2><ui:msg description="Program > Excursions > Shopping > Title">Shopping</ui:msg></h2>
+                                            <h2>
+                                                <ui:msg description="Program > Excursions > Shopping > Title">Shopping
+                                                </ui:msg>
+                                            </h2>
                                             <p>
-                                                <b>Date :</b>
+                                                <b>Date:</b>
                                                 <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20,
                                                     2013
                                                 </ui:msg>
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                                 </b>
                                                 <ui:msg description="Program > Ui > Hours > 13h30">1:30 pm</ui:msg>
                                                 -
                                                 <ui:msg description="Program > Ui > Hours > 16h30">4:30 pm</ui:msg>
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                                 </b>
                                                 Place Laurier
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Price">Price :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Price">Price:</ui:msg>
                                                 </b>
                                                 <ui:msg description="Program > Ui > Price > 0">Free</ui:msg>
+                                                <br/>
+                                                <b>
+                                                    <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                                </b>
+                                                <ui:msg description="Program > Ui > DressCode > Casual">Casual</ui:msg>
                                             </p>
                                             <p>
                                                 <img src="{programRes.img_excursionShopping_1.getSafeUri}"
@@ -2139,29 +2324,39 @@
                                             </p>
                                         </span>
                                         <span id="tours2Div" style="display: none">
-                                            <h2><ui:msg description="Program > Excursions > Tours > Title">Guided Tour</ui:msg></h2>
+                                            <h2>
+                                                <ui:msg description="Program > Excursions > Tours > Title">Guided Tour
+                                                </ui:msg>
+                                            </h2>
                                             <p>
-                                                <b>Date :</b>
+                                                <b>Date:</b>
                                                 <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20,
                                                     2013
                                                 </ui:msg>
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                                 </b>
                                                 <ui:msg description="Program > Ui > Hours > 13h30">1:30 pm</ui:msg>
                                                 -
                                                 <ui:msg description="Program > Ui > Hours > 16h30">4:30 pm</ui:msg>
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                                 </b>
-                                                <ui:msg description="Program > Excursions > Tours > Location">Old Quebec City</ui:msg>
+                                                <ui:msg description="Program > Excursions > Tours > Location">Old Quebec
+                                                    City
+                                                </ui:msg>
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Price">Price :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Price">Price:</ui:msg>
                                                 </b>
                                                 <ui:msg description="Program > Ui > Price > 20">$20 CAN</ui:msg>
+                                                <br/>
+                                                <b>
+                                                    <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                                </b>
+                                                <ui:msg description="Program > Ui > DressCode > Casual">Casual</ui:msg>
                                             </p>
                                             <p>
                                                 <img class="{programRes.style.half}"
@@ -2186,27 +2381,32 @@
                                         <span id="karting2Div" style="display: none">
                                             <h2>Karting</h2>
                                             <p>
-                                                <b>Date :</b>
+                                                <b>Date:</b>
                                                 <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20,
                                                     2013
                                                 </ui:msg>
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                                 </b>
                                                 <ui:msg description="Program > Ui > Hours > 13h30">1:30 pm</ui:msg>
                                                 -
                                                 <ui:msg description="Program > Ui > Hours > 16h30">4:30 pm</ui:msg>
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                                 </b>
                                                 Karting Extreme
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Price">Price :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Price">Price:</ui:msg>
                                                 </b>
                                                 <ui:msg description="Program > Ui > Price > 40">$40 CAN</ui:msg>
+                                                <br/>
+                                                <b>
+                                                    <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                                </b>
+                                                <ui:msg description="Program > Ui > DressCode > Casual">Casual</ui:msg>
                                             </p>
                                             <p>
                                                 <img src="{programRes.img_excursionKarting_1.getSafeUri}"
@@ -2263,31 +2463,35 @@
                                         </ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 17h00">5:00 pm</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 18h00">6:00 pm</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Content > NationalAssemblyQuebec">National
                                             Assembly of Quebec
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Content >  ParlementaireRestaurant">Le
                                             Parlementaire Restaurant
                                         </ui:msg>
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > Business">Business</ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -2309,31 +2513,35 @@
                                         <ui:msg description="Program > Content > AwardsNight">Awards Night</ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 18h00">6:00 pm</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 23h00">11:00 pm</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Content > NationalAssemblyQuebec">National
                                             Assembly of Quebec
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Content >  ParlementaireRestaurant">Le
                                             Parlementaire Restaurant
                                         </ui:msg>
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > Business">Business</ui:msg>
                                     </p>
                                     <p>
                                         <img src="{programRes.img_awardNight_1.getSafeUri}"
@@ -2379,25 +2587,29 @@
                                         </ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > From23h">From 11:00 pm</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > Casual">Casual</ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -2447,25 +2659,24 @@
                                         </ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 8h00">8:00 am</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 9h00">9:00 am</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         AB
@@ -2492,28 +2703,34 @@
                                         </ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 12h00">12:00 am</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 13h30">1:30 pm</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         AB
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                            Casual
+                                        </ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -2539,28 +2756,32 @@
                                         </ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 18h00">6:00 pm</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 23h00">11:00 pm</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Content > Ballroom ">Ballroom</ui:msg>
                                         (ABC)
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > Formal">Formal</ui:msg>
                                     </p>
                                     <p>
                                         <img src="{programRes.img_presidentGala_1.getSafeUri}"
@@ -2613,28 +2834,34 @@
                                         </ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 9h00">9:00 am</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 11h45">11:45 am</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         C
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                            Casual
+                                        </ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -2658,28 +2885,34 @@
                                         </ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 13h45">1:45 pm</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 15h00">3:00 pm</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         C
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                            Casual
+                                        </ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -2702,28 +2935,34 @@
                                         13
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 9h00">9:00 am</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 10h15">10:15 am</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         G
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                            Casual
+                                        </ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -2746,28 +2985,34 @@
                                         15
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 10h30">10:30 am</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 11h45">11:45 am</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         G
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                            Casual
+                                        </ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -2790,28 +3035,34 @@
                                         14
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 9h00">9:00 am</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 10h15">10:15 am</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         H
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                            Casual
+                                        </ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -2834,28 +3085,34 @@
                                         16
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 10h30">10:30 am</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 11h45">11:45 am</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         H
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                            Casual
+                                        </ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -2879,25 +3136,24 @@
                                         </ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 7h30">7:30 am</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 9h00">9:00 am</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         J
@@ -2924,28 +3180,32 @@
                                         </ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 17h00">5:00 pm</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 18h00">6:00 pm</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Ui > Room">Room</ui:msg>
                                         J
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > Formal">Formal</ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -2967,25 +3227,24 @@
                                         <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 8h00">8:00 am</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 10h15">10:15 am</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         Foyer
                                     </p>
@@ -3009,25 +3268,24 @@
                                         <ui:msg description="Program > Content > CoffeeBreak">Coffee Break</ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 10h15">10:15 am</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 10h30">10:30 am</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         Foyer
                                     </p>
@@ -3051,25 +3309,24 @@
                                         <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 10h30">10:30 am</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 11h45">11:45 am</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         Foyer
                                     </p>
@@ -3089,30 +3346,41 @@
                                     <span class="{programRes.style.arrow}"/>
                                     <span ui:field="excursionDiv3">
                                         <span id="cruise3Div">
-                                            <h2><ui:msg description="Program > Excursions > BoatCruise > Title">Boat Cruise</ui:msg></h2>
+                                            <h2>
+                                                <ui:msg description="Program > Excursions > BoatCruise > Title">Boat
+                                                    Cruise
+                                                </ui:msg>
+                                            </h2>
                                             <p>
-                                                <b>Date :</b>
+                                                <b>Date:</b>
                                                 <ui:msg description="Program > Ui > DateFull > 21">Saturday, September
                                                     21,
                                                     2013
                                                 </ui:msg>
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                                 </b>
                                                 <ui:msg description="Program > Ui > Hours > 13h30">1:30 pm</ui:msg>
                                                 -
                                                 <ui:msg description="Program > Ui > Hours > 16h30">4:30 pm</ui:msg>
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                                 </b>
-                                                <ui:msg description="Program > Excursions > BoatCruise > Location">Louis-Jolliet Boat</ui:msg>
+                                                <ui:msg description="Program > Excursions > BoatCruise > Location">
+                                                    Louis-Jolliet Boat
+                                                </ui:msg>
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Price">Price :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Price">Price:</ui:msg>
                                                 </b>
                                                 <ui:msg description="Program > Ui > Price > 40">$40 CAN</ui:msg>
+                                                <br/>
+                                                <b>
+                                                    <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                                </b>
+                                                <ui:msg description="Program > Ui > DressCode > Casual">Casual</ui:msg>
                                             </p>
                                             <p>
                                                 <img class="{programRes.style.half}"
@@ -3144,30 +3412,38 @@
                                             </p>
                                         </span>
                                         <span id="shopping3Div" style="display: none">
-                                            <h2><ui:msg description="Program > Excursions > Shopping > Title">Shopping</ui:msg></h2>
+                                            <h2>
+                                                <ui:msg description="Program > Excursions > Shopping > Title">Shopping
+                                                </ui:msg>
+                                            </h2>
                                             <p>
-                                                <b>Date :</b>
+                                                <b>Date:</b>
                                                 <ui:msg description="Program > Ui > DateFull > 21">Saturday, September
                                                     21,
                                                     2013
                                                 </ui:msg>
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                                 </b>
                                                 <ui:msg description="Program > Ui > Hours > 13h30">1:30 pm</ui:msg>
                                                 -
                                                 <ui:msg description="Program > Ui > Hours > 16h30">4:30 pm</ui:msg>
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                                 </b>
                                                 Place Laurier
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Price">Price :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Price">Price:</ui:msg>
                                                 </b>
                                                 <ui:msg description="Program > Ui > Price > 0">Free</ui:msg>
+                                                <br/>
+                                                <b>
+                                                    <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                                </b>
+                                                <ui:msg description="Program > Ui > DressCode > Casual">Casual</ui:msg>
                                             </p>
                                             <p>
                                                 <img src="{programRes.img_excursionShopping_1.getSafeUri}"
@@ -3193,28 +3469,33 @@
                                         <span id="karting3Div" style="display: none">
                                             <h2>Karting</h2>
                                             <p>
-                                                <b>Date :</b>
+                                                <b>Date:</b>
                                                 <ui:msg description="Program > Ui > DateFull > 21">Saturday, September
                                                     21,
                                                     2013
                                                 </ui:msg>
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                                 </b>
                                                 <ui:msg description="Program > Ui > Hours > 13h30">1:30 pm</ui:msg>
                                                 -
                                                 <ui:msg description="Program > Ui > Hours > 16h30">4:30 pm</ui:msg>
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                                 </b>
                                                 Karting Extreme
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Price">Price :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Price">Price:</ui:msg>
                                                 </b>
                                                 <ui:msg description="Program > Ui > Price > 40">$40 CAN</ui:msg>
+                                                <br/>
+                                                <b>
+                                                    <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                                </b>
+                                                <ui:msg description="Program > Ui > DressCode > Casual">Casual</ui:msg>
                                             </p>
                                             <p>
                                                 <img src="{programRes.img_excursionKarting_1.getSafeUri}"
@@ -3237,30 +3518,39 @@
                                             </p>
                                         </span>
                                         <span id="arbraska3Div" style="display: none">
-                                            <h2><ui:msg description="Program > Excursions > Ziplining > Title">High-Wire and Zip-Line adventure</ui:msg></h2>
+                                            <h2>
+                                                <ui:msg description="Program > Excursions > Ziplining > Title">High-Wire
+                                                    and Zip-Line adventure
+                                                </ui:msg>
+                                            </h2>
                                             <p>
-                                                <b>Date :</b>
+                                                <b>Date:</b>
                                                 <ui:msg description="Program > Ui > DateFull > 21">Saturday, September
                                                     21,
                                                     2013
                                                 </ui:msg>
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                                 </b>
                                                 <ui:msg description="Program > Ui > Hours > 13h30">1:30 pm</ui:msg>
                                                 -
                                                 <ui:msg description="Program > Ui > Hours > 16h30">4:30 pm</ui:msg>
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                                 </b>
                                                 Arbraska Duchesnay
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Price">Price :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Price">Price:</ui:msg>
                                                 </b>
                                                 <ui:msg description="Program > Ui > Price > 40">$40 CAN</ui:msg>
+                                                <br/>
+                                                <b>
+                                                    <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                                </b>
+                                                <ui:msg description="Program > Ui > DressCode > Casual">Casual</ui:msg>
                                             </p>
                                             <p>
                                                 <img src="{programRes.img_excursionArbraska_1.getSafeUri}"
@@ -3287,30 +3577,41 @@
                                             </p>
                                         </span>
                                         <span id="ferrari3Div" style="display: none">
-                                            <h2><ui:msg description="Program > Excursions > Ferrari > Title">Drive a Ferrari</ui:msg></h2>
+                                            <h2>
+                                                <ui:msg description="Program > Excursions > Ferrari > Title">Drive a
+                                                    Ferrari
+                                                </ui:msg>
+                                            </h2>
                                             <p>
-                                                <b>Date :</b>
+                                                <b>Date:</b>
                                                 <ui:msg description="Program > Ui > DateFull > 21">Saturday, September
                                                     21,
                                                     2013
                                                 </ui:msg>
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                                 </b>
                                                 <ui:msg description="Program > Ui > Hours > 13h30">1:30 pm</ui:msg>
                                                 -
                                                 <ui:msg description="Program > Ui > Hours > 16h30">4:30 pm</ui:msg>
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                                 </b>
                                                 Circuit ICAR
                                                 <br/>
                                                 <b>
-                                                    <ui:msg description="Program > Ui > Price">Price :</ui:msg>
+                                                    <ui:msg description="Program > Ui > Price">Price:</ui:msg>
                                                 </b>
                                                 <ui:msg description="Program > Ui > Price > 250">$250 CAN</ui:msg>
+                                                <br/>
+                                                <b>
+                                                    <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                                </b>
+                                                <ui:msg description="Program > Ui > DressCode > FormalBond">Formal
+                                                    (James Bond style)
+                                                </ui:msg>
                                             </p>
                                             <p>
                                                 <img class="{programRes.style.half}"
@@ -3369,25 +3670,29 @@
                                         </ui:msg>
                                     </h2>
                                     <p>
-                                        <b>Date :</b>
+                                        <b>Date:</b>
                                         <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
                                         </ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time :</ui:msg>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > From23h">From 11:00 pm</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue :</ui:msg>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
                                         <br/>
                                         <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                            :
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > Casual">Casual</ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
