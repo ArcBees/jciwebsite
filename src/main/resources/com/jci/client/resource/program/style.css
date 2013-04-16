@@ -4,7 +4,7 @@
 
 @eval HEIGHT_CALENDAR com.jci.client.resource.program.ProgramResource.COL_HEIGTH*21+30+"px";
 
-.visioProgram  .overflow {
+.visioProgram .overflow {
     overflow: hidden;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
