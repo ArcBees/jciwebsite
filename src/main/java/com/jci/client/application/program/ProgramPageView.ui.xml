@@ -1659,7 +1659,16 @@
                                         </ui:msg>
                                     </p>
                                     <p>
-                                        <ui:msg description="Program > Content > EffectiveSpeaking > p3">The winner of
+                                        <ui:msg description="Program > Content > EffectiveSpeaking > p3">Every entry in
+                                            the speaking competition is required to be longer than five (5) minutes but
+                                            no more than seven (7) minutes. Candidates shall be judged on the basis of
+                                            content, delivery and language by at least three (3) . Also, candidates may
+                                            speak in any of the JCI correspondent languages; english, french, spanish,
+                                            or japanese.
+                                        </ui:msg>
+                                    </p>
+                                    <p>
+                                        <ui:msg description="Program > Content > EffectiveSpeaking > p4">The winner of
                                             the 2012 Effective Speaking Competition held at the 2012 National Convention
                                             &amp; Annual General Meeting in Kimberley, British Columbia was Erin
                                             Guillemette
