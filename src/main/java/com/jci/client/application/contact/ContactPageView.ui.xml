@@ -16,7 +16,11 @@
                         Contact Us
                     </ui:msg>
                 </a>
-                <a ui:field="buttonCommittee" class="{res.style.button_gray}">Convention Committee</a>
+                <a ui:field="buttonCommittee" class="{res.style.button_gray}">
+                    <ui:msg description="Contact > ConventionComitee" meaning="Comité organisateur">Convention
+                        Committee
+                    </ui:msg>
+                </a>
             </div>
             <div ui:field="form" class="{contactRes.style.formDiv} clearfix">
                 <h1>
@@ -34,9 +38,7 @@
                     </ui:msg>
                     <a href="https://www.facebook.com/Unlimited2013" target="_blank">
                         <ui:msg description="Contact > facebook link">
-                            Facebook page
-                        </ui:msg>
-                    </a>.
+                            Facebook page</ui:msg></a>.
                 </p>
                 <form>
                     <fieldset>
@@ -71,7 +73,9 @@
                         <textarea id="message"></textarea>
                         <p class="{contactRes.style.errorMessage}"></p>
                         <input type="submit" value="Send"
-                               class="{res.style.noBottomMargin} {res.style.button_gray} {res.style.btn_green}"/>
+                               class="{res.style.noBottomMargin} {res.style.button_gray} {res.style.btn_green}">
+                            <ui:attribute name="value" description="Contact > Send"/>
+                        </input>
                         <img src="{res.ajaxloader.getSafeUri}" ui:field="loader" hidden="hidden"/>
                     </fieldset>
                 </form>
@@ -93,7 +97,10 @@
                         <ui:msg description="Contact > Lawyer">
                             Lawyer,
                         </ui:msg>
-                        <a href="http://www.lavery.ca/lavery-laywer-firm/" target="_blank">Lavery</a>
+                        <a href="http://www.lavery.ca/lavery-laywer-firm/" target="_blank">
+                            <ui:attribute name="href" description="Href > Lavery"/>
+                            Lavery
+                        </a>
                     </i>
                 </p>
                 <p>
@@ -104,7 +111,10 @@
                         </ui:msg>
                     </b>
                     <i>
-                        <a href="http://www.conferencedirect.com/" target="_blank">ConferenceDirect</a>
+                        <a href="http://www.conferencedirect.com/" target="_blank">
+                            <ui:attribute name="href" description="Href > ConfferenceDirect"/>
+                            ConferenceDirect
+                        </a>
                     </i>
                 </p>
                 <p>
@@ -118,7 +128,10 @@
                         <ui:msg description="Contact > Lawyer">
                             Lawyer,
                         </ui:msg>
-                        <a href="http://www.bernierbeaudry.com/" target="_blank">Bernier Beaudry inc.</a>
+                        <a href="http://www.bernierbeaudry.com/" target="_blank">
+                            <ui:attribute name="href" description="Href > BernierBeaudry"/>
+                            Bernier Beaudry inc.
+                        </a>
                     </i>
                 </p>
                 <p>
@@ -132,7 +145,10 @@
                         <ui:msg description="Contact > Director">
                             Director,
                         </ui:msg>
-                        <a href="http://www.surmesur.ca/" target="_blank">Surmesur</a>
+                        <a href="http://www.surmesur.ca/" target="_blank">
+                            <ui:attribute name="href" description="Href > Surmesur"/>
+                            Surmesur
+                        </a>
                     </i>
                 </p>
                 <h2 class="{res.style.round}">
@@ -151,7 +167,10 @@
                         <ui:msg description="Contact > CEO">
                             CEO,
                         </ui:msg>
-                        <a href="http://www.arcbees.com/" target="_blank">ArcBees</a>
+                        <a href="http://www.arcbees.com/" target="_blank">
+                            <ui:attribute name="href" description="Href > Arcbees"/>
+                            ArcBees
+                        </a>
                     </i>
                 </p>
                 <p>
@@ -177,13 +196,18 @@
                         <ui:msg description="Contact > Designer">
                             Designer,
                         </ui:msg>
-                        <a href="http://www.arcbees.com/" target="_blank">ArcBees</a>
+                        <a href="http://www.arcbees.com/" target="_blank">
+                            <ui:attribute name="href" description="Href > Arcbees"/>
+                            ArcBees
+                        </a>
                     </i>
                 </p>
                 <p>
                     <span>Émilie Rouillard</span>
                     <i>
                         <a href="http://www.fqm.ca/" target="_blank">
+                            <ui:attribute name="href" description="Href > FMQ"/>
+
                             <ui:msg description="Contact > federation link">
                                 Fédération québécoise des municipalités
                             </ui:msg>
@@ -206,7 +230,10 @@
                         <ui:msg description="Contact > Lawyer">
                             Lawyer,
                         </ui:msg>
-                        <a href="http://www.arcbees.com/" target="_blank">ArcBees</a>
+                        <a href="http://www.arcbees.com/" target="_blank">
+                            <ui:attribute name="href" description="Href > Arcbees"/>
+                            ArcBees
+                        </a>
                     </i>
                 </p>
                 <h2 class="{res.style.round}">
@@ -225,7 +252,10 @@
                         <ui:msg description="Contact > Mortgage broker">
                             Mortgage broker,
                         </ui:msg>
-                        <a href="http://www.archyp.ca/" target="_blank">Les Architectes hypothécaires</a>
+                        <a href="http://www.archyp.ca/Home/Lan?l=en-ca" target="_blank">
+                            <ui:attribute name="href" description="Href > Archyp"/>
+                            Les Architectes hypothécaires
+                        </a>
                     </i>
                 </p>
                 <p>
@@ -234,7 +264,9 @@
                         <ui:msg description="Contact > Sales director">
                             Sales director,
                         </ui:msg>
-                        <a href="http://www.lepatriarche.com/en/index_en.html" target="_blank">Restaurant Le
+                        <a href="http://www.lepatriarche.com/en/index_en.html" target="_blank">
+                            <ui:attribute name="href" description="Href > Patriarche"/>
+                            Restaurant Le
                             Patriarche
                         </a>
                     </i>
@@ -250,7 +282,10 @@
                         <ui:msg description="Contact > Lawyer">
                             Lawyer,
                         </ui:msg>
-                        <a href="http://www.bernierbeaudry.com/" target="_blank">Bernier Beaudry inc.</a>
+                        <a href="http://www.bernierbeaudry.com/" target="_blank">
+                            <ui:attribute name="href" description="Href > BernierBeaudry"/>
+                            Bernier Beaudry inc.
+                        </a>
                     </i>
                 </p>
                 <h2 class="{res.style.round}">
@@ -269,7 +304,10 @@
                         <ui:msg description="Contact > Mortgage specialist">
                             Mortgage specialist,
                         </ui:msg>
-                        <a href="http://www.tdcanadatrust.com/" target="_blank">TD Canada Trust</a>
+                        <a href="http://www.tdcanadatrust.com/" target="_blank">
+                            <ui:attribute name="href" description="Href > TD"/>
+                            TD Canada Trust
+                        </a>
                     </i>
                 </p>
                 <p>
@@ -283,7 +321,10 @@
                         <ui:msg description="Contact > Tax manager">
                             Tax manager,
                         </ui:msg>
-                        <a href="http://www.deloitte.com/" target="_blank">Deloitte s.e.n.c.r.l</a>
+                        <a href="http://www.deloitte.com/view/en_CA/ca/index.htm" target="_blank">
+                            <ui:attribute name="href" description="Href > Deloitte"/>
+                            Deloitte s.e.n.c.r.l
+                        </a>
                     </i>
                 </p>
                 <h2 class="{res.style.round}">Formal events and Logistics</h2>
@@ -291,14 +332,17 @@
                     <span>Rudy Boutet</span>
                     <b>
                         <ui:msg description="Contact > Director formal">
-                            Director, formal events and logistics
+                            Director, formal events and registration
                         </ui:msg>
                     </b>
                     <i>
                         <ui:msg description="Contact > Project manager">
                             Project manager,
                         </ui:msg>
-                        <a href="http://qvc.qc.ca/eng/QVC-01-About-us/QVC-About-us.htm" target="_blank">QVC-Inscript</a>
+                        <a href="http://www.qvc.qc.ca/eng/QVC-01-About-us/QVC-About-us.htm" target="_blank">
+                            <ui:attribute name="href" description="Href > QVC"/>
+                            QVC-Inscript
+                        </a>
                     </i>
                 </p>
                 <p>
@@ -307,7 +351,10 @@
                         <ui:msg description="Contact > Lawyer">
                             Lawyer,
                         </ui:msg>
-                        <a href="http://dionavocats.com/leCabinet.php" target="_blank">Richard Dion Avocats</a>
+                        <a href="http://dionavocats.com/leCabinet.php" target="_blank">
+                            <ui:attribute name="href" description="Href > Dion"/>
+                            Richard Dion Avocats
+                        </a>
                     </i>
                 </p>
                 <h2 class="{res.style.round}">Programs and Training</h2>
@@ -319,7 +366,10 @@
                         </ui:msg>
                     </b>
                     <i>
-                        <a href="http://www.conferencedirect.com/" target="_blank">ConferenceDirect</a>
+                        <a href="http://www.conferencedirect.com/" target="_blank">
+                            <ui:attribute name="href" description="Href > ConferenceDirect"/>
+                            ConferenceDirect
+                        </a>
                     </i>
                 </p>
                 <h2 class="{res.style.round}">Registration and VIP</h2>
@@ -327,14 +377,17 @@
                     <span>Patrick Roberge</span>
                     <b>
                         <ui:msg description="Contact > Director registration">
-                            Director, registration and VIP
+                            Director, Senators and VIPs
                         </ui:msg>
                     </b>
                     <i>
                         <ui:msg description="Contact > Administrator">
                             Administrator,
                         </ui:msg>
-                        <a href="http://www.lola.ca/" target="_blank">Lower St-Lawrence Ocean Agencies</a>
+                        <a href="http://www.lola.ca/" target="_blank">
+                            <ui:attribute name="href" description="Href > Lola"/>
+                            Lower St-Lawrence Ocean Agencies
+                        </a>
                     </i>
                 </p>
             </div>

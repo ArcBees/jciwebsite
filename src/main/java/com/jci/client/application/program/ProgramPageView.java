@@ -24,6 +24,7 @@ import com.google.gwt.event.logical.shared.AttachEvent;
 import com.google.gwt.query.client.Function;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
+import com.google.gwt.user.client.ui.HTMLPanel;
 import com.google.gwt.user.client.ui.Widget;
 import com.jci.client.resource.CommonResource;
 import com.jci.client.resource.program.ProgramResource;
@@ -39,7 +40,7 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
     @UiField
     DivElement divButtons;
     @UiField
-    DivElement divCalendar;
+    HTMLPanel divCalendar;
     @UiField
     DivElement excursion1;
     @UiField
@@ -60,6 +61,8 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
     private final String tooltipStyleNameProgram;
     private final String activeExcursionStyleNameProgram;
     private final String excursionStyleNameProgram;
+    private final String overflowNameProgram;
+    private final String downNameProgram;
 
     @Inject
     public ProgramPageView(Binder uiBinder,
@@ -74,6 +77,8 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
         tooltipStyleNameProgram = programResource.style().tooltip();
         activeExcursionStyleNameProgram = programResource.style().excursionsActive();
         excursionStyleNameProgram = programResource.style().excursions();
+        overflowNameProgram = programResource.style().overflow();
+        downNameProgram = programResource.style().down();
 
         asWidget().addAttachHandler(this);
     }
@@ -105,7 +110,7 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
     public static native void pauseCarouselNative() /*-{
         $wnd.$('#myCarouselProgram').bind('slid', function () {
             $wnd.$('#myCarouselProgram').carousel('pause');
-        });​
+        });
     }-*/;
 
     private void bindGwtQuery() {
@@ -120,6 +125,11 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
             @Override
             public void f(Element e) {
                 $("." + activeStyleName).removeClass(activeStyleName);
+                $("." + downNameProgram).removeClass(downNameProgram);
+
+                if ($(e).hasClass(".firstButton")) {
+                    $("." + overflowNameProgram).addClass(downNameProgram);
+                }
 
                 $(e).addClass(activeStyleName);
                 pauseCarousel();

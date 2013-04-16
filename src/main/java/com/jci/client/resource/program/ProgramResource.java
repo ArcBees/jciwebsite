@@ -136,6 +136,10 @@ public interface ProgramResource extends ClientBundle {
         String excursionsActive();
 
         String third();
+
+        String overflow();
+
+        String down();
     }
 
     @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.Both)

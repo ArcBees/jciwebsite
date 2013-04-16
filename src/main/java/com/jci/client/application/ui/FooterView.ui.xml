@@ -34,6 +34,7 @@
                 </p>
                 <p>
                     <a href="https://maps.google.ca/maps?q=395+Couronne+Street,+Qu%C3%A9bec+(QC),+G1K+7X4&amp;hl=en&amp;authuser=0&amp;ie=UTF-8&amp;ei=ZcFIUfJe16ngA_DSgegN&amp;ved=0CAsQ_AUoAg">
+                        <ui:attribute name="href" description="Href > Maps Hotel Pur"/>
                         <ui:msg description="Footer > Address">395 Couronne Street, Quebec City (QC), G1K 7X4</ui:msg>
                     </a>
                 </p>
@@ -45,7 +46,9 @@
                     <ui:msg description="Footer > Copyright">© JCI Quebec City 2013. All rights reserved. This website
                         is a courtesy of
                     </ui:msg>
-                    <a href="http://www.arcbees.com" target="_blank">ArcBees</a>.
+                    <a href="http://www.arcbees.com/" target="_blank">
+                        <ui:attribute name="href" description="Href > Arcbees"/>
+                        ArcBees</a>.
                 </p>
             </div>
         </div>

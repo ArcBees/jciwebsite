@@ -21,7 +21,7 @@ import com.jci.client.application.about.AboutModule;
 import com.jci.client.application.contact.ContactModule;
 import com.jci.client.application.home.HomeModule;
 import com.jci.client.application.program.ProgramModule;
-import com.jci.client.application.register.TravelModule;
+import com.jci.client.application.travel.TravelModule;
 import com.jci.client.application.ui.HeaderModule;
 
 public class ApplicationModule extends AbstractPresenterModule {
