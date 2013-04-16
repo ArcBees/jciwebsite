@@ -17,18 +17,30 @@
 package com.jci.client.application.home;
 
 import com.arcbees.core.client.mvp.ViewImpl;
+import com.google.gwt.dom.client.ImageElement;
+import com.google.gwt.event.logical.shared.AttachEvent;
+import com.google.gwt.query.client.Function;
 import com.google.gwt.uibinder.client.UiBinder;
+import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.user.client.ui.Widget;
 import com.google.inject.Inject;
+import com.jci.client.application.home.video.VideoWidget;
 
-public class HomePageView extends ViewImpl implements HomePagePresenter.MyView {
+import static com.google.gwt.query.client.GQuery.$;
+
+public class HomePageView extends ViewImpl implements HomePagePresenter.MyView, AttachEvent.Handler {
     public interface Binder extends UiBinder<Widget, HomePageView> {
-
     }
 
+    @UiField
+    ImageElement videoTrigger;
+    @UiField
+    VideoWidget videoWidget;
+
     @Inject
-    public HomePageView(final Binder uiBinder) {
+    HomePageView(Binder uiBinder) {
         initWidget(uiBinder.createAndBindUi(this));
+        asWidget().addAttachHandler(this);
     }
 
     @Override
@@ -36,7 +48,30 @@ public class HomePageView extends ViewImpl implements HomePagePresenter.MyView {
         startCarouselNative();
     }
 
-    public static native void startCarouselNative() /*-{
+    @Override
+    public void onAttachOrDetach(AttachEvent event) {
+        if (event.isAttached()) {
+            $(videoTrigger).click(new Function() {
+                @Override
+                public void f() {
+                    hideVideoTrigger();
+                }
+            });
+        }
+    }
+
+    @Override
+    public void showVideoTrigger() {
+        $(videoWidget).hide();
+        $(videoTrigger).show();
+    }
+
+    private void hideVideoTrigger() {
+        $(videoWidget).show();
+        $(videoTrigger).hide();
+    }
+
+    private native void startCarouselNative() /*-{
         $wnd.$('#myCarouselHome').carousel();
     }-*/;
 }

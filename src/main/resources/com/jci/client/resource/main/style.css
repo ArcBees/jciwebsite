@@ -125,3 +125,23 @@
     left: 322px;
     z-index: 10;
 }
+
+.videoContainer {
+    margin-top: 40px;
+    background-color: #000000;
+}
+
+.videoTrigger {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.videoTrigger:hover {
+    cursor: pointer;
+}
+
+.video object {
+    display: block;
+    margin: auto auto;
+}

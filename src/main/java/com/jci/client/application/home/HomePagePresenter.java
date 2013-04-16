@@ -29,6 +29,8 @@ import com.jci.client.place.NameTokens;
 public class HomePagePresenter extends Presenter<HomePagePresenter.MyView, HomePagePresenter.MyProxy> {
     public interface MyView extends View {
         void startCarousel();
+
+        void showVideoTrigger();
     }
 
     @ProxyStandard
@@ -47,5 +49,6 @@ public class HomePagePresenter extends Presenter<HomePagePresenter.MyView, HomeP
     protected void onReveal() {
         super.onReveal();
         getView().startCarousel();
+        getView().showVideoTrigger();
     }
 }
