@@ -137,9 +137,9 @@
             </div>
         </div>
         <div class="{res.style.width} {res.style.shadow} {mainRes.style.videoContainer}">
-            <img src="{mainRes.videoPlaceholder.getSafeUri}" title="Start the video" class="{mainRes.style.videoTrigger}" ui:field="videoTrigger">
-                <ui:attribute name="title" description="Home > StartVideo"/>
-            </img>
+            <div class="{mainRes.style.videoTrigger}" ui:field="videoTrigger">
+                <span/>
+            </div>
             <vid:VideoWidget ui:field="videoWidget" visible="false" addStyleNames="{mainRes.style.video}"/>
         </div>
     </g:HTMLPanel>
