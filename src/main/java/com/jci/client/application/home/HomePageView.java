@@ -17,6 +17,7 @@
 package com.jci.client.application.home;
 
 import com.arcbees.core.client.mvp.ViewImpl;
+import com.google.gwt.dom.client.DivElement;
 import com.google.gwt.dom.client.ImageElement;
 import com.google.gwt.event.logical.shared.AttachEvent;
 import com.google.gwt.query.client.Function;
@@ -33,7 +34,7 @@ public class HomePageView extends ViewImpl implements HomePagePresenter.MyView, 
     }
 
     @UiField
-    ImageElement videoTrigger;
+    DivElement videoTrigger;
     @UiField
     VideoWidget videoWidget;
 

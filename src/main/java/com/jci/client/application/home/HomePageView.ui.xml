@@ -82,7 +82,7 @@
                 <div class="{mainRes.style.sliderButtons}">
                     <div>
                         <p>
-                            <a href="http://www.jccq.qc.ca/logiciel/gestion_securite/telechargement/?id=24441"
+                            <a href="http://www.jccq.qc.ca/logiciel/gestion_securite/telechargement/?id=24508"
                                target="_blank">
                                 <ui:attribute name="href" description="Href > Registration"/>
                                 <span>
@@ -137,9 +137,9 @@
             </div>
         </div>
         <div class="{res.style.width} {res.style.shadow} {mainRes.style.videoContainer}">
-            <img src="{mainRes.videoPlaceholder.getSafeUri}" title="Start the video" class="{mainRes.style.videoTrigger}" ui:field="videoTrigger">
-                <ui:attribute name="title" description="Home > StartVideo"/>
-            </img>
+            <div class="{mainRes.style.videoTrigger}" ui:field="videoTrigger">
+                <span id="boutonPlay"/>
+            </div>
             <vid:VideoWidget ui:field="videoWidget" visible="false" addStyleNames="{mainRes.style.video}"/>
         </div>
     </g:HTMLPanel>

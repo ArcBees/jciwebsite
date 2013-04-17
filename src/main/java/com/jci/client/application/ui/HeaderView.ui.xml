@@ -27,7 +27,7 @@
                     <ui:msg description="Header > Subtitle">September 18th to 21st, Hosted by JCI Quebec City</ui:msg>
                 </div>
                 <div class="{headRes.style.blackbar}"/>
-                <a href="http://www.jccq.qc.ca/logiciel/gestion_securite/telechargement/?id=24441"
+                <a href="http://www.jccq.qc.ca/logiciel/gestion_securite/telechargement/?id=24508"
                    target="_blank" class="{res.style.btn_green} {res.style.button_gray}">
                     <ui:attribute name="href" description="Href > Registration"/>
                     <ui:msg description="Header > Register NOW">Register NOW!</ui:msg>
