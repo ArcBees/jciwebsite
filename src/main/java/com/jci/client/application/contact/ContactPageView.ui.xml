@@ -40,6 +40,11 @@
                         <ui:msg description="Contact > facebook link">
                             Facebook page</ui:msg></a>.
                 </p>
+                <p>
+                    <ui:msg description="Contact > Paragraph 2">
+                        Throughout the Convention, share your discoveries, thought and highlight on Twitter. Our hashtag: #jciquebec2013.
+                    </ui:msg>
+                </p>
                 <form>
                     <fieldset>
                         <label for="name">

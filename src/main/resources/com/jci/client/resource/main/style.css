@@ -127,18 +127,35 @@
 }
 
 .videoContainer {
+    position: relative;
     margin-top: 40px;
     background-color: #000000;
 }
 
-.videoTrigger {
+@sprite .videoTrigger {
+    gwt-image: "videoPlaceholder";
     display: block;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
 }
 
-.videoTrigger:hover {
-    cursor: pointer;
+@sprite .videoTrigger span {
+    display: block;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-left: -42px;
+    margin-top: -42px;
+    gwt-image: "play_up";
+}
+
+@sprite .videoTrigger:hover span {
+    gwt-image: "play_rl";
+}
+
+@sprite .videoTrigger:active span {
+    gwt-image: "play_dn";
 }
 
 .video object {
