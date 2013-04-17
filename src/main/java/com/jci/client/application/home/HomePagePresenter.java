@@ -16,6 +16,7 @@
 
 package com.jci.client.application.home;
 
+import com.google.gwt.user.client.Window;
 import com.google.inject.Inject;
 import com.google.web.bindery.event.shared.EventBus;
 import com.gwtplatform.mvp.client.Presenter;
@@ -25,12 +26,18 @@ import com.gwtplatform.mvp.client.annotations.ProxyStandard;
 import com.gwtplatform.mvp.client.proxy.ProxyPlace;
 import com.jci.client.application.ApplicationPresenter;
 import com.jci.client.place.NameTokens;
+import com.jci.client.rest.RegistrationService;
+import com.jci.shared.domain.RegistrationUrl;
+import org.fusesource.restygwt.client.Method;
+import org.fusesource.restygwt.client.MethodCallback;
 
 public class HomePagePresenter extends Presenter<HomePagePresenter.MyView, HomePagePresenter.MyProxy> {
     public interface MyView extends View {
         void startCarousel();
 
         void showVideoTrigger();
+
+        void setRegistrationUrl(String registrationUrl);
     }
 
     @ProxyStandard
@@ -38,17 +45,44 @@ public class HomePagePresenter extends Presenter<HomePagePresenter.MyView, HomeP
     public interface MyProxy extends ProxyPlace<HomePagePresenter> {
     }
 
+    private final RegistrationService registrationService;
+
     @Inject
     public HomePagePresenter(EventBus eventBus,
                              MyView view,
-                             MyProxy proxy) {
+                             MyProxy proxy,
+                             RegistrationService registrationService) {
         super(eventBus, view, proxy, ApplicationPresenter.TYPE_SetMainContent);
+
+        this.registrationService = registrationService;
+    }
+
+    @Override
+    protected void onBind() {
+        super.onBind();
+
+        getSubscriptionUrl();
     }
 
     @Override
     protected void onReveal() {
         super.onReveal();
+
         getView().startCarousel();
         getView().showVideoTrigger();
+    }
+
+    private void getSubscriptionUrl() {
+        registrationService.getRegistrationUrl(new MethodCallback<RegistrationUrl>() {
+            @Override
+            public void onFailure(Method method, Throwable exception) {
+                Window.alert("Failure");
+            }
+
+            @Override
+            public void onSuccess(Method method, RegistrationUrl registrationUrl) {
+                getView().setRegistrationUrl(registrationUrl.getFr());
+            }
+        });
     }
 }
