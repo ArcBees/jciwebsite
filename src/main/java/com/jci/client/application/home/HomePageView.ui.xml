@@ -138,7 +138,7 @@
         </div>
         <div class="{res.style.width} {res.style.shadow} {mainRes.style.videoContainer}">
             <div class="{mainRes.style.videoTrigger}" ui:field="videoTrigger">
-                <span/>
+                <span id="boutonPlay"/>
             </div>
             <vid:VideoWidget ui:field="videoWidget" visible="false" addStyleNames="{mainRes.style.video}"/>
         </div>
