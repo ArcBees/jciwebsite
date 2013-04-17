@@ -13,11 +13,11 @@
     margin-top: 5px;
     position: relative;
     height: HEIGHT_CALENDAR;
-    -webkit-transition: height .4s ease;
-    -moz-transition: height .4s ease;
-    -o-transition: height .4s ease;
-    -ms-transition: height .4s ease;
-    transition: height .4s ease;
+    -webkit-transition: height .6s ease;
+    -moz-transition: height .6s ease;
+    -o-transition: height .6s ease;
+    -ms-transition: height .6s ease;
+    transition: height .6s ease;
 }
 
 @eval HEIGHT_OVERFLOW com.jci.client.resource.program.ProgramResource.COL_HEIGTH*15+30+"px";
@@ -26,12 +26,12 @@
     height: HEIGHT_OVERFLOW;
 }
 
-.visioProgram  .overflow > ul, .visioProgram  .overflow > div, .visioProgram  .overflow > div > div > ul {
-    -webkit-transition: top .4s ease, bottom .4s ease;
-    -moz-transition: top .4s ease, bottom .4s ease;
-    -o-transition: top .4s ease, bottom .4s ease;
-    -ms-transition: top .4s ease, bottom .4s ease;
-    transition: top .4s ease, bottom .4s ease;
+.visioProgram  .overflow >  div > ul, .visioProgram  .overflow > div, .visioProgram  .overflow > div > div > ul {
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    -ms-transition: all .6s ease;
+    transition: all .6s ease;
 }
 
 .visioProgram  .overflow.down > div > ul, .visioProgram  .overflow.down > div {

@@ -33,6 +33,16 @@ public interface FooterResource extends ClientBundle {
         String share();
 
         String location();
+
+        String spanHidden();
+
+        String spanVisible();
+
+        String google();
+
+        String facebook();
+
+        String twitter();
     }
 
     @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.Both)
@@ -45,6 +55,12 @@ public interface FooterResource extends ClientBundle {
     ImageResource share();
 
     ImageResource pin();
+
+    ImageResource share_facebook();
+
+    ImageResource share_twitter();
+
+    ImageResource share_google();
 
     Style style();
 }
