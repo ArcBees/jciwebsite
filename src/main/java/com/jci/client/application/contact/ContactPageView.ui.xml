@@ -38,11 +38,15 @@
                     </ui:msg>
                     <a href="https://www.facebook.com/Unlimited2013" target="_blank">
                         <ui:msg description="Contact > facebook link">
-                            Facebook page</ui:msg></a>.
+                            Facebook page
+                        </ui:msg>
+                    </a>
+                    .
                 </p>
                 <p>
                     <ui:msg description="Contact > Paragraph 2">
-                        Throughout the Convention, share your discoveries, thought and highlight on Twitter. Our hashtag: #jciquebec2013.
+                        Throughout the Convention, share your discoveries, thought and highlight on Twitter. Our
+                        hashtag: #jciquebec2013.
                     </ui:msg>
                 </p>
                 <form>
@@ -100,8 +104,8 @@
                     </b>
                     <i>
                         <ui:msg description="Contact > Lawyer">
-                            Lawyer,
-                        </ui:msg>
+                            Lawyer
+                        </ui:msg>,
                         <a href="http://www.lavery.ca/lavery-laywer-firm/" target="_blank">
                             <ui:attribute name="href" description="Href > Lavery"/>
                             Lavery
@@ -131,8 +135,8 @@
                     </b>
                     <i>
                         <ui:msg description="Contact > Lawyer">
-                            Lawyer,
-                        </ui:msg>
+                            Lawyer
+                        </ui:msg>,
                         <a href="http://www.bernierbeaudry.com/" target="_blank">
                             <ui:attribute name="href" description="Href > BernierBeaudry"/>
                             Bernier Beaudry inc.
@@ -181,7 +185,7 @@
                 <p>
                     <span>Catherine Irwin-Gibson</span>
                     <i>
-                        <ui:msg description="Contact > Lawyer 1">
+                        <ui:msg description="Contact > Lawyer" meaning="female">
                             Lawyer
                         </ui:msg>
                     </i>
@@ -232,9 +236,9 @@
                         </ui:msg>
                     </b>
                     <i>
-                        <ui:msg description="Contact > Lawyer">
-                            Lawyer,
-                        </ui:msg>
+                        <ui:msg description="Contact > Lawyer" meaning="female">
+                            Lawyer
+                        </ui:msg>,
                         <a href="http://www.arcbees.com/" target="_blank">
                             <ui:attribute name="href" description="Href > Arcbees"/>
                             ArcBees
@@ -285,8 +289,8 @@
                     </b>
                     <i>
                         <ui:msg description="Contact > Lawyer">
-                            Lawyer,
-                        </ui:msg>
+                            Lawyer
+                        </ui:msg>,
                         <a href="http://www.bernierbeaudry.com/" target="_blank">
                             <ui:attribute name="href" description="Href > BernierBeaudry"/>
                             Bernier Beaudry inc.
@@ -332,7 +336,9 @@
                         </a>
                     </i>
                 </p>
-                <h2 class="{res.style.round}">Formal events and Logistics</h2>
+                <h2 class="{res.style.round}">
+                    <ui:msg description="Contact > FormaleventsLogistics">Formal events and Logistics</ui:msg>
+                </h2>
                 <p>
                     <span>Rudy Boutet</span>
                     <b>
@@ -353,16 +359,18 @@
                 <p>
                     <span>Rachel Rhéaume</span>
                     <i>
-                        <ui:msg description="Contact > Lawyer">
-                            Lawyer,
-                        </ui:msg>
+                        <ui:msg description="Contact > Lawyer" meaning="female">
+                            Lawyer
+                        </ui:msg>,
                         <a href="http://dionavocats.com/leCabinet.php" target="_blank">
                             <ui:attribute name="href" description="Href > Dion"/>
                             Richard Dion Avocats
                         </a>
                     </i>
                 </p>
-                <h2 class="{res.style.round}">Programs and Training</h2>
+                <h2 class="{res.style.round}">
+                    <ui:msg description="Contact > ProgramsAndTrainings">Programs and Training</ui:msg>
+                </h2>
                 <p>
                     <span>François Lanouette</span>
                     <b>
@@ -377,7 +385,9 @@
                         </a>
                     </i>
                 </p>
-                <h2 class="{res.style.round}">Registration and VIP</h2>
+                <h2 class="{res.style.round}">
+                    <ui:msg description="Contact > RegistrationVip">Registration and VIP</ui:msg>
+                </h2>
                 <p class="{res.style.noBottomMargin}">
                     <span>Patrick Roberge</span>
                     <b>
@@ -391,7 +401,8 @@
                         </ui:msg>
                         <a href="http://www.lola.ca/" target="_blank">
                             <ui:attribute name="href" description="Href > Lola"/>
-                            Lower St-Lawrence Ocean Agencies
+                            <ui:msg description="Contact > LolaTitle">Lower St-Lawrence Ocean Agencies</ui:msg>
+
                         </a>
                     </i>
                 </p>

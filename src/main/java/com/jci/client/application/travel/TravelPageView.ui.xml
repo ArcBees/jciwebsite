@@ -272,7 +272,9 @@
                     </li>
                 </ul>
 
-                <h2 class="{res.style.round}">By car</h2>
+                <h2 class="{res.style.round}">
+                    <ui:msg description="Travel > ByCar">By car</ui:msg>
+                </h2>
                 <p class="{res.style.noBottomMargin}">
                     <ui:msg description="Travel > Paragraph 7">
                         Obviously, you can drive to Quebec City:
