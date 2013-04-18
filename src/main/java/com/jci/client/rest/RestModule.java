@@ -38,4 +38,14 @@ public class RestModule extends AbstractGinModule {
 
         return contactService;
     }
+
+    @Provides
+    @Singleton
+    RegistrationService getSubscriptionService() {
+        RegistrationService registrationService = GWT.create(RegistrationService.class);
+        Resource resource = new Resource("rest/subscriptionurl/");
+        ((RestServiceProxy) registrationService).setResource(resource);
+
+        return registrationService;
+    }
 }

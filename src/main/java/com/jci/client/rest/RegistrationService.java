@@ -14,14 +14,15 @@
  * the License.
  */
 
-package com.jci.server.rest;
+package com.jci.client.rest;
 
-import com.google.inject.AbstractModule;
+import javax.ws.rs.GET;
 
-public class RestModule extends AbstractModule{
-    @Override
-    protected void configure() {
-        bind(ContactResource.class);
-        bind(SubscriptionUrlResource.class);
-    }
+import com.jci.shared.domain.RegistrationUrl;
+import org.fusesource.restygwt.client.MethodCallback;
+import org.fusesource.restygwt.client.RestService;
+
+public interface RegistrationService extends RestService {
+    @GET
+    public void getRegistrationUrl(MethodCallback<RegistrationUrl> callback);
 }

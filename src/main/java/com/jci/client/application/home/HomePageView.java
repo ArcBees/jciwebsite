@@ -23,6 +23,7 @@ import com.google.gwt.event.logical.shared.AttachEvent;
 import com.google.gwt.query.client.Function;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
+import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.ui.Widget;
 import com.google.inject.Inject;
 import com.jci.client.application.home.video.VideoWidget;
@@ -65,6 +66,11 @@ public class HomePageView extends ViewImpl implements HomePagePresenter.MyView, 
     public void showVideoTrigger() {
         $(videoWidget).hide();
         $(videoTrigger).show();
+    }
+
+    @Override
+    public void setRegistrationUrl() {
+        $("#registerHeaderHome").attr("href", $("#registerHeader").attr("href"));
     }
 
     private void hideVideoTrigger() {
