@@ -14,14 +14,30 @@
  * the License.
  */
 
-package com.jci.server.rest;
+package com.jci.shared.domain;
 
-import com.google.inject.AbstractModule;
+import java.io.Serializable;
 
-public class RestModule extends AbstractModule{
-    @Override
-    protected void configure() {
-        bind(ContactResource.class);
-        bind(SubscriptionUrlResource.class);
+public class RegistrationUrl implements Serializable {
+    private String fr;
+    private String en;
+
+    public RegistrationUrl() {
+    }
+
+    public String getEn() {
+        return en;
+    }
+
+    public void setEn(String en) {
+        this.en = en;
+    }
+
+    public String getFr() {
+        return fr;
+    }
+
+    public void setFr(String fr) {
+        this.fr = fr;
     }
 }

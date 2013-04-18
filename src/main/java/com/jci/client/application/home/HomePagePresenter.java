@@ -16,6 +16,8 @@
 
 package com.jci.client.application.home;
 
+import com.google.gwt.i18n.client.LocaleInfo;
+import com.google.gwt.user.client.Window;
 import com.google.inject.Inject;
 import com.google.web.bindery.event.shared.EventBus;
 import com.gwtplatform.mvp.client.Presenter;
@@ -25,12 +27,18 @@ import com.gwtplatform.mvp.client.annotations.ProxyStandard;
 import com.gwtplatform.mvp.client.proxy.ProxyPlace;
 import com.jci.client.application.ApplicationPresenter;
 import com.jci.client.place.NameTokens;
+import com.jci.client.rest.RegistrationService;
+import com.jci.shared.domain.RegistrationUrl;
+import org.fusesource.restygwt.client.Method;
+import org.fusesource.restygwt.client.MethodCallback;
 
 public class HomePagePresenter extends Presenter<HomePagePresenter.MyView, HomePagePresenter.MyProxy> {
     public interface MyView extends View {
         void startCarousel();
 
         void showVideoTrigger();
+
+        void setRegistrationUrl();
     }
 
     @ProxyStandard
@@ -48,7 +56,15 @@ public class HomePagePresenter extends Presenter<HomePagePresenter.MyView, HomeP
     @Override
     protected void onReveal() {
         super.onReveal();
+
         getView().startCarousel();
         getView().showVideoTrigger();
+    }
+
+    @Override
+    protected void onBind() {
+        super.onBind();
+
+        getView().setRegistrationUrl();
     }
 }
