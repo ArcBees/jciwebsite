@@ -22,7 +22,6 @@ import com.google.gwt.event.logical.shared.AttachEvent;
 import com.google.gwt.query.client.Function;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
-import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.ui.Widget;
 import com.gwtplatform.mvp.client.ViewWithUiHandlers;
 import com.jci.client.resource.header.HeaderResource;
@@ -41,6 +40,7 @@ public class HeaderView extends ViewWithUiHandlers<HeaderUiHandlers> implements 
     AnchorElement localeSwitch;
 
     private final String activeStyleName;
+    private final String baseUrl = "http://www.jccq.qc.ca";
 
     @Inject
     public HeaderView(Binder binder,
@@ -67,9 +67,22 @@ public class HeaderView extends ViewWithUiHandlers<HeaderUiHandlers> implements 
 
     @Override
     public void setRegistrationUrl(String registrationUrl) {
-        $("#registerHeader").attr("href", "http://www.jccq.qc.ca" + registrationUrl);
-        $("#registerHeaderHome").attr("href", "http://www.jccq.qc.ca" + registrationUrl);
+        setSelectorRegistrationUrl("#registerHeader", registrationUrl);
+        setSelectorRegistrationUrl("#registerHome", registrationUrl);
     }
+
+    private void setSelectorRegistrationUrl(String selector, String registrationUrl) {
+        $(selector).attr("href", baseUrl + registrationUrl);
+    }
+
+    @Override
+    public void logError(String errorMsg) {
+        logErrorNative(errorMsg);
+    }
+
+    public static native void logErrorNative(String errorMsg) /*-{
+        $wnd.console.log(errorMsg);
+    }-*/;
 
     private void bindGwtQuery() {
         $(localeSwitch).click(new Function() {

@@ -36,6 +36,8 @@ public class HeaderPresenter extends PresenterWidget<HeaderPresenter.MyView> imp
         void activateCurrentLink(String nameToken);
 
         void setRegistrationUrl(String registrationUrl);
+
+        void logError(String errorMsg);
     }
 
     private final PlaceManager placeManager;
@@ -98,6 +100,7 @@ public class HeaderPresenter extends PresenterWidget<HeaderPresenter.MyView> imp
         registrationService.getRegistrationUrl(new MethodCallback<RegistrationUrl>() {
             @Override
             public void onFailure(Method method, Throwable exception) {
+                getView().logError("Failure to load registration url");
             }
 
             @Override
