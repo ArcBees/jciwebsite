@@ -46,8 +46,9 @@
                 <p>
                     <ui:msg description="Contact > Paragraph 2">
                         Throughout the Convention, share your discoveries, thought and highlight on Twitter. Our
-                        hashtag: #jciquebec2013.
-                    </ui:msg>
+                        hashtag:</ui:msg>
+                    <a href="https://twitter.com/search/realtime?q=%23jciquebec2013&amp;src=hash" target="_blank">#jciquebec2013</a>.
+
                 </p>
                 <form>
                     <fieldset>
