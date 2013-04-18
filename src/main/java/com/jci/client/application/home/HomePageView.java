@@ -69,8 +69,8 @@ public class HomePageView extends ViewImpl implements HomePagePresenter.MyView, 
     }
 
     @Override
-    public void setRegistrationUrl(String registrationUrl) {
-        Window.alert("registration url: " + registrationUrl);
+    public void setRegistrationUrl() {
+        $("#registerHeaderHome").attr("href", $("#registerHeader").attr("href"));
     }
 
     private void hideVideoTrigger() {

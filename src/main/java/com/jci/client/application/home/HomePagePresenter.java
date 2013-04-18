@@ -16,6 +16,7 @@
 
 package com.jci.client.application.home;
 
+import com.google.gwt.i18n.client.LocaleInfo;
 import com.google.gwt.user.client.Window;
 import com.google.inject.Inject;
 import com.google.web.bindery.event.shared.EventBus;
@@ -37,7 +38,7 @@ public class HomePagePresenter extends Presenter<HomePagePresenter.MyView, HomeP
 
         void showVideoTrigger();
 
-        void setRegistrationUrl(String registrationUrl);
+        void setRegistrationUrl();
     }
 
     @ProxyStandard
@@ -45,23 +46,11 @@ public class HomePagePresenter extends Presenter<HomePagePresenter.MyView, HomeP
     public interface MyProxy extends ProxyPlace<HomePagePresenter> {
     }
 
-    private final RegistrationService registrationService;
-
     @Inject
     public HomePagePresenter(EventBus eventBus,
                              MyView view,
-                             MyProxy proxy,
-                             RegistrationService registrationService) {
+                             MyProxy proxy) {
         super(eventBus, view, proxy, ApplicationPresenter.TYPE_SetMainContent);
-
-        this.registrationService = registrationService;
-    }
-
-    @Override
-    protected void onBind() {
-        super.onBind();
-
-        getSubscriptionUrl();
     }
 
     @Override
@@ -72,17 +61,10 @@ public class HomePagePresenter extends Presenter<HomePagePresenter.MyView, HomeP
         getView().showVideoTrigger();
     }
 
-    private void getSubscriptionUrl() {
-        registrationService.getRegistrationUrl(new MethodCallback<RegistrationUrl>() {
-            @Override
-            public void onFailure(Method method, Throwable exception) {
-                Window.alert("Failure");
-            }
+    @Override
+    protected void onBind() {
+        super.onBind();
 
-            @Override
-            public void onSuccess(Method method, RegistrationUrl registrationUrl) {
-                getView().setRegistrationUrl(registrationUrl.getFr());
-            }
-        });
+        getView().setRegistrationUrl();
     }
 }

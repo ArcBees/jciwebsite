@@ -22,6 +22,7 @@ import com.google.gwt.event.logical.shared.AttachEvent;
 import com.google.gwt.query.client.Function;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
+import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.ui.Widget;
 import com.gwtplatform.mvp.client.ViewWithUiHandlers;
 import com.jci.client.resource.header.HeaderResource;
@@ -62,6 +63,12 @@ public class HeaderView extends ViewWithUiHandlers<HeaderUiHandlers> implements 
     public void activateCurrentLink(String nameTokens) {
         $("." + activeStyleName).removeClass(activeStyleName);
         $("." + nameTokens).addClass(activeStyleName);
+    }
+
+    @Override
+    public void setRegistrationUrl(String registrationUrl) {
+        $("#registerHeader").attr("href", "http://www.jccq.qc.ca" + registrationUrl);
+        $("#registerHeaderHome").attr("href", "http://www.jccq.qc.ca" + registrationUrl);
     }
 
     private void bindGwtQuery() {
