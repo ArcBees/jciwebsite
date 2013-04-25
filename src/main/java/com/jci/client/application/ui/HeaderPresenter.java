@@ -24,34 +24,23 @@ import com.gwtplatform.mvp.client.PresenterWidget;
 import com.gwtplatform.mvp.client.View;
 import com.gwtplatform.mvp.client.proxy.PlaceManager;
 import com.gwtplatform.mvp.client.proxy.PlaceRequest;
-import com.jci.client.rest.RegistrationService;
-import com.jci.shared.domain.RegistrationUrl;
-import org.fusesource.restygwt.client.Method;
-import org.fusesource.restygwt.client.MethodCallback;
 
 import javax.inject.Inject;
 
 public class HeaderPresenter extends PresenterWidget<HeaderPresenter.MyView> implements HeaderUiHandlers {
     public interface MyView extends View, HasUiHandlers<HeaderUiHandlers> {
         void activateCurrentLink(String nameToken);
-
-        void setRegistrationUrl(String registrationUrl);
-
-        void logError(String errorMsg);
     }
 
     private final PlaceManager placeManager;
-    private final RegistrationService registrationService;
 
     @Inject
     public HeaderPresenter(EventBus eventBus,
                            MyView view,
-                           PlaceManager placeManager,
-                           RegistrationService registrationService) {
+                           PlaceManager placeManager) {
         super(eventBus, view);
 
         this.placeManager = placeManager;
-        this.registrationService = registrationService;
 
         getView().setUiHandlers(this);
     }
@@ -61,7 +50,6 @@ public class HeaderPresenter extends PresenterWidget<HeaderPresenter.MyView> imp
         super.onBind();
 
         activateCurrentLinks();
-        getSubscriptionUrl();
     }
 
     @Override
@@ -93,25 +81,5 @@ public class HeaderPresenter extends PresenterWidget<HeaderPresenter.MyView> imp
         Window.Location.assign(Window.Location.createUrlBuilder()
                 .setParameter(LocaleInfo.getLocaleQueryParam(), newLocale)
                 .buildString());
-    }
-
-
-    private void getSubscriptionUrl() {
-        registrationService.getRegistrationUrl(new MethodCallback<RegistrationUrl>() {
-            @Override
-            public void onFailure(Method method, Throwable exception) {
-                getView().logError("Failure to load registration url");
-            }
-
-            @Override
-            public void onSuccess(Method method, RegistrationUrl registrationUrl) {
-                LocaleInfo currentLocale = LocaleInfo.getCurrentLocale();
-                if (currentLocale.getLocaleName().equals("fr")) {
-                    getView().setRegistrationUrl(registrationUrl.getFr());
-                } else {
-                    getView().setRegistrationUrl(registrationUrl.getEn());
-                }
-            }
-        });
     }
 }
