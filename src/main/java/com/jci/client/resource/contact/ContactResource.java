@@ -18,7 +18,6 @@ package com.jci.client.resource.contact;
 
 import com.google.gwt.resources.client.ClientBundle;
 import com.google.gwt.resources.client.CssResource;
-import com.google.gwt.resources.client.ImageResource;
 
 public interface ContactResource extends ClientBundle {
     public interface Style extends CssResource {

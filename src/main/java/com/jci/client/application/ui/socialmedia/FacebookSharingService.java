@@ -2,7 +2,6 @@ package com.jci.client.application.ui.socialmedia;
 
 import com.jci.client.resource.CommonResource;
 import com.jci.client.resource.MyConstants;
-import com.jci.client.resource.header.HeaderResource;
 
 import javax.inject.Inject;
 

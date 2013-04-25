@@ -40,7 +40,6 @@ public class HeaderView extends ViewWithUiHandlers<HeaderUiHandlers> implements 
     AnchorElement localeSwitch;
 
     private final String activeStyleName;
-    private final String baseUrl = "http://www.jccq.qc.ca";
 
     @Inject
     public HeaderView(Binder binder,
@@ -64,25 +63,6 @@ public class HeaderView extends ViewWithUiHandlers<HeaderUiHandlers> implements 
         $("." + activeStyleName).removeClass(activeStyleName);
         $("." + nameTokens).addClass(activeStyleName);
     }
-
-    @Override
-    public void setRegistrationUrl(String registrationUrl) {
-        setSelectorRegistrationUrl("#registerHeader", registrationUrl);
-        setSelectorRegistrationUrl("#registerHome", registrationUrl);
-    }
-
-    private void setSelectorRegistrationUrl(String selector, String registrationUrl) {
-        $(selector).attr("href", baseUrl + registrationUrl);
-    }
-
-    @Override
-    public void logError(String errorMsg) {
-        logErrorNative(errorMsg);
-    }
-
-    public static native void logErrorNative(String errorMsg) /*-{
-        $wnd.console.log(errorMsg);
-    }-*/;
 
     private void bindGwtQuery() {
         $(localeSwitch).click(new Function() {
