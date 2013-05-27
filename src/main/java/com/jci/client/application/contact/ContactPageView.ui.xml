@@ -50,6 +50,26 @@
                     <a href="https://twitter.com/search/realtime?q=%23jciquebec2013&amp;src=hash" target="_blank">#jciquebec2013</a>.
 
                 </p>
+                <p>
+                    <b>
+                        <ui:msg description="About > JCI Quebec City">
+                            JCI Quebec City
+                        </ui:msg>
+                    </b>
+                    <br/>
+                    <a href="https://maps.google.ca/maps?q=4600,+Henri-Bourassa+BLVD,+suite+249+Quebec+QC+G1H+3A5&amp;hl=en">
+                        <ui:attribute name="href" description="Href > Maps JCCQ"/>
+                        <ui:msg description="JCCQ > Address">4600 Henri-Bourassa Blvd, suite 249, Quebec City (QC), G1H 3A5</ui:msg></a>
+                    <br/>
+                    Tel :
+                    <a href="tel:14186226937">418-622-6937</a>
+                    <br/>
+                    Fax :
+                    418-628-7777
+                    <br/>
+                    <a href="mailto:jccq@jccq.qc.ca">jccq@jccq.qc.ca</a>
+                    <br/>
+                </p>
                 <form>
                     <fieldset>
                         <label for="name">
@@ -338,7 +358,7 @@
                     </i>
                 </p>
                 <h2 class="{res.style.round}">
-                    <ui:msg description="Contact > FormaleventsLogistics">Formal events and Logistics</ui:msg>
+                    <ui:msg description="Contact > FormaleventsLogistics">Formal events and Registration</ui:msg>
                 </h2>
                 <p>
                     <span>Rudy Boutet</span>
@@ -387,7 +407,7 @@
                     </i>
                 </p>
                 <h2 class="{res.style.round}">
-                    <ui:msg description="Contact > RegistrationVip">Registration and VIP</ui:msg>
+                    <ui:msg description="Contact > RegistrationVip">Senators and VIP</ui:msg>
                 </h2>
                 <p class="{res.style.noBottomMargin}">
                     <span>Patrick Roberge</span>
