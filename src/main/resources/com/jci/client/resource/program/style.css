@@ -137,11 +137,23 @@
 
 .visioProgram .event > div > h2 {
     margin-top: 0;
+    background: #979797;
     background: rgba(0, 0, 0, 0.35);
     line-height: 20px;
     padding: 7px 8px;
     width: WIDTH_1_H2;
 }
+
+.visioProgram .event:hover > div > h2, .visioProgram .event:hover > div.tooltip span.excursions, .visioProgram .event:hover > div.tooltip h2 {
+    background: #7f7f7f;
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.visioProgram .event.active > div > h2, .visioProgram .event.active > div.tooltip span.excursions, .visioProgram .event.active > div.tooltip h2 {
+    background: #606060;
+    background: rgba(0, 0, 0, 0.35);
+}
+
 
 .visioProgram .event.w2 > div > h2 {
     width: WIDTH_2_H2;
@@ -162,6 +174,7 @@
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
+    background: #e4ebe8;
     background: rgba(215, 230, 245, 0.69);
     border: 1px solid rgba(215, 230, 245, 0.44);
     -webkit-box-shadow: 0px 2px 10px -1px rgba(50, 50, 50, 0.45);
@@ -185,76 +198,93 @@
 }
 
 .visioProgram .event:hover > div {
+    background: #c3ccd4;
     background: rgba(164, 177, 189, 0.66);
 }
 
 .visioProgram .event.active > div {
+    background: #a6b1bd;
     background: rgba(164, 177, 189, 1);
 }
 
     /*color*/
 .visioProgram .event.cBlue > div {
+    background: #bae2f5;
     background: rgba(181, 224, 245, 0.61);
     border: 1px solid rgba(181, 224, 245, 0.41);
 }
 
 .visioProgram .event.cBlue:hover > div {
+    background: #9acde7;
     background: rgba(95, 176, 217, 0.64);
 }
 
 .visioProgram .event.cBlue.active > div {
+    background: #60b1d9;
     background: rgba(95, 176, 217, 1);
 }
 
 .visioProgram .event.cGreen > div {
+    background: #b0f5d7;
     background: rgba(169, 245, 213, 0.62);
     border: 1px solid rgba(169, 245, 213, 0.42);
 }
 
 .visioProgram .event.cGreen:hover > div {
+    background: #9be6c6;
     background: rgba(102, 217, 169, 0.66);
 }
 
 .visioProgram .event.cGreen.active > div {
+    background: #66d9a9;
     background: rgba(102, 217, 169, 1);
 }
 
 .visioProgram .event.cRed > div {
+    background: #f7b6b2;
     background: rgba(245, 175, 169, 0.62);
     border: 1px solid rgba(245, 175, 169, 0.42);
 }
 
 .visioProgram .event.cRed:hover > div {
+    background: #e6aca7;
     background: rgba(217, 125, 117, 0.65);
 }
 
 .visioProgram .event.cRed.active > div {
+    background: #d97d75;
     background: rgba(217, 125, 117, 1);
 }
 
 .visioProgram .event.cYellow > div {
+    background: #f7ebb2;
     background: rgba(245, 232, 169, 0.61);
     border: 1px solid rgba(245, 232, 169, 0.41);
 }
 
 .visioProgram .event.cYellow:hover > div {
+    background: #e7dca8;
     background: rgba(217, 200, 117, 0.64);
 }
 
 .visioProgram .event.cYellow.active > div {
+    background: #d9c875;
     background: rgba(217, 200, 117, 1);
 }
 
 .visioProgram .event.cPurple > div {
+    background: #f7b2f7;
     background: rgba(245, 169, 245, 0.60);
     border: 1px solid rgba(245, 169, 245, 0.40);
 }
 
 .visioProgram .event.cPurple:hover > div {
+    background: #e7aae7;
     background: rgba(217, 117, 217, 0.62);
 }
 
 .visioProgram .event.cPurple.active > div {
+    background: #d975d9;
     background: rgb(217, 117, 217);
 }
 
@@ -902,6 +932,7 @@
     margin: 0;
     line-height: 20px;
     padding: 7px 8px;
+    background: #979797;
     background: rgba(0, 0, 0, 0.35);
 }
 
@@ -959,6 +990,7 @@
 }
 
 .visioProgram .event > div.tooltip span.excursions {
+    background: #979797;
     background: rgba(0, 0, 0, 0.35);
     display: block;
     line-height: 20px;
