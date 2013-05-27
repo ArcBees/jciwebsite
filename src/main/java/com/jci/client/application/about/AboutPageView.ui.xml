@@ -25,6 +25,7 @@
                         About JCI Canada
                     </ui:msg>
                 </h1>
+                <g:Image addStyleNames="{aboutRes.style.imgLogo}" resource="{aboutRes.jci_canada}" altText="JCI Canada Logo"/>
                 <p>
                     <ui:msg description="About > paragraph 1">
                         The Junior Chamber movement came into existence in Canada in 1923 with the formation of its first
@@ -167,7 +168,6 @@
                             www.jcicanada.com
                         </ui:msg></a>.
                 </p>
-                <g:Image addStyleNames="{aboutRes.style.imgLogo}" resource="{aboutRes.jci_canada}" altText="JCI Canada Logo"/>
             </div>
 
             <div ui:field="quebec" style="display: none">
@@ -176,6 +176,7 @@
                         About JCI Quebec City
                     </ui:msg>
                 </h1>
+                <g:Image addStyleNames="{aboutRes.style.imgLogo}" resource="{aboutRes.jccq}" altText="JCCQ Logo"/>
                 <p>
                     <ui:msg description="About > paragraph 10">
                         Established in 1987, JCI Quebec City was founded to provide the opportunity for young entrepreneurs
@@ -341,7 +342,6 @@
                             www.jccq.qc.ca
                         </ui:msg></a>.
                 </p>
-                <g:Image addStyleNames="{aboutRes.style.imgLogo}" resource="{aboutRes.jccq}" altText="JCCQ Logo"/>
             </div>
         </div>
     </g:HTMLPanel>
