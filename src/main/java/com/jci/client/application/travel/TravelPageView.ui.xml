@@ -238,6 +238,17 @@
                     </ui:msg>
                 </h2>
                 <p>
+                    <ui:msg description="Travel > Paragraph 5.01">
+                        Air Canada is the official airline for the Unlimited 2013 JCI National Convention. To book a flight, access
+                    </ui:msg>
+                    <a href="http://www.aircanada.com/en/home.html" target="_blank">
+                        <ui:attribute name="href" description="Href > AirCanada"/>
+                        www.aircanada.com</a>
+                    <ui:msg description="Travel > Paragraph 5.02">
+                        and enter the following code in the search panel: NCTBB4Y1.
+                    </ui:msg>
+                </p>
+                <p>
                     <ui:msg description="Travel > Paragraph 5.1">
                         Quebec City’s Jean Lesage International Airport (YQB)
                     </ui:msg>
