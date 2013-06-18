@@ -2,7 +2,7 @@
              xmlns:g='urn:import:com.google.gwt.user.client.ui'
              ui:generateFormat='com.google.gwt.i18n.rebind.format.PropertiesFormat'
              ui:generateKeys="com.google.gwt.i18n.server.keygen.MD5KeyGenerator"
-             ui:generateLocales='en'>
+             ui:generateLocales='default'>
     <ui:with field="res" type="com.jci.client.resource.CommonResource"/>
     <ui:with field="programRes" type="com.jci.client.resource.program.ProgramResource"/>
     <g:HTMLPanel>
@@ -445,8 +445,10 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training">Training</ui:msg>
-                                        1
+                                        <ui:msg description="Program > Content > Training > TechnologicalRevolution">
+                                            The Technological Revolution by
+                                        </ui:msg>
+                                        Sylvain Rochon
                                     </h2>
                                     <p>
                                         <b>Date:</b>
@@ -495,8 +497,8 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training">Training</ui:msg>
-                                        3
+                                        <ui:msg description="Program > Content > Training > PlaceJeunes">Place aux jeunes by</ui:msg>
+                                        Mathieu Vigneault
                                     </h2>
                                     <p>
                                         <b>Date:</b>
@@ -545,8 +547,8 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training">Training</ui:msg>
-                                        5
+                                        <ui:msg description="Program > Content > Training > EffectivePresentationPub">Effective Presentation/Pub Speaking Skills by</ui:msg>
+                                        Margie Hibbard
                                     </h2>
                                     <p>
                                         <b>Date:</b>
@@ -595,8 +597,8 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training">Training</ui:msg>
-                                        7
+                                        <ui:msg description="Program > Content > Training > MoneyTrees">Money Trees by</ui:msg>
+                                        Joey Hoechsmann
                                     </h2>
                                     <p>
                                         <b>Date:</b>
@@ -645,8 +647,8 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training">Training</ui:msg>
-                                        2
+                                        <ui:msg description="Program > Content > Training > JCIImpact">JCI Impact by</ui:msg>
+                                        <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
                                     </h2>
                                     <p>
                                         <b>Date:</b>
@@ -695,8 +697,8 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training">Training</ui:msg>
-                                        4
+                                        <ui:msg description="Program > Content > Training > TBDBy">To be determined by</ui:msg>
+                                        <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
                                     </h2>
                                     <p>
                                         <b>Date:</b>
@@ -745,8 +747,8 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training">Training</ui:msg>
-                                        6
+                                        <ui:msg description="Program > Content > Training > JCIAchieve">JCI Achieve by</ui:msg>
+                                        <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
                                     </h2>
                                     <p>
                                         <b>Date:</b>
@@ -795,8 +797,8 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training">Training</ui:msg>
-                                        8
+                                        <ui:msg description="Program > Content > Training > TBDBy">To be determined by</ui:msg>
+                                        <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
                                     </h2>
                                     <p>
                                         <b>Date:</b>
@@ -1799,8 +1801,10 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training">Training</ui:msg>
-                                        9
+                                        <ui:msg description="Program > Content > Training > BusinessStartupMagic">
+                                            Business Startup Magic by
+                                        </ui:msg>
+                                        Sylvain Rochon
                                     </h2>
                                     <p>
                                         <b>Date:</b>
@@ -1849,8 +1853,10 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training">Training</ui:msg>
-                                        11
+                                        <ui:msg description="Program > Content > Training > PositivePowerOf">
+                                            The Positive Power of Critical Thinking in the Workplace by
+                                        </ui:msg>
+                                        Jann Vandermeulen
                                     </h2>
                                     <p>
                                         <b>Date:</b>
@@ -1899,8 +1905,10 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training">Training</ui:msg>
-                                        10
+                                        <ui:msg description="Program > Content > Training > ThinkGreenPlantTree">
+                                            Think Green, Plant a Tree and Make Money by
+                                        </ui:msg>
+                                        Hernando Gomez
                                     </h2>
                                     <p>
                                         <b>Date:</b>
@@ -1949,8 +1957,8 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training">Training</ui:msg>
-                                        12
+                                        <ui:msg description="Program > Content > Training > TBDBy">To be determined by</ui:msg>
+                                        <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
                                     </h2>
                                     <p>
                                         <b>Date:</b>
@@ -3149,8 +3157,10 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training">Training</ui:msg>
-                                        13
+                                        <ui:msg description="Program > Content > Training > TransformativeThinking">
+                                            Transformative Thinking by
+                                        </ui:msg>
+                                        Sylvain Rochon
                                     </h2>
                                     <p>
                                         <b>Date:</b>
@@ -3199,8 +3209,10 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training">Training</ui:msg>
-                                        15
+                                        <ui:msg description="Program > Content > Training > TuneUpWorkLife">
+                                            Tune up your Work/Life Balance by
+                                        </ui:msg>
+                                        Jann Vandermeulen
                                     </h2>
                                     <p>
                                         <b>Date:</b>
@@ -3249,8 +3261,10 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training">Training</ui:msg>
-                                        14
+                                        <ui:msg description="Program > Content > Training > LanguageYouSpeak">
+                                            What language do you speak? by
+                                        </ui:msg>
+                                        Hernando Gomez
                                     </h2>
                                     <p>
                                         <b>Date:</b>
@@ -3299,8 +3313,8 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training">Training</ui:msg>
-                                        16
+                                        <ui:msg description="Program > Content > Training > TBDBy">To be determined by</ui:msg>
+                                        <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
                                     </h2>
                                     <p>
                                         <b>Date:</b>
