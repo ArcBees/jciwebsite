@@ -262,12 +262,21 @@ div.content {
     width: auto;
     background-position: 0 7px;
     padding-left: 14px;
+    padding-right: 10px;
 }
 
 .content ul.eventUl {
     margin-left: 20px;
     margin-bottom: 15px;
     margin-top: -15px;
+}
+
+.content ul.eventUl.noTopMargin {
+    margin-top: 0px;
+}
+
+.content ul.eventUl .noBottomMargin {
+    margin-bottom: 0px;
 }
 
 .actions {
@@ -285,4 +294,8 @@ html body .smallMarginTop {
 
 html body .noBottomMargin {
     margin-bottom: 0;
+}
+
+.bold{
+    font-weight: bold;
 }

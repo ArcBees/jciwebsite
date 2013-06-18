@@ -480,6 +480,41 @@
                                             Casual
                                         </ui:msg>
                                     </p>
+                                    <p>
+                                        <ui:msg description="Program > Content > Training > TechnologicalRevolution > p1">
+                                            Technology is changing so fast not only people aren’t ready with what is
+                                            being developed in laboratories around the world, but current
+                                            commercialization paradigms can’t keep up either. In order to build success
+                                            for the present and future, we must be able to plan with how the world will
+                                            change over the next 2, 5 or even 10 years. Being an entrepreneur means
+                                            attempting to be in front of the wave. How can you be if you don’t know
+                                            what’s coming?
+                                        </ui:msg>
+                                    </p>
+                                    <p class="{res.style.noBottomMargin} {res.style.bold}">
+                                        <ui:msg description="Program > Content > Training > Ui > Expectations">
+                                            After this session, the learner will be expected to:
+                                        </ui:msg>
+                                    </p>
+                                    <ul class="{res.style.eventUl} {res.style.noTopMargin}">
+                                        <li>
+                                            <ui:msg description="Program > Content > Training > TechnologicalRevolution > ul > li1">
+                                                Have a better understanding of trends in technology, how they will
+                                                impact our daily lives and how it will affect business in general
+                                            </ui:msg>
+                                        </li>
+                                        <li>
+                                            <ui:msg description="Program > Content > Training > TechnologicalRevolution > ul > li2">
+                                                Look at his/her current projects and career with fresh eyes
+                                            </ui:msg>
+                                        </li>
+                                        <li>
+                                            <ui:msg description="Program > Content > Training > TechnologicalRevolution > ul > li3">
+                                                Gain the ability to direct their professional path in line with the
+                                                technological trends
+                                            </ui:msg>
+                                        </li>
+                                    </ul>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
@@ -1347,9 +1382,9 @@
                                             </ui:msg>
                                         </b>
                                         <a id="cruise1" class="{programRes.style.excursionsActive}">•</a>
-                                        <a id="shopping1">◦</a>
-                                        <a id="tours1">◦</a>
-                                        <a id="beer1">◦</a>
+                                        <a id="shopping1">?</a>
+                                        <a id="tours1">?</a>
+                                        <a id="beer1">?</a>
                                     </span>
                                 </div>
                             </g:HTMLPanel>
@@ -1849,6 +1884,46 @@
                                             Casual
                                         </ui:msg>
                                     </p>
+                                    <p>
+                                        <ui:msg description="Program > Content > Training > BusinessStartupMagic > p1">
+                                            Business Startup Magic: how to take your idea from zero to success
+                                            without raising funds
+                                        </ui:msg>
+                                    </p>
+                                    <p>
+                                        <ui:msg description="Program > Content > Training > BusinessStartupMagic > p2">
+                                            An entrepreneur’s first instinct when starting their first venture is to
+                                            raise funds. The truth is, more than 91% of successful businesses
+                                            succeed without raising any funds. Why? Together, we’ll explore the
+                                            answer to this question by examining methods of getting a new business
+                                            started without any funds whatsoever. We’ll use some case studies to
+                                            illustrate.
+                                        </ui:msg>
+                                    </p>
+                                    <p class="{res.style.noBottomMargin} {res.style.bold}">
+                                        <ui:msg description="Program > Content > Training > Ui > Expectations">
+                                            After this session, the learner will be expected to:
+                                        </ui:msg>
+                                    </p>
+                                    <ul class="{res.style.eventUl} {res.style.noTopMargin}">
+                                        <li>
+                                            <ui:msg description="Program > Content > Training > BusinessStartupMagic > ul > li1">
+                                                Learn some tricks in starting new businesses with no funds
+                                            </ui:msg>
+                                        </li>
+                                        <li>
+                                            <ui:msg description="Program > Content > Training > BusinessStartupMagic > ul > li2">
+                                                Learn when funds can easily made available and beneficial for an
+                                                enterprise
+                                            </ui:msg>
+                                        </li>
+                                        <li>
+                                            <ui:msg description="Program > Content > Training > BusinessStartupMagic > ul > li3">
+                                                Identify ideas they may wish to capture as a business that will
+                                                generate revenues quickly
+                                            </ui:msg>
+                                        </li>
+                                    </ul>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
@@ -1901,6 +1976,42 @@
                                             Casual
                                         </ui:msg>
                                     </p>
+                                    <p>
+                                        <ui:msg description="Program > Content > Training > PositivePowerOf > p1">
+                                            The goal of this session is to understand what critical thinking is and how
+                                            it can help you make more objective decisions and defend them. Strong
+                                            critical thinking skills can help minimize decision-making biases and gain
+                                            credibility.
+                                        </ui:msg>
+                                    </p>
+                                    <p class="{res.style.noBottomMargin} {res.style.bold}">
+                                        <ui:msg description="Program > Content > Training > Ui > Expectations">
+                                            After this session, the learner will be expected to:
+                                        </ui:msg>
+                                    </p>
+                                    <ul class="{res.style.eventUl} {res.style.noTopMargin}">
+                                        <li>
+                                            <ui:msg description="Program > Content > Training > PositivePowerOf > ul > li1">
+                                                Define critical thinking and discuss its importance in work environments
+                                            </ui:msg>
+                                        </li>
+                                        <li>
+                                            <ui:msg description="Program > Content > Training > PositivePowerOf > ul > li2">
+                                                Prepare and explain the possible unconscious influences to our thinking
+                                            </ui:msg>
+                                        </li>
+                                        <li>
+                                            <ui:msg description="Program > Content > Training > PositivePowerOf > ul > li3">
+                                                Recognize statements that contain faulty arguments
+                                            </ui:msg>
+                                        </li>
+                                        <li>
+                                            <ui:msg description="Program > Content > Training > PositivePowerOf > ul > li4">
+                                                Apply critical thinking techniques to problem solving and decision
+                                                making
+                                            </ui:msg>
+                                        </li>
+                                    </ul>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
@@ -1952,7 +2063,42 @@
                                         <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
                                             Casual
                                         </ui:msg>
+
                                     </p>
+                                    <p>
+                                        <ui:msg description="Program > Content > Training > ThinkGreenPlantTree > p1">
+                                            You want to make a difference in this world, whether it’s through
+                                            community service, leading a team or making the world a better place to
+                                            live, you still have room to make a positive impact. Now you have the
+                                            opportunity to shape the world while making money. This seminar will
+                                            help you rethink the investment world in a green way. With a practical,
+                                            hands-on guide you’ll learn the smart way to become a socially
+                                            responsible investor while remaining true to your values. Let’s plant
+                                            some “trees” and relax while our money grows.
+                                        </ui:msg>
+                                    </p>
+                                    <p class="{res.style.noBottomMargin} {res.style.bold}">
+                                        <ui:msg description="Program > Content > Training > Ui > Expectations">
+                                            After this session, the learner will be expected to:
+                                        </ui:msg>
+                                    </p>
+                                    <ul class="{res.style.eventUl} {res.style.noTopMargin}">
+                                        <li>
+                                            <ui:msg description="Program > Content > Training > ThinkGreenPlantTree > ul > li1">
+                                                Find out ways to become an active socially responsible investor
+                                            </ui:msg>
+                                        </li>
+                                        <li>
+                                            <ui:msg description="Program > Content > Training > ThinkGreenPlantTree > ul > li2">
+                                                Learn how to invest in green sustainable opportunities
+                                            </ui:msg>
+                                        </li>
+                                        <li>
+                                            <ui:msg description="Program > Content > Training > ThinkGreenPlantTree > ul > li3">
+                                                Make your investment a new alternative for helping the planet
+                                            </ui:msg>
+                                        </li>
+                                    </ul>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
@@ -2497,9 +2643,9 @@
                                             </ui:msg>
                                         </b>
                                         <a id="cruise2" class="{programRes.style.excursionsActive}">•</a>
-                                        <a id="shopping2">◦</a>
-                                        <a id="tours2">◦</a>
-                                        <a id="karting2">◦</a>
+                                        <a id="shopping2">?</a>
+                                        <a id="tours2">?</a>
+                                        <a id="karting2">?</a>
                                     </span>
                                 </div>
                             </g:HTMLPanel>
@@ -2792,7 +2938,7 @@
                                             </ui:msg>
                                         </b>
                                         <a id="awardsp" class="{programRes.style.excursionsActive}">•</a>
-                                        <a id="awardslist">◦</a>
+                                        <a id="awardslist">?</a>
                                     </span>
                                 </div>
                             </g:HTMLPanel>
@@ -3207,6 +3353,44 @@
                                             Casual
                                         </ui:msg>
                                     </p>
+                                    <p>
+                                        <ui:msg description="Program > Content > Training > TransformativeThinking > p1">
+                                            Using your own thinking to change the world
+                                        </ui:msg>
+                                    </p>
+                                    <p>
+                                        <ui:msg description="Program > Content > Training > TransformativeThinking > p2">
+                                            The objective of this session is to train the attendees on how to create
+                                            success in our professional and personal lives through the power of our
+                                            brain. In order to do this, the attendee will learn to understand how the
+                                            brain works, how much we actually have control over what we think, how we
+                                            think, and ultimately how these impact how we live our lives. Ultimately,
+                                            the goal is to generate success through self-training techniques.
+                                        </ui:msg>
+                                    </p>
+                                    <p class="{res.style.noBottomMargin} {res.style.bold}">
+                                        <ui:msg description="Program > Content > Training > Ui > Expectations">
+                                            After this session, the learner will be expected to:
+                                        </ui:msg>
+                                    </p>
+                                    <ul class="{res.style.eventUl} {res.style.noTopMargin}">
+                                        <li>
+                                            <ui:msg description="Program > Content > Training > TransformativeThinking > ul > li1">
+                                                Understand the biological basics of learning and how the brain works
+                                            </ui:msg>
+                                        </li>
+                                        <li>
+                                            <ui:msg description="Program > Content > Training > TransformativeThinking > ul > li2">
+                                                Understand the impact of their own thinking on the world around them
+                                            </ui:msg>
+                                        </li>
+                                        <li>
+                                            <ui:msg description="Program > Content > Training > TransformativeThinking > ul > li3">
+                                                Become empowered and gain the ability to change how their perceive the
+                                                world
+                                            </ui:msg>
+                                        </li>
+                                    </ul>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
@@ -3259,6 +3443,37 @@
                                             Casual
                                         </ui:msg>
                                     </p>
+                                    <p>
+                                        <ui:msg description="Program > Content > Training > LanguageYouSpeak > p1">
+                                            The goal of this session is to help you identify, break down and cope with
+                                            possible stressors that affect the balance of your personal, family, work
+                                            and JCI life. Better stress management strategies can have a positive impact
+                                            on your physical health, relationships and work performance.
+                                        </ui:msg>
+                                    </p>
+                                    <p class="{res.style.noBottomMargin} {res.style.bold}">
+                                        <ui:msg description="Program > Content > Training > Ui > Expectations">
+                                            After this session, the learner will be expected to:
+                                        </ui:msg>
+                                    </p>
+                                    <ul class="{res.style.eventUl} {res.style.noTopMargin}">
+                                        <li>
+                                            <ui:msg description="Program > Content > Training > LanguageYouSpeak > ul > li1">
+                                                Define and explain stress
+                                            </ui:msg>
+                                        </li>
+                                        <li>
+                                            <ui:msg description="Program > Content > Training > LanguageYouSpeak > ul > li2">
+                                                Identify possible stressors at work that can affect the personal life
+                                                and vise versa
+                                            </ui:msg>
+                                        </li>
+                                        <li>
+                                            <ui:msg description="Program > Content > Training > LanguageYouSpeak > ul > li3">
+                                                List and apply techniques to help cope with stress
+                                            </ui:msg>
+                                        </li>
+                                    </ul>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
@@ -3311,6 +3526,46 @@
                                             Casual
                                         </ui:msg>
                                     </p>
+                                    <p>
+                                        <ui:msg description="Program > Content > Training > LanguageYouSpeak > p1">
+                                            Speaking the same language does not guarantee that we can communicate to
+                                            each other effectively. Success comes from more than just having an
+                                            expertise in a field or discipline.
+                                        </ui:msg>
+                                    </p>
+                                    <p>
+                                        <ui:msg description="Program > Content > Training > LanguageYouSpeak > p2">
+                                            It also comes from being able to express that expertise and to really
+                                            understand the needs of others. In modern era, ways to communicate have
+                                            increased exponentially. However, the essence of communication remains a
+                                            challenge. No matter what role you play in life, whether you’re a leader, a
+                                            team member, or a professional, effective and clear communication is
+                                            imperative to your success.
+                                        </ui:msg>
+                                    </p>
+                                    <p class="{res.style.noBottomMargin} {res.style.bold}">
+                                        <ui:msg description="Program > Content > Training > Ui > Expectations">
+                                            After this session, the learner will be expected to:
+                                        </ui:msg>
+                                    </p>
+                                    <ul class="{res.style.eventUl} {res.style.noTopMargin}">
+                                        <li>
+                                            <ui:msg description="Program > Content > Training > LanguageYouSpeak > ul > li1">
+                                                Learn key steps to communicate effectively
+                                            </ui:msg>
+                                        </li>
+                                        <li>
+                                            <ui:msg description="Program > Content > Training > LanguageYouSpeak > ul > li2">
+                                                Explore new ways to improve your verbal and non-verbal communication
+                                                skills
+                                            </ui:msg>
+                                        </li>
+                                        <li>
+                                            <ui:msg description="Program > Content > Training > LanguageYouSpeak > ul > li3">
+                                                Identify creative ways to use communication tools to solve conflicts
+                                            </ui:msg>
+                                        </li>
+                                    </ul>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
