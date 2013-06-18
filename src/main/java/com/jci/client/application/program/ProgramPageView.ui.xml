@@ -497,7 +497,9 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training > PlaceJeunes">Place aux jeunes by</ui:msg>
+                                        <ui:msg description="Program > Content > Training > PlaceJeunes">
+                                            Place aux jeunes by
+                                        </ui:msg>
                                         Mathieu Vigneault
                                     </h2>
                                     <p>
@@ -547,7 +549,9 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training > EffectivePresentationPub">Effective Presentation/Pub Speaking Skills by</ui:msg>
+                                        <ui:msg description="Program > Content > Training > EffectivePresentationPub">
+                                            Effective Presentation/Pub Speaking Skills by
+                                        </ui:msg>
                                         Margie Hibbard
                                     </h2>
                                     <p>
@@ -597,7 +601,9 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training > MoneyTrees">Money Trees by</ui:msg>
+                                        <ui:msg description="Program > Content > Training > MoneyTrees">
+                                            Money Trees by
+                                        </ui:msg>
                                         Joey Hoechsmann
                                     </h2>
                                     <p>
@@ -647,7 +653,8 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training > JCIImpact">JCI Impact by</ui:msg>
+                                        <ui:msg description="Program > Content > Training > JCIImpact">JCI Impact by
+                                        </ui:msg>
                                         <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
                                     </h2>
                                     <p>
@@ -697,7 +704,9 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training > TBDBy">To be determined by</ui:msg>
+                                        <ui:msg description="Program > Content > Training > TBDBy">
+                                            To be determined by
+                                        </ui:msg>
                                         <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
                                     </h2>
                                     <p>
@@ -747,7 +756,9 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training > JCIAchieve">JCI Achieve by</ui:msg>
+                                        <ui:msg description="Program > Content > Training > JCIAchieve">
+                                            JCI Achieve by
+                                        </ui:msg>
                                         <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
                                     </h2>
                                     <p>
@@ -797,7 +808,9 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training > TBDBy">To be determined by</ui:msg>
+                                        <ui:msg description="Program > Content > Training > TBDBy">
+                                            To be determined by
+                                        </ui:msg>
                                         <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
                                     </h2>
                                     <p>
@@ -1957,7 +1970,9 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training > TBDBy">To be determined by</ui:msg>
+                                        <ui:msg description="Program > Content > Training > TBDBy">
+                                            To be determined by
+                                        </ui:msg>
                                         <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
                                     </h2>
                                     <p>
@@ -3313,7 +3328,8 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training > TBDBy">To be determined by</ui:msg>
+                                        <ui:msg description="Program > Content > Training > TBDBy">To be determined by
+                                        </ui:msg>
                                         <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
                                     </h2>
                                     <p>
