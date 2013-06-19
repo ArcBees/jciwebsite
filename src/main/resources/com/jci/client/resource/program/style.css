@@ -930,6 +930,7 @@
     border-top-right-radius: 8px;
     width: WIDTH_3_H2;
     margin: 0;
+    margin-bottom: 5px;
     line-height: 20px;
     padding: 7px 8px;
     background: #979797;
@@ -937,7 +938,6 @@
 }
 
 .visioProgram .event > div.tooltip span b {
-    vertical-align: text-top;
 }
 
 .visioProgram .event > div.tooltip span.excursions a.excursionsActive {
