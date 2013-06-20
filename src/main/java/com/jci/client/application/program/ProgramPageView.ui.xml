@@ -1381,10 +1381,10 @@
                                             <ui:msg description="Program > Ui > OtherExcursions">Other excursions:
                                             </ui:msg>
                                         </b>
-                                        <a id="cruise1" class="{programRes.style.excursionsActive}">•</a>
-                                        <a id="shopping1">?</a>
-                                        <a id="tours1">?</a>
-                                        <a id="beer1">?</a>
+                                        <a id="cruise1" class="{programRes.style.excursionsActive}"/>
+                                        <a id="shopping1"/>
+                                        <a id="tours1"/>
+                                        <a id="beer1"/>
                                     </span>
                                 </div>
                             </g:HTMLPanel>
@@ -2642,10 +2642,10 @@
                                             <ui:msg description="Program > Ui > OtherExcursions">Other excursions:
                                             </ui:msg>
                                         </b>
-                                        <a id="cruise2" class="{programRes.style.excursionsActive}">•</a>
-                                        <a id="shopping2">?</a>
-                                        <a id="tours2">?</a>
-                                        <a id="karting2">?</a>
+                                        <a id="cruise2" class="{programRes.style.excursionsActive}"/>
+                                        <a id="shopping2"/>
+                                        <a id="tours2"/>
+                                        <a id="karting2"/>
                                     </span>
                                 </div>
                             </g:HTMLPanel>
@@ -2937,8 +2937,8 @@
                                             <ui:msg description="Program > Ui > Section">Other sections:
                                             </ui:msg>
                                         </b>
-                                        <a id="awardsp" class="{programRes.style.excursionsActive}">•</a>
-                                        <a id="awardslist">?</a>
+                                        <a id="awardsp" class="{programRes.style.excursionsActive}"/>
+                                        <a id="awardslist"/>
                                     </span>
                                 </div>
                             </g:HTMLPanel>
@@ -4145,11 +4145,11 @@
                                             <ui:msg description="Program > Ui > OtherExcursions">Other excursions:
                                             </ui:msg>
                                         </b>
-                                        <a id="cruise3" class="{programRes.style.excursionsActive}">•</a>
-                                        <a id="shopping3">◦</a>
-                                        <a id="karting3">◦</a>
-                                        <a id="arbraska3">◦</a>
-                                        <a id="ferrari3">◦</a>
+                                        <a id="cruise3" class="{programRes.style.excursionsActive}"/>
+                                        <a id="shopping3"/>
+                                        <a id="karting3"/>
+                                        <a id="arbraska3"/>
+                                        <a id="ferrari3"/>
                                     </span>
                                 </div>
                             </g:HTMLPanel>

@@ -172,11 +172,9 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
         $("." + excursionStyleNameProgram + " a", excursion1).click(new Function() {
             @Override
             public void f(Element e) {
-                $("." + activeExcursionStyleNameProgram, excursion1).text("◦");
                 $("." + activeExcursionStyleNameProgram, excursion1).removeClass(activeExcursionStyleNameProgram);
                 $("span", excursionDiv1).hide();
                 $("#" + e.getId() + "Div").show();
-                $(e).text("•");
                 $(e).addClass(activeExcursionStyleNameProgram);
             }
         });
@@ -185,11 +183,9 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
         $("." + excursionStyleNameProgram + " a", excursion2).click(new Function() {
             @Override
             public void f(Element e) {
-                $("." + activeExcursionStyleNameProgram, excursion2).text("◦");
                 $("." + activeExcursionStyleNameProgram, excursion2).removeClass(activeExcursionStyleNameProgram);
                 $("span", excursionDiv2).hide();
                 $("#" + e.getId() + "Div").show();
-                $(e).text("•");
                 $(e).addClass(activeExcursionStyleNameProgram);
             }
         });
@@ -198,11 +194,9 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
         $("." + excursionStyleNameProgram + " a", excursion3).click(new Function() {
             @Override
             public void f(Element e) {
-                $("." + activeExcursionStyleNameProgram, excursion3).text("◦");
                 $("." + activeExcursionStyleNameProgram, excursion3).removeClass(activeExcursionStyleNameProgram);
                 $("span", excursionDiv3).hide();
                 $("#" + e.getId() + "Div").show();
-                $(e).text("•");
                 $(e).addClass(activeExcursionStyleNameProgram);
             }
         });
@@ -211,11 +205,9 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
         $("." + excursionStyleNameProgram + " a", awardsNight).click(new Function() {
             @Override
             public void f(Element e) {
-                $("." + activeExcursionStyleNameProgram, awardsNight).text("◦");
                 $("." + activeExcursionStyleNameProgram, awardsNight).removeClass(activeExcursionStyleNameProgram);
                 $("span", awardsNightDiv).hide();
                 $("#" + e.getId() + "Div").show();
-                $(e).text("•");
                 $(e).addClass(activeExcursionStyleNameProgram);
             }
         });
