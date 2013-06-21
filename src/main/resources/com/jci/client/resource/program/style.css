@@ -154,7 +154,6 @@
     background: rgba(0, 0, 0, 0.35);
 }
 
-
 .visioProgram .event.w2 > div > h2 {
     width: WIDTH_2_H2;
 }
@@ -930,6 +929,7 @@
     border-top-right-radius: 8px;
     width: WIDTH_3_H2;
     margin: 0;
+    margin-bottom: 5px;
     line-height: 20px;
     padding: 7px 8px;
     background: #979797;
@@ -937,24 +937,19 @@
 }
 
 .visioProgram .event > div.tooltip span b {
-    vertical-align: text-top;
 }
 
-.visioProgram .event > div.tooltip span.excursions a.excursionsActive {
-    font-size: 15px;
+@sprite .visioProgram .event > div.tooltip span.excursions a.excursionsActive, .visioProgram .event > div.tooltip span.excursions a:hover {
+    gwt-image: "btn_exc_up";
+}
+
+@sprite .visioProgram .event > div.tooltip span.excursions a {
     line-height: 16px;
-    vertical-align: middle;
-}
-
-.visioProgram .event > div.tooltip span.excursions a {
-    font-weight: bold;
+    height: 10px;
+    width: 10px;
     cursor: pointer;
-    color: #ffffff;
-    color: rgba(255, 255, 255, 0.95);
-    font-size: 30px;
     display: inline-block;
-    line-height: 16px;
-    vertical-align: sub;
+    gwt-image: "btn_exc_dn";
 }
 
 .visioProgram .event > div.tooltip span b a:hover {
