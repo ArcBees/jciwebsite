@@ -197,6 +197,10 @@ public interface ProgramResource extends ClientBundle {
 
     ImageResource img_excursionFerrari_2();
 
+    ImageResource btn_exc_dn();
+
+    ImageResource btn_exc_up();
+
     @CssResource.NotStrict
     Style style();
 }
