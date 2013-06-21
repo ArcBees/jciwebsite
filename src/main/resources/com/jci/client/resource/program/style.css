@@ -939,7 +939,7 @@
 .visioProgram .event > div.tooltip span b {
 }
 
-@sprite .visioProgram .event > div.tooltip span.excursions a.excursionsActive,  .visioProgram .event > div.tooltip span.excursions a:hover {
+@sprite .visioProgram .event > div.tooltip span.excursions a.excursionsActive, .visioProgram .event > div.tooltip span.excursions a:hover {
     gwt-image: "btn_exc_up";
 }
 
