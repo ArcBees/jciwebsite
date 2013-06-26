@@ -442,79 +442,135 @@
                                         <ui:msg description="Program > Ui > Hours > 10:15">10:15</ui:msg>
                                     </p>
                                 </div>
-                                <div class="{programRes.style.tooltip}">
-                                    <span class="{programRes.style.arrow}"/>
-                                    <h2>
-                                        <ui:msg description="Program > Content > Training > TechnologicalRevolution">
-                                            The Technological Revolution by
-                                        </ui:msg>
-                                        Sylvain Rochon
-                                    </h2>
-                                    <p>
-                                        <b>Date:</b>
-                                        <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
-                                        </ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > Hours > 9h00">9:00 am</ui:msg>
-                                        -
-                                        <ui:msg description="Program > Ui > Hours > 10h15">10:15 am</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
-                                        </b>
-                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                        G
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
-                                            Casual
-                                        </ui:msg>
-                                    </p>
-                                    <p>
-                                        <ui:msg description="Program > Content > Training > TechnologicalRevolution > p1">
-                                            Technology is changing so fast not only people aren’t ready with what is
-                                            being developed in laboratories around the world, but current
-                                            commercialization paradigms can’t keep up either. In order to build success
-                                            for the present and future, we must be able to plan with how the world will
-                                            change over the next 2, 5 or even 10 years. Being an entrepreneur means
-                                            attempting to be in front of the wave. How can you be if you don’t know
-                                            what’s coming?
-                                        </ui:msg>
-                                    </p>
-                                    <p class="{res.style.noBottomMargin} {res.style.bold}">
-                                        <ui:msg description="Program > Content > Training > Ui > Expectations">
-                                            After this session, the learner will be expected to:
-                                        </ui:msg>
-                                    </p>
-                                    <ul class="{res.style.eventUl} {res.style.noTopMargin}">
-                                        <li>
-                                            <ui:msg description="Program > Content > Training > TechnologicalRevolution > ul > li1">
-                                                Have a better understanding of trends in technology, how they will
-                                                impact our daily lives and how it will affect business in general
+                                <div class="{programRes.style.tooltip} {programRes.style.pagerContainer}">
+                                    <div class="{programRes.style.pagerCommons}">
+                                        <span class="{programRes.style.arrow}"/>
+                                        <h2>
+                                            <ui:msg description="Program > Content > Training > TechnologicalRevolution">
+                                                The Technological Revolution by
                                             </ui:msg>
-                                        </li>
-                                        <li>
-                                            <ui:msg description="Program > Content > Training > TechnologicalRevolution > ul > li2">
-                                                Look at his/her current projects and career with fresh eyes
+                                            Sylvain Rochon
+                                        </h2>
+                                        <p>
+                                            <b>Date:</b>
+                                            <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19,
+                                                2013
                                             </ui:msg>
-                                        </li>
-                                        <li>
-                                            <ui:msg description="Program > Content > Training > TechnologicalRevolution > ul > li3">
-                                                Gain the ability to direct their professional path in line with the
-                                                technological trends
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Time">Time:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > Hours > 9h00">9:00 am</ui:msg>
+                                            -
+                                            <ui:msg description="Program > Ui > Hours > 10h15">10:15 am</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Room">Room</ui:msg>:
+                                            </b>
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
+                                            G
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                                Casual
                                             </ui:msg>
-                                        </li>
-                                    </ul>
+                                        </p>
+                                    </div>
+                                    <div class="{programRes.style.pagerDivContainer}">
+                                        <div class="{programRes.style.pagerDiv}">
+                                            <p>
+                                                <ui:msg description="Program > Content > Training > TechnologicalRevolution > p1">
+                                                    Technology is changing so fast not only people aren’t ready with
+                                                    what is
+                                                    being developed in laboratories around the world, but current
+                                                    commercialization paradigms can’t keep up either. In order to build
+                                                    success
+                                                    for the present and future, we must be able to plan with how the
+                                                    world
+                                                    will
+                                                    change over the next 2, 5 or even 10 years. Being an entrepreneur
+                                                    means
+                                                    attempting to be in front of the wave. How can you be if you don’t
+                                                    know
+                                                    what’s coming?
+                                                </ui:msg>
+                                            </p>
+                                            <p class="{res.style.noBottomMargin} {res.style.bold}">
+                                                <ui:msg description="Program > Content > Training > Ui > Expectations">
+                                                    After this session, the learner will be expected to:
+                                                </ui:msg>
+                                            </p>
+                                            <ul class="{res.style.eventUl} {res.style.noTopMargin}">
+                                                <li>
+                                                    <ui:msg description="Program > Content > Training > TechnologicalRevolution > ul > li1">
+                                                        Have a better understanding of trends in technology, how they
+                                                        will
+                                                        impact our daily lives and how it will affect business in
+                                                        general
+                                                    </ui:msg>
+                                                </li>
+                                                <li>
+                                                    <ui:msg description="Program > Content > Training > TechnologicalRevolution > ul > li2">
+                                                        Look at his/her current projects and career with fresh eyes
+                                                    </ui:msg>
+                                                </li>
+                                                <li>
+                                                    <ui:msg description="Program > Content > Training > TechnologicalRevolution > ul > li3">
+                                                        Gain the ability to direct their professional path in line with
+                                                        the
+                                                        technological trends
+                                                    </ui:msg>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Sylvain Rochon > p1">
+                                                    Sylvain Rochon is a bachelor’s degree graduate in Biochemistry,
+                                                    Chemical Engineering and Education from the University of Ottawa
+                                                    who, 10 years ago, has turned to entrepreneurship in order to help
+                                                    change
+                                                    the world for the better.
+                                                </ui:msg>
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Sylvain Rochon > p2">
+                                                    In 2005, Sylvain started Sylien Games, an online multiplayer games
+                                                    development (web and smartdevice games) corporation, and since then
+                                                    it has grown from zero to 142 titles published on multiple
+                                                    platforms.
+                                                </ui:msg>
+
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Sylvain Rochon > p3">
+                                                    An avid entrepreneur with 15 years’ experience consulting and
+                                                    teaching on emotional intelligence, the future, and
+                                                    entrepreneurship, Sylvain has helped many young entrepreneurs
+                                                    successfully start their own businesses by developing the
+                                                    individuals into masters of their ownself. Sylvain also sits on
+                                                    multiple advisory boards such as the Interactive Multimedia &amp;
+                                                    Design program at University Carleton and Algonquin College, The
+                                                    Ottawa Network (10 000+ members) and JCI Ottawa.
+                                                </ui:msg>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="{programRes.style.pagerButtonContainer}">
+                                        <b>
+                                            <ui:msg description="Program > Ui > MoreInfo">More informations:
+                                            </ui:msg>
+                                        </b>
+                                        <a class="{programRes.style.pagerButton} {programRes.style.pagerButtonActive}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                    </div>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
@@ -1141,10 +1197,10 @@
                                         <ui:msg description="Program > Ui > Hours > 16:30">4:30</ui:msg>
                                     </p>
                                 </div>
-                                <div ui:field="excursion1" class="{programRes.style.tooltip}">
+                                <div class="{programRes.style.tooltip} {programRes.style.pagerContainer}">
                                     <span class="{programRes.style.arrow}"/>
-                                    <span ui:field="excursionDiv1">
-                                        <span id="cruise1Div">
+                                    <div class="{programRes.style.pagerDivContainer}">
+                                        <div class="{programRes.style.pagerDiv}">
                                             <h2>
                                                 <ui:msg description="Program > Excursions > BoatCruise > Title">Boat
                                                     Cruise
@@ -1209,8 +1265,8 @@
                                                     www.croisieresaml.com
                                                 </a>
                                             </p>
-                                        </span>
-                                        <span id="shopping1Div" style="display: none">
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <h2>
                                                 <ui:msg description="Program > Excursions > Shopping > Title">Shopping
                                                 </ui:msg>
@@ -1264,8 +1320,8 @@
                                                     www.laurierquebec.com
                                                 </a>
                                             </p>
-                                        </span>
-                                        <span id="tours1Div" style="display: none">
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <h2>
                                                 <ui:msg description="Program > Excursions > Tours > Title">Guided Tour
                                                 </ui:msg>
@@ -1320,8 +1376,8 @@
                                                     this 400 years old town.
                                                 </ui:msg>
                                             </p>
-                                        </span>
-                                        <span id="beer1Div" style="display: none">
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <h2>
                                                 <ui:msg description="Program > Excursions > Beers > Title">Beer and
                                                     cheese tasting
@@ -1374,18 +1430,18 @@
                                                     www.labarberie.com
                                                 </a>
                                             </p>
-                                        </span>
-                                    </span>
-                                    <span class="{programRes.style.excursions}">
+                                        </div>
+                                    </div>
+                                    <div class="{programRes.style.pagerButtonContainer}">
                                         <b>
                                             <ui:msg description="Program > Ui > OtherExcursions">Other excursions:
                                             </ui:msg>
                                         </b>
-                                        <a id="cruise1" class="{programRes.style.excursionsActive}"/>
-                                        <a id="shopping1"/>
-                                        <a id="tours1"/>
-                                        <a id="beer1"/>
-                                    </span>
+                                        <a class="{programRes.style.pagerButton} {programRes.style.pagerButtonActive}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                    </div>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
@@ -1846,84 +1902,133 @@
                                         <ui:msg description="Program > Ui > Hours > 10:15">10:15</ui:msg>
                                     </p>
                                 </div>
-                                <div class="{programRes.style.tooltip}">
-                                    <span class="{programRes.style.arrow}"/>
-                                    <h2>
-                                        <ui:msg description="Program > Content > Training > BusinessStartupMagic">
-                                            Business Startup Magic by
-                                        </ui:msg>
-                                        Sylvain Rochon
-                                    </h2>
-                                    <p>
-                                        <b>Date:</b>
-                                        <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
-                                        </ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > Hours > 9h00">9:00 am</ui:msg>
-                                        -
-                                        <ui:msg description="Program > Ui > Hours > 10h15">10:15 am</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
-                                        </b>
-                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                        G
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
-                                            Casual
-                                        </ui:msg>
-                                    </p>
-                                    <p>
-                                        <ui:msg description="Program > Content > Training > BusinessStartupMagic > p1">
-                                            Business Startup Magic: how to take your idea from zero to success
-                                            without raising funds
-                                        </ui:msg>
-                                    </p>
-                                    <p>
-                                        <ui:msg description="Program > Content > Training > BusinessStartupMagic > p2">
-                                            An entrepreneur’s first instinct when starting their first venture is to
-                                            raise funds. The truth is, more than 91% of successful businesses
-                                            succeed without raising any funds. Why? Together, we’ll explore the
-                                            answer to this question by examining methods of getting a new business
-                                            started without any funds whatsoever. We’ll use some case studies to
-                                            illustrate.
-                                        </ui:msg>
-                                    </p>
-                                    <p class="{res.style.noBottomMargin} {res.style.bold}">
-                                        <ui:msg description="Program > Content > Training > Ui > Expectations">
-                                            After this session, the learner will be expected to:
-                                        </ui:msg>
-                                    </p>
-                                    <ul class="{res.style.eventUl} {res.style.noTopMargin}">
-                                        <li>
-                                            <ui:msg description="Program > Content > Training > BusinessStartupMagic > ul > li1">
-                                                Learn some tricks in starting new businesses with no funds
+                                <div class="{programRes.style.tooltip} {programRes.style.pagerContainer}">
+                                    <div class="{programRes.style.pagerCommons}">
+                                        <span class="{programRes.style.arrow}"/>
+                                        <h2>
+                                            <ui:msg description="Program > Content > Training > BusinessStartupMagic">
+                                                Business Startup Magic by
                                             </ui:msg>
-                                        </li>
-                                        <li>
-                                            <ui:msg description="Program > Content > Training > BusinessStartupMagic > ul > li2">
-                                                Learn when funds can easily made available and beneficial for an
-                                                enterprise
+                                            Sylvain Rochon
+                                        </h2>
+                                        <p>
+                                            <b>Date:</b>
+                                            <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20,
+                                                2013
                                             </ui:msg>
-                                        </li>
-                                        <li>
-                                            <ui:msg description="Program > Content > Training > BusinessStartupMagic > ul > li3">
-                                                Identify ideas they may wish to capture as a business that will
-                                                generate revenues quickly
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Time">Time:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > Hours > 9h00">9:00 am</ui:msg>
+                                            -
+                                            <ui:msg description="Program > Ui > Hours > 10h15">10:15 am</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Room">Room</ui:msg>:
+                                            </b>
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
+                                            G
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                                Casual
                                             </ui:msg>
-                                        </li>
-                                    </ul>
+                                        </p>
+                                    </div>
+                                    <div class="{programRes.style.pagerDivContainer}">
+                                        <div class="{programRes.style.pagerDiv}">
+                                            <p>
+                                                <ui:msg description="Program > Content > Training > BusinessStartupMagic > p1">
+                                                    Business Startup Magic: how to take your idea from zero to success
+                                                    without raising funds
+                                                </ui:msg>
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Training > BusinessStartupMagic > p2">
+                                                    An entrepreneur’s first instinct when starting their first venture
+                                                    is to
+                                                    raise funds. The truth is, more than 91% of successful businesses
+                                                    succeed without raising any funds. Why? Together, we’ll explore the
+                                                    answer to this question by examining methods of getting a new
+                                                    business
+                                                    started without any funds whatsoever. We’ll use some case studies to
+                                                    illustrate.
+                                                </ui:msg>
+                                            </p>
+                                            <p class="{res.style.noBottomMargin} {res.style.bold}">
+                                                <ui:msg description="Program > Content > Training > Ui > Expectations">
+                                                    After this session, the learner will be expected to:
+                                                </ui:msg>
+                                            </p>
+                                            <ul class="{res.style.eventUl} {res.style.noTopMargin}">
+                                                <li>
+                                                    <ui:msg description="Program > Content > Training > BusinessStartupMagic > ul > li1">
+                                                        Learn some tricks in starting new businesses with no funds
+                                                    </ui:msg>
+                                                </li>
+                                                <li>
+                                                    <ui:msg description="Program > Content > Training > BusinessStartupMagic > ul > li2">
+                                                        Learn when funds can easily made available and beneficial for an
+                                                        enterprise
+                                                    </ui:msg>
+                                                </li>
+                                                <li>
+                                                    <ui:msg description="Program > Content > Training > BusinessStartupMagic > ul > li3">
+                                                        Identify ideas they may wish to capture as a business that will
+                                                        generate revenues quickly
+                                                    </ui:msg>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Sylvain Rochon > p1">
+                                                    Sylvain Rochon is a bachelor’s degree graduate in Biochemistry,
+                                                    Chemical Engineering and Education from the University of Ottawa
+                                                    who, 10 years ago, has turned to entrepreneurship in order to help
+                                                    change
+                                                    the world for the better.
+                                                </ui:msg>
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Sylvain Rochon > p2">
+                                                    In 2005, Sylvain started Sylien Games, an online multiplayer games
+                                                    development (web and smartdevice games) corporation, and since then
+                                                    it has grown from zero to 142 titles published on multiple
+                                                    platforms.
+                                                </ui:msg>
+
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Sylvain Rochon > p3">
+                                                    An avid entrepreneur with 15 years’ experience consulting and
+                                                    teaching on emotional intelligence, the future, and
+                                                    entrepreneurship, Sylvain has helped many young entrepreneurs
+                                                    successfully start their own businesses by developing the
+                                                    individuals into masters of their ownself. Sylvain also sits on
+                                                    multiple advisory boards such as the Interactive Multimedia &amp;
+                                                    Design program at University Carleton and Algonquin College, The
+                                                    Ottawa Network (10 000+ members) and JCI Ottawa.
+                                                </ui:msg>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="{programRes.style.pagerButtonContainer}">
+                                        <b>
+                                            <ui:msg description="Program > Ui > MoreInfo">More informations:
+                                            </ui:msg>
+                                        </b>
+                                        <a class="{programRes.style.pagerButton} {programRes.style.pagerButtonActive}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                    </div>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
@@ -1938,80 +2043,118 @@
                                         <ui:msg description="Program > Ui > Hours > 11:45">11:45</ui:msg>
                                     </p>
                                 </div>
-                                <div class="{programRes.style.tooltip}">
-                                    <span class="{programRes.style.arrow}"/>
-                                    <h2>
-                                        <ui:msg description="Program > Content > Training > PositivePowerOf">
-                                            The Positive Power of Critical Thinking in the Workplace by
-                                        </ui:msg>
-                                        Jann Vandermeulen
-                                    </h2>
-                                    <p>
-                                        <b>Date:</b>
-                                        <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
-                                        </ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > Hours > 10h30">10:30 am</ui:msg>
-                                        -
-                                        <ui:msg description="Program > Ui > Hours > 11h45">11:45 am</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
-                                        </b>
-                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                        G
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
-                                            Casual
-                                        </ui:msg>
-                                    </p>
-                                    <p>
-                                        <ui:msg description="Program > Content > Training > PositivePowerOf > p1">
-                                            The goal of this session is to understand what critical thinking is and how
-                                            it can help you make more objective decisions and defend them. Strong
-                                            critical thinking skills can help minimize decision-making biases and gain
-                                            credibility.
-                                        </ui:msg>
-                                    </p>
-                                    <p class="{res.style.noBottomMargin} {res.style.bold}">
-                                        <ui:msg description="Program > Content > Training > Ui > Expectations">
-                                            After this session, the learner will be expected to:
-                                        </ui:msg>
-                                    </p>
-                                    <ul class="{res.style.eventUl} {res.style.noTopMargin}">
-                                        <li>
-                                            <ui:msg description="Program > Content > Training > PositivePowerOf > ul > li1">
-                                                Define critical thinking and discuss its importance in work environments
+                                <div class="{programRes.style.tooltip} {programRes.style.pagerContainer}">
+                                    <div class="{programRes.style.pagerCommons}">
+                                        <span class="{programRes.style.arrow}"/>
+                                        <h2>
+                                            <ui:msg description="Program > Content > Training > PositivePowerOf">
+                                                The Positive Power of Critical Thinking in the Workplace by
                                             </ui:msg>
-                                        </li>
-                                        <li>
-                                            <ui:msg description="Program > Content > Training > PositivePowerOf > ul > li2">
-                                                Prepare and explain the possible unconscious influences to our thinking
+                                            Jann Vandermeulen
+                                        </h2>
+                                        <p>
+                                            <b>Date:</b>
+                                            <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20,
+                                                2013
                                             </ui:msg>
-                                        </li>
-                                        <li>
-                                            <ui:msg description="Program > Content > Training > PositivePowerOf > ul > li3">
-                                                Recognize statements that contain faulty arguments
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Time">Time:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > Hours > 10h30">10:30 am</ui:msg>
+                                            -
+                                            <ui:msg description="Program > Ui > Hours > 11h45">11:45 am</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Room">Room</ui:msg>:
+                                            </b>
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
+                                            G
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                                Casual
                                             </ui:msg>
-                                        </li>
-                                        <li>
-                                            <ui:msg description="Program > Content > Training > PositivePowerOf > ul > li4">
-                                                Apply critical thinking techniques to problem solving and decision
-                                                making
+                                        </p>
+                                    </div>
+                                    <div class="{programRes.style.pagerDivContainer}">
+                                        <div class="{programRes.style.pagerDiv}">
+                                            <p>
+                                                <ui:msg description="Program > Content > Training > PositivePowerOf > p1">
+                                                    The goal of this session is to understand what critical thinking is
+                                                    and how it can help you make more objective decisions and defend
+                                                    them. Strong critical thinking skills can help minimize
+                                                    decision-making biases and gain credibility.
+                                                </ui:msg>
+                                            </p>
+                                            <p class="{res.style.noBottomMargin} {res.style.bold}">
+                                                <ui:msg description="Program > Content > Training > Ui > Expectations">
+                                                    After this session, the learner will be expected to:
+                                                </ui:msg>
+                                            </p>
+                                            <ul class="{res.style.eventUl} {res.style.noTopMargin}">
+                                                <li>
+                                                    <ui:msg description="Program > Content > Training > PositivePowerOf > ul > li1">
+                                                        Define critical thinking and discuss its importance in work
+                                                        environments
+                                                    </ui:msg>
+                                                </li>
+                                                <li>
+                                                    <ui:msg description="Program > Content > Training > PositivePowerOf > ul > li2">
+                                                        Prepare and explain the possible unconscious influences to our
+                                                        thinking
+                                                    </ui:msg>
+                                                </li>
+                                                <li>
+                                                    <ui:msg description="Program > Content > Training > PositivePowerOf > ul > li3">
+                                                        Recognize statements that contain faulty arguments
+                                                    </ui:msg>
+                                                </li>
+                                                <li>
+                                                    <ui:msg description="Program > Content > Training > PositivePowerOf > ul > li4">
+                                                        Apply critical thinking techniques to problem solving and
+                                                        decision making
+                                                    </ui:msg>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Jann Vandermeulen > p1">
+                                                    Jann Vandermeulen, M.A., (C)OACCPP, CTP is a bilingual
+                                                    (English/French) cognitive behavioural therapist who has worked with
+                                                    over 5 000 clients.
+                                                </ui:msg>
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Jann Vandermeulen > p2">
+                                                    He earned his Master of Arts in Forensic Psychology from the John
+                                                    Jay College of Criminal Justice at the City University of New York
+                                                    and his Bachelor of Arts from Bishop’s University. He is a Certified
+                                                    Member of the Ontario Association of Consultants Counsellors
+                                                    Psychometrists and Psychotherapists, a Certified Training
+                                                    Practitioner with the Canadian Society for Training and Development
+                                                    and a member of the Academy of Cognitive Therapy. Jann is also a
+                                                    Past President of JCI Toronto and JCI Central Region.
+                                                </ui:msg>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="{programRes.style.pagerButtonContainer}">
+                                        <b>
+                                            <ui:msg description="Program > Ui > MoreInfo">More informations:
                                             </ui:msg>
-                                        </li>
-                                    </ul>
+                                        </b>
+                                        <a class="{programRes.style.pagerButton} {programRes.style.pagerButtonActive}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                    </div>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
@@ -2026,79 +2169,138 @@
                                         <ui:msg description="Program > Ui > Hours > 10:15">10:15</ui:msg>
                                     </p>
                                 </div>
-                                <div class="{programRes.style.tooltip}">
-                                    <span class="{programRes.style.arrow}"/>
-                                    <h2>
-                                        <ui:msg description="Program > Content > Training > ThinkGreenPlantTree">
-                                            Think Green, Plant a Tree and Make Money by
-                                        </ui:msg>
-                                        Hernando Gomez
-                                    </h2>
-                                    <p>
-                                        <b>Date:</b>
-                                        <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
-                                        </ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > Hours > 9h00">9:00 am</ui:msg>
-                                        -
-                                        <ui:msg description="Program > Ui > Hours > 10h15">10:15 am</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
-                                        </b>
-                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                        H
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
-                                            Casual
-                                        </ui:msg>
-
-                                    </p>
-                                    <p>
-                                        <ui:msg description="Program > Content > Training > ThinkGreenPlantTree > p1">
-                                            You want to make a difference in this world, whether it’s through
-                                            community service, leading a team or making the world a better place to
-                                            live, you still have room to make a positive impact. Now you have the
-                                            opportunity to shape the world while making money. This seminar will
-                                            help you rethink the investment world in a green way. With a practical,
-                                            hands-on guide you’ll learn the smart way to become a socially
-                                            responsible investor while remaining true to your values. Let’s plant
-                                            some “trees” and relax while our money grows.
-                                        </ui:msg>
-                                    </p>
-                                    <p class="{res.style.noBottomMargin} {res.style.bold}">
-                                        <ui:msg description="Program > Content > Training > Ui > Expectations">
-                                            After this session, the learner will be expected to:
-                                        </ui:msg>
-                                    </p>
-                                    <ul class="{res.style.eventUl} {res.style.noTopMargin}">
-                                        <li>
-                                            <ui:msg description="Program > Content > Training > ThinkGreenPlantTree > ul > li1">
-                                                Find out ways to become an active socially responsible investor
+                                <div class="{programRes.style.tooltip} {programRes.style.pagerContainer}">
+                                    <div class="{programRes.style.pagerCommons}">
+                                        <span class="{programRes.style.arrow}"/>
+                                        <h2>
+                                            <ui:msg description="Program > Content > Training > ThinkGreenPlantTree">
+                                                Think Green, Plant a Tree and Make Money by
                                             </ui:msg>
-                                        </li>
-                                        <li>
-                                            <ui:msg description="Program > Content > Training > ThinkGreenPlantTree > ul > li2">
-                                                Learn how to invest in green sustainable opportunities
+                                            Hernando Gomez
+                                        </h2>
+                                        <p>
+                                            <b>Date:</b>
+                                            <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20,
+                                                2013
                                             </ui:msg>
-                                        </li>
-                                        <li>
-                                            <ui:msg description="Program > Content > Training > ThinkGreenPlantTree > ul > li3">
-                                                Make your investment a new alternative for helping the planet
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Time">Time:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > Hours > 9h00">9:00 am</ui:msg>
+                                            -
+                                            <ui:msg description="Program > Ui > Hours > 10h15">10:15 am</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Room">Room</ui:msg>:
+                                            </b>
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
+                                            H
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                                Casual
                                             </ui:msg>
-                                        </li>
-                                    </ul>
+                                        </p>
+                                    </div>
+                                    <div class="{programRes.style.pagerDivContainer}">
+                                        <div class="{programRes.style.pagerDiv}">
+                                            <p>
+                                                <ui:msg description="Program > Content > Training > ThinkGreenPlantTree > p1">
+                                                    You want to make a difference in this world, whether it’s through
+                                                    community service, leading a team or making the world a better place
+                                                    to live, you still have room to make a positive impact. Now you have
+                                                    the opportunity to shape the world while making money. This seminar
+                                                    will help you rethink the investment world in a green way. With a
+                                                    practical, hands-on guide you’ll learn the smart way to become a
+                                                    socially responsible investor while remaining true to your values.
+                                                    Let’s plant some “trees” and relax while our money grows.
+                                                </ui:msg>
+                                            </p>
+                                            <p class="{res.style.noBottomMargin} {res.style.bold}">
+                                                <ui:msg description="Program > Content > Training > Ui > Expectations">
+                                                    After this session, the learner will be expected to:
+                                                </ui:msg>
+                                            </p>
+                                            <ul class="{res.style.eventUl} {res.style.noTopMargin}">
+                                                <li>
+                                                    <ui:msg description="Program > Content > Training > ThinkGreenPlantTree > ul > li1">
+                                                        Find out ways to become an active socially responsible investor
+                                                    </ui:msg>
+                                                </li>
+                                                <li>
+                                                    <ui:msg description="Program > Content > Training > ThinkGreenPlantTree > ul > li2">
+                                                        Learn how to invest in green sustainable opportunities
+                                                    </ui:msg>
+                                                </li>
+                                                <li>
+                                                    <ui:msg description="Program > Content > Training > ThinkGreenPlantTree > ul > li3">
+                                                        Make your investment a new alternative for helping the planet
+                                                    </ui:msg>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Hernando Gomez > p1">
+                                                    Hernando Gomez is a senior manager in the Management Advisory
+                                                    Services Department at MBAF. Since 1997, he has focused his practice
+                                                    in business valuations, corporate finance, debt management,
+                                                    financial modeling and litigation support for various industries
+                                                    including automotive dealerships, construction, family limited
+                                                    partnerships, investment, manufacturing, professional services, real
+                                                    estate, retail, technology, utilities and wholesale/distribution.
+                                                </ui:msg>
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Hernando Gomez > p2">
+                                                    Hernando has traveled extensively delivering business valuation and
+                                                    other business/management-related seminars in 15+ countries
+                                                    worldwide. He has been invited as an international trainer to
+                                                    national and international events in the United States, Latin
+                                                    America, Europe, UAE and Asia.
+                                                </ui:msg>
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Hernando Gomez > p3">
+                                                    Hernando manages national and international engagements to assist
+                                                    clients in business valuation, M&amp;A, financial modeling and
+                                                    forecasting, business plans/deals and others financial advisory
+                                                    services. He prepares valuation analysis and complex valuation
+                                                    models for the following purposes: business acquisitions/sales,
+                                                    financial reporting, stock option valuations, tax related matters
+                                                    and arbitration/litigation matters. Hernando has designed and
+                                                    trained business valuation programs and led the business valuation
+                                                    discussion group.
+                                                </ui:msg>
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Hernando Gomez > p4">
+                                                    Hernando supervises preparation of sumaries of financial statements,
+                                                    tax returns and others quantitative data. He develops and monitors
+                                                    budgets on valuation engagements and prepares damage and lost
+                                                    profits computation. He has an understanding of the clients’
+                                                    business, industry and economy. He also assists experts in
+                                                    preparation for depositions and trials.
+                                                </ui:msg>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="{programRes.style.pagerButtonContainer}">
+                                        <b>
+                                            <ui:msg description="Program > Ui > MoreInfo">More informations:
+                                            </ui:msg>
+                                        </b>
+                                        <a class="{programRes.style.pagerButton} {programRes.style.pagerButtonActive}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                    </div>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
@@ -2409,10 +2611,10 @@
                                         <ui:msg description="Program > Ui > Hours > 16:30">4:30</ui:msg>
                                     </p>
                                 </div>
-                                <div ui:field="excursion2" class="{programRes.style.tooltip}">
+                                <div class="{programRes.style.tooltip} {programRes.style.pagerContainer}">
                                     <span class="{programRes.style.arrow}"/>
-                                    <span ui:field="excursionDiv2">
-                                        <span id="cruise2Div">
+                                    <div class="{programRes.style.pagerDivContainer}">
+                                        <div class="{programRes.style.pagerDiv}">
                                             <h2>
                                                 <ui:msg description="Program > Excursions > BoatCruise > Title">Boat
                                                     Cruise
@@ -2476,8 +2678,8 @@
                                                     www.croisieresaml.com
                                                 </a>
                                             </p>
-                                        </span>
-                                        <span id="shopping2Div" style="display: none">
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <h2>
                                                 <ui:msg description="Program > Excursions > Shopping > Title">Shopping
                                                 </ui:msg>
@@ -2530,8 +2732,8 @@
                                                     www.laurierquebec.com
                                                 </a>
                                             </p>
-                                        </span>
-                                        <span id="tours2Div" style="display: none">
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <h2>
                                                 <ui:msg description="Program > Excursions > Tours > Title">Guided Tour
                                                 </ui:msg>
@@ -2585,8 +2787,8 @@
                                                     this 400 years old town.
                                                 </ui:msg>
                                             </p>
-                                        </span>
-                                        <span id="karting2Div" style="display: none">
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <h2>Karting</h2>
                                             <p>
                                                 <b>Date:</b>
@@ -2635,18 +2837,18 @@
                                                     www.kartingextreme.com
                                                 </a>
                                             </p>
-                                        </span>
-                                    </span>
-                                    <span class="{programRes.style.excursions}">
+                                        </div>
+                                    </div>
+                                    <div class="{programRes.style.pagerButtonContainer}">
                                         <b>
                                             <ui:msg description="Program > Ui > OtherExcursions">Other excursions:
                                             </ui:msg>
                                         </b>
-                                        <a id="cruise2" class="{programRes.style.excursionsActive}"/>
-                                        <a id="shopping2"/>
-                                        <a id="tours2"/>
-                                        <a id="karting2"/>
-                                    </span>
+                                        <a class="{programRes.style.pagerButton} {programRes.style.pagerButtonActive}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                    </div>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
@@ -2715,48 +2917,50 @@
                                         <ui:msg description="Program > Ui > Hours > 23:00">11:00</ui:msg>
                                     </p>
                                 </div>
-                                <div ui:field="awardsNight" class="{programRes.style.tooltip}">
-                                    <span class="{programRes.style.arrow}"/>
-                                    <span ui:field="awardsNightDiv">
-                                        <span id="awardspDiv">
-                                            <h2>
-                                                <ui:msg description="Program > Content > AwardsNight">Awards Night
-                                                </ui:msg>
-                                            </h2>
-                                            <p>
-                                                <b>Date:</b>
-                                                <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20,
-                                                    2013
-                                                </ui:msg>
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > Time">Time:</ui:msg>
-                                                </b>
-                                                <ui:msg description="Program > Ui > Hours > 18h00">6:00 pm</ui:msg>
-                                                -
-                                                <ui:msg description="Program > Ui > Hours > 23h00">11:00 pm</ui:msg>
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
-                                                </b>
-                                                <ui:msg description="Program > Content > NationalAssemblyQuebec">
-                                                    National
-                                                    Assembly of Quebec
-                                                </ui:msg>
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > Room">Room</ui:msg>:
-                                                </b>
-                                                <ui:msg description="Program > Content >  ParlementaireRestaurant">Le
-                                                    Parlementaire Restaurant
-                                                </ui:msg>
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
-                                                </b>
-                                                <ui:msg description="Program > Ui > DressCode > Business">Business
-                                                </ui:msg>
-                                            </p>
+                                <div class="{programRes.style.tooltip} {programRes.style.pagerContainer}">
+                                    <div class="{programRes.style.pagerCommons}">
+                                        <span class="{programRes.style.arrow}"/>
+                                        <h2>
+                                            <ui:msg description="Program > Content > AwardsNight">Awards Night
+                                            </ui:msg>
+                                        </h2>
+                                        <p>
+                                            <b>Date:</b>
+                                            <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20,
+                                                2013
+                                            </ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Time">Time:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > Hours > 18h00">6:00 pm</ui:msg>
+                                            -
+                                            <ui:msg description="Program > Ui > Hours > 23h00">11:00 pm</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Content > NationalAssemblyQuebec">
+                                                National
+                                                Assembly of Quebec
+                                            </ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Room">Room</ui:msg>:
+                                            </b>
+                                            <ui:msg description="Program > Content >  ParlementaireRestaurant">Le
+                                                Parlementaire Restaurant
+                                            </ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > DressCode > Business">Business
+                                            </ui:msg>
+                                        </p>
+                                    </div>
+                                    <div class="{programRes.style.pagerDivContainer}">
+                                        <div class="{programRes.style.pagerDiv}">
                                             <p>
                                                 <img src="{programRes.img_awardNight_1.getSafeUri}"
                                                      alt="Le Parlementaire Restaurant" class="{programRes.style.half}"/>
@@ -2804,46 +3008,8 @@
                                                     best kept secret of Quebec City!
                                                 </ui:msg>
                                             </p>
-                                        </span>
-                                        <span id="awardslistDiv" style="display: none">
-                                            <h2>
-                                                <ui:msg description="Program > Content > AwardsNight">Awards Night
-                                                </ui:msg>
-                                            </h2>
-                                            <p>
-                                                <b>Date:</b>
-                                                <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20,
-                                                    2013
-                                                </ui:msg>
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > Time">Time:</ui:msg>
-                                                </b>
-                                                <ui:msg description="Program > Ui > Hours > 18h00">6:00 pm</ui:msg>
-                                                -
-                                                <ui:msg description="Program > Ui > Hours > 23h00">11:00 pm</ui:msg>
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
-                                                </b>
-                                                <ui:msg description="Program > Content > NationalAssemblyQuebec">
-                                                    National
-                                                    Assembly of Quebec
-                                                </ui:msg>
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > Room">Room</ui:msg>:
-                                                </b>
-                                                <ui:msg description="Program > Content >  ParlementaireRestaurant">Le
-                                                    Parlementaire Restaurant
-                                                </ui:msg>
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
-                                                </b>
-                                                <ui:msg description="Program > Ui > DressCode > Business">Business
-                                                </ui:msg>
-                                            </p>
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <p>
                                                 <ui:msg description="Program > Content > AwardsNight > p4">Awards:
                                                 </ui:msg>
@@ -2930,16 +3096,16 @@
                                                     </ui:msg>
                                                 </li>
                                             </ul>
-                                        </span>
-                                    </span>
-                                    <span class="{programRes.style.excursions}">
+                                        </div>
+                                    </div>
+                                    <div class="{programRes.style.pagerButtonContainer}">
                                         <b>
-                                            <ui:msg description="Program > Ui > Section">Other sections:
+                                            <ui:msg description="Program > Ui > MoreInfo">More informations:
                                             </ui:msg>
                                         </b>
-                                        <a id="awardsp" class="{programRes.style.excursionsActive}"/>
-                                        <a id="awardslist"/>
-                                    </span>
+                                        <a class="{programRes.style.pagerButton} {programRes.style.pagerButtonActive}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                    </div>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
@@ -3315,82 +3481,137 @@
                                         <ui:msg description="Program > Ui > Hours > 10:15">10:15</ui:msg>
                                     </p>
                                 </div>
-                                <div class="{programRes.style.tooltip}">
-                                    <span class="{programRes.style.arrow}"/>
-                                    <h2>
-                                        <ui:msg description="Program > Content > Training > TransformativeThinking">
-                                            Transformative Thinking by
-                                        </ui:msg>
-                                        Sylvain Rochon
-                                    </h2>
-                                    <p>
-                                        <b>Date:</b>
-                                        <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
-                                        </ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > Hours > 9h00">9:00 am</ui:msg>
-                                        -
-                                        <ui:msg description="Program > Ui > Hours > 10h15">10:15 am</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
-                                        </b>
-                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                        G
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
-                                            Casual
-                                        </ui:msg>
-                                    </p>
-                                    <p>
-                                        <ui:msg description="Program > Content > Training > TransformativeThinking > p1">
-                                            Using your own thinking to change the world
-                                        </ui:msg>
-                                    </p>
-                                    <p>
-                                        <ui:msg description="Program > Content > Training > TransformativeThinking > p2">
-                                            The objective of this session is to train the attendees on how to create
-                                            success in our professional and personal lives through the power of our
-                                            brain. In order to do this, the attendee will learn to understand how the
-                                            brain works, how much we actually have control over what we think, how we
-                                            think, and ultimately how these impact how we live our lives. Ultimately,
-                                            the goal is to generate success through self-training techniques.
-                                        </ui:msg>
-                                    </p>
-                                    <p class="{res.style.noBottomMargin} {res.style.bold}">
-                                        <ui:msg description="Program > Content > Training > Ui > Expectations">
-                                            After this session, the learner will be expected to:
-                                        </ui:msg>
-                                    </p>
-                                    <ul class="{res.style.eventUl} {res.style.noTopMargin}">
-                                        <li>
-                                            <ui:msg description="Program > Content > Training > TransformativeThinking > ul > li1">
-                                                Understand the biological basics of learning and how the brain works
+                                <div class="{programRes.style.tooltip} {programRes.style.pagerContainer}">
+                                    <div class="{programRes.style.pagerCommons}">
+                                        <span class="{programRes.style.arrow}"/>
+                                        <h2>
+                                            <ui:msg description="Program > Content > Training > TransformativeThinking">
+                                                Transformative Thinking by
                                             </ui:msg>
-                                        </li>
-                                        <li>
-                                            <ui:msg description="Program > Content > Training > TransformativeThinking > ul > li2">
-                                                Understand the impact of their own thinking on the world around them
+                                            Sylvain Rochon
+                                        </h2>
+                                        <p>
+                                            <b>Date:</b>
+                                            <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21,
+                                                2013
                                             </ui:msg>
-                                        </li>
-                                        <li>
-                                            <ui:msg description="Program > Content > Training > TransformativeThinking > ul > li3">
-                                                Become empowered and gain the ability to change how their perceive the
-                                                world
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Time">Time:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > Hours > 9h00">9:00 am</ui:msg>
+                                            -
+                                            <ui:msg description="Program > Ui > Hours > 10h15">10:15 am</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Room">Room</ui:msg>:
+                                            </b>
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
+                                            G
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                                Casual
                                             </ui:msg>
-                                        </li>
-                                    </ul>
+                                        </p>
+                                    </div>
+                                    <div class="{programRes.style.pagerDivContainer}">
+                                        <div class="{programRes.style.pagerDiv}">
+                                            <p>
+                                                <ui:msg description="Program > Content > Training > TransformativeThinking > p1">
+                                                    Using your own thinking to change the world
+                                                </ui:msg>
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Training > TransformativeThinking > p2">
+                                                    The objective of this session is to train the attendees on how to
+                                                    create
+                                                    success in our professional and personal lives through the power of
+                                                    our
+                                                    brain. In order to do this, the attendee will learn to understand
+                                                    how the
+                                                    brain works, how much we actually have control over what we think,
+                                                    how we
+                                                    think, and ultimately how these impact how we live our lives.
+                                                    Ultimately,
+                                                    the goal is to generate success through self-training techniques.
+                                                </ui:msg>
+                                            </p>
+                                            <p class="{res.style.noBottomMargin} {res.style.bold}">
+                                                <ui:msg description="Program > Content > Training > Ui > Expectations">
+                                                    After this session, the learner will be expected to:
+                                                </ui:msg>
+                                            </p>
+                                            <ul class="{res.style.eventUl} {res.style.noTopMargin}">
+                                                <li>
+                                                    <ui:msg description="Program > Content > Training > TransformativeThinking > ul > li1">
+                                                        Understand the biological basics of learning and how the brain
+                                                        works
+                                                    </ui:msg>
+                                                </li>
+                                                <li>
+                                                    <ui:msg description="Program > Content > Training > TransformativeThinking > ul > li2">
+                                                        Understand the impact of their own thinking on the world around
+                                                        them
+                                                    </ui:msg>
+                                                </li>
+                                                <li>
+                                                    <ui:msg description="Program > Content > Training > TransformativeThinking > ul > li3">
+                                                        Become empowered and gain the ability to change how their
+                                                        perceive the
+                                                        world
+                                                    </ui:msg>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Sylvain Rochon > p1">
+                                                    Sylvain Rochon is a bachelor’s degree graduate in Biochemistry,
+                                                    Chemical Engineering and Education from the University of Ottawa
+                                                    who, 10 years ago, has turned to entrepreneurship in order to help
+                                                    change
+                                                    the world for the better.
+                                                </ui:msg>
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Sylvain Rochon > p2">
+                                                    In 2005, Sylvain started Sylien Games, an online multiplayer games
+                                                    development (web and smartdevice games) corporation, and since then
+                                                    it has grown from zero to 142 titles published on multiple
+                                                    platforms.
+                                                </ui:msg>
+
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Sylvain Rochon > p3">
+                                                    An avid entrepreneur with 15 years’ experience consulting and
+                                                    teaching on emotional intelligence, the future, and
+                                                    entrepreneurship, Sylvain has helped many young entrepreneurs
+                                                    successfully start their own businesses by developing the
+                                                    individuals into masters of their ownself. Sylvain also sits on
+                                                    multiple advisory boards such as the Interactive Multimedia &amp;
+                                                    Design program at University Carleton and Algonquin College, The
+                                                    Ottawa Network (10 000+ members) and JCI Ottawa.
+                                                </ui:msg>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="{programRes.style.pagerButtonContainer}">
+                                        <b>
+                                            <ui:msg description="Program > Ui > MoreInfo">More informations:
+                                            </ui:msg>
+                                        </b>
+                                        <a class="{programRes.style.pagerButton} {programRes.style.pagerButtonActive}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                    </div>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
@@ -3405,75 +3626,112 @@
                                         <ui:msg description="Program > Ui > Hours > 11:45">11:45</ui:msg>
                                     </p>
                                 </div>
-                                <div class="{programRes.style.tooltip}">
-                                    <span class="{programRes.style.arrow}"/>
-                                    <h2>
-                                        <ui:msg description="Program > Content > Training > TuneUpWorkLife">
-                                            Tune up your Work/Life Balance by
-                                        </ui:msg>
-                                        Jann Vandermeulen
-                                    </h2>
-                                    <p>
-                                        <b>Date:</b>
-                                        <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
-                                        </ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > Hours > 10h30">10:30 am</ui:msg>
-                                        -
-                                        <ui:msg description="Program > Ui > Hours > 11h45">11:45 am</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
-                                        </b>
-                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                        G
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
-                                            Casual
-                                        </ui:msg>
-                                    </p>
-                                    <p>
-                                        <ui:msg description="Program > Content > Training > LanguageYouSpeak > p1">
-                                            The goal of this session is to help you identify, break down and cope with
-                                            possible stressors that affect the balance of your personal, family, work
-                                            and JCI life. Better stress management strategies can have a positive impact
-                                            on your physical health, relationships and work performance.
-                                        </ui:msg>
-                                    </p>
-                                    <p class="{res.style.noBottomMargin} {res.style.bold}">
-                                        <ui:msg description="Program > Content > Training > Ui > Expectations">
-                                            After this session, the learner will be expected to:
-                                        </ui:msg>
-                                    </p>
-                                    <ul class="{res.style.eventUl} {res.style.noTopMargin}">
-                                        <li>
-                                            <ui:msg description="Program > Content > Training > LanguageYouSpeak > ul > li1">
-                                                Define and explain stress
+                                <div class="{programRes.style.tooltip} {programRes.style.pagerContainer}">
+                                    <div class="{programRes.style.pagerCommons}">
+                                        <span class="{programRes.style.arrow}"/>
+                                        <h2>
+                                            <ui:msg description="Program > Content > Training > TuneUpWorkLife">
+                                                Tune up your Work/Life Balance by
                                             </ui:msg>
-                                        </li>
-                                        <li>
-                                            <ui:msg description="Program > Content > Training > LanguageYouSpeak > ul > li2">
-                                                Identify possible stressors at work that can affect the personal life
-                                                and vice versa
+                                            Jann Vandermeulen
+                                        </h2>
+                                        <p>
+                                            <b>Date:</b>
+                                            <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21,
+                                                2013
                                             </ui:msg>
-                                        </li>
-                                        <li>
-                                            <ui:msg description="Program > Content > Training > LanguageYouSpeak > ul > li3">
-                                                List and apply techniques to help cope with stress
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Time">Time:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > Hours > 10h30">10:30 am</ui:msg>
+                                            -
+                                            <ui:msg description="Program > Ui > Hours > 11h45">11:45 am</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Room">Room</ui:msg>:
+                                            </b>
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
+                                            G
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                                Casual
                                             </ui:msg>
-                                        </li>
-                                    </ul>
+                                        </p>
+                                    </div>
+                                    <div class="{programRes.style.pagerDivContainer}">
+                                        <div class="{programRes.style.pagerDiv}">
+                                            <p>
+                                                <ui:msg description="Program > Content > Training > TuneUpWorkLife > p1">
+                                                    The goal of this session is to help you identify, break down and
+                                                    cope with possible stressors that affect the balance of your
+                                                    personal, family, work and JCI life. Better stress management
+                                                    strategies can have a positive impact on your physical health,
+                                                    relationships and work performance.
+                                                </ui:msg>
+                                            </p>
+                                            <p class="{res.style.noBottomMargin} {res.style.bold}">
+                                                <ui:msg description="Program > Content > Training > Ui > Expectations">
+                                                    After this session, the learner will be expected to:
+                                                </ui:msg>
+                                            </p>
+                                            <ul class="{res.style.eventUl} {res.style.noTopMargin}">
+                                                <li>
+                                                    <ui:msg description="Program > Content > Training > TuneUpWorkLife > ul > li1">
+                                                        Define and explain stress
+                                                    </ui:msg>
+                                                </li>
+                                                <li>
+                                                    <ui:msg description="Program > Content > Training > TuneUpWorkLife > ul > li2">
+                                                        Identify possible stressors at work that can affect the personal
+                                                        life and vice versa
+                                                    </ui:msg>
+                                                </li>
+                                                <li>
+                                                    <ui:msg description="Program > Content > Training > TuneUpWorkLife > ul > li3">
+                                                        List and apply techniques to help cope with stress
+                                                    </ui:msg>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Jann Vandermeulen > p1">
+                                                    Jann Vandermeulen, M.A., (C)OACCPP, CTP is a bilingual
+                                                    (English/French) cognitive behavioural therapist who has worked with
+                                                    over 5 000 clients.
+                                                </ui:msg>
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Jann Vandermeulen > p2">
+                                                    He earned his Master of Arts in Forensic Psychology from the John
+                                                    Jay College of Criminal Justice at the City University of New York
+                                                    and his Bachelor of Arts from Bishop’s University. He is a Certified
+                                                    Member of the Ontario Association of Consultants Counsellors
+                                                    Psychometrists and Psychotherapists, a Certified Training
+                                                    Practitioner with the Canadian Society for Training and Development
+                                                    and a member of the Academy of Cognitive Therapy. Jann is also a
+                                                    Past President of JCI Toronto and JCI Central Region.
+                                                </ui:msg>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="{programRes.style.pagerButtonContainer}">
+                                        <b>
+                                            <ui:msg description="Program > Ui > MoreInfo">More informations:
+                                            </ui:msg>
+                                        </b>
+                                        <a class="{programRes.style.pagerButton} {programRes.style.pagerButtonActive}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                    </div>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
@@ -3488,84 +3746,151 @@
                                         <ui:msg description="Program > Ui > Hours > 10:15">10:15</ui:msg>
                                     </p>
                                 </div>
-                                <div class="{programRes.style.tooltip}">
-                                    <span class="{programRes.style.arrow}"/>
-                                    <h2>
-                                        <ui:msg description="Program > Content > Training > LanguageYouSpeak">
-                                            What language do you speak? by
-                                        </ui:msg>
-                                        Hernando Gomez
-                                    </h2>
-                                    <p>
-                                        <b>Date:</b>
-                                        <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
-                                        </ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > Hours > 9h00">9:00 am</ui:msg>
-                                        -
-                                        <ui:msg description="Program > Ui > Hours > 10h15">10:15 am</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
-                                        </b>
-                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                        H
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
-                                            Casual
-                                        </ui:msg>
-                                    </p>
-                                    <p>
-                                        <ui:msg description="Program > Content > Training > LanguageYouSpeak > p1">
-                                            Speaking the same language does not guarantee that we can communicate to
-                                            each other effectively. Success comes from more than just having an
-                                            expertise in a field or discipline.
-                                        </ui:msg>
-                                    </p>
-                                    <p>
-                                        <ui:msg description="Program > Content > Training > LanguageYouSpeak > p2">
-                                            It also comes from being able to express that expertise and to really
-                                            understand the needs of others. In modern era, ways to communicate have
-                                            increased exponentially. However, the essence of communication remains a
-                                            challenge. No matter what role you play in life, whether you’re a leader, a
-                                            team member, or a professional, effective and clear communication is
-                                            imperative to your success.
-                                        </ui:msg>
-                                    </p>
-                                    <p class="{res.style.noBottomMargin} {res.style.bold}">
-                                        <ui:msg description="Program > Content > Training > Ui > Expectations">
-                                            After this session, the learner will be expected to:
-                                        </ui:msg>
-                                    </p>
-                                    <ul class="{res.style.eventUl} {res.style.noTopMargin}">
-                                        <li>
-                                            <ui:msg description="Program > Content > Training > LanguageYouSpeak > ul > li1">
-                                                Learn key steps to communicate effectively
+                                <div class="{programRes.style.tooltip} {programRes.style.pagerContainer}">
+                                    <div class="{programRes.style.pagerCommons}">
+                                        <span class="{programRes.style.arrow}"/>
+                                        <h2>
+                                            <ui:msg description="Program > Content > Training > LanguageYouSpeak">
+                                                What language do you speak? by
                                             </ui:msg>
-                                        </li>
-                                        <li>
-                                            <ui:msg description="Program > Content > Training > LanguageYouSpeak > ul > li2">
-                                                Explore new ways to improve your verbal and non-verbal communication
-                                                skills
+                                            Hernando Gomez
+                                        </h2>
+                                        <p>
+                                            <b>Date:</b>
+                                            <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21,
+                                                2013
                                             </ui:msg>
-                                        </li>
-                                        <li>
-                                            <ui:msg description="Program > Content > Training > LanguageYouSpeak > ul > li3">
-                                                Identify creative ways to use communication tools to solve conflicts
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Time">Time:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > Hours > 9h00">9:00 am</ui:msg>
+                                            -
+                                            <ui:msg description="Program > Ui > Hours > 10h15">10:15 am</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Room">Room</ui:msg>:
+                                            </b>
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
+                                            H
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                                Casual
                                             </ui:msg>
-                                        </li>
-                                    </ul>
+                                        </p>
+                                    </div>
+                                    <div class="{programRes.style.pagerDivContainer}">
+                                        <div class="{programRes.style.pagerDiv}">
+                                            <p>
+                                                <ui:msg description="Program > Content > Training > LanguageYouSpeak > p1">
+                                                    Speaking the same language does not guarantee that we can
+                                                    communicate to
+                                                    each other effectively. Success comes from more than just having an
+                                                    expertise in a field or discipline.
+                                                </ui:msg>
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Training > LanguageYouSpeak > p2">
+                                                    It also comes from being able to express that expertise and to
+                                                    really
+                                                    understand the needs of others. In modern era, ways to communicate
+                                                    have
+                                                    increased exponentially. However, the essence of communication
+                                                    remains a
+                                                    challenge. No matter what role you play in life, whether you’re a
+                                                    leader, a
+                                                    team member, or a professional, effective and clear communication is
+                                                    imperative to your success.
+                                                </ui:msg>
+                                            </p>
+                                            <p class="{res.style.noBottomMargin} {res.style.bold}">
+                                                <ui:msg description="Program > Content > Training > Ui > Expectations">
+                                                    After this session, the learner will be expected to:
+                                                </ui:msg>
+                                            </p>
+                                            <ul class="{res.style.eventUl} {res.style.noTopMargin}">
+                                                <li>
+                                                    <ui:msg description="Program > Content > Training > LanguageYouSpeak > ul > li1">
+                                                        Learn key steps to communicate effectively
+                                                    </ui:msg>
+                                                </li>
+                                                <li>
+                                                    <ui:msg description="Program > Content > Training > LanguageYouSpeak > ul > li2">
+                                                        Explore new ways to improve your verbal and non-verbal
+                                                        communication
+                                                        skills
+                                                    </ui:msg>
+                                                </li>
+                                                <li>
+                                                    <ui:msg description="Program > Content > Training > LanguageYouSpeak > ul > li3">
+                                                        Identify creative ways to use communication tools to solve
+                                                        conflicts
+                                                    </ui:msg>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Hernando Gomez > p1">
+                                                    Hernando Gomez is a senior manager in the Management Advisory
+                                                    Services Department at MBAF. Since 1997, he has focused his practice
+                                                    in business valuations, corporate finance, debt management,
+                                                    financial modeling and litigation support for various industries
+                                                    including automotive dealerships, construction, family limited
+                                                    partnerships, investment, manufacturing, professional services, real
+                                                    estate, retail, technology, utilities and wholesale/distribution.
+                                                </ui:msg>
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Hernando Gomez > p2">
+                                                    Hernando has traveled extensively delivering business valuation and
+                                                    other business/management-related seminars in 15+ countries
+                                                    worldwide. He has been invited as an international trainer to
+                                                    national and international events in the United States, Latin
+                                                    America, Europe, UAE and Asia.
+                                                </ui:msg>
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Hernando Gomez > p3">
+                                                    Hernando manages national and international engagements to assist
+                                                    clients in business valuation, M&amp;A, financial modeling and
+                                                    forecasting, business plans/deals and others financial advisory
+                                                    services. He prepares valuation analysis and complex valuation
+                                                    models for the following purposes: business acquisitions/sales,
+                                                    financial reporting, stock option valuations, tax related matters
+                                                    and arbitration/litigation matters. Hernando has designed and
+                                                    trained business valuation programs and led the business valuation
+                                                    discussion group.
+                                                </ui:msg>
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Hernando Gomez > p4">
+                                                    Hernando supervises preparation of sumaries of financial statements,
+                                                    tax returns and others quantitative data. He develops and monitors
+                                                    budgets on valuation engagements and prepares damage and lost
+                                                    profits computation. He has an understanding of the clients’
+                                                    business, industry and economy. He also assists experts in
+                                                    preparation for depositions and trials.
+                                                </ui:msg>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="{programRes.style.pagerButtonContainer}">
+                                        <b>
+                                            <ui:msg description="Program > Ui > MoreInfo">More informations:
+                                            </ui:msg>
+                                        </b>
+                                        <a class="{programRes.style.pagerButton} {programRes.style.pagerButtonActive}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                    </div>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
@@ -3845,10 +4170,10 @@
                                         <ui:msg description="Program > Ui > Hours > 16:30">4:30</ui:msg>
                                     </p>
                                 </div>
-                                <div ui:field="excursion3" class="{programRes.style.tooltip}">
+                                <div class="{programRes.style.tooltip} {programRes.style.pagerContainer}">
                                     <span class="{programRes.style.arrow}"/>
-                                    <span ui:field="excursionDiv3">
-                                        <span id="cruise3Div">
+                                    <div class="{programRes.style.pagerDivContainer}">
+                                        <div class="{programRes.style.pagerDiv}">
                                             <h2>
                                                 <ui:msg description="Program > Excursions > BoatCruise > Title">Boat
                                                     Cruise
@@ -3913,8 +4238,8 @@
                                                     www.croisieresaml.com
                                                 </a>
                                             </p>
-                                        </span>
-                                        <span id="shopping3Div" style="display: none">
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <h2>
                                                 <ui:msg description="Program > Excursions > Shopping > Title">Shopping
                                                 </ui:msg>
@@ -3968,8 +4293,8 @@
                                                     www.laurierquebec.com
                                                 </a>
                                             </p>
-                                        </span>
-                                        <span id="karting3Div" style="display: none">
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <h2>Karting</h2>
                                             <p>
                                                 <b>Date:</b>
@@ -4019,8 +4344,8 @@
                                                     www.kartingextreme.com
                                                 </a>
                                             </p>
-                                        </span>
-                                        <span id="arbraska3Div" style="display: none">
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <h2>
                                                 <ui:msg description="Program > Excursions > Ziplining > Title">High-Wire
                                                     and Zip-Line adventure
@@ -4078,8 +4403,8 @@
                                                     www.arbraskaduchesnay.com
                                                 </a>
                                             </p>
-                                        </span>
-                                        <span id="ferrari3Div" style="display: none">
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <h2>
                                                 <ui:msg description="Program > Excursions > Ferrari > Title">Drive a
                                                     Ferrari
@@ -4138,19 +4463,19 @@
                                                     www.circuiticar.com
                                                 </a>
                                             </p>
-                                        </span>
-                                    </span>
-                                    <span class="{programRes.style.excursions}">
+                                        </div>
+                                    </div>
+                                    <div class="{programRes.style.pagerButtonContainer}">
                                         <b>
                                             <ui:msg description="Program > Ui > OtherExcursions">Other excursions:
                                             </ui:msg>
                                         </b>
-                                        <a id="cruise3" class="{programRes.style.excursionsActive}"/>
-                                        <a id="shopping3"/>
-                                        <a id="karting3"/>
-                                        <a id="arbraska3"/>
-                                        <a id="ferrari3"/>
-                                    </span>
+                                        <a class="{programRes.style.pagerButton} {programRes.style.pagerButtonActive}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                    </div>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel

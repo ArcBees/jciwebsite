@@ -144,12 +144,12 @@
     width: WIDTH_1_H2;
 }
 
-.visioProgram .event:hover > div > h2, .visioProgram .event:hover > div.tooltip span.excursions, .visioProgram .event:hover > div.tooltip h2 {
+.visioProgram .event:hover > div > h2, .visioProgram .event:hover > div.tooltip .pagerButtonContainer, .visioProgram .event:hover > div.tooltip h2 {
     background: #7f7f7f;
     background: rgba(0, 0, 0, 0.35);
 }
 
-.visioProgram .event.active > div > h2, .visioProgram .event.active > div.tooltip span.excursions, .visioProgram .event.active > div.tooltip h2 {
+.visioProgram .event.active > div > h2, .visioProgram .event.active > div.tooltip .pagerButtonContainer, .visioProgram .event.active > div.tooltip h2 {
     background: #606060;
     background: rgba(0, 0, 0, 0.35);
 }
@@ -939,11 +939,11 @@
 .visioProgram .event > div.tooltip span b {
 }
 
-@sprite .visioProgram .event > div.tooltip span.excursions a.excursionsActive, .visioProgram .event > div.tooltip span.excursions a:hover {
+@sprite .visioProgram .event > div.tooltip .pagerButtonContainer a.pagerButtonActive, .visioProgram .event > div.tooltip .pagerButtonContainer a:hover {
     gwt-image: "btn_exc_up";
 }
 
-@sprite .visioProgram .event > div.tooltip span.excursions a {
+@sprite .visioProgram .event > div.tooltip .pagerButtonContainer a {
     line-height: 16px;
     height: 10px;
     width: 10px;
@@ -984,7 +984,7 @@
     width: 100%;
 }
 
-.visioProgram .event > div.tooltip span.excursions {
+.visioProgram .event > div.tooltip .pagerButtonContainer {
     background: #979797;
     background: rgba(0, 0, 0, 0.35);
     display: block;
@@ -1084,3 +1084,5 @@
 @sprite .cPurple.l4 .tooltip .arrow, .cPurple.l5 .tooltip .arrow, .cPurple.l6 .tooltip .arrow {
     gwt-image: "arrPurple";
 }
+
+.pagerContainer, .pagerDiv, .pagerDivContainer, .pagerButtonContainer, .pagerButton, .pagerCommons{}
