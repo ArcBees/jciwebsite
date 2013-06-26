@@ -21,9 +21,9 @@ import javax.inject.Inject;
 import com.arcbees.core.client.mvp.ViewImpl;
 import com.google.gwt.dom.client.DivElement;
 import com.google.gwt.dom.client.Element;
-import com.google.gwt.dom.client.SpanElement;
 import com.google.gwt.event.logical.shared.AttachEvent;
 import com.google.gwt.query.client.Function;
+import com.google.gwt.query.client.GQuery;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.user.client.ui.HTMLPanel;
@@ -41,32 +41,19 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
     DivElement divButtons;
     @UiField
     HTMLPanel divCalendar;
-    @UiField
-    DivElement excursion1;
-    @UiField
-    DivElement excursion2;
-    @UiField
-    DivElement excursion3;
-    @UiField
-    SpanElement excursionDiv1;
-    @UiField
-    SpanElement excursionDiv2;
-    @UiField
-    SpanElement excursionDiv3;
-    @UiField
-    SpanElement awardsNightDiv;
-    @UiField
-    DivElement awardsNight;
 
     private final String activeStyleName;
     private final String activeStyleNameProgram;
     private final String eventStyleNameProgram;
     private final String activeTooltipStyleNameProgram;
     private final String tooltipStyleNameProgram;
-    private final String activeExcursionStyleNameProgram;
-    private final String excursionStyleNameProgram;
+    private final String activeExcursionStyleName;
     private final String overflowNameProgram;
     private final String downNameProgram;
+    private final String pagerContainerStyleName;
+    private final String pagerDivStyleName;
+    private final String pagerButtonContainerStyleName;
+    private final String pagerButtonStyleName;
 
     private boolean isBound;
 
@@ -81,10 +68,13 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
         eventStyleNameProgram = programResource.style().event();
         activeTooltipStyleNameProgram = programResource.style().tooltipActive();
         tooltipStyleNameProgram = programResource.style().tooltip();
-        activeExcursionStyleNameProgram = programResource.style().excursionsActive();
-        excursionStyleNameProgram = programResource.style().excursions();
+        activeExcursionStyleName = programResource.style().pagerButtonActive();
         overflowNameProgram = programResource.style().overflow();
         downNameProgram = programResource.style().down();
+        pagerContainerStyleName = programResource.style().pagerContainer();
+        pagerDivStyleName = programResource.style().pagerDiv();
+        pagerButtonContainerStyleName = programResource.style().pagerButtonContainer();
+        pagerButtonStyleName = programResource.style().pagerButton();
 
         asWidget().addAttachHandler(this);
     }
@@ -121,6 +111,7 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
     }-*/;
 
     private void bindGwtQuery() {
+        //Tooltip clicking
         $("." + tooltipStyleNameProgram).unbind("click");
         $("." + tooltipStyleNameProgram).click(new Function() {
             @Override
@@ -168,47 +159,19 @@ public class ProgramPageView extends ViewImpl implements ProgramPagePresenter.My
             }
         });
 
-        $("." + excursionStyleNameProgram + " a", excursion1).unbind("click");
-        $("." + excursionStyleNameProgram + " a", excursion1).click(new Function() {
+        $("." + pagerButtonContainerStyleName + " a").unbind("click");
+        $("." + pagerButtonContainerStyleName + " a").click(new Function() {
             @Override
             public void f(Element e) {
-                $("." + activeExcursionStyleNameProgram, excursion1).removeClass(activeExcursionStyleNameProgram);
-                $("span", excursionDiv1).hide();
-                $("#" + e.getId() + "Div").show();
-                $(e).addClass(activeExcursionStyleNameProgram);
-            }
-        });
+                GQuery gQueryPager = $(e).parents("." + pagerContainerStyleName);
+                int positionIndex = gQueryPager.find("." + pagerButtonStyleName).index(e) + 1;
 
-        $("." + excursionStyleNameProgram + " a", excursion2).unbind("click");
-        $("." + excursionStyleNameProgram + " a", excursion2).click(new Function() {
-            @Override
-            public void f(Element e) {
-                $("." + activeExcursionStyleNameProgram, excursion2).removeClass(activeExcursionStyleNameProgram);
-                $("span", excursionDiv2).hide();
-                $("#" + e.getId() + "Div").show();
-                $(e).addClass(activeExcursionStyleNameProgram);
-            }
-        });
-
-        $("." + excursionStyleNameProgram + " a", excursion3).unbind("click");
-        $("." + excursionStyleNameProgram + " a", excursion3).click(new Function() {
-            @Override
-            public void f(Element e) {
-                $("." + activeExcursionStyleNameProgram, excursion3).removeClass(activeExcursionStyleNameProgram);
-                $("span", excursionDiv3).hide();
-                $("#" + e.getId() + "Div").show();
-                $(e).addClass(activeExcursionStyleNameProgram);
-            }
-        });
-
-        $("." + excursionStyleNameProgram + " a", awardsNight).unbind("click");
-        $("." + excursionStyleNameProgram + " a", awardsNight).click(new Function() {
-            @Override
-            public void f(Element e) {
-                $("." + activeExcursionStyleNameProgram, awardsNight).removeClass(activeExcursionStyleNameProgram);
-                $("span", awardsNightDiv).hide();
-                $("#" + e.getId() + "Div").show();
-                $(e).addClass(activeExcursionStyleNameProgram);
+                //Reset all butons and divs
+                gQueryPager.find("." + pagerButtonStyleName).removeClass(activeExcursionStyleName);
+                gQueryPager.find("." + pagerDivStyleName).hide();
+                //Activate good button and div
+                $(e).addClass(activeExcursionStyleName);
+                gQueryPager.find("." + pagerDivStyleName + ":nth-child(" + positionIndex + ")").show();
             }
         });
     }

@@ -442,79 +442,106 @@
                                         <ui:msg description="Program > Ui > Hours > 10:15">10:15</ui:msg>
                                     </p>
                                 </div>
-                                <div class="{programRes.style.tooltip}">
-                                    <span class="{programRes.style.arrow}"/>
-                                    <h2>
-                                        <ui:msg description="Program > Content > Training > TechnologicalRevolution">
-                                            The Technological Revolution by
-                                        </ui:msg>
-                                        Sylvain Rochon
-                                    </h2>
-                                    <p>
-                                        <b>Date:</b>
-                                        <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
-                                        </ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > Hours > 9h00">9:00 am</ui:msg>
-                                        -
-                                        <ui:msg description="Program > Ui > Hours > 10h15">10:15 am</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
-                                        </b>
-                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                        G
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
-                                            Casual
-                                        </ui:msg>
-                                    </p>
-                                    <p>
-                                        <ui:msg description="Program > Content > Training > TechnologicalRevolution > p1">
-                                            Technology is changing so fast not only people aren’t ready with what is
-                                            being developed in laboratories around the world, but current
-                                            commercialization paradigms can’t keep up either. In order to build success
-                                            for the present and future, we must be able to plan with how the world will
-                                            change over the next 2, 5 or even 10 years. Being an entrepreneur means
-                                            attempting to be in front of the wave. How can you be if you don’t know
-                                            what’s coming?
-                                        </ui:msg>
-                                    </p>
-                                    <p class="{res.style.noBottomMargin} {res.style.bold}">
-                                        <ui:msg description="Program > Content > Training > Ui > Expectations">
-                                            After this session, the learner will be expected to:
-                                        </ui:msg>
-                                    </p>
-                                    <ul class="{res.style.eventUl} {res.style.noTopMargin}">
-                                        <li>
-                                            <ui:msg description="Program > Content > Training > TechnologicalRevolution > ul > li1">
-                                                Have a better understanding of trends in technology, how they will
-                                                impact our daily lives and how it will affect business in general
+                                <div class="{programRes.style.tooltip} {programRes.style.pagerContainer}">
+                                    <div class="{programRes.style.pagerCommons}">
+                                        <span class="{programRes.style.arrow}"/>
+                                        <h2>
+                                            <ui:msg description="Program > Content > Training > TechnologicalRevolution">
+                                                The Technological Revolution by
                                             </ui:msg>
-                                        </li>
-                                        <li>
-                                            <ui:msg description="Program > Content > Training > TechnologicalRevolution > ul > li2">
-                                                Look at his/her current projects and career with fresh eyes
+                                            Sylvain Rochon
+                                        </h2>
+                                        <p>
+                                            <b>Date:</b>
+                                            <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19,
+                                                2013
                                             </ui:msg>
-                                        </li>
-                                        <li>
-                                            <ui:msg description="Program > Content > Training > TechnologicalRevolution > ul > li3">
-                                                Gain the ability to direct their professional path in line with the
-                                                technological trends
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Time">Time:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > Hours > 9h00">9:00 am</ui:msg>
+                                            -
+                                            <ui:msg description="Program > Ui > Hours > 10h15">10:15 am</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Room">Room</ui:msg>:
+                                            </b>
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
+                                            G
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                                Casual
                                             </ui:msg>
-                                        </li>
-                                    </ul>
+                                        </p>
+                                    </div>
+                                    <div class="{programRes.style.pagerDivContainer}">
+                                        <div class="{programRes.style.pagerDiv}">
+                                            <p>
+                                                <ui:msg description="Program > Content > Training > TechnologicalRevolution > p1">
+                                                    Technology is changing so fast not only people aren’t ready with
+                                                    what is
+                                                    being developed in laboratories around the world, but current
+                                                    commercialization paradigms can’t keep up either. In order to build
+                                                    success
+                                                    for the present and future, we must be able to plan with how the
+                                                    world
+                                                    will
+                                                    change over the next 2, 5 or even 10 years. Being an entrepreneur
+                                                    means
+                                                    attempting to be in front of the wave. How can you be if you don’t
+                                                    know
+                                                    what’s coming?
+                                                </ui:msg>
+                                            </p>
+                                            <p class="{res.style.noBottomMargin} {res.style.bold}">
+                                                <ui:msg description="Program > Content > Training > Ui > Expectations">
+                                                    After this session, the learner will be expected to:
+                                                </ui:msg>
+                                            </p>
+                                            <ul class="{res.style.eventUl} {res.style.noTopMargin}">
+                                                <li>
+                                                    <ui:msg description="Program > Content > Training > TechnologicalRevolution > ul > li1">
+                                                        Have a better understanding of trends in technology, how they
+                                                        will
+                                                        impact our daily lives and how it will affect business in
+                                                        general
+                                                    </ui:msg>
+                                                </li>
+                                                <li>
+                                                    <ui:msg description="Program > Content > Training > TechnologicalRevolution > ul > li2">
+                                                        Look at his/her current projects and career with fresh eyes
+                                                    </ui:msg>
+                                                </li>
+                                                <li>
+                                                    <ui:msg description="Program > Content > Training > TechnologicalRevolution > ul > li3">
+                                                        Gain the ability to direct their professional path in line with
+                                                        the
+                                                        technological trends
+                                                    </ui:msg>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
+                                            <p>Authors' Info</p>
+                                        </div>
+                                    </div>
+                                    <div class="{programRes.style.pagerButtonContainer}">
+                                        <b>
+                                            <ui:msg description="Program > Ui > MoreInfo">More informations:
+                                            </ui:msg>
+                                        </b>
+                                        <a class="{programRes.style.pagerButton} {programRes.style.pagerButtonActive}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                    </div>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
@@ -1141,10 +1168,10 @@
                                         <ui:msg description="Program > Ui > Hours > 16:30">4:30</ui:msg>
                                     </p>
                                 </div>
-                                <div ui:field="excursion1" class="{programRes.style.tooltip}">
+                                <div class="{programRes.style.tooltip} {programRes.style.pagerContainer}">
                                     <span class="{programRes.style.arrow}"/>
-                                    <span ui:field="excursionDiv1">
-                                        <span id="cruise1Div">
+                                    <div class="{programRes.style.pagerDivContainer}">
+                                        <div class="{programRes.style.pagerDiv}">
                                             <h2>
                                                 <ui:msg description="Program > Excursions > BoatCruise > Title">Boat
                                                     Cruise
@@ -1209,8 +1236,8 @@
                                                     www.croisieresaml.com
                                                 </a>
                                             </p>
-                                        </span>
-                                        <span id="shopping1Div" style="display: none">
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <h2>
                                                 <ui:msg description="Program > Excursions > Shopping > Title">Shopping
                                                 </ui:msg>
@@ -1264,8 +1291,8 @@
                                                     www.laurierquebec.com
                                                 </a>
                                             </p>
-                                        </span>
-                                        <span id="tours1Div" style="display: none">
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <h2>
                                                 <ui:msg description="Program > Excursions > Tours > Title">Guided Tour
                                                 </ui:msg>
@@ -1320,8 +1347,8 @@
                                                     this 400 years old town.
                                                 </ui:msg>
                                             </p>
-                                        </span>
-                                        <span id="beer1Div" style="display: none">
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <h2>
                                                 <ui:msg description="Program > Excursions > Beers > Title">Beer and
                                                     cheese tasting
@@ -1374,18 +1401,18 @@
                                                     www.labarberie.com
                                                 </a>
                                             </p>
-                                        </span>
-                                    </span>
-                                    <span class="{programRes.style.excursions}">
+                                        </div>
+                                    </div>
+                                    <div class="{programRes.style.pagerButtonContainer}">
                                         <b>
                                             <ui:msg description="Program > Ui > OtherExcursions">Other excursions:
                                             </ui:msg>
                                         </b>
-                                        <a id="cruise1" class="{programRes.style.excursionsActive}"/>
-                                        <a id="shopping1"/>
-                                        <a id="tours1"/>
-                                        <a id="beer1"/>
-                                    </span>
+                                        <a class="{programRes.style.pagerButton} {programRes.style.pagerButtonActive}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                    </div>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
@@ -2409,10 +2436,10 @@
                                         <ui:msg description="Program > Ui > Hours > 16:30">4:30</ui:msg>
                                     </p>
                                 </div>
-                                <div ui:field="excursion2" class="{programRes.style.tooltip}">
+                                <div class="{programRes.style.tooltip} {programRes.style.pagerContainer}">
                                     <span class="{programRes.style.arrow}"/>
-                                    <span ui:field="excursionDiv2">
-                                        <span id="cruise2Div">
+                                    <div class="{programRes.style.pagerDivContainer}">
+                                        <div class="{programRes.style.pagerDiv}">
                                             <h2>
                                                 <ui:msg description="Program > Excursions > BoatCruise > Title">Boat
                                                     Cruise
@@ -2476,8 +2503,8 @@
                                                     www.croisieresaml.com
                                                 </a>
                                             </p>
-                                        </span>
-                                        <span id="shopping2Div" style="display: none">
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <h2>
                                                 <ui:msg description="Program > Excursions > Shopping > Title">Shopping
                                                 </ui:msg>
@@ -2530,8 +2557,8 @@
                                                     www.laurierquebec.com
                                                 </a>
                                             </p>
-                                        </span>
-                                        <span id="tours2Div" style="display: none">
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <h2>
                                                 <ui:msg description="Program > Excursions > Tours > Title">Guided Tour
                                                 </ui:msg>
@@ -2585,8 +2612,8 @@
                                                     this 400 years old town.
                                                 </ui:msg>
                                             </p>
-                                        </span>
-                                        <span id="karting2Div" style="display: none">
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <h2>Karting</h2>
                                             <p>
                                                 <b>Date:</b>
@@ -2635,18 +2662,18 @@
                                                     www.kartingextreme.com
                                                 </a>
                                             </p>
-                                        </span>
-                                    </span>
-                                    <span class="{programRes.style.excursions}">
+                                        </div>
+                                    </div>
+                                    <div class="{programRes.style.pagerButtonContainer}">
                                         <b>
                                             <ui:msg description="Program > Ui > OtherExcursions">Other excursions:
                                             </ui:msg>
                                         </b>
-                                        <a id="cruise2" class="{programRes.style.excursionsActive}"/>
-                                        <a id="shopping2"/>
-                                        <a id="tours2"/>
-                                        <a id="karting2"/>
-                                    </span>
+                                        <a class="{programRes.style.pagerButton} {programRes.style.pagerButtonActive}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                    </div>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
@@ -2715,48 +2742,50 @@
                                         <ui:msg description="Program > Ui > Hours > 23:00">11:00</ui:msg>
                                     </p>
                                 </div>
-                                <div ui:field="awardsNight" class="{programRes.style.tooltip}">
-                                    <span class="{programRes.style.arrow}"/>
-                                    <span ui:field="awardsNightDiv">
-                                        <span id="awardspDiv">
-                                            <h2>
-                                                <ui:msg description="Program > Content > AwardsNight">Awards Night
-                                                </ui:msg>
-                                            </h2>
-                                            <p>
-                                                <b>Date:</b>
-                                                <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20,
-                                                    2013
-                                                </ui:msg>
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > Time">Time:</ui:msg>
-                                                </b>
-                                                <ui:msg description="Program > Ui > Hours > 18h00">6:00 pm</ui:msg>
-                                                -
-                                                <ui:msg description="Program > Ui > Hours > 23h00">11:00 pm</ui:msg>
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
-                                                </b>
-                                                <ui:msg description="Program > Content > NationalAssemblyQuebec">
-                                                    National
-                                                    Assembly of Quebec
-                                                </ui:msg>
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > Room">Room</ui:msg>:
-                                                </b>
-                                                <ui:msg description="Program > Content >  ParlementaireRestaurant">Le
-                                                    Parlementaire Restaurant
-                                                </ui:msg>
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
-                                                </b>
-                                                <ui:msg description="Program > Ui > DressCode > Business">Business
-                                                </ui:msg>
-                                            </p>
+                                <div class="{programRes.style.tooltip} {programRes.style.pagerContainer}">
+                                    <div class="{programRes.style.pagerCommons}">
+                                        <span class="{programRes.style.arrow}"/>
+                                        <h2>
+                                            <ui:msg description="Program > Content > AwardsNight">Awards Night
+                                            </ui:msg>
+                                        </h2>
+                                        <p>
+                                            <b>Date:</b>
+                                            <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20,
+                                                2013
+                                            </ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Time">Time:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > Hours > 18h00">6:00 pm</ui:msg>
+                                            -
+                                            <ui:msg description="Program > Ui > Hours > 23h00">11:00 pm</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Content > NationalAssemblyQuebec">
+                                                National
+                                                Assembly of Quebec
+                                            </ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Room">Room</ui:msg>:
+                                            </b>
+                                            <ui:msg description="Program > Content >  ParlementaireRestaurant">Le
+                                                Parlementaire Restaurant
+                                            </ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > DressCode > Business">Business
+                                            </ui:msg>
+                                        </p>
+                                    </div>
+                                    <div class="{programRes.style.pagerDivContainer}">
+                                        <div class="{programRes.style.pagerDiv}">
                                             <p>
                                                 <img src="{programRes.img_awardNight_1.getSafeUri}"
                                                      alt="Le Parlementaire Restaurant" class="{programRes.style.half}"/>
@@ -2804,46 +2833,8 @@
                                                     best kept secret of Quebec City!
                                                 </ui:msg>
                                             </p>
-                                        </span>
-                                        <span id="awardslistDiv" style="display: none">
-                                            <h2>
-                                                <ui:msg description="Program > Content > AwardsNight">Awards Night
-                                                </ui:msg>
-                                            </h2>
-                                            <p>
-                                                <b>Date:</b>
-                                                <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20,
-                                                    2013
-                                                </ui:msg>
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > Time">Time:</ui:msg>
-                                                </b>
-                                                <ui:msg description="Program > Ui > Hours > 18h00">6:00 pm</ui:msg>
-                                                -
-                                                <ui:msg description="Program > Ui > Hours > 23h00">11:00 pm</ui:msg>
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
-                                                </b>
-                                                <ui:msg description="Program > Content > NationalAssemblyQuebec">
-                                                    National
-                                                    Assembly of Quebec
-                                                </ui:msg>
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > Room">Room</ui:msg>:
-                                                </b>
-                                                <ui:msg description="Program > Content >  ParlementaireRestaurant">Le
-                                                    Parlementaire Restaurant
-                                                </ui:msg>
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
-                                                </b>
-                                                <ui:msg description="Program > Ui > DressCode > Business">Business
-                                                </ui:msg>
-                                            </p>
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <p>
                                                 <ui:msg description="Program > Content > AwardsNight > p4">Awards:
                                                 </ui:msg>
@@ -2930,16 +2921,16 @@
                                                     </ui:msg>
                                                 </li>
                                             </ul>
-                                        </span>
-                                    </span>
-                                    <span class="{programRes.style.excursions}">
+                                        </div>
+                                    </div>
+                                    <div class="{programRes.style.pagerButtonContainer}">
                                         <b>
-                                            <ui:msg description="Program > Ui > Section">Other sections:
+                                            <ui:msg description="Program > Ui > MoreInfo">More informations:
                                             </ui:msg>
                                         </b>
-                                        <a id="awardsp" class="{programRes.style.excursionsActive}"/>
-                                        <a id="awardslist"/>
-                                    </span>
+                                        <a class="{programRes.style.pagerButton} {programRes.style.pagerButtonActive}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                    </div>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
@@ -3845,10 +3836,10 @@
                                         <ui:msg description="Program > Ui > Hours > 16:30">4:30</ui:msg>
                                     </p>
                                 </div>
-                                <div ui:field="excursion3" class="{programRes.style.tooltip}">
+                                <div class="{programRes.style.tooltip} {programRes.style.pagerContainer}">
                                     <span class="{programRes.style.arrow}"/>
-                                    <span ui:field="excursionDiv3">
-                                        <span id="cruise3Div">
+                                    <div class="{programRes.style.pagerDivContainer}">
+                                        <div class="{programRes.style.pagerDiv}">
                                             <h2>
                                                 <ui:msg description="Program > Excursions > BoatCruise > Title">Boat
                                                     Cruise
@@ -3913,8 +3904,8 @@
                                                     www.croisieresaml.com
                                                 </a>
                                             </p>
-                                        </span>
-                                        <span id="shopping3Div" style="display: none">
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <h2>
                                                 <ui:msg description="Program > Excursions > Shopping > Title">Shopping
                                                 </ui:msg>
@@ -3968,8 +3959,8 @@
                                                     www.laurierquebec.com
                                                 </a>
                                             </p>
-                                        </span>
-                                        <span id="karting3Div" style="display: none">
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <h2>Karting</h2>
                                             <p>
                                                 <b>Date:</b>
@@ -4019,8 +4010,8 @@
                                                     www.kartingextreme.com
                                                 </a>
                                             </p>
-                                        </span>
-                                        <span id="arbraska3Div" style="display: none">
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <h2>
                                                 <ui:msg description="Program > Excursions > Ziplining > Title">High-Wire
                                                     and Zip-Line adventure
@@ -4078,8 +4069,8 @@
                                                     www.arbraskaduchesnay.com
                                                 </a>
                                             </p>
-                                        </span>
-                                        <span id="ferrari3Div" style="display: none">
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <h2>
                                                 <ui:msg description="Program > Excursions > Ferrari > Title">Drive a
                                                     Ferrari
@@ -4138,19 +4129,19 @@
                                                     www.circuiticar.com
                                                 </a>
                                             </p>
-                                        </span>
-                                    </span>
-                                    <span class="{programRes.style.excursions}">
+                                        </div>
+                                    </div>
+                                    <div class="{programRes.style.pagerButtonContainer}">
                                         <b>
                                             <ui:msg description="Program > Ui > OtherExcursions">Other excursions:
                                             </ui:msg>
                                         </b>
-                                        <a id="cruise3" class="{programRes.style.excursionsActive}"/>
-                                        <a id="shopping3"/>
-                                        <a id="karting3"/>
-                                        <a id="arbraska3"/>
-                                        <a id="ferrari3"/>
-                                    </span>
+                                        <a class="{programRes.style.pagerButton} {programRes.style.pagerButtonActive}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                    </div>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel

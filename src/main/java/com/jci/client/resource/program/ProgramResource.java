@@ -131,15 +131,25 @@ public interface ProgramResource extends ClientBundle {
 
         String half();
 
-        String excursions();
-
-        String excursionsActive();
+        String pagerButtonActive();
 
         String third();
 
         String overflow();
 
         String down();
+
+        String pagerContainer();
+
+        String pagerDiv();
+
+        String pagerDivContainer();
+
+        String pagerButtonContainer();
+
+        String pagerButton();
+
+        String pagerCommons();
     }
 
     @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.Both)
