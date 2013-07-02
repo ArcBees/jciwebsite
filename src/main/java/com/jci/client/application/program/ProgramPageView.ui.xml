@@ -730,7 +730,7 @@
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
-                                    addStyleNames="{programRes.style.event} {programRes.style.l4} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
+                                    addStyleNames="{programRes.style.event} {programRes.style.l4} {programRes.style.t900} {programRes.style.h275} {programRes.style.w1} {programRes.style.cGreen}">
                                 <div>
                                     <h2>
                                         <ui:msg description="Program > Content > Training">Training</ui:msg>
@@ -738,7 +738,7 @@
                                     <p>
                                         <ui:msg description="Program > Ui > Hours > 9:00">9:00</ui:msg>
                                         -
-                                        <ui:msg description="Program > Ui > Hours > 10:15">10:15</ui:msg>
+                                        <ui:msg description="Program > Ui > Hours > 11:45">11:45</ui:msg>
                                     </p>
                                 </div>
                                 <div class="{programRes.style.tooltip}">
@@ -757,58 +757,6 @@
                                             <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 9h00">9:00 am</ui:msg>
-                                        -
-                                        <ui:msg description="Program > Ui > Hours > 10h15">10:15 am</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
-                                        </b>
-                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                        H
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
-                                            Casual
-                                        </ui:msg>
-                                    </p>
-                                </div>
-                            </g:HTMLPanel>
-                            <g:HTMLPanel
-                                    addStyleNames="{programRes.style.event} {programRes.style.l4} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
-                                <div>
-                                    <h2>
-                                        <ui:msg description="Program > Content > Training">Training</ui:msg>
-                                    </h2>
-                                    <p>
-                                        <ui:msg description="Program > Ui > Hours > 10:30">10:30</ui:msg>
-                                        -
-                                        <ui:msg description="Program > Ui > Hours > 11:45">11:45</ui:msg>
-                                    </p>
-                                </div>
-                                <div class="{programRes.style.tooltip}">
-                                    <span class="{programRes.style.arrow}"/>
-                                    <h2>
-                                        <ui:msg description="Program > Content > Training > TBDBy">
-                                            To be determined by
-                                        </ui:msg>
-                                        <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
-                                    </h2>
-                                    <p>
-                                        <b>Date:</b>
-                                        <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
-                                        </ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > Hours > 10h30">10:30 am</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 11h45">11:45 am</ui:msg>
                                         <br/>
@@ -833,7 +781,7 @@
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
-                                    addStyleNames="{programRes.style.event} {programRes.style.l4} {programRes.style.t1375} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
+                                    addStyleNames="{programRes.style.event} {programRes.style.l4} {programRes.style.t1375} {programRes.style.h275} {programRes.style.w1} {programRes.style.cGreen}">
                                 <div>
                                     <h2>
                                         <ui:msg description="Program > Content > Training">Training</ui:msg>
@@ -841,7 +789,7 @@
                                     <p>
                                         <ui:msg description="Program > Ui > Hours > 13:45">1:45</ui:msg>
                                         -
-                                        <ui:msg description="Program > Ui > Hours > 15:00">3:00</ui:msg>
+                                        <ui:msg description="Program > Ui > Hours > 16:30">4:30</ui:msg>
                                     </p>
                                 </div>
                                 <div class="{programRes.style.tooltip}">
@@ -861,58 +809,6 @@
                                             <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 13h45">1:45 pm</ui:msg>
-                                        -
-                                        <ui:msg description="Program > Ui > Hours > 15h00">3:00 pm</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
-                                        </b>
-                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                        H
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
-                                            Casual
-                                        </ui:msg>
-                                    </p>
-                                </div>
-                            </g:HTMLPanel>
-                            <g:HTMLPanel
-                                    addStyleNames="{programRes.style.event} {programRes.style.l4} {programRes.style.t1525} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
-                                <div>
-                                    <h2>
-                                        <ui:msg description="Program > Content > Training">Training</ui:msg>
-                                    </h2>
-                                    <p>
-                                        <ui:msg description="Program > Ui > Hours > 15:15">3:15</ui:msg>
-                                        -
-                                        <ui:msg description="Program > Ui > Hours > 16:30">4:30</ui:msg>
-                                    </p>
-                                </div>
-                                <div class="{programRes.style.tooltip}">
-                                    <span class="{programRes.style.arrow}"/>
-                                    <h2>
-                                        <ui:msg description="Program > Content > Training > TBDBy">
-                                            To be determined by
-                                        </ui:msg>
-                                        <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
-                                    </h2>
-                                    <p>
-                                        <b>Date:</b>
-                                        <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
-                                        </ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > Hours > 15h15">3:15 pm</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 16h30">4:30 pm</ui:msg>
                                         <br/>
@@ -2266,29 +2162,6 @@
                                                     worldwide. He has been invited as an international trainer to
                                                     national and international events in the United States, Latin
                                                     America, Europe, UAE and Asia.
-                                                </ui:msg>
-                                            </p>
-                                            <p>
-                                                <ui:msg description="Program > Content > Bio > Hernando Gomez > p3">
-                                                    Hernando manages national and international engagements to assist
-                                                    clients in business valuation, M&amp;A, financial modeling and
-                                                    forecasting, business plans/deals and others financial advisory
-                                                    services. He prepares valuation analysis and complex valuation
-                                                    models for the following purposes: business acquisitions/sales,
-                                                    financial reporting, stock option valuations, tax related matters
-                                                    and arbitration/litigation matters. Hernando has designed and
-                                                    trained business valuation programs and led the business valuation
-                                                    discussion group.
-                                                </ui:msg>
-                                            </p>
-                                            <p>
-                                                <ui:msg description="Program > Content > Bio > Hernando Gomez > p4">
-                                                    Hernando supervises preparation of sumaries of financial statements,
-                                                    tax returns and others quantitative data. He develops and monitors
-                                                    budgets on valuation engagements and prepares damage and lost
-                                                    profits computation. He has an understanding of the clients’
-                                                    business, industry and economy. He also assists experts in
-                                                    preparation for depositions and trials.
                                                 </ui:msg>
                                             </p>
                                         </div>
