@@ -538,6 +538,10 @@
                                         </div>
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <p>
+                                                <img src="{programRes.img_training_sylvainRochon.getSafeUri}"
+                                                     alt="Sylvain Rochon" class="{programRes.style.third} {programRes.style.bio}"/>
+                                            </p>
+                                            <p>
                                                 <ui:msg description="Program > Content > Bio > Sylvain Rochon > p1">
                                                     Sylvain Rochon is a bachelor’s degree graduate in Biochemistry,
                                                     Chemical Engineering and Education from the University of Ottawa
@@ -652,6 +656,10 @@
                                             </p>
                                         </div>
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
+                                            <p>
+                                                <img src="{programRes.img_training_mathieuVigneault.getSafeUri}"
+                                                     alt="Mathieu Vigneault" class="{programRes.style.third} {programRes.style.bio}"/>
+                                            </p>
                                             <p>
                                                 <ui:msg description="Program > Content > Bio > Mathieu Vigneault > p1">
                                                     Détenteur d’une maîtrise en interventions régionales, d’une maîtrise
@@ -790,6 +798,10 @@
                                             </ul>
                                         </div>
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
+                                            <p>
+                                                <img src="{programRes.img_training_margieHibbard.getSafeUri}"
+                                                     alt="Margie Hibbard" class="{programRes.style.third} {programRes.style.bio}"/>
+                                            </p>
                                             <p>
                                                 <ui:msg description="Program > Content > Bio > Margie Hibbard > p1">
                                                     Margie Hibbard, HBComm has been a member of JCI since 2003 and is
@@ -2072,6 +2084,10 @@
                                         </div>
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <p>
+                                                <img src="{programRes.img_training_sylvainRochon.getSafeUri}"
+                                                     alt="Sylvain Rochon" class="{programRes.style.third} {programRes.style.bio}"/>
+                                            </p>
+                                            <p>
                                                 <ui:msg description="Program > Content > Bio > Sylvain Rochon > p1">
                                                     Sylvain Rochon is a bachelor’s degree graduate in Biochemistry,
                                                     Chemical Engineering and Education from the University of Ottawa
@@ -2215,6 +2231,10 @@
                                         </div>
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <p>
+                                                <img src="{programRes.img_training_jannVandermeulen.getSafeUri}"
+                                                     alt="Jann Vandermeulen" class="{programRes.style.third} {programRes.style.bio}"/>
+                                            </p>
+                                            <p>
                                                 <ui:msg description="Program > Content > Bio > Jann Vandermeulen > p1">
                                                     Jann Vandermeulen, M.A., (C)OACCPP, CTP is a bilingual
                                                     (English/French) cognitive behavioural therapist who has worked with
@@ -2343,6 +2363,10 @@
                                         </div>
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <p>
+                                                <img src="{programRes.img_training_hernandoGomez.getSafeUri}"
+                                                     alt="Hernando Gomez" class="{programRes.style.third} {programRes.style.bio}"/>
+                                            </p>
+                                            <p>
                                                 <ui:msg description="Program > Content > Bio > Hernando Gomez > p1">
                                                     Hernando Gomez is a senior manager in the Management Advisory
                                                     Services Department at MBAF. Since 1997, he has focused his practice
@@ -2462,6 +2486,10 @@
                                             </p>
                                         </div>
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
+                                            <p>
+                                                <img src="{programRes.img_training_drZhanSu.getSafeUri}"
+                                                     alt="Dr. Zhan Su" class="{programRes.style.third} {programRes.style.bio}"/>
+                                            </p>
                                             <p>
                                                 <ui:msg description="Program > Content > Bio > Dr. Zhan Su > p1">
                                                     Dr. Zhan Su est professeur titulaire de stratégie et de management
@@ -3754,6 +3782,10 @@
                                         </div>
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <p>
+                                                <img src="{programRes.img_training_sylvainRochon.getSafeUri}"
+                                                     alt="Sylvain Rochon" class="{programRes.style.third} {programRes.style.bio}"/>
+                                            </p>
+                                            <p>
                                                 <ui:msg description="Program > Content > Bio > Sylvain Rochon > p1">
                                                     Sylvain Rochon is a bachelor’s degree graduate in Biochemistry,
                                                     Chemical Engineering and Education from the University of Ottawa
@@ -3890,6 +3922,10 @@
                                             </ul>
                                         </div>
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
+                                            <p>
+                                                <img src="{programRes.img_training_jannVandermeulen.getSafeUri}"
+                                                     alt="Jann Vandermeulen" class="{programRes.style.third} {programRes.style.bio}"/>
+                                            </p>
                                             <p>
                                                 <ui:msg description="Program > Content > Bio > Jann Vandermeulen > p1">
                                                     Jann Vandermeulen, M.A., (C)OACCPP, CTP is a bilingual
@@ -4031,6 +4067,10 @@
                                             </ul>
                                         </div>
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
+                                            <p>
+                                                <img src="{programRes.img_training_hernandoGomez.getSafeUri}"
+                                                     alt="Hernando Gomez" class="{programRes.style.third} {programRes.style.bio}"/>
+                                            </p>
                                             <p>
                                                 <ui:msg description="Program > Content > Bio > Hernando Gomez > p1">
                                                     Hernando Gomez is a senior manager in the Management Advisory

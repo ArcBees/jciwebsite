@@ -1086,3 +1086,8 @@
 }
 
 .pagerContainer, .pagerDiv, .pagerDivContainer, .pagerButtonContainer, .pagerButton, .pagerCommons{}
+
+.bio{
+    float: left;
+    margin-right: 10px;
+}
