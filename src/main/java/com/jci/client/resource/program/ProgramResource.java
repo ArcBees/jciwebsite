@@ -183,6 +183,8 @@ public interface ProgramResource extends ClientBundle {
 
     ImageResource img_awardNight_2();
 
+    ImageResource img_tradeShow_1();
+
     ImageResource img_presidentGala_1();
 
     ImageResource img_presidentGala_2();
