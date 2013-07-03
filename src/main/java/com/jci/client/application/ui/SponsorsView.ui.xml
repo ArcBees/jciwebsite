@@ -20,6 +20,13 @@
                 <ui:attribute name="href" description="Href > Lavery"/>
                 <g:Image resource="{sponsRes.lavery}" altText="Lavery"/>
             </a>
+            <a href="http://www.cercledesambassadeurs.com/" target="_blank">
+                <g:Image resource="{sponsRes.cercleAmbassadeurs}" altText="Cercle des Ambassadeurs"/>
+            </a>
+            <a href="http://placestefoy.com/en/" target="_blank">
+                <ui:attribute name="href" description="Href > SteFoy"/>
+                <g:Image resource="{sponsRes.placeSteFoy}" altText="Place Ste-Foy"/>
+            </a>
         </div>
     </g:HTMLPanel>
 </ui:UiBinder>

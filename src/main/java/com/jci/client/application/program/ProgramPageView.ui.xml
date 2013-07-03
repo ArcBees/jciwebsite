@@ -481,6 +481,12 @@
                                             <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
                                                 Casual
                                             </ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Language">Language:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > DressCode > English">English only
+                                            </ui:msg>
                                         </p>
                                     </div>
                                     <div class="{programRes.style.pagerDivContainer}">
@@ -531,6 +537,10 @@
                                             </ul>
                                         </div>
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
+                                            <p>
+                                                <img src="{programRes.img_training_sylvainRochon.getSafeUri}"
+                                                     alt="Sylvain Rochon" class="{programRes.style.third} {programRes.style.bio}"/>
+                                            </p>
                                             <p>
                                                 <ui:msg description="Program > Content > Bio > Sylvain Rochon > p1">
                                                     Sylvain Rochon is a bachelor’s degree graduate in Biochemistry,
@@ -585,44 +595,115 @@
                                         <ui:msg description="Program > Ui > Hours > 11:45">11:45</ui:msg>
                                     </p>
                                 </div>
-                                <div class="{programRes.style.tooltip}">
-                                    <span class="{programRes.style.arrow}"/>
-                                    <h2>
-                                        <ui:msg description="Program > Content > Training > PlaceJeunes">
-                                            Place aux jeunes by
-                                        </ui:msg>
-                                        Mathieu Vigneault
-                                    </h2>
-                                    <p>
-                                        <b>Date:</b>
-                                        <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
-                                        </ui:msg>
-                                        <br/>
+                                <div class="{programRes.style.tooltip} {programRes.style.pagerContainer}">
+                                    <div class="{programRes.style.pagerCommons}">
+                                        <span class="{programRes.style.arrow}"/>
+                                        <h2>
+                                            <ui:msg description="Program > Content > Training > PlaceJeunes">
+                                                Place aux jeunes en région et la francophonie canadienne by
+                                            </ui:msg>
+                                            Mathieu Vigneault
+                                        </h2>
+                                        <p>
+                                            <b>Date:</b>
+                                            <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19,
+                                                2013
+                                            </ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Time">Time:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > Hours > 10h30">10:30 am</ui:msg>
+                                            -
+                                            <ui:msg description="Program > Ui > Hours > 11h45">11:45 am</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Room">Room</ui:msg>:
+                                            </b>
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
+                                            G
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                                Casual
+                                            </ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Language">Language:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > DressCode > French">French only
+                                            </ui:msg>
+                                        </p>
+                                    </div>
+                                    <div class="{programRes.style.pagerDivContainer}">
+                                        <div class="{programRes.style.pagerDiv}">
+                                            <p>
+                                                <ui:msg description="Program > Content > Training > PlaceJeunes > p1">
+                                                    L’objectif de cette conférence est de présenter l’organisation Place
+                                                    aux jeunes en région (PAJR) qui contribue avec succès à favoriser la
+                                                    migration des jeunes vers les régions du Québec depuis plus de deux
+                                                    décennies. Interpelée en cours de route par plusieurs organismes de
+                                                    la francophonie canadienne, et même mondiale, PAJR dresse le bilan
+                                                    de ses actions et donne un aperçu de ses orientations.
+                                                </ui:msg>
+                                            </p>
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
+                                            <p>
+                                                <img src="{programRes.img_training_mathieuVigneault.getSafeUri}"
+                                                     alt="Mathieu Vigneault" class="{programRes.style.third} {programRes.style.bio}"/>
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Mathieu Vigneault > p1">
+                                                    Détenteur d’une maîtrise en interventions régionales, d’une maîtrise
+                                                    en gestion et d’un diplôme de deuxième cycle en gestion de
+                                                    l’innovation, R. Mathieu Vigneault œuvre dans le domaine du
+                                                    développement socioéconomique depuis près de quinze ans. D’abord à
+                                                    l’emploi d’une MRC, puis d’un CLD en Beauce, sa région natale, M.
+                                                    Vigneault a ensuite occupé, de 2005 à 2012, le poste de directeur
+                                                    général du CLD de la région d’Acton, en Montérégie, avant d’accepter
+                                                    la direction du réseau national de Place aux jeunes en région.
+                                                </ui:msg>
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Mathieu Vigneault > p2">
+                                                    Depuis le début de sa carrière, M. Vigneault a publié plusieurs
+                                                    articles et donner plusieurs conférences portant principalement sur
+                                                    le développement économique et territorial ainsi que sur
+                                                    l’entrepreneuriat. En cours de route, son dynamisme et son caractère
+                                                    innovant lui ont valu d’être reconnu par ses pairs à trois reprises
+                                                    : Relève du développement économique 2006 (Association des
+                                                    professionnels en développement économique du Québec (APDEQ)),
+                                                    Précurseur en développement économique 2010 (APDEQ) et à titre de
+                                                    CLD de l’année 2010 (Association des CLD du Québec).
+                                                </ui:msg>
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Mathieu Vigneault > p3">
+                                                    Au cours des dernières années, les champs d’intérêt de M. Vigneault
+                                                    se sont plus particulièrement portés sur les enjeux et défis de
+                                                    l’entreprise du 21e siècle, sur l’occupation du territoire, ainsi
+                                                    que sur la migration des jeunes et de la main-d’œuvre dans son
+                                                    ensemble.
+                                                </ui:msg>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="{programRes.style.pagerButtonContainer}">
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
+                                            <ui:msg description="Program > Ui > MoreInfo">More informations:
+                                            </ui:msg>
                                         </b>
-                                        <ui:msg description="Program > Ui > Hours > 10h30">10:30 am</ui:msg>
-                                        -
-                                        <ui:msg description="Program > Ui > Hours > 11h45">11:45 am</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
-                                        </b>
-                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                        G
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
-                                            Casual
-                                        </ui:msg>
-                                    </p>
+                                        <a class="{programRes.style.pagerButton} {programRes.style.pagerButtonActive}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                    </div>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
@@ -637,44 +718,112 @@
                                         <ui:msg description="Program > Ui > Hours > 15:00">3:00</ui:msg>
                                     </p>
                                 </div>
-                                <div class="{programRes.style.tooltip}">
-                                    <span class="{programRes.style.arrow}"/>
-                                    <h2>
-                                        <ui:msg description="Program > Content > Training > EffectivePresentationPub">
-                                            Effective Presentation/Pub Speaking Skills by
-                                        </ui:msg>
-                                        Margie Hibbard
-                                    </h2>
-                                    <p>
-                                        <b>Date:</b>
-                                        <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
-                                        </ui:msg>
-                                        <br/>
+                                <div class="{programRes.style.tooltip} {programRes.style.pagerContainer}">
+                                    <div class="{programRes.style.pagerCommons}">
+                                        <span class="{programRes.style.arrow}"/>
+                                        <h2>
+                                            <ui:msg description="Program > Content > Training > EffectivePresentationPub">
+                                                Effective Presentation/Pub Speaking Skills by
+                                            </ui:msg>
+                                            Margie Hibbard
+                                        </h2>
+                                        <p>
+                                            <b>Date:</b>
+                                            <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19,
+                                                2013
+                                            </ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Time">Time:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > Hours > 13h45">1:45 pm</ui:msg>
+                                            -
+                                            <ui:msg description="Program > Ui > Hours > 15h00">3:00 pm</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Room">Room</ui:msg>:
+                                            </b>
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
+                                            G
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                                Casual
+                                            </ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Language">Language:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > DressCode > English">English only
+                                            </ui:msg>
+                                        </p>
+                                    </div>
+                                    <div class="{programRes.style.pagerDivContainer}">
+                                        <div class="{programRes.style.pagerDiv}">
+                                            <p>
+                                                <ui:msg description="Program > Content > Training > EffectivePresentationPub > p1">
+                                                    Take the panic out of public speaking! The goal of this session is
+                                                    to help increase your confidence speaking and improve the
+                                                    effectiveness of your presentations.
+                                                </ui:msg>
+                                            </p>
+                                            <p class="{res.style.noBottomMargin} {res.style.bold}">
+                                                <ui:msg description="Program > Content > Training > Ui > Expectations">
+                                                    After this session, the learner will be expected to:
+                                                </ui:msg>
+                                            </p>
+                                            <ul class="{res.style.eventUl} {res.style.noTopMargin}">
+                                                <li>
+                                                    <ui:msg description="Program > Content > Training > EffectivePresentationPub > ul > li1">
+                                                        Learn techniques to channel nervous energy
+                                                    </ui:msg>
+                                                </li>
+                                                <li>
+                                                    <ui:msg description="Program > Content > Training > EffectivePresentationPub > ul > li2">
+                                                        Know how to prepare for a presentation
+                                                    </ui:msg>
+                                                </li>
+                                                <li>
+                                                    <ui:msg description="Program > Content > Training > EffectivePresentationPub > ul > li3">
+                                                        Learn presentation do’s and don’ts
+                                                    </ui:msg>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
+                                            <p>
+                                                <img src="{programRes.img_training_margieHibbard.getSafeUri}"
+                                                     alt="Margie Hibbard" class="{programRes.style.third} {programRes.style.bio}"/>
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Margie Hibbard > p1">
+                                                    Margie Hibbard, HBComm has been a member of JCI since 2003 and is
+                                                    Certified Local Trainer. She is currently a stay at home mom and
+                                                    enjoys every minute with her two toddlers Connor and Grace. In her
+                                                    spare time, she provides customized training in leadership, computer
+                                                    skills, and wine sales systems through her company AMAK Solutions,
+                                                    founded 2007. In JCI, she has held multiple executive positions,
+                                                    including local President, JCI Penticton and President, JCI BC/Yukon
+                                                    Region
+                                                </ui:msg>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="{programRes.style.pagerButtonContainer}">
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
+                                            <ui:msg description="Program > Ui > MoreInfo">More informations:
+                                            </ui:msg>
                                         </b>
-                                        <ui:msg description="Program > Ui > Hours > 13h45">1:45 pm</ui:msg>
-                                        -
-                                        <ui:msg description="Program > Ui > Hours > 15h00">3:00 pm</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
-                                        </b>
-                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                        G
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
-                                            Casual
-                                        </ui:msg>
-                                    </p>
+                                        <a class="{programRes.style.pagerButton} {programRes.style.pagerButtonActive}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                    </div>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
@@ -726,11 +875,17 @@
                                         <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
                                             Casual
                                         </ui:msg>
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > Language">Language:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > English">English only
+                                        </ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
-                                    addStyleNames="{programRes.style.event} {programRes.style.l4} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
+                                    addStyleNames="{programRes.style.event} {programRes.style.l4} {programRes.style.t900} {programRes.style.h275} {programRes.style.w1} {programRes.style.cGreen}">
                                 <div>
                                     <h2>
                                         <ui:msg description="Program > Content > Training">Training</ui:msg>
@@ -738,7 +893,7 @@
                                     <p>
                                         <ui:msg description="Program > Ui > Hours > 9:00">9:00</ui:msg>
                                         -
-                                        <ui:msg description="Program > Ui > Hours > 10:15">10:15</ui:msg>
+                                        <ui:msg description="Program > Ui > Hours > 11:45">11:45</ui:msg>
                                     </p>
                                 </div>
                                 <div class="{programRes.style.tooltip}">
@@ -757,58 +912,6 @@
                                             <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 9h00">9:00 am</ui:msg>
-                                        -
-                                        <ui:msg description="Program > Ui > Hours > 10h15">10:15 am</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
-                                        </b>
-                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                        H
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
-                                            Casual
-                                        </ui:msg>
-                                    </p>
-                                </div>
-                            </g:HTMLPanel>
-                            <g:HTMLPanel
-                                    addStyleNames="{programRes.style.event} {programRes.style.l4} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
-                                <div>
-                                    <h2>
-                                        <ui:msg description="Program > Content > Training">Training</ui:msg>
-                                    </h2>
-                                    <p>
-                                        <ui:msg description="Program > Ui > Hours > 10:30">10:30</ui:msg>
-                                        -
-                                        <ui:msg description="Program > Ui > Hours > 11:45">11:45</ui:msg>
-                                    </p>
-                                </div>
-                                <div class="{programRes.style.tooltip}">
-                                    <span class="{programRes.style.arrow}"/>
-                                    <h2>
-                                        <ui:msg description="Program > Content > Training > TBDBy">
-                                            To be determined by
-                                        </ui:msg>
-                                        <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
-                                    </h2>
-                                    <p>
-                                        <b>Date:</b>
-                                        <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
-                                        </ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > Hours > 10h30">10:30 am</ui:msg>
                                         -
                                         <ui:msg description="Program > Ui > Hours > 11h45">11:45 am</ui:msg>
                                         <br/>
@@ -829,11 +932,17 @@
                                         <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
                                             Casual
                                         </ui:msg>
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > Language">Language:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > English">English only
+                                        </ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
-                                    addStyleNames="{programRes.style.event} {programRes.style.l4} {programRes.style.t1375} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
+                                    addStyleNames="{programRes.style.event} {programRes.style.l4} {programRes.style.t1375} {programRes.style.h275} {programRes.style.w1} {programRes.style.cGreen}">
                                 <div>
                                     <h2>
                                         <ui:msg description="Program > Content > Training">Training</ui:msg>
@@ -841,7 +950,7 @@
                                     <p>
                                         <ui:msg description="Program > Ui > Hours > 13:45">1:45</ui:msg>
                                         -
-                                        <ui:msg description="Program > Ui > Hours > 15:00">3:00</ui:msg>
+                                        <ui:msg description="Program > Ui > Hours > 16:30">4:30</ui:msg>
                                     </p>
                                 </div>
                                 <div class="{programRes.style.tooltip}">
@@ -862,58 +971,6 @@
                                         </b>
                                         <ui:msg description="Program > Ui > Hours > 13h45">1:45 pm</ui:msg>
                                         -
-                                        <ui:msg description="Program > Ui > Hours > 15h00">3:00 pm</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
-                                        </b>
-                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                        H
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
-                                            Casual
-                                        </ui:msg>
-                                    </p>
-                                </div>
-                            </g:HTMLPanel>
-                            <g:HTMLPanel
-                                    addStyleNames="{programRes.style.event} {programRes.style.l4} {programRes.style.t1525} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
-                                <div>
-                                    <h2>
-                                        <ui:msg description="Program > Content > Training">Training</ui:msg>
-                                    </h2>
-                                    <p>
-                                        <ui:msg description="Program > Ui > Hours > 15:15">3:15</ui:msg>
-                                        -
-                                        <ui:msg description="Program > Ui > Hours > 16:30">4:30</ui:msg>
-                                    </p>
-                                </div>
-                                <div class="{programRes.style.tooltip}">
-                                    <span class="{programRes.style.arrow}"/>
-                                    <h2>
-                                        <ui:msg description="Program > Content > Training > TBDBy">
-                                            To be determined by
-                                        </ui:msg>
-                                        <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
-                                    </h2>
-                                    <p>
-                                        <b>Date:</b>
-                                        <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
-                                        </ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > Hours > 15h15">3:15 pm</ui:msg>
-                                        -
                                         <ui:msg description="Program > Ui > Hours > 16h30">4:30 pm</ui:msg>
                                         <br/>
                                         <b>
@@ -932,6 +989,12 @@
                                         </b>
                                         <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
                                             Casual
+                                        </ui:msg>
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > Language">Language:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > English">English only
                                         </ui:msg>
                                     </p>
                                 </div>
@@ -992,7 +1055,9 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
+                                        <ui:msg description="Program > Content > TradeShowByCircle">Trade Show presented
+                                            by Cercle des Ambassadeurs
+                                        </ui:msg>
                                     </h2>
                                     <p>
                                         <b>Date:</b>
@@ -1016,6 +1081,12 @@
                                         </b>
                                         Foyer
                                     </p>
+                                    <p>
+                                        <a href="http://www.cercledesambassadeurs.com/" target="_blank">
+                                            <img src="{programRes.img_tradeShow_1.getSafeUri}"
+                                                 alt="Cercle des Ambassadeurs Logo" class="{programRes.style.third}"/>
+                                        </a>
+                                    </p>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
@@ -1033,7 +1104,9 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
+                                        <ui:msg description="Program > Content > TradeShowByCircle">Trade Show presented
+                                            by Cercle des Ambassadeurs
+                                        </ui:msg>
                                     </h2>
                                     <p>
                                         <b>Date:</b>
@@ -1057,7 +1130,14 @@
                                         </b>
                                         Foyer
                                     </p>
+                                    <p>
+                                        <a href="http://www.cercledesambassadeurs.com/" target="_blank">
+                                            <img src="{programRes.img_tradeShow_1.getSafeUri}"
+                                                 alt="Cercle des Ambassadeurs Logo" class="{programRes.style.third}"/>
+                                        </a>
+                                    </p>
                                 </div>
+
                             </g:HTMLPanel>
                             <g:HTMLPanel
                                     addStyleNames="{programRes.style.event} {programRes.style.l5} {programRes.style.t1500} {programRes.style.h025} {programRes.style.w1} {programRes.style.cRed}">
@@ -1115,7 +1195,9 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
+                                        <ui:msg description="Program > Content > TradeShowByCircle">Trade Show presented
+                                            by Cercle des Ambassadeurs
+                                        </ui:msg>
                                     </h2>
                                     <p>
                                         <b>Date:</b>
@@ -1138,6 +1220,12 @@
                                             <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         Foyer
+                                    </p>
+                                    <p>
+                                        <a href="http://www.cercledesambassadeurs.com/" target="_blank">
+                                            <img src="{programRes.img_tradeShow_1.getSafeUri}"
+                                                 alt="Cercle des Ambassadeurs Logo" class="{programRes.style.third}"/>
+                                        </a>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -1941,6 +2029,12 @@
                                             <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
                                                 Casual
                                             </ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Language">Language:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > DressCode > English">English only
+                                            </ui:msg>
                                         </p>
                                     </div>
                                     <div class="{programRes.style.pagerDivContainer}">
@@ -1989,6 +2083,10 @@
                                             </ul>
                                         </div>
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
+                                            <p>
+                                                <img src="{programRes.img_training_sylvainRochon.getSafeUri}"
+                                                     alt="Sylvain Rochon" class="{programRes.style.third} {programRes.style.bio}"/>
+                                            </p>
                                             <p>
                                                 <ui:msg description="Program > Content > Bio > Sylvain Rochon > p1">
                                                     Sylvain Rochon is a bachelor’s degree graduate in Biochemistry,
@@ -2082,6 +2180,12 @@
                                             <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
                                                 Casual
                                             </ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Language">Language:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > DressCode > English">English only
+                                            </ui:msg>
                                         </p>
                                     </div>
                                     <div class="{programRes.style.pagerDivContainer}">
@@ -2126,6 +2230,10 @@
                                             </ul>
                                         </div>
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
+                                            <p>
+                                                <img src="{programRes.img_training_jannVandermeulen.getSafeUri}"
+                                                     alt="Jann Vandermeulen" class="{programRes.style.third} {programRes.style.bio}"/>
+                                            </p>
                                             <p>
                                                 <ui:msg description="Program > Content > Bio > Jann Vandermeulen > p1">
                                                     Jann Vandermeulen, M.A., (C)OACCPP, CTP is a bilingual
@@ -2208,6 +2316,12 @@
                                             <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
                                                 Casual
                                             </ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Language">Language:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > DressCode > English">English only
+                                            </ui:msg>
                                         </p>
                                     </div>
                                     <div class="{programRes.style.pagerDivContainer}">
@@ -2249,6 +2363,10 @@
                                         </div>
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <p>
+                                                <img src="{programRes.img_training_hernandoGomez.getSafeUri}"
+                                                     alt="Hernando Gomez" class="{programRes.style.third} {programRes.style.bio}"/>
+                                            </p>
+                                            <p>
                                                 <ui:msg description="Program > Content > Bio > Hernando Gomez > p1">
                                                     Hernando Gomez is a senior manager in the Management Advisory
                                                     Services Department at MBAF. Since 1997, he has focused his practice
@@ -2266,29 +2384,6 @@
                                                     worldwide. He has been invited as an international trainer to
                                                     national and international events in the United States, Latin
                                                     America, Europe, UAE and Asia.
-                                                </ui:msg>
-                                            </p>
-                                            <p>
-                                                <ui:msg description="Program > Content > Bio > Hernando Gomez > p3">
-                                                    Hernando manages national and international engagements to assist
-                                                    clients in business valuation, M&amp;A, financial modeling and
-                                                    forecasting, business plans/deals and others financial advisory
-                                                    services. He prepares valuation analysis and complex valuation
-                                                    models for the following purposes: business acquisitions/sales,
-                                                    financial reporting, stock option valuations, tax related matters
-                                                    and arbitration/litigation matters. Hernando has designed and
-                                                    trained business valuation programs and led the business valuation
-                                                    discussion group.
-                                                </ui:msg>
-                                            </p>
-                                            <p>
-                                                <ui:msg description="Program > Content > Bio > Hernando Gomez > p4">
-                                                    Hernando supervises preparation of sumaries of financial statements,
-                                                    tax returns and others quantitative data. He develops and monitors
-                                                    budgets on valuation engagements and prepares damage and lost
-                                                    profits computation. He has an understanding of the clients’
-                                                    business, industry and economy. He also assists experts in
-                                                    preparation for depositions and trials.
                                                 </ui:msg>
                                             </p>
                                         </div>
@@ -2315,44 +2410,120 @@
                                         <ui:msg description="Program > Ui > Hours > 11:45">11:45</ui:msg>
                                     </p>
                                 </div>
-                                <div class="{programRes.style.tooltip}">
-                                    <span class="{programRes.style.arrow}"/>
-                                    <h2>
-                                        <ui:msg description="Program > Content > Training > TBDBy">
-                                            To be determined by
-                                        </ui:msg>
-                                        <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
-                                    </h2>
-                                    <p>
-                                        <b>Date:</b>
-                                        <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
-                                        </ui:msg>
-                                        <br/>
+                                <div class="{programRes.style.tooltip} {programRes.style.pagerContainer}">
+                                    <div class="{programRes.style.pagerCommons}">
+                                        <span class="{programRes.style.arrow}"/>
+                                        <h2>
+                                            <ui:msg description="Program > Content > Training > MarcheEmergent">
+                                                Comment affronter les marchés émergents by
+                                            </ui:msg>
+                                            Dr. Zhan Su
+                                        </h2>
+                                        <p>
+                                            <b>Date:</b>
+                                            <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20,
+                                                2013
+                                            </ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Time">Time:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > Hours > 10h30">10:30 am</ui:msg>
+                                            -
+                                            <ui:msg description="Program > Ui > Hours > 11h45">11:45 am</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Room">Room</ui:msg>:
+                                            </b>
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
+                                            H
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                                Casual
+                                            </ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Language">Language:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > DressCode > French">French only
+                                            </ui:msg>
+                                        </p>
+                                    </div>
+                                    <div class="{programRes.style.pagerDivContainer}">
+                                        <div class="{programRes.style.pagerDiv}">
+                                            <p>
+                                                <ui:msg description="Program > Content > Training > MarcheEmergent > p1">
+                                                    La montée en puissance des pays émergents est en train de
+                                                    radicalement modifier notre environnement d’affaires. Cependant,
+                                                    l’émergence de ces pays ne se réduit pas simplement à l’apparition
+                                                    des adversaires redoutables, mais se traduit bien au contraire par
+                                                    un incroyable vivier de possibilités pour les entreprises
+                                                    canadiennes et québécoises de prospérer et de se développer à
+                                                    l’international. Les pays émergents étant un ensemble hétérogène et
+                                                    complexe, une bonne connaissance de ces nouveaux acteurs apparaît
+                                                    désormais non plus comme un simple atout mais bien comme une
+                                                    nécessité pour être capable d’orienter les activités de vos
+                                                    entreprises dans le futur.
+                                                </ui:msg>
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Training > MarcheEmergent > p2">
+                                                    Quelle est l’importance économique,
+                                                    réelle et potentielle, des pays émergents dans le monde? Quelles
+                                                    sont les spécificités de l’environnement d’affaires des pays
+                                                    émergents? Quels sont les facteurs clés de succès dans le
+                                                    développement des projets sur les marchés de ces pays? Ce sont
+                                                    autant de sujets qui seront abordés lors de la conférence.
+                                                </ui:msg>
+                                            </p>
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
+                                            <p>
+                                                <img src="{programRes.img_training_drZhanSu.getSafeUri}"
+                                                     alt="Dr. Zhan Su" class="{programRes.style.third} {programRes.style.bio}"/>
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Dr. Zhan Su > p1">
+                                                    Dr. Zhan Su est professeur titulaire de stratégie et de management
+                                                    international et
+                                                    titulaire de la Chaire Stephen-A.-Jarislowsky en gestion des
+                                                    affaires internationales à
+                                                    l’Université Laval. Il a obtenu son diplôme d'ingénieur en
+                                                    automatique en Chine en 1982 et son doctorat en sciences de gestion
+                                                    en France en 1990. Au cours de ces dernières années, professeur Su a
+                                                    réalisé plusieurs projets de recherche sur une grande variété de
+                                                    sujets et a fait des publications dans de nombreuses revues.
+                                                </ui:msg>
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Dr. Zhan Su > p2">
+                                                    Il a organisé de nombreuses formations destinées à des chefs
+                                                    d’entreprises et il est consultant auprès de plusieurs organisations
+                                                    et entreprises de nationalités diverses. Il est récipiendaire de
+                                                    plusieurs prix d’excellence, tant au sein de l’Université Laval,
+                                                    qu’au niveau national, dont le prix « Leader in Management Education
+                                                    » de National Post, Bell Canada et PriceWaterHouseCoopers en 2001,
+                                                    le Prix d'excellence en enseignement de l'Université Laval en 1999.
+                                                </ui:msg>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="{programRes.style.pagerButtonContainer}">
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
+                                            <ui:msg description="Program > Ui > MoreInfo">More informations:
+                                            </ui:msg>
                                         </b>
-                                        <ui:msg description="Program > Ui > Hours > 10h30">10:30 am</ui:msg>
-                                        -
-                                        <ui:msg description="Program > Ui > Hours > 11h45">11:45 am</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
-                                        </b>
-                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                        H
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
-                                            Casual
-                                        </ui:msg>
-                                    </p>
+                                        <a class="{programRes.style.pagerButton} {programRes.style.pagerButtonActive}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                    </div>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
@@ -2370,7 +2541,9 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
+                                        <ui:msg description="Program > Content > TradeShowByCircle">Trade Show presented
+                                            by Cercle des Ambassadeurs
+                                        </ui:msg>
                                     </h2>
                                     <p>
                                         <b>Date:</b>
@@ -2393,6 +2566,12 @@
                                             <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         Foyer
+                                    </p>
+                                    <p>
+                                        <a href="http://www.cercledesambassadeurs.com/" target="_blank">
+                                            <img src="{programRes.img_tradeShow_1.getSafeUri}"
+                                                 alt="Cercle des Ambassadeurs Logo" class="{programRes.style.third}"/>
+                                        </a>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -2452,7 +2631,9 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
+                                        <ui:msg description="Program > Content > TradeShowByCircle">Trade Show presented
+                                            by Cercle des Ambassadeurs
+                                        </ui:msg>
                                     </h2>
                                     <p>
                                         <b>Date:</b>
@@ -2476,6 +2657,12 @@
                                         </b>
                                         Foyer
                                     </p>
+                                    <p>
+                                        <a href="http://www.cercledesambassadeurs.com/" target="_blank">
+                                            <img src="{programRes.img_tradeShow_1.getSafeUri}"
+                                                 alt="Cercle des Ambassadeurs Logo" class="{programRes.style.third}"/>
+                                        </a>
+                                    </p>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
@@ -2493,7 +2680,9 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
+                                        <ui:msg description="Program > Content > TradeShowByCircle">Trade Show presented
+                                            by Cercle des Ambassadeurs
+                                        </ui:msg>
                                     </h2>
                                     <p>
                                         <b>Date:</b>
@@ -2516,6 +2705,12 @@
                                             <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         Foyer
+                                    </p>
+                                    <p>
+                                        <a href="http://www.cercledesambassadeurs.com/" target="_blank">
+                                            <img src="{programRes.img_tradeShow_1.getSafeUri}"
+                                                 alt="Cercle des Ambassadeurs Logo" class="{programRes.style.third}"/>
+                                        </a>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -2575,7 +2770,9 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
+                                        <ui:msg description="Program > Content > TradeShowByCircle">Trade Show presented
+                                            by Cercle des Ambassadeurs
+                                        </ui:msg>
                                     </h2>
                                     <p>
                                         <b>Date:</b>
@@ -2598,6 +2795,12 @@
                                             <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         Foyer
+                                    </p>
+                                    <p>
+                                        <a href="http://www.cercledesambassadeurs.com/" target="_blank">
+                                            <img src="{programRes.img_tradeShow_1.getSafeUri}"
+                                                 alt="Cercle des Ambassadeurs Logo" class="{programRes.style.third}"/>
+                                        </a>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -3520,6 +3723,12 @@
                                             <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
                                                 Casual
                                             </ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Language">Language:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > DressCode > English">English only
+                                            </ui:msg>
                                         </p>
                                     </div>
                                     <div class="{programRes.style.pagerDivContainer}">
@@ -3572,6 +3781,10 @@
                                             </ul>
                                         </div>
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
+                                            <p>
+                                                <img src="{programRes.img_training_sylvainRochon.getSafeUri}"
+                                                     alt="Sylvain Rochon" class="{programRes.style.third} {programRes.style.bio}"/>
+                                            </p>
                                             <p>
                                                 <ui:msg description="Program > Content > Bio > Sylvain Rochon > p1">
                                                     Sylvain Rochon is a bachelor’s degree graduate in Biochemistry,
@@ -3665,6 +3878,12 @@
                                             <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
                                                 Casual
                                             </ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Language">Language:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > DressCode > English">English only
+                                            </ui:msg>
                                         </p>
                                     </div>
                                     <div class="{programRes.style.pagerDivContainer}">
@@ -3703,6 +3922,10 @@
                                             </ul>
                                         </div>
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
+                                            <p>
+                                                <img src="{programRes.img_training_jannVandermeulen.getSafeUri}"
+                                                     alt="Jann Vandermeulen" class="{programRes.style.third} {programRes.style.bio}"/>
+                                            </p>
                                             <p>
                                                 <ui:msg description="Program > Content > Bio > Jann Vandermeulen > p1">
                                                     Jann Vandermeulen, M.A., (C)OACCPP, CTP is a bilingual
@@ -3785,6 +4008,12 @@
                                             <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
                                                 Casual
                                             </ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Language">Language:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > DressCode > English">English only
+                                            </ui:msg>
                                         </p>
                                     </div>
                                     <div class="{programRes.style.pagerDivContainer}">
@@ -3839,6 +4068,10 @@
                                         </div>
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <p>
+                                                <img src="{programRes.img_training_hernandoGomez.getSafeUri}"
+                                                     alt="Hernando Gomez" class="{programRes.style.third} {programRes.style.bio}"/>
+                                            </p>
+                                            <p>
                                                 <ui:msg description="Program > Content > Bio > Hernando Gomez > p1">
                                                     Hernando Gomez is a senior manager in the Management Advisory
                                                     Services Department at MBAF. Since 1997, he has focused his practice
@@ -3856,29 +4089,6 @@
                                                     worldwide. He has been invited as an international trainer to
                                                     national and international events in the United States, Latin
                                                     America, Europe, UAE and Asia.
-                                                </ui:msg>
-                                            </p>
-                                            <p>
-                                                <ui:msg description="Program > Content > Bio > Hernando Gomez > p3">
-                                                    Hernando manages national and international engagements to assist
-                                                    clients in business valuation, M&amp;A, financial modeling and
-                                                    forecasting, business plans/deals and others financial advisory
-                                                    services. He prepares valuation analysis and complex valuation
-                                                    models for the following purposes: business acquisitions/sales,
-                                                    financial reporting, stock option valuations, tax related matters
-                                                    and arbitration/litigation matters. Hernando has designed and
-                                                    trained business valuation programs and led the business valuation
-                                                    discussion group.
-                                                </ui:msg>
-                                            </p>
-                                            <p>
-                                                <ui:msg description="Program > Content > Bio > Hernando Gomez > p4">
-                                                    Hernando supervises preparation of sumaries of financial statements,
-                                                    tax returns and others quantitative data. He develops and monitors
-                                                    budgets on valuation engagements and prepares damage and lost
-                                                    profits computation. He has an understanding of the clients’
-                                                    business, industry and economy. He also assists experts in
-                                                    preparation for depositions and trials.
                                                 </ui:msg>
                                             </p>
                                         </div>
@@ -4052,7 +4262,9 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
+                                        <ui:msg description="Program > Content > TradeShowByCircle">Trade Show presented
+                                            by Cercle des Ambassadeurs
+                                        </ui:msg>
                                     </h2>
                                     <p>
                                         <b>Date:</b>
@@ -4075,6 +4287,12 @@
                                             <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         Foyer
+                                    </p>
+                                    <p>
+                                        <a href="http://www.cercledesambassadeurs.com/" target="_blank">
+                                            <img src="{programRes.img_tradeShow_1.getSafeUri}"
+                                                 alt="Cercle des Ambassadeurs Logo" class="{programRes.style.third}"/>
+                                        </a>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -4134,7 +4352,9 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > TradeShow">Trade Show</ui:msg>
+                                        <ui:msg description="Program > Content > TradeShowByCircle">Trade Show presented
+                                            by Cercle des Ambassadeurs
+                                        </ui:msg>
                                     </h2>
                                     <p>
                                         <b>Date:</b>
@@ -4157,6 +4377,12 @@
                                             <ui:msg description="Program > Ui > Room">Room</ui:msg>:
                                         </b>
                                         Foyer
+                                    </p>
+                                    <p>
+                                        <a href="http://www.cercledesambassadeurs.com/" target="_blank">
+                                            <img src="{programRes.img_tradeShow_1.getSafeUri}"
+                                                 alt="Cercle des Ambassadeurs Logo" class="{programRes.style.third}"/>
+                                        </a>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
