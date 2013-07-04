@@ -539,7 +539,8 @@
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <p>
                                                 <img src="{programRes.img_training_sylvainRochon.getSafeUri}"
-                                                     alt="Sylvain Rochon" class="{programRes.style.third} {programRes.style.bio}"/>
+                                                     alt="Sylvain Rochon"
+                                                     class="{programRes.style.third} {programRes.style.bio}"/>
                                             </p>
                                             <p>
                                                 <ui:msg description="Program > Content > Bio > Sylvain Rochon > p1">
@@ -658,7 +659,8 @@
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <p>
                                                 <img src="{programRes.img_training_mathieuVigneault.getSafeUri}"
-                                                     alt="Mathieu Vigneault" class="{programRes.style.third} {programRes.style.bio}"/>
+                                                     alt="Mathieu Vigneault"
+                                                     class="{programRes.style.third} {programRes.style.bio}"/>
                                             </p>
                                             <p>
                                                 <ui:msg description="Program > Content > Bio > Mathieu Vigneault > p1">
@@ -800,7 +802,8 @@
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <p>
                                                 <img src="{programRes.img_training_margieHibbard.getSafeUri}"
-                                                     alt="Margie Hibbard" class="{programRes.style.third} {programRes.style.bio}"/>
+                                                     alt="Margie Hibbard"
+                                                     class="{programRes.style.third} {programRes.style.bio}"/>
                                             </p>
                                             <p>
                                                 <ui:msg description="Program > Content > Bio > Margie Hibbard > p1">
@@ -1595,8 +1598,8 @@
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > GrandeAlleeClubbing">Grande Allée
-                                            Clubbing
+                                        <ui:msg description="Program > Content > GrandeAlleeClubbing > Title">
+                                            The ultimate high-end lounge!
                                         </ui:msg>
                                     </h2>
                                     <p>
@@ -1620,6 +1623,21 @@
                                             <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > DressCode > Casual">Casual</ui:msg>
+                                    </p>
+                                    <p>
+                                        <img src="{programRes.img_charlotteLounge_1.getSafeUri}"
+                                             class="{programRes.style.half}" alt="Charlotte Ultra Lounge"/>
+                                        <img src="{programRes.img_charlotteLounge_2.getSafeUri}"
+                                             class="{programRes.style.half}" alt="Charlotte Ultra Lounge"/>
+                                    </p>
+                                    <p>
+                                        <ui:msg description="Program > Content > GrandeAlleeClubbing > p1">
+                                            If there's one lounge in Québec city synonymous with exclusivity, it is
+                                            Charlotte. The list of celebrities that have passed through Charlotte doors
+                                            would fill a dozen rolodexes. Mick Jagger, Claudia Shiffer, Bill Murray,
+                                            Phil Jackson to name a few. Sexy alcoves and booths deliberately designed
+                                            and arrange for you to fill your needs and lose track of time.
+                                        </ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -2085,7 +2103,8 @@
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <p>
                                                 <img src="{programRes.img_training_sylvainRochon.getSafeUri}"
-                                                     alt="Sylvain Rochon" class="{programRes.style.third} {programRes.style.bio}"/>
+                                                     alt="Sylvain Rochon"
+                                                     class="{programRes.style.third} {programRes.style.bio}"/>
                                             </p>
                                             <p>
                                                 <ui:msg description="Program > Content > Bio > Sylvain Rochon > p1">
@@ -2232,7 +2251,8 @@
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <p>
                                                 <img src="{programRes.img_training_jannVandermeulen.getSafeUri}"
-                                                     alt="Jann Vandermeulen" class="{programRes.style.third} {programRes.style.bio}"/>
+                                                     alt="Jann Vandermeulen"
+                                                     class="{programRes.style.third} {programRes.style.bio}"/>
                                             </p>
                                             <p>
                                                 <ui:msg description="Program > Content > Bio > Jann Vandermeulen > p1">
@@ -2364,7 +2384,8 @@
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <p>
                                                 <img src="{programRes.img_training_hernandoGomez.getSafeUri}"
-                                                     alt="Hernando Gomez" class="{programRes.style.third} {programRes.style.bio}"/>
+                                                     alt="Hernando Gomez"
+                                                     class="{programRes.style.third} {programRes.style.bio}"/>
                                             </p>
                                             <p>
                                                 <ui:msg description="Program > Content > Bio > Hernando Gomez > p1">
@@ -2488,7 +2509,8 @@
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <p>
                                                 <img src="{programRes.img_training_drZhanSu.getSafeUri}"
-                                                     alt="Dr. Zhan Su" class="{programRes.style.third} {programRes.style.bio}"/>
+                                                     alt="Dr. Zhan Su"
+                                                     class="{programRes.style.third} {programRes.style.bio}"/>
                                             </p>
                                             <p>
                                                 <ui:msg description="Program > Content > Bio > Dr. Zhan Su > p1">
@@ -3783,7 +3805,8 @@
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <p>
                                                 <img src="{programRes.img_training_sylvainRochon.getSafeUri}"
-                                                     alt="Sylvain Rochon" class="{programRes.style.third} {programRes.style.bio}"/>
+                                                     alt="Sylvain Rochon"
+                                                     class="{programRes.style.third} {programRes.style.bio}"/>
                                             </p>
                                             <p>
                                                 <ui:msg description="Program > Content > Bio > Sylvain Rochon > p1">
@@ -3924,7 +3947,8 @@
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <p>
                                                 <img src="{programRes.img_training_jannVandermeulen.getSafeUri}"
-                                                     alt="Jann Vandermeulen" class="{programRes.style.third} {programRes.style.bio}"/>
+                                                     alt="Jann Vandermeulen"
+                                                     class="{programRes.style.third} {programRes.style.bio}"/>
                                             </p>
                                             <p>
                                                 <ui:msg description="Program > Content > Bio > Jann Vandermeulen > p1">
@@ -4069,7 +4093,8 @@
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <p>
                                                 <img src="{programRes.img_training_hernandoGomez.getSafeUri}"
-                                                     alt="Hernando Gomez" class="{programRes.style.third} {programRes.style.bio}"/>
+                                                     alt="Hernando Gomez"
+                                                     class="{programRes.style.third} {programRes.style.bio}"/>
                                             </p>
                                             <p>
                                                 <ui:msg description="Program > Content > Bio > Hernando Gomez > p1">
@@ -4155,22 +4180,22 @@
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
-                                    addStyleNames="{programRes.style.event} {programRes.style.l5} {programRes.style.t750} {programRes.style.h150} {programRes.style.w1} {programRes.style.cRed}">
+                                    addStyleNames="{programRes.style.event} {programRes.style.l5} {programRes.style.t1200} {programRes.style.h100} {programRes.style.w1} {programRes.style.cRed}">
                                 <div>
                                     <h2>
-                                        <ui:msg description="Program > Content > SenatorsBreakfast">Senators' Breakfast
+                                        <ui:msg description="Program > Content > SenatorsLunch" meaning="short">Senators' Lunch
                                         </ui:msg>
                                     </h2>
                                     <p>
-                                        <ui:msg description="Program > Ui > Hours > 7:30">7:30</ui:msg>
+                                        <ui:msg description="Program > Ui > Hours > 12:00">12:00</ui:msg>
                                         -
-                                        <ui:msg description="Program > Ui > Hours > 9:00">9:00</ui:msg>
+                                        <ui:msg description="Program > Ui > Hours > 13:00">1:00</ui:msg>
                                     </p>
                                 </div>
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > SenatorsBreakfast">Senators' Breakfast
+                                        <ui:msg description="Program > Content > SenatorsLunch">Senators' Lunch
                                         </ui:msg>
                                     </h2>
                                     <p>
@@ -4181,9 +4206,9 @@
                                         <b>
                                             <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
-                                        <ui:msg description="Program > Ui > Hours > 7h30">7:30 am</ui:msg>
+                                        <ui:msg description="Program > Ui > Hours > 12h00">12:00 am</ui:msg>
                                         -
-                                        <ui:msg description="Program > Ui > Hours > 9h00">9:00 am</ui:msg>
+                                        <ui:msg description="Program > Ui > Hours > 13h00">1:00 pm</ui:msg>
                                         <br/>
                                         <b>
                                             <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>

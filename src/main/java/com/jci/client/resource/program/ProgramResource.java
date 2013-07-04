@@ -229,6 +229,10 @@ public interface ProgramResource extends ClientBundle {
 
     ImageResource img_training_hernandoGomez();
 
+    ImageResource img_charlotteLounge_1();
+
+    ImageResource img_charlotteLounge_2();
+
     @CssResource.NotStrict
     Style style();
 }
