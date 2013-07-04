@@ -164,6 +164,9 @@
                                         </b>
                                         Foyer
                                     </p>
+                                    <p>
+                                        <img src="{programRes.img_registration.getSafeUri}" alt="Front Desk"/>
+                                    </p>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
@@ -211,6 +214,12 @@
                                             <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
                                         </b>
                                         <ui:msg description="Program > Ui > DressCode > Casual">Casual</ui:msg>
+                                    </p>
+                                    <p>
+                                        <img src="{programRes.img_opening_1.getSafeUri}" alt="Restaurant Table"
+                                             class="{programRes.style.half}"/>
+                                        <img src="{programRes.img_opening_2.getSafeUri}" alt="Poutine"
+                                             class="{programRes.style.half}"/>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -1392,8 +1401,10 @@
                                                 <ui:msg description="Program > Ui > DressCode > Casual">Casual</ui:msg>
                                             </p>
                                             <p>
+                                                <img src="{programRes.img_excursionShopping_2.getSafeUri}"
+                                                     alt="Place Ste-Foy" class="{programRes.style.half}"/>
                                                 <img src="{programRes.img_excursionShopping_1.getSafeUri}"
-                                                     alt="Place Laurier"/>
+                                                     alt="Place Laurier" class="{programRes.style.half}"/>
                                             </p>
                                             <p>
                                                 <ui:msg description="Program > Excursions > Shopping > p1">
@@ -1407,6 +1418,18 @@
                                                 </ui:msg>
                                             </p>
                                             <p>
+                                                <ui:msg description="Program > Excursions > Shopping > p2">
+                                                    In addition, Place Ste-Foy, in collaboration with Simons, is pleased
+                                                    to provide JCI members a gift card valued at $ 25 each to spend at
+                                                    Simons.
+                                                </ui:msg>
+                                            </p>
+                                            <p>
+                                                <a href="http://placestefoy.com/en/" target="_blank">
+                                                    <ui:attribute name="href" description="Href > SteFoy"/>
+                                                    www.placestefoy.com
+                                                </a>
+                                                <br/>
                                                 <a href="http://www.laurierquebec.com/" target="_blank">
                                                     www.laurierquebec.com
                                                 </a>
@@ -1822,6 +1845,7 @@
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
                                         <ui:msg description="Program > Content > EffectiveSpeaking">Effective speaking
+                                            presented by Chaire Stephen-A.-Jarislowsky
                                         </ui:msg>
                                     </h2>
                                     <p>
@@ -1891,6 +1915,13 @@
                                             Erin will represent JCI Canada at the Conference of the Americas in May
                                             2013.
                                         </ui:msg>
+                                    </p>
+                                    <p>
+                                        <a href="http://www4.fsa.ulaval.ca/cms/accueil/recherche/chairescentrerecherche/chairesderecherche/stephenjarislowsky"
+                                           target="_blank">
+                                            <img src="{programRes.img_chaire_1.getSafeUri}"
+                                                 alt="Chaire Stephen-A.-Jarislowsky" class="{programRes.style.third}"/>
+                                        </a>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
@@ -2938,8 +2969,10 @@
                                                 <ui:msg description="Program > Ui > DressCode > Casual">Casual</ui:msg>
                                             </p>
                                             <p>
+                                                <img src="{programRes.img_excursionShopping_2.getSafeUri}"
+                                                     alt="Place Ste-Foy" class="{programRes.style.half}"/>
                                                 <img src="{programRes.img_excursionShopping_1.getSafeUri}"
-                                                     alt="Place Laurier"/>
+                                                     alt="Place Laurier" class="{programRes.style.half}"/>
                                             </p>
                                             <p>
                                                 <ui:msg description="Program > Excursions > Shopping > p1">
@@ -2953,6 +2986,18 @@
                                                 </ui:msg>
                                             </p>
                                             <p>
+                                                <ui:msg description="Program > Excursions > Shopping > p2">
+                                                    In addition, Place Ste-Foy, in collaboration with Simons, is pleased
+                                                    to provide JCI members a gift card valued at $ 25 each to spend at
+                                                    Simons.
+                                                </ui:msg>
+                                            </p>
+                                            <p>
+                                                <a href="http://placestefoy.com/en/" target="_blank">
+                                                    <ui:attribute name="href" description="Href > SteFoy"/>
+                                                    www.placestefoy.com
+                                                </a>
+                                                <br/>
                                                 <a href="http://www.laurierquebec.com/" target="_blank">
                                                     www.laurierquebec.com
                                                 </a>
@@ -3146,7 +3191,8 @@
                                     <div class="{programRes.style.pagerCommons}">
                                         <span class="{programRes.style.arrow}"/>
                                         <h2>
-                                            <ui:msg description="Program > Content > AwardsNight">Awards Night
+                                            <ui:msg description="Program > Content > AwardsNightExtras">Awards Night
+                                                presented by Deloitte and QVC-Inscript
                                             </ui:msg>
                                         </h2>
                                         <p>
@@ -3193,45 +3239,43 @@
                                                      alt="Le Parlementaire Restaurant" class="{programRes.style.half}"/>
                                             </p>
                                             <p>
-                                                <ui:msg description="Program > Content > AwardsNight > p1">Come enjoy
-                                                    with
-                                                    us a
-                                                    special evening for the JCI awards night on Thursday
-                                                    September
-                                                    19, 2013 at Le Parlementaire. Located at National assembly, The
-                                                    parliament
-                                                    building
-                                                    is imposing with its four wings forming a square roughly 100m on
-                                                    each
-                                                    side.
-                                                    The
-                                                    eloquent architecture and interior decoration offer a veritable
-                                                    fresco
-                                                    of
-                                                    Québec
-                                                    history. Witness to parliamentary social life, host of numerous
-                                                    State
-                                                    Dinners
-                                                    and
-                                                    formal receptions and venue par excellence for Québec products, Le
-                                                    Parlementaire
-                                                    is
-                                                    unique among the region’s restaurants.
+                                                <ui:msg description="Program > Content > AwardsNight > p1">
+                                                    Come enjoy with us aspecial evening for the JCI awards night on
+                                                    Thursday September 19, 2013 at Le Parlementaire. Located at National
+                                                    assembly, The parliament building is imposing with its four wings
+                                                    forming a square roughly 100m on each side. The eloquent
+                                                    architecture and interior decoration offer a veritable fresco of
+                                                    Québec history. Witness to parliamentary social life, host of
+                                                    numerous State Dinners and formal receptions and venue par
+                                                    excellence for Québec products, Le Parlementaire is unique among the
+                                                    region’s restaurants.
                                                 </ui:msg>
                                             </p>
                                             <p>
-                                                <ui:msg description="Program > Content > AwardsNight > p2">The JCI
-                                                    Quebec
-                                                    team
-                                                    is awaiting for this formal evening in a unique setting.
+                                                <ui:msg description="Program > Content > AwardsNight > p2">
+                                                    The JCI Quebec team is awaiting for this formal evening in a unique
+                                                    setting.
                                                 </ui:msg>
                                             </p>
                                             <p>
-                                                <ui:msg description="Program > Content > AwardsNight > p3">Le
-                                                    Parlementaire,
-                                                    the
-                                                    best kept secret of Quebec City!
+                                                <ui:msg description="Program > Content > AwardsNight > p3">
+                                                    Le Parlementaire, the best kept secret of Quebec City!
                                                 </ui:msg>
+                                            </p>
+                                            <p>
+                                                <a href="http://www.deloitte.com/view/en_CA/ca/index.htm"
+                                                   target="_blank" class="{programRes.style.noUnderline}">
+                                                    <ui:attribute name="href" description="Href > Deloitte"/>
+                                                    <img src="{programRes.img_awards_1.getSafeUri}"
+                                                         alt="Deloitte" class="{programRes.style.third}"/>
+                                                </a>
+                                                <a href="http://www.qvc.qc.ca/eng/QVC-01-About-us/QVC-About-us.htm"
+                                                   target="_blank">
+                                                    <ui:attribute name="href" description="Href > QVC"/>
+                                                    <img src="{programRes.img_awards_2.getSafeUri}"
+                                                         alt="Chaire Stephen-A.-Jarislowsky"
+                                                         class="{programRes.style.third}"/>
+                                                </a>
                                             </p>
                                         </div>
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
@@ -3462,42 +3506,100 @@
                                         <ui:msg description="Program > Ui > Hours > 13:30">1:30</ui:msg>
                                     </p>
                                 </div>
-                                <div class="{programRes.style.tooltip}">
-                                    <span class="{programRes.style.arrow}"/>
-                                    <h2>
-                                        <ui:msg description="Program > Content > KeynoteSpeaker">Keynote speaker
-                                        </ui:msg>
-                                    </h2>
-                                    <p>
-                                        <b>Date:</b>
-                                        <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
-                                        </ui:msg>
-                                        <br/>
+                                <div class="{programRes.style.tooltip} {programRes.style.pagerContainer}">
+                                    <div class="{programRes.style.pagerCommons}">
+                                        <span class="{programRes.style.arrow}"/>
+                                        <h2>
+                                            <ui:msg description="Program > Content > AgainstAllOdds">
+                                                Determined against all odds by
+                                            </ui:msg>
+                                            Josée Masson
+                                        </h2>
+                                        <p>
+                                            <b>Date:</b>
+                                            <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21,
+                                                2013
+                                            </ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Time">Time:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > Hours > 12h00">12:00 am</ui:msg>
+                                            -
+                                            <ui:msg description="Program > Ui > Hours > 13h30">1:30 pm</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Room">Room</ui:msg>:
+                                            </b>
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
+                                            AB
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                                Casual
+                                            </ui:msg>
+                                        </p>
+                                    </div>
+                                    <div class="{programRes.style.pagerDivContainer}">
+                                        <div class="{programRes.style.pagerDiv}">
+                                            <p>
+                                                <ui:msg description="Program > Content > Training > NoDesc">
+                                                    No description yet
+                                                </ui:msg>
+                                            </p>
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
+                                            <p>
+                                                <img src="{programRes.img_training_joseeMasson.getSafeUri}"
+                                                     alt="Josée Masson"
+                                                     class="{programRes.style.third} {programRes.style.bio}"/>
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Josée Masson > p1">
+                                                    Josée Masson, a social worker, has worked in the public sector for
+                                                    13 years before being founder and head of Deuil-Jeunesse, whose
+                                                    mission is to support, inform and act in connection with the serious
+                                                    illness of a loved one or bereavement lived in childhood and
+                                                    adolescence. Her group "L'Arc-en-Ciel" was awarded the Simone-Paré
+                                                    from Laval University in 2004. Since then, she has developed a
+                                                    professional team, many other innovative services for young people
+                                                    aged between 3 and 20 years. In 2007, she earned a tribute price of
+                                                    the Quebec Bar.
+                                                </ui:msg>
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Josée Masson > p2">
+                                                    Lecturer at the Laval University, speaker and trainer, she travels
+                                                    the regions to raise awareness of the importance of providing
+                                                    support to these young people. She collaborates with many
+                                                    organizations including Québec-Transplant, the Quebec Association of
+                                                    Suicide Prevention, is the Ambassador of the Corporation
+                                                    thanatologues Quebec and is regularly invited to share his expertise
+                                                    in the Quebec media. She is the author of "Derrière mes larmes
+                                                    d'enfant" published in 2006, but completely revised to read "Mort,
+                                                    mais pas dans mon cœur" released in 2010. In 2012, she was named
+                                                    Young personality business sector "Non-profit, community and social
+                                                    order" and "Person of the Year" by the Junior Chamber of Commerce of
+                                                    Quebec.
+                                                </ui:msg>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="{programRes.style.pagerButtonContainer}">
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
+                                            <ui:msg description="Program > Ui > MoreInfo">More informations:
+                                            </ui:msg>
                                         </b>
-                                        <ui:msg description="Program > Ui > Hours > 12h00">12:00 am</ui:msg>
-                                        -
-                                        <ui:msg description="Program > Ui > Hours > 13h30">1:30 pm</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
-                                        </b>
-                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                        AB
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
-                                            Casual
-                                        </ui:msg>
-                                    </p>
+                                        <a class="{programRes.style.pagerButton} {programRes.style.pagerButtonActive}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                    </div>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
@@ -4183,7 +4285,8 @@
                                     addStyleNames="{programRes.style.event} {programRes.style.l5} {programRes.style.t1200} {programRes.style.h100} {programRes.style.w1} {programRes.style.cRed}">
                                 <div>
                                     <h2>
-                                        <ui:msg description="Program > Content > SenatorsLunch" meaning="short">Senators' Lunch
+                                        <ui:msg description="Program > Content > SenatorsLunch" meaning="short">
+                                            Senators' Lunch
                                         </ui:msg>
                                     </h2>
                                     <p>
@@ -4525,8 +4628,10 @@
                                                 <ui:msg description="Program > Ui > DressCode > Casual">Casual</ui:msg>
                                             </p>
                                             <p>
+                                                <img src="{programRes.img_excursionShopping_2.getSafeUri}"
+                                                     alt="Place Ste-Foy" class="{programRes.style.half}"/>
                                                 <img src="{programRes.img_excursionShopping_1.getSafeUri}"
-                                                     alt="Place Laurier"/>
+                                                     alt="Place Laurier" class="{programRes.style.half}"/>
                                             </p>
                                             <p>
                                                 <ui:msg description="Program > Excursions > Shopping > p1">
@@ -4540,6 +4645,18 @@
                                                 </ui:msg>
                                             </p>
                                             <p>
+                                                <ui:msg description="Program > Excursions > Shopping > p2">
+                                                    In addition, Place Ste-Foy, in collaboration with Simons, is pleased
+                                                    to provide JCI members a gift card valued at $ 25 each to spend at
+                                                    Simons.
+                                                </ui:msg>
+                                            </p>
+                                            <p>
+                                                <a href="http://placestefoy.com/en/" target="_blank">
+                                                    <ui:attribute name="href" description="Href > SteFoy"/>
+                                                    www.placestefoy.com
+                                                </a>
+                                                <br/>
                                                 <a href="http://www.laurierquebec.com/" target="_blank">
                                                     www.laurierquebec.com
                                                 </a>
