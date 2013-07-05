@@ -237,6 +237,8 @@ public interface ProgramResource extends ClientBundle {
 
     ImageResource img_charlotteLounge_2();
 
+    ImageResource img_brazilNight_1();
+
     ImageResource img_registration();
 
     ImageResource img_opening_1();

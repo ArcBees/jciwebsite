@@ -1602,6 +1602,17 @@
                                             Casual/Brazilian attire
                                         </ui:msg>
                                     </p>
+                                    <p>
+                                        <img src="{programRes.img_brazilNight_1.getSafeUri}" alt="Brazil Dance"/>
+                                    </p>
+                                    <p>
+                                        <ui:msg description="Program > Excursions > BrazilNight > p1">
+                                            As a little shout-out to the next international conference being held in Rio
+                                            de Janeiro, we’ll be holding an evening with a Brazilian theme! Get ready
+                                            for an authentic Churrascaria dinner – complete with Salsa dancers – by
+                                            pulling out your feathers and sequins for the occasion!
+                                        </ui:msg>
+                                    </p>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
