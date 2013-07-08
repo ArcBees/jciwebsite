@@ -3251,9 +3251,10 @@
                                             </p>
                                             <p>
                                                 <ui:msg description="Program > Content > AwardsNight > p1">
-                                                    Come enjoy with us aspecial evening for the JCI awards night on
-                                                    Thursday September 19, 2013 at Le Parlementaire. Located at National
-                                                    assembly, The parliament building is imposing with its four wings
+                                                    Come enjoy with us a special evening for the JCI awards night on
+                                                    Thursday September 19, 2013 at Le Parlementaire. Located at the
+                                                    National Assembly of Québec, the parliament building is imposing
+                                                    with its four wings
                                                     forming a square roughly 100m on each side. The eloquent
                                                     architecture and interior decoration offer a veritable fresco of
                                                     Québec history. Witness to parliamentary social life, host of
@@ -3284,7 +3285,7 @@
                                                    target="_blank">
                                                     <ui:attribute name="href" description="Href > QVC"/>
                                                     <img src="{programRes.img_awards_2.getSafeUri}"
-                                                         alt="Chaire Stephen-A.-Jarislowsky"
+                                                         alt="QVC-Inscript"
                                                          class="{programRes.style.third}"/>
                                                 </a>
                                             </p>
@@ -3587,12 +3588,12 @@
                                             </p>
                                             <p>
                                                 <ui:msg description="Program > Content > Bio > Josée Masson > p2">
-                                                    Lecturer at the Laval University, speaker and trainer, she travels
+                                                    Lecturer at the Université Laval, speaker and trainer, she travels
                                                     the regions to raise awareness of the importance of providing
                                                     support to these young people. She collaborates with many
                                                     organizations including Québec-Transplant, the Quebec Association of
-                                                    Suicide Prevention, is the Ambassador of the Corporation
-                                                    thanatologues Quebec and is regularly invited to share his expertise
+                                                    Suicide Prevention, is the Ambassador of the Corporation des
+                                                    thanatologues du Quebec and is regularly invited to share his expertise
                                                     in the Quebec media. She is the author of "Derrière mes larmes
                                                     d'enfant" published in 2006, but completely revised to read "Mort,
                                                     mais pas dans mon cœur" released in 2010. In 2012, she was named
