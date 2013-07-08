@@ -7,7 +7,7 @@
     <ui:with field="programRes" type="com.jci.client.resource.program.ProgramResource"/>
     <g:HTMLPanel>
         <div class="{res.style.width} {res.style.white} {res.style.dragUp} {res.style.round}
-        {res.style.content}">
+        {res.style.content} {programRes.style.content}">
             <div ui:field="divButtons" class="{res.style.actions} carousel-indicators">
                 <a class="{res.style.button_gray} {res.style.active} firstButton"
                    data-target="#myCarouselProgram"
@@ -850,50 +850,101 @@
                                         <ui:msg description="Program > Ui > Hours > 16:30">4:30</ui:msg>
                                     </p>
                                 </div>
-                                <div class="{programRes.style.tooltip}">
-                                    <span class="{programRes.style.arrow}"/>
-                                    <h2>
-                                        <ui:msg description="Program > Content > Training > MoneyTrees">
-                                            Money Trees by
-                                        </ui:msg>
-                                        Joey Hoechsmann
-                                    </h2>
-                                    <p>
-                                        <b>Date:</b>
-                                        <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
-                                        </ui:msg>
-                                        <br/>
+                                <div class="{programRes.style.tooltip} {programRes.style.pagerContainer}">
+                                    <div class="{programRes.style.pagerCommons}">
+                                        <span class="{programRes.style.arrow}"/>
+                                        <h2>
+                                            <ui:msg description="Program > Content > Training > MoneyTrees">
+                                                Money Trees by
+                                            </ui:msg>
+                                            Joey Hoechsmann
+                                        </h2>
+                                        <p>
+                                            <b>Date:</b>
+                                            <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19,
+                                                2013
+                                            </ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Time">Time:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > Hours > 15h15">3:15 pm</ui:msg>
+                                            -
+                                            <ui:msg description="Program > Ui > Hours > 16h30">4:30 pm</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Room">Room</ui:msg>:
+                                            </b>
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
+                                            G
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                                Casual
+                                            </ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Language">Language:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > DressCode > English">English only
+                                            </ui:msg>
+                                        </p>
+                                    </div>
+                                    <div class="{programRes.style.pagerDivContainer}">
+                                        <div class="{programRes.style.pagerDiv}">
+                                            <p>
+                                                <ui:msg description="Program > Content > Training > MoneyTrees > p1">
+                                                    What holds an organization back from raising money? How does an
+                                                    organization become financially secure? How then does that
+                                                    organization remain financially sound?In this course Joey Hoechsmann
+                                                    will discuss how to improve an organization’s fundraising efforts.
+                                                    He will cover three revenue streams including events, sponsorship
+                                                    and gifts &amp; grants. Joey uses real JCI experiences and examples
+                                                    to help participants gain the knowledge to raise more money for
+                                                    their organization.
+                                                </ui:msg>
+                                            </p>
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
+                                            <p>
+                                                <img src="{programRes.img_training_joeyHoeschmann.getSafeUri}"
+                                                     alt="Joey Hoechsmann"
+                                                     class="{programRes.style.third} {programRes.style.bio}"/>
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Joey Hoechsmann > p1">
+                                                    Senator Joey Hoechsmann has been a JCI member since 2004 and held
+                                                    numerous positions in JCI including Chapter President, Regional
+                                                    President and National Vice President. He owns and operates three
+                                                    furniture and mattress retail stores in Cranbrook BC. He believes
+                                                    strongly in continuous personal and proffessional improvement and
+                                                    spends several hours a week in his business coaching and training
+                                                    his staff to be more effective at exceeding customer's needs. Joey
+                                                    shares his life with his bride Christine and has two energetic boys,
+                                                    Brendon and Eli. He enjoys living in the Kootenays and all the
+                                                    outdoor activities the area offers including skiing, sledding,
+                                                    mountain biking, and hiking. He credits JCI for much of his success
+                                                    in business and has build lifelong friendships through the
+                                                    organization.
+                                                </ui:msg>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="{programRes.style.pagerButtonContainer}">
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
+                                            <ui:msg description="Program > Ui > MoreInfo">More informations:
+                                            </ui:msg>
                                         </b>
-                                        <ui:msg description="Program > Ui > Hours > 15h15">3:15 pm</ui:msg>
-                                        -
-                                        <ui:msg description="Program > Ui > Hours > 16h30">4:30 pm</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
-                                        </b>
-                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                        G
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
-                                            Casual
-                                        </ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Language">Language:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > DressCode > English">English only
-                                        </ui:msg>
-                                    </p>
+                                        <a class="{programRes.style.pagerButton} {programRes.style.pagerButtonActive}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                    </div>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
@@ -3274,7 +3325,7 @@
                                                     Le Parlementaire, the best kept secret of Quebec City!
                                                 </ui:msg>
                                             </p>
-                                            <p>
+                                            <p class="{programRes.style.noMarginP}">
                                                 <a href="http://www.deloitte.com/view/en_CA/ca/index.htm"
                                                    target="_blank" class="{programRes.style.noUnderline}">
                                                     <ui:attribute name="href" description="Href > Deloitte"/>
@@ -3593,7 +3644,8 @@
                                                     support to these young people. She collaborates with many
                                                     organizations including Québec-Transplant, the Quebec Association of
                                                     Suicide Prevention, is the Ambassador of the Corporation des
-                                                    thanatologues du Quebec and is regularly invited to share his expertise
+                                                    thanatologues du Quebec and is regularly invited to share his
+                                                    expertise
                                                     in the Quebec media. She is the author of "Derrière mes larmes
                                                     d'enfant" published in 2006, but completely revised to read "Mort,
                                                     mais pas dans mon cœur" released in 2010. In 2012, she was named
