@@ -154,6 +154,10 @@ public interface ProgramResource extends ClientBundle {
         String bio();
 
         String noUnderline();
+
+        String noMarginP();
+
+        String content();
     }
 
     @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.Both)
@@ -232,6 +236,8 @@ public interface ProgramResource extends ClientBundle {
     ImageResource img_training_sylvainRochon();
 
     ImageResource img_training_hernandoGomez();
+
+    ImageResource img_training_joeyHoeschmann();
 
     ImageResource img_charlotteLounge_1();
 

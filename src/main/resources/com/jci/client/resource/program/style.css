@@ -1095,3 +1095,11 @@
 p a.noUnderline{
     text-decoration: none;
 }
+
+.content p{
+    margin: 5px 0 15px;
+}
+
+p.noMarginP{
+    margin: -10px 0 5px 0;
+}
