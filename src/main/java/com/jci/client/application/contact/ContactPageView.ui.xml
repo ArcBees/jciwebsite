@@ -38,10 +38,7 @@
                     </ui:msg>
                     <a href="https://www.facebook.com/Unlimited2013" target="_blank">
                         <ui:msg description="Contact > facebook link">
-                            Facebook page
-                        </ui:msg>
-                    </a>
-                    .
+                            Facebook page</ui:msg></a>.
                 </p>
                 <p>
                     <ui:msg description="Contact > Paragraph 2">
@@ -49,6 +46,20 @@
                         hashtag:</ui:msg>
                     <a href="https://twitter.com/search/realtime?q=%23jciquebec2013&amp;src=hash" target="_blank">#jciquebec2013</a>.
 
+                </p>
+                <p>
+                    <ui:msg description="Contact > Paragraph 3.0">
+                        Also think about downloading our application, Unlimited, 2013, available on
+                    </ui:msg>
+                    <a href="https://itunes.apple.com/kw/app/unlimited-2013/id628672860" target="_blank">
+                        iPhone</a>
+                    <ui:msg description="Contact > Paragraph 3.1">
+                    and
+                    </ui:msg>
+                    <a href="https://play.google.com/store/apps/details?id=com.unlimited.penteract" target="_blank">
+                        Android</a><ui:msg description="Contact > Paragraph 3.2">
+                    . So you won't miss anything during the Convention.
+                    </ui:msg>
                 </p>
                 <p>
                     <b>
