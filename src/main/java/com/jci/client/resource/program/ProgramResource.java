@@ -152,6 +152,8 @@ public interface ProgramResource extends ClientBundle {
         String pagerCommons();
 
         String bio();
+
+        String noUnderline();
     }
 
     @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.Both)
@@ -195,6 +197,8 @@ public interface ProgramResource extends ClientBundle {
 
     ImageResource img_excursionShopping_1();
 
+    ImageResource img_excursionShopping_2();
+
     ImageResource img_excursionCruise_1();
 
     ImageResource img_excursionCruise_2();
@@ -228,6 +232,24 @@ public interface ProgramResource extends ClientBundle {
     ImageResource img_training_sylvainRochon();
 
     ImageResource img_training_hernandoGomez();
+
+    ImageResource img_charlotteLounge_1();
+
+    ImageResource img_charlotteLounge_2();
+
+    ImageResource img_brazilNight_1();
+
+    ImageResource img_registration();
+
+    ImageResource img_opening_1();
+
+    ImageResource img_opening_2();
+
+    ImageResource img_awards_1();
+
+    ImageResource img_awards_2();
+
+    ImageResource img_chaire_1();
 
     @CssResource.NotStrict
     Style style();

@@ -40,9 +40,13 @@ public interface SponsorsResource extends ClientBundle {
 
     ImageResource qvc();
 
+    ImageResource chaire();
+
     ImageResource placeSteFoy();
 
     ImageResource cercleAmbassadeurs();
+
+    ImageResource deloitte();
 
     Style style();
 }

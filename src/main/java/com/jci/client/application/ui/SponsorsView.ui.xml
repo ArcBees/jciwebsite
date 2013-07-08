@@ -27,6 +27,13 @@
                 <ui:attribute name="href" description="Href > SteFoy"/>
                 <g:Image resource="{sponsRes.placeSteFoy}" altText="Place Ste-Foy"/>
             </a>
+            <a href="http://www.deloitte.com/view/en_CA/ca/index.htm" target="_blank">
+                <ui:attribute name="href" description="Href > Deloitte"/>
+                <g:Image resource="{sponsRes.deloitte}" altText="Deloitte"/>
+            </a>
+            <a href="http://www4.fsa.ulaval.ca/cms/accueil/recherche/chairescentrerecherche/chairesderecherche/stephenjarislowsky" target="_blank">
+                <g:Image resource="{sponsRes.chaire}" altText="Chaire Stephen-A.-Jarislowsky"/>
+            </a>
         </div>
     </g:HTMLPanel>
 </ui:UiBinder>
