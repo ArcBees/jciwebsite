@@ -443,7 +443,7 @@
                                     addStyleNames="{programRes.style.event} {programRes.style.l3} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                                 <div>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                        Technological revolution
                                     </h2>
                                     <p>
                                         <ui:msg description="Program > Ui > Hours > 9:00">9:00</ui:msg>
@@ -597,7 +597,7 @@
                                     addStyleNames="{programRes.style.event} {programRes.style.l3} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                                 <div>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                        Place aux jeunes
                                     </h2>
                                     <p>
                                         <ui:msg description="Program > Ui > Hours > 10:30">10:30</ui:msg>
@@ -721,7 +721,7 @@
                                     addStyleNames="{programRes.style.event} {programRes.style.l3} {programRes.style.t1375} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                                 <div>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                        Effective presentation
                                     </h2>
                                     <p>
                                         <ui:msg description="Program > Ui > Hours > 13:45">1:45</ui:msg>
@@ -842,7 +842,7 @@
                                     addStyleNames="{programRes.style.event} {programRes.style.l3} {programRes.style.t1525} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                                 <div>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                        Money Trees
                                     </h2>
                                     <p>
                                         <ui:msg description="Program > Ui > Hours > 15:15">3:15</ui:msg>
@@ -951,7 +951,7 @@
                                     addStyleNames="{programRes.style.event} {programRes.style.l4} {programRes.style.t900} {programRes.style.h275} {programRes.style.w1} {programRes.style.cGreen}">
                                 <div>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                        JCI Impact
                                     </h2>
                                     <p>
                                         <ui:msg description="Program > Ui > Hours > 9:00">9:00</ui:msg>
@@ -1008,7 +1008,7 @@
                                     addStyleNames="{programRes.style.event} {programRes.style.l4} {programRes.style.t1375} {programRes.style.h275} {programRes.style.w1} {programRes.style.cGreen}">
                                 <div>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                        JCI Achieve
                                     </h2>
                                     <p>
                                         <ui:msg description="Program > Ui > Hours > 13:45">1:45</ui:msg>
@@ -1476,13 +1476,17 @@
                                                 </ui:msg>
                                             </p>
                                             <p>
+                                                <a href="http://www.laurierquebec.com/" target="_blank">
+                                                    www.laurierquebec.com
+                                                </a>
+                                                <br/>
                                                 <a href="http://placestefoy.com/en/" target="_blank">
                                                     <ui:attribute name="href" description="Href > SteFoy"/>
                                                     www.placestefoy.com
                                                 </a>
                                                 <br/>
-                                                <a href="http://www.laurierquebec.com/" target="_blank">
-                                                    www.laurierquebec.com
+                                                <a href="http://www.placedelacite.com/" target="_blank">
+                                                    www.placedelacite.com
                                                 </a>
                                             </p>
                                         </div>
@@ -1684,7 +1688,7 @@
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
                                         <ui:msg description="Program > Content > GrandeAlleeClubbing > Title">
-                                            The ultimate high-end lounge!
+                                            Charlotte Ultra Lounge, the ultimate high-end lounge!
                                         </ui:msg>
                                     </h2>
                                     <p>
@@ -1843,8 +1847,9 @@
                                     addStyleNames="{programRes.style.event} {programRes.style.l1} {programRes.style.t1200} {programRes.style.h150} {programRes.style.w1} {programRes.style.cGreen}">
                                 <div>
                                     <h2>
-                                        <ui:msg description="Program > Content > KeynoteSpeaker">Keynote speaker
+                                        <ui:msg description="Program > Content > Speaker">Speaker
                                         </ui:msg>
+                                        Dr. Zhan Su
                                     </h2>
                                     <p>
                                         <ui:msg description="Program > Ui > Hours > 12:00">12:00</ui:msg>
@@ -1852,42 +1857,108 @@
                                         <ui:msg description="Program > Ui > Hours > 13:30">1:30</ui:msg>
                                     </p>
                                 </div>
-                                <div class="{programRes.style.tooltip}">
-                                    <span class="{programRes.style.arrow}"/>
-                                    <h2>
-                                        <ui:msg description="Program > Content > KeynoteSpeaker">Keynote speaker
-                                        </ui:msg>
-                                    </h2>
-                                    <p>
-                                        <b>Date:</b>
-                                        <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
-                                        </ui:msg>
-                                        <br/>
+                                <div class="{programRes.style.tooltip} {programRes.style.pagerContainer}">
+                                    <div class="{programRes.style.pagerCommons}">
+                                        <span class="{programRes.style.arrow}"/>
+                                        <h2>
+                                            <ui:msg description="Program > Content > Training > MarcheEmergent">
+                                                Succeed your business in emerging markets by
+                                            </ui:msg>
+                                            Dr. Zhan Su
+                                        </h2>
+                                        <p>
+                                            <b>Date:</b>
+                                            <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20,
+                                                2013
+                                            </ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Time">Time:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > Hours > 12h00">12:00 am</ui:msg>
+                                            -
+                                            <ui:msg description="Program > Ui > Hours > 13h30">1:30 pm</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Room">Room</ui:msg>:
+                                            </b>
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
+                                            H
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                                Casual
+                                            </ui:msg>
+                                        </p>
+                                    </div>
+                                    <div class="{programRes.style.pagerDivContainer}">
+                                        <div class="{programRes.style.pagerDiv}">
+                                            <p>
+                                                <ui:msg description="Program > Content > Training > MarcheEmergent > p1">
+                                                    The rise of emerging markets is radically changing our business
+                                                    environment. However, the emergence of these countries should not
+                                                    simply be reduced to the arrival of hard competitors, it also
+                                                    represents an incredible window of opportunities for Canadian and
+                                                    Quebec businesses to thrive and expand internationally. Emerging
+                                                    countries being heterogeneous and complex, a comprehensive knowledge
+                                                    of these new players now appears more as a necessity rather than a
+                                                    simple asset in leading the activities of your company in the
+                                                    future.
+                                                </ui:msg>
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Training > MarcheEmergent > p2">
+                                                    What is the actual and potential economic importance of emerging
+                                                    countries in the world? What are the characteristics of the business
+                                                    environment in these countries? What are the key success factors for
+                                                    business in emerging markets? These are the topics that will be
+                                                    discussed at the conference.
+                                                </ui:msg>
+                                            </p>
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
+                                            <p>
+                                                <img src="{programRes.img_training_drZhanSu.getSafeUri}"
+                                                     alt="Dr. Zhan Su"
+                                                     class="{programRes.style.third} {programRes.style.bio}"/>
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Dr. Zhan Su > p1">
+                                                    Dr. Zhan Su is Professor of Business Strategy and International
+                                                    Management and Director of Stephen-A.-Jarislowsky Chair in
+                                                    International Business at Laval University. He received his Bachelor
+                                                    of Engineering in China in 1982 and his Doctorate in Business
+                                                    Administration in France in 1990. During these past years, Professor
+                                                    Su has carried out many research projects regarding a variety of
+                                                    subjects and published in numerous journals and books.
+                                                </ui:msg>
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Dr. Zhan Su > p2">
+                                                    He has also organized many training programs for executives and
+                                                    provided consultation for numerous organizations and firms
+                                                    worldwide. He received the Leaders in Business Education Award from
+                                                    PriceWaterHouseCoopers and the National Post of Canada in 2001 and
+                                                    the Laval University Award for Excellence in Teaching in 1999.
+                                                </ui:msg>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="{programRes.style.pagerButtonContainer}">
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
+                                            <ui:msg description="Program > Ui > MoreInfo">More informations:
+                                            </ui:msg>
                                         </b>
-                                        <ui:msg description="Program > Ui > Hours > 12h00">12:00 am</ui:msg>
-                                        -
-                                        <ui:msg description="Program > Ui > Hours > 13h30">1:30 pm</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
-                                        </b>
-                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                        AB
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
-                                            Casual
-                                        </ui:msg>
-                                    </p>
+                                        <a class="{programRes.style.pagerButton} {programRes.style.pagerButtonActive}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                    </div>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
@@ -1982,6 +2053,8 @@
                                         <a href="http://www4.fsa.ulaval.ca/cms/accueil/recherche/chairescentrerecherche/chairesderecherche/stephenjarislowsky"
                                            target="_blank">
                                             <img src="{programRes.img_chaire_1.getSafeUri}"
+                                                 alt="Chaire Stephen-A.-Jarislowsky" class="{programRes.style.third}"/>
+                                            <img src="{programRes.img_chaire_2.getSafeUri}"
                                                  alt="Chaire Stephen-A.-Jarislowsky" class="{programRes.style.third}"/>
                                         </a>
                                     </p>
@@ -2093,7 +2166,7 @@
                                     addStyleNames="{programRes.style.event} {programRes.style.l3} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                                 <div>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                        Business startup magic
                                     </h2>
                                     <p>
                                         <ui:msg description="Program > Ui > Hours > 9:00">9:00</ui:msg>
@@ -2245,7 +2318,7 @@
                                     addStyleNames="{programRes.style.event} {programRes.style.l3} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                                 <div>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                        Positive power of critical ...
                                     </h2>
                                     <p>
                                         <ui:msg description="Program > Ui > Hours > 10:30">10:30</ui:msg>
@@ -2382,7 +2455,7 @@
                                     addStyleNames="{programRes.style.event} {programRes.style.l4} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                                 <div>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                        Think green, plant a tree ...
                                     </h2>
                                     <p>
                                         <ui:msg description="Program > Ui > Hours > 9:00">9:00</ui:msg>
@@ -2528,10 +2601,10 @@
                                     <div class="{programRes.style.pagerCommons}">
                                         <span class="{programRes.style.arrow}"/>
                                         <h2>
-                                            <ui:msg description="Program > Content > Training > MarcheEmergent">
-                                                Comment affronter les marchés émergents by
+                                            <ui:msg description="Program > Content > Training > TBDBy">To be determined
+                                                by
                                             </ui:msg>
-                                            Dr. Zhan Su
+                                            <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
                                         </h2>
                                         <p>
                                             <b>Date:</b>
@@ -2563,70 +2636,20 @@
                                             <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
                                                 Casual
                                             </ui:msg>
-                                            <br/>
-                                            <b>
-                                                <ui:msg description="Program > Ui > Language">Language:</ui:msg>
-                                            </b>
-                                            <ui:msg description="Program > Ui > DressCode > French">French only
-                                            </ui:msg>
                                         </p>
                                     </div>
                                     <div class="{programRes.style.pagerDivContainer}">
                                         <div class="{programRes.style.pagerDiv}">
                                             <p>
-                                                <ui:msg description="Program > Content > Training > MarcheEmergent > p1">
-                                                    La montée en puissance des pays émergents est en train de
-                                                    radicalement modifier notre environnement d’affaires. Cependant,
-                                                    l’émergence de ces pays ne se réduit pas simplement à l’apparition
-                                                    des adversaires redoutables, mais se traduit bien au contraire par
-                                                    un incroyable vivier de possibilités pour les entreprises
-                                                    canadiennes et québécoises de prospérer et de se développer à
-                                                    l’international. Les pays émergents étant un ensemble hétérogène et
-                                                    complexe, une bonne connaissance de ces nouveaux acteurs apparaît
-                                                    désormais non plus comme un simple atout mais bien comme une
-                                                    nécessité pour être capable d’orienter les activités de vos
-                                                    entreprises dans le futur.
-                                                </ui:msg>
-                                            </p>
-                                            <p>
-                                                <ui:msg description="Program > Content > Training > MarcheEmergent > p2">
-                                                    Quelle est l’importance économique,
-                                                    réelle et potentielle, des pays émergents dans le monde? Quelles
-                                                    sont les spécificités de l’environnement d’affaires des pays
-                                                    émergents? Quels sont les facteurs clés de succès dans le
-                                                    développement des projets sur les marchés de ces pays? Ce sont
-                                                    autant de sujets qui seront abordés lors de la conférence.
+                                                <ui:msg description="Program > Content > Training > NoDesc">
+                                                    No description yet
                                                 </ui:msg>
                                             </p>
                                         </div>
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <p>
-                                                <img src="{programRes.img_training_drZhanSu.getSafeUri}"
-                                                     alt="Dr. Zhan Su"
-                                                     class="{programRes.style.third} {programRes.style.bio}"/>
-                                            </p>
-                                            <p>
-                                                <ui:msg description="Program > Content > Bio > Dr. Zhan Su > p1">
-                                                    Dr. Zhan Su est professeur titulaire de stratégie et de management
-                                                    international et
-                                                    titulaire de la Chaire Stephen-A.-Jarislowsky en gestion des
-                                                    affaires internationales à
-                                                    l’Université Laval. Il a obtenu son diplôme d'ingénieur en
-                                                    automatique en Chine en 1982 et son doctorat en sciences de gestion
-                                                    en France en 1990. Au cours de ces dernières années, professeur Su a
-                                                    réalisé plusieurs projets de recherche sur une grande variété de
-                                                    sujets et a fait des publications dans de nombreuses revues.
-                                                </ui:msg>
-                                            </p>
-                                            <p>
-                                                <ui:msg description="Program > Content > Bio > Dr. Zhan Su > p2">
-                                                    Il a organisé de nombreuses formations destinées à des chefs
-                                                    d’entreprises et il est consultant auprès de plusieurs organisations
-                                                    et entreprises de nationalités diverses. Il est récipiendaire de
-                                                    plusieurs prix d’excellence, tant au sein de l’Université Laval,
-                                                    qu’au niveau national, dont le prix « Leader in Management Education
-                                                    » de National Post, Bell Canada et PriceWaterHouseCoopers en 2001,
-                                                    le Prix d'excellence en enseignement de l'Université Laval en 1999.
+                                                <ui:msg description="Program > Content > Training > NoDesc">
+                                                    No description yet
                                                 </ui:msg>
                                             </p>
                                         </div>
@@ -3055,13 +3078,17 @@
                                                 </ui:msg>
                                             </p>
                                             <p>
+                                                <a href="http://www.laurierquebec.com/" target="_blank">
+                                                    www.laurierquebec.com
+                                                </a>
+                                                <br/>
                                                 <a href="http://placestefoy.com/en/" target="_blank">
                                                     <ui:attribute name="href" description="Href > SteFoy"/>
                                                     www.placestefoy.com
                                                 </a>
                                                 <br/>
-                                                <a href="http://www.laurierquebec.com/" target="_blank">
-                                                    www.laurierquebec.com
+                                                <a href="http://www.placedelacite.com/" target="_blank">
+                                                    www.placedelacite.com
                                                 </a>
                                             </p>
                                         </div>
@@ -3254,7 +3281,7 @@
                                         <span class="{programRes.style.arrow}"/>
                                         <h2>
                                             <ui:msg description="Program > Content > AwardsNightExtras">Awards Night
-                                                presented by Deloitte and QVC-Inscript
+                                                presented by Deloitte, in collaboration with QVC-Inscript.
                                             </ui:msg>
                                         </h2>
                                         <p>
@@ -3319,10 +3346,13 @@
                                                     The JCI Quebec team is awaiting for this formal evening in a unique
                                                     setting.
                                                 </ui:msg>
-                                            </p>
-                                            <p>
+                                                <br/>
                                                 <ui:msg description="Program > Content > AwardsNight > p3">
                                                     Le Parlementaire, the best kept secret of Quebec City!
+                                                </ui:msg>
+                                                <br/>
+                                                <ui:msg description="Program > Content > AwardsNight > p4">
+                                                    Presented by Deloitte, in collaboration with QVC-Inscript.
                                                 </ui:msg>
                                             </p>
                                             <p class="{programRes.style.noMarginP}">
@@ -3560,8 +3590,9 @@
                                     addStyleNames="{programRes.style.event} {programRes.style.l1} {programRes.style.t1200} {programRes.style.h150} {programRes.style.w1}  {programRes.style.cGreen}">
                                 <div>
                                     <h2>
-                                        <ui:msg description="Program > Content > KeynoteSpeaker">Keynote speaker
+                                        <ui:msg description="Program > Content > Speaker">Speaker
                                         </ui:msg>
+                                        Josée Masson
                                     </h2>
                                     <p>
                                         <ui:msg description="Program > Ui > Hours > 12:00">12:00</ui:msg>
@@ -3864,7 +3895,7 @@
                                     addStyleNames="{programRes.style.event} {programRes.style.l3} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                                 <div>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                        Transformative thinking
                                     </h2>
                                     <p>
                                         <ui:msg description="Program > Ui > Hours > 9:00">9:00</ui:msg>
@@ -4020,7 +4051,7 @@
                                     addStyleNames="{programRes.style.event} {programRes.style.l3} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                                 <div>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                        Tune up your work/life balance
                                     </h2>
                                     <p>
                                         <ui:msg description="Program > Ui > Hours > 10:30">10:30</ui:msg>
@@ -4151,7 +4182,7 @@
                                     addStyleNames="{programRes.style.event} {programRes.style.l4} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                                 <div>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                        What language do you speak?
                                     </h2>
                                     <p>
                                         <ui:msg description="Program > Ui > Hours > 9:00">9:00</ui:msg>
@@ -4716,13 +4747,17 @@
                                                 </ui:msg>
                                             </p>
                                             <p>
+                                                <a href="http://www.laurierquebec.com/" target="_blank">
+                                                    www.laurierquebec.com
+                                                </a>
+                                                <br/>
                                                 <a href="http://placestefoy.com/en/" target="_blank">
                                                     <ui:attribute name="href" description="Href > SteFoy"/>
                                                     www.placestefoy.com
                                                 </a>
                                                 <br/>
-                                                <a href="http://www.laurierquebec.com/" target="_blank">
-                                                    www.laurierquebec.com
+                                                <a href="http://www.placedelacite.com/" target="_blank">
+                                                    www.placedelacite.com
                                                 </a>
                                             </p>
                                         </div>

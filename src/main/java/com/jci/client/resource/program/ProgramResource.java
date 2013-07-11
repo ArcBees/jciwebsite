@@ -257,6 +257,8 @@ public interface ProgramResource extends ClientBundle {
 
     ImageResource img_chaire_1();
 
+    ImageResource img_chaire_2();
+
     @CssResource.NotStrict
     Style style();
 }
