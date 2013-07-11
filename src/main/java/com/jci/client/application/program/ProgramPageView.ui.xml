@@ -1476,14 +1476,15 @@
                                                 </ui:msg>
                                             </p>
                                             <p>
+                                                <a href="http://www.laurierquebec.com/" target="_blank">
+                                                    www.laurierquebec.com</a>
+                                                <br/>
                                                 <a href="http://placestefoy.com/en/" target="_blank">
                                                     <ui:attribute name="href" description="Href > SteFoy"/>
-                                                    www.placestefoy.com
-                                                </a>
+                                                    www.placestefoy.com</a>
                                                 <br/>
-                                                <a href="http://www.laurierquebec.com/" target="_blank">
-                                                    www.laurierquebec.com
-                                                </a>
+                                                <a href="http://www.placedelacite.com/" target="_blank">
+                                                    www.placedelacite.com</a>
                                             </p>
                                         </div>
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
@@ -1684,7 +1685,7 @@
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
                                         <ui:msg description="Program > Content > GrandeAlleeClubbing > Title">
-                                            The ultimate high-end lounge!
+                                            Charlotte Ultra Lounge, the ultimate high-end lounge!
                                         </ui:msg>
                                     </h2>
                                     <p>
@@ -1982,6 +1983,8 @@
                                         <a href="http://www4.fsa.ulaval.ca/cms/accueil/recherche/chairescentrerecherche/chairesderecherche/stephenjarislowsky"
                                            target="_blank">
                                             <img src="{programRes.img_chaire_1.getSafeUri}"
+                                                 alt="Chaire Stephen-A.-Jarislowsky" class="{programRes.style.third}"/>
+                                            <img src="{programRes.img_chaire_2.getSafeUri}"
                                                  alt="Chaire Stephen-A.-Jarislowsky" class="{programRes.style.third}"/>
                                         </a>
                                     </p>
@@ -3055,14 +3058,15 @@
                                                 </ui:msg>
                                             </p>
                                             <p>
+                                                <a href="http://www.laurierquebec.com/" target="_blank">
+                                                    www.laurierquebec.com</a>
+                                                <br/>
                                                 <a href="http://placestefoy.com/en/" target="_blank">
                                                     <ui:attribute name="href" description="Href > SteFoy"/>
-                                                    www.placestefoy.com
-                                                </a>
+                                                    www.placestefoy.com</a>
                                                 <br/>
-                                                <a href="http://www.laurierquebec.com/" target="_blank">
-                                                    www.laurierquebec.com
-                                                </a>
+                                                <a href="http://www.placedelacite.com/" target="_blank">
+                                                    www.placedelacite.com</a>
                                             </p>
                                         </div>
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
@@ -3254,7 +3258,7 @@
                                         <span class="{programRes.style.arrow}"/>
                                         <h2>
                                             <ui:msg description="Program > Content > AwardsNightExtras">Awards Night
-                                                presented by Deloitte and QVC-Inscript
+                                                presented by Deloitte, in collaboration with QVC-Inscript.
                                             </ui:msg>
                                         </h2>
                                         <p>
@@ -3319,10 +3323,13 @@
                                                     The JCI Quebec team is awaiting for this formal evening in a unique
                                                     setting.
                                                 </ui:msg>
-                                            </p>
-                                            <p>
+                                                <br/>
                                                 <ui:msg description="Program > Content > AwardsNight > p3">
                                                     Le Parlementaire, the best kept secret of Quebec City!
+                                                </ui:msg>
+                                                <br/>
+                                                <ui:msg description="Program > Content > AwardsNight > p4">
+                                                    Presented by Deloitte, in collaboration with QVC-Inscript.
                                                 </ui:msg>
                                             </p>
                                             <p class="{programRes.style.noMarginP}">
@@ -4716,14 +4723,15 @@
                                                 </ui:msg>
                                             </p>
                                             <p>
+                                                <a href="http://www.laurierquebec.com/" target="_blank">
+                                                    www.laurierquebec.com</a>
+                                                <br/>
                                                 <a href="http://placestefoy.com/en/" target="_blank">
                                                     <ui:attribute name="href" description="Href > SteFoy"/>
-                                                    www.placestefoy.com
-                                                </a>
+                                                    www.placestefoy.com</a>
                                                 <br/>
-                                                <a href="http://www.laurierquebec.com/" target="_blank">
-                                                    www.laurierquebec.com
-                                                </a>
+                                                <a href="http://www.placedelacite.com/" target="_blank">
+                                                    www.placedelacite.com</a>
                                             </p>
                                         </div>
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
