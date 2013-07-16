@@ -443,7 +443,7 @@
                                     addStyleNames="{programRes.style.event} {programRes.style.l3} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                                 <div>
                                     <h2>
-                                        Technological revolution
+                                        Technological Revolution
                                     </h2>
                                     <p>
                                         <ui:msg description="Program > Ui > Hours > 9:00">9:00</ui:msg>
@@ -721,7 +721,7 @@
                                     addStyleNames="{programRes.style.event} {programRes.style.l3} {programRes.style.t1375} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                                 <div>
                                     <h2>
-                                        Effective presentation
+                                        Effective Presentation
                                     </h2>
                                     <p>
                                         <ui:msg description="Program > Ui > Hours > 13:45">1:45</ui:msg>
@@ -1439,7 +1439,7 @@
                                                 <b>
                                                     <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                                 </b>
-                                                Place Laurier
+                                                Place Ste-Foy
                                                 <br/>
                                                 <b>
                                                     <ui:msg description="Program > Ui > Price">Price:</ui:msg>
@@ -1454,8 +1454,6 @@
                                             <p>
                                                 <img src="{programRes.img_excursionShopping_2.getSafeUri}"
                                                      alt="Place Ste-Foy" class="{programRes.style.half}"/>
-                                                <img src="{programRes.img_excursionShopping_1.getSafeUri}"
-                                                     alt="Place Laurier" class="{programRes.style.half}"/>
                                             </p>
                                             <p>
                                                 <ui:msg description="Program > Excursions > Shopping > p1">
@@ -1471,22 +1469,21 @@
                                             <p>
                                                 <ui:msg description="Program > Excursions > Shopping > p2">
                                                     In addition, Place Ste-Foy, in collaboration with Simons, is pleased
-                                                    to provide JCI members a gift card valued at $ 25 each to spend at
+                                                    to provide the 50 first JCI members a gift card valued at $ 25 each
+                                                    to spend at
                                                     Simons.
                                                 </ui:msg>
                                             </p>
                                             <p>
-                                                <a href="http://www.laurierquebec.com/" target="_blank">
-                                                    www.laurierquebec.com
-                                                </a>
-                                                <br/>
                                                 <a href="http://placestefoy.com/en/" target="_blank">
                                                     <ui:attribute name="href" description="Href > SteFoy"/>
                                                     www.placestefoy.com
                                                 </a>
-                                                <br/>
-                                                <a href="http://www.placedelacite.com/" target="_blank">
-                                                    www.placedelacite.com
+                                                <a href="https://maps.google.ca/maps?q=2450,+Boulevard+Laurier+blvd,+Qu%C3%A9bec+(Qc),+Canada,+G1V+2L1&amp;um=1&amp;ie=UTF-8&amp;hl=en&amp;sa=N&amp;tab=wl&amp;authuser=0">
+                                                    <ui:attribute name="href" description="Href > Maps SteFoy"/>
+                                                    <ui:msg description="Program > SteFoy > Address">
+                                                        2450, Laurier Blvd, Quebec City (QC), G1V 2L1
+                                                    </ui:msg>
                                                 </a>
                                             </p>
                                         </div>
@@ -2166,7 +2163,7 @@
                                     addStyleNames="{programRes.style.event} {programRes.style.l3} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                                 <div>
                                     <h2>
-                                        Business startup magic
+                                        Business Startup Magic
                                     </h2>
                                     <p>
                                         <ui:msg description="Program > Ui > Hours > 9:00">9:00</ui:msg>
@@ -2318,7 +2315,7 @@
                                     addStyleNames="{programRes.style.event} {programRes.style.l3} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                                 <div>
                                     <h2>
-                                        Positive power of critical ...
+                                        Positive Power of Critical ...
                                     </h2>
                                     <p>
                                         <ui:msg description="Program > Ui > Hours > 10:30">10:30</ui:msg>
@@ -2455,7 +2452,7 @@
                                     addStyleNames="{programRes.style.event} {programRes.style.l4} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                                 <div>
                                     <h2>
-                                        Think green, plant a tree ...
+                                        Think Green, Plant a Tree ...
                                     </h2>
                                     <p>
                                         <ui:msg description="Program > Ui > Hours > 9:00">9:00</ui:msg>
@@ -3041,7 +3038,7 @@
                                                 <b>
                                                     <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                                 </b>
-                                                Place Laurier
+                                                Place Ste-Foy
                                                 <br/>
                                                 <b>
                                                     <ui:msg description="Program > Ui > Price">Price:</ui:msg>
@@ -3056,8 +3053,6 @@
                                             <p>
                                                 <img src="{programRes.img_excursionShopping_2.getSafeUri}"
                                                      alt="Place Ste-Foy" class="{programRes.style.half}"/>
-                                                <img src="{programRes.img_excursionShopping_1.getSafeUri}"
-                                                     alt="Place Laurier" class="{programRes.style.half}"/>
                                             </p>
                                             <p>
                                                 <ui:msg description="Program > Excursions > Shopping > p1">
@@ -3073,22 +3068,15 @@
                                             <p>
                                                 <ui:msg description="Program > Excursions > Shopping > p2">
                                                     In addition, Place Ste-Foy, in collaboration with Simons, is pleased
-                                                    to provide JCI members a gift card valued at $ 25 each to spend at
+                                                    to provide the 50 first JCI members a gift card valued at $ 25 each
+                                                    to spend at
                                                     Simons.
                                                 </ui:msg>
                                             </p>
                                             <p>
-                                                <a href="http://www.laurierquebec.com/" target="_blank">
-                                                    www.laurierquebec.com
-                                                </a>
-                                                <br/>
                                                 <a href="http://placestefoy.com/en/" target="_blank">
                                                     <ui:attribute name="href" description="Href > SteFoy"/>
                                                     www.placestefoy.com
-                                                </a>
-                                                <br/>
-                                                <a href="http://www.placedelacite.com/" target="_blank">
-                                                    www.placedelacite.com
                                                 </a>
                                             </p>
                                         </div>
@@ -3895,7 +3883,7 @@
                                     addStyleNames="{programRes.style.event} {programRes.style.l3} {programRes.style.t900} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                                 <div>
                                     <h2>
-                                        Transformative thinking
+                                        Transformative Thinking
                                     </h2>
                                     <p>
                                         <ui:msg description="Program > Ui > Hours > 9:00">9:00</ui:msg>
@@ -4051,7 +4039,7 @@
                                     addStyleNames="{programRes.style.event} {programRes.style.l3} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                                 <div>
                                     <h2>
-                                        Tune up your work/life balance
+                                        Tune up your Work/Life Balance
                                     </h2>
                                     <p>
                                         <ui:msg description="Program > Ui > Hours > 10:30">10:30</ui:msg>
@@ -4710,7 +4698,7 @@
                                                 <b>
                                                     <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
                                                 </b>
-                                                Place Laurier
+                                                Place Ste-Foy
                                                 <br/>
                                                 <b>
                                                     <ui:msg description="Program > Ui > Price">Price:</ui:msg>
@@ -4725,8 +4713,6 @@
                                             <p>
                                                 <img src="{programRes.img_excursionShopping_2.getSafeUri}"
                                                      alt="Place Ste-Foy" class="{programRes.style.half}"/>
-                                                <img src="{programRes.img_excursionShopping_1.getSafeUri}"
-                                                     alt="Place Laurier" class="{programRes.style.half}"/>
                                             </p>
                                             <p>
                                                 <ui:msg description="Program > Excursions > Shopping > p1">
@@ -4742,22 +4728,15 @@
                                             <p>
                                                 <ui:msg description="Program > Excursions > Shopping > p2">
                                                     In addition, Place Ste-Foy, in collaboration with Simons, is pleased
-                                                    to provide JCI members a gift card valued at $ 25 each to spend at
+                                                    to provide the 50 first JCI members a gift card valued at $ 25 each
+                                                    to spend at
                                                     Simons.
                                                 </ui:msg>
                                             </p>
                                             <p>
-                                                <a href="http://www.laurierquebec.com/" target="_blank">
-                                                    www.laurierquebec.com
-                                                </a>
-                                                <br/>
                                                 <a href="http://placestefoy.com/en/" target="_blank">
                                                     <ui:attribute name="href" description="Href > SteFoy"/>
                                                     www.placestefoy.com
-                                                </a>
-                                                <br/>
-                                                <a href="http://www.placedelacite.com/" target="_blank">
-                                                    www.placedelacite.com
                                                 </a>
                                             </p>
                                         </div>
