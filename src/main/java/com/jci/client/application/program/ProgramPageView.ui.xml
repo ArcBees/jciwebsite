@@ -1477,14 +1477,12 @@
                                             <p>
                                                 <a href="http://placestefoy.com/en/" target="_blank">
                                                     <ui:attribute name="href" description="Href > SteFoy"/>
-                                                    www.placestefoy.com
-                                                </a>
+                                                    www.placestefoy.com</a>
+                                                <br/>
                                                 <a href="https://maps.google.ca/maps?q=2450,+Boulevard+Laurier+blvd,+Qu%C3%A9bec+(Qc),+Canada,+G1V+2L1&amp;um=1&amp;ie=UTF-8&amp;hl=en&amp;sa=N&amp;tab=wl&amp;authuser=0">
                                                     <ui:attribute name="href" description="Href > Maps SteFoy"/>
                                                     <ui:msg description="Program > SteFoy > Address">
-                                                        2450, Laurier Blvd, Quebec City (QC), G1V 2L1
-                                                    </ui:msg>
-                                                </a>
+                                                        2450, Laurier Blvd, Quebec City (QC), G1V 2L1</ui:msg></a>
                                             </p>
                                         </div>
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
@@ -3076,8 +3074,12 @@
                                             <p>
                                                 <a href="http://placestefoy.com/en/" target="_blank">
                                                     <ui:attribute name="href" description="Href > SteFoy"/>
-                                                    www.placestefoy.com
-                                                </a>
+                                                    www.placestefoy.com</a>
+                                                <br/>
+                                                <a href="https://maps.google.ca/maps?q=2450,+Boulevard+Laurier+blvd,+Qu%C3%A9bec+(Qc),+Canada,+G1V+2L1&amp;um=1&amp;ie=UTF-8&amp;hl=en&amp;sa=N&amp;tab=wl&amp;authuser=0">
+                                                    <ui:attribute name="href" description="Href > Maps SteFoy"/>
+                                                    <ui:msg description="Program > SteFoy > Address">
+                                                        2450, Laurier Blvd, Quebec City (QC), G1V 2L1</ui:msg></a>
                                             </p>
                                         </div>
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
@@ -4736,8 +4738,12 @@
                                             <p>
                                                 <a href="http://placestefoy.com/en/" target="_blank">
                                                     <ui:attribute name="href" description="Href > SteFoy"/>
-                                                    www.placestefoy.com
-                                                </a>
+                                                    www.placestefoy.com</a>
+                                                <br/>
+                                                <a href="https://maps.google.ca/maps?q=2450,+Boulevard+Laurier+blvd,+Qu%C3%A9bec+(Qc),+Canada,+G1V+2L1&amp;um=1&amp;ie=UTF-8&amp;hl=en&amp;sa=N&amp;tab=wl&amp;authuser=0">
+                                                    <ui:attribute name="href" description="Href > Maps SteFoy"/>
+                                                    <ui:msg description="Program > SteFoy > Address">
+                                                        2450, Laurier Blvd, Quebec City (QC), G1V 2L1</ui:msg></a>
                                             </p>
                                         </div>
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
