@@ -1419,74 +1419,6 @@
                                         </div>
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <h2>
-                                                <ui:msg description="Program > Excursions > Shopping > Title">Shopping
-                                                </ui:msg>
-                                            </h2>
-                                            <p>
-                                                <b>Date:</b>
-                                                <ui:msg description="Program > Ui > DateFull > 19">Thursday, September
-                                                    19,
-                                                    2013
-                                                </ui:msg>
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > Time">Time:</ui:msg>
-                                                </b>
-                                                <ui:msg description="Program > Ui > Hours > 13h30">1:30 pm</ui:msg>
-                                                -
-                                                <ui:msg description="Program > Ui > Hours > 16h30">4:30 pm</ui:msg>
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
-                                                </b>
-                                                Place Ste-Foy
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > Price">Price:</ui:msg>
-                                                </b>
-                                                <ui:msg description="Program > Ui > Price > 0">Free</ui:msg>
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
-                                                </b>
-                                                <ui:msg description="Program > Ui > DressCode > Casual">Casual</ui:msg>
-                                            </p>
-                                            <p>
-                                                <img src="{programRes.img_excursionShopping_2.getSafeUri}"
-                                                     alt="Place Ste-Foy" class="{programRes.style.half}"/>
-                                            </p>
-                                            <p>
-                                                <ui:msg description="Program > Excursions > Shopping > p1">
-                                                    You want to go shopping? Hop on a daily bus ride that will get you
-                                                    to
-                                                    the
-                                                    biggest shopping mall in Quebec city where tons of different
-                                                    boutiques
-                                                    and shops
-                                                    will surely satisfy your need of a nice souvenir.
-                                                </ui:msg>
-                                            </p>
-                                            <p>
-                                                <ui:msg description="Program > Excursions > Shopping > p2">
-                                                    In addition, Place Ste-Foy, in collaboration with Simons, is pleased
-                                                    to provide the 50 first JCI members a gift card valued at $ 25 each
-                                                    to spend at
-                                                    Simons.
-                                                </ui:msg>
-                                            </p>
-                                            <p>
-                                                <a href="http://placestefoy.com/en/" target="_blank">
-                                                    <ui:attribute name="href" description="Href > SteFoy"/>
-                                                    www.placestefoy.com</a>
-                                                <br/>
-                                                <a href="https://maps.google.ca/maps?q=2450,+Boulevard+Laurier+blvd,+Qu%C3%A9bec+(Qc),+Canada,+G1V+2L1&amp;um=1&amp;ie=UTF-8&amp;hl=en&amp;sa=N&amp;tab=wl&amp;authuser=0">
-                                                    <ui:attribute name="href" description="Href > Maps SteFoy"/>
-                                                    <ui:msg description="Program > SteFoy > Address">
-                                                        2450, Laurier Blvd, Quebec City (QC), G1V 2L1</ui:msg></a>
-                                            </p>
-                                        </div>
-                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
-                                            <h2>
                                                 <ui:msg description="Program > Excursions > Tours > Title">Guided Tour
                                                 </ui:msg>
                                             </h2>
@@ -1602,7 +1534,6 @@
                                             </ui:msg>
                                         </b>
                                         <a class="{programRes.style.pagerButton} {programRes.style.pagerButtonActive}"/>
-                                        <a class="{programRes.style.pagerButton}"/>
                                         <a class="{programRes.style.pagerButton}"/>
                                         <a class="{programRes.style.pagerButton}"/>
                                     </div>
