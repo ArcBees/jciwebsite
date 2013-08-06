@@ -48,5 +48,7 @@ public interface SponsorsResource extends ClientBundle {
 
     ImageResource deloitte();
 
+    ImageResource penteract();
+
     Style style();
 }

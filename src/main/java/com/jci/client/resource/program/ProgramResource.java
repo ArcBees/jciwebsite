@@ -193,6 +193,8 @@ public interface ProgramResource extends ClientBundle {
 
     ImageResource img_tradeShow_1();
 
+    ImageResource img_tradeShow_2();
+
     ImageResource img_presidentGala_1();
 
     ImageResource img_presidentGala_2();
@@ -238,6 +240,10 @@ public interface ProgramResource extends ClientBundle {
     ImageResource img_training_hernandoGomez();
 
     ImageResource img_training_joeyHoeschmann();
+
+    ImageResource img_training_brianKavanaugh();
+
+    ImageResource img_training_christianGoudreau();
 
     ImageResource img_charlotteLounge_1();
 

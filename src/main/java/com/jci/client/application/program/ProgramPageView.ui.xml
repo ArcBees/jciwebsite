@@ -959,49 +959,103 @@
                                         <ui:msg description="Program > Ui > Hours > 11:45">11:45</ui:msg>
                                     </p>
                                 </div>
-                                <div class="{programRes.style.tooltip}">
-                                    <span class="{programRes.style.arrow}"/>
-                                    <h2>
-                                        <ui:msg description="Program > Content > Training > JCIImpact">JCI Impact by
-                                        </ui:msg>
-                                        Brian Kavanaugh
-                                    </h2>
-                                    <p>
-                                        <b>Date:</b>
-                                        <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
-                                        </ui:msg>
-                                        <br/>
+                                <div class="{programRes.style.tooltip} {programRes.style.pagerContainer}">
+                                    <div class="{programRes.style.pagerCommons}">
+                                        <span class="{programRes.style.arrow}"/>
+                                        <h2>
+                                            <ui:msg description="Program > Content > Training > JCIImpact">JCI Impact by
+                                            </ui:msg>
+                                            Brian Kavanaugh
+                                        </h2>
+                                        <p>
+                                            <b>Date:</b>
+                                            <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19,
+                                                2013
+                                            </ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Time">Time:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > Hours > 9h00">9:00 am</ui:msg>
+                                            -
+                                            <ui:msg description="Program > Ui > Hours > 11h45">11:45 am</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Room">Room</ui:msg>:
+                                            </b>
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
+                                            H
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                                Casual
+                                            </ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Language">Language:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > DressCode > English">English only
+                                            </ui:msg>
+                                        </p>
+                                    </div>
+                                    <div class="{programRes.style.pagerDivContainer}">
+                                        <div class="{programRes.style.pagerDiv}">
+                                            <p>
+                                                <ui:msg description="Program > Content > Training > JCIImpact">
+                                                    JCI Impact is a course aimed for JCI members who want to become
+                                                    active citizens and make long lasting positive changes in their
+                                                    communities. The course discusses the active citizenship concept,
+                                                    covers the analysis of community needs, the establishment of the
+                                                    real causes of problems and discusses the projects a Local
+                                                    Organization can conduct with other partners in order to create long
+                                                    lasting and definite positive changes in the community.
+                                                </ui:msg>
+                                            </p>
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
+                                            <p>
+                                                <img src="{programRes.img_training_brianKavanaugh.getSafeUri}"
+                                                     alt="Brian Kavanaugh"
+                                                     class="{programRes.style.third} {programRes.style.bio}"/>
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Brian Kavanaugh > p1">
+                                                    Brian Kavanaugh is a Senior Desktop Application Developer and
+                                                    President at Nebraska Jaycee Foundation. In the past years, he was
+                                                    2010 US Chamber of Commerce Liaison at United States Junior Chamber,
+                                                    2009 National Vice President at United States Junior Chamber and
+                                                    2008 Vice President at Junior Chamber International (JCI).
+                                                </ui:msg>
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Brian Kavanaugh > p2">
+                                                    Head trainer for JCI's official courses JCI Achieve (local
+                                                    organization development), JCI Admin (local organization
+                                                    management), JCI CSR (corporate social responsibility - the
+                                                    responsibility of the active citizen), JCI Networking, JCI Presenter
+                                                    (effective presentations) and JCI Trainer (planning and delivering
+                                                    adult learning courses), plus several courses of his own. He has
+                                                    trained in various countries in western Europe, and in Canada and
+                                                    throughout the United States.
+                                                </ui:msg>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="{programRes.style.pagerButtonContainer}">
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
+                                            <ui:msg description="Program > Ui > MoreInfo">More informations:
+                                            </ui:msg>
                                         </b>
-                                        <ui:msg description="Program > Ui > Hours > 9h00">9:00 am</ui:msg>
-                                        -
-                                        <ui:msg description="Program > Ui > Hours > 11h45">11:45 am</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
-                                        </b>
-                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                        H
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
-                                            Casual
-                                        </ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Language">Language:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > DressCode > English">English only
-                                        </ui:msg>
-                                    </p>
+                                        <a class="{programRes.style.pagerButton} {programRes.style.pagerButtonActive}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                    </div>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
@@ -1016,50 +1070,113 @@
                                         <ui:msg description="Program > Ui > Hours > 16:30">4:30</ui:msg>
                                     </p>
                                 </div>
-                                <div class="{programRes.style.tooltip}">
-                                    <span class="{programRes.style.arrow}"/>
-                                    <h2>
-                                        <ui:msg description="Program > Content > Training > JCIAchieve">
-                                            JCI Achieve by
-                                        </ui:msg>
-                                        Brian Kavanaugh
-                                    </h2>
-                                    <p>
-                                        <b>Date:</b>
-                                        <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
-                                        </ui:msg>
-                                        <br/>
+                                <div class="{programRes.style.tooltip} {programRes.style.pagerContainer}">
+                                    <div class="{programRes.style.pagerCommons}">
+                                        <span class="{programRes.style.arrow}"/>
+                                        <h2>
+                                            <ui:msg description="Program > Content > Training > JCIAchieve">
+                                                JCI Achieve by
+                                            </ui:msg>
+                                            Brian Kavanaugh
+                                        </h2>
+                                        <p>
+                                            <b>Date:</b>
+                                            <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19,
+                                                2013
+                                            </ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Time">Time:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > Hours > 13h45">1:45 pm</ui:msg>
+                                            -
+                                            <ui:msg description="Program > Ui > Hours > 16h30">4:30 pm</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Room">Room</ui:msg>:
+                                            </b>
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
+                                            H
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                                Casual
+                                            </ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Language">Language:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > DressCode > English">English only
+                                            </ui:msg>
+                                        </p>
+                                    </div>
+                                    <div class="{programRes.style.pagerDivContainer}">
+                                        <div class="{programRes.style.pagerDiv}">
+                                            <p>
+                                                <ui:msg description="Program > Content > Training > JCIAchieve > p1">
+                                                    JCI Achieve, the JCI Local Organization Development Course is a full
+                                                    day course that uses discussions and case studies to understand and
+                                                    establish the local organization’s identity, its purpose and what to
+                                                    do to accomplish JCI’s Mission, effectively adopt and use
+                                                    recognizable and appreciated activities, understand the existing
+                                                    demographic groups and their characteristics and how to build a
+                                                    attractive organization that will bring in new members who are
+                                                    looking for the development opportunities and want to create
+                                                    positive change as active citizens.
+                                                </ui:msg>
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Training > JCIAchieve > p2">
+                                                    JCI Achieve should be taken by all members who want to fully
+                                                    understand the meaning, purpose and dynamics of building an
+                                                    attractive JCI local organization.
+                                                </ui:msg>
+                                            </p>
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
+                                            <p>
+                                                <img src="{programRes.img_training_brianKavanaugh.getSafeUri}"
+                                                     alt="Brian Kavanaugh"
+                                                     class="{programRes.style.third} {programRes.style.bio}"/>
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Brian Kavanaugh > p1">
+                                                    Brian Kavanaugh is a Senior Desktop Application Developer and
+                                                    President at Nebraska Jaycee Foundation. In the past years, he was
+                                                    2010 US Chamber of Commerce Liaison at United States Junior Chamber,
+                                                    2009 National Vice President at United States Junior Chamber and
+                                                    2008 Vice President at Junior Chamber International (JCI).
+                                                </ui:msg>
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Brian Kavanaugh > p2">
+                                                    Head trainer for JCI's official courses JCI Achieve (local
+                                                    organization development), JCI Admin (local organization
+                                                    management), JCI CSR (corporate social responsibility - the
+                                                    responsibility of the active citizen), JCI Networking, JCI Presenter
+                                                    (effective presentations) and JCI Trainer (planning and delivering
+                                                    adult learning courses), plus several courses of his own. He has
+                                                    trained in various countries in western Europe, and in Canada and
+                                                    throughout the United States.
+                                                </ui:msg>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="{programRes.style.pagerButtonContainer}">
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
+                                            <ui:msg description="Program > Ui > MoreInfo">More informations:
+                                            </ui:msg>
                                         </b>
-                                        <ui:msg description="Program > Ui > Hours > 13h45">1:45 pm</ui:msg>
-                                        -
-                                        <ui:msg description="Program > Ui > Hours > 16h30">4:30 pm</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
-                                        </b>
-                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                        H
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
-                                            Casual
-                                        </ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Language">Language:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > DressCode > English">English only
-                                        </ui:msg>
-                                    </p>
+                                        <a class="{programRes.style.pagerButton} {programRes.style.pagerButtonActive}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                    </div>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
@@ -1119,7 +1236,7 @@
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
                                         <ui:msg description="Program > Content > TradeShowByCircle">Trade Show presented
-                                            by Cercle des Ambassadeurs
+                                            by Cercle des Ambassadeurs, in collaboration with Arcbees.
                                         </ui:msg>
                                     </h2>
                                     <p>
@@ -1147,7 +1264,11 @@
                                     <p>
                                         <a href="http://www.cercledesambassadeurs.com/" target="_blank">
                                             <img src="{programRes.img_tradeShow_1.getSafeUri}"
-                                                 alt="Cercle des Ambassadeurs Logo" class="{programRes.style.third}"/>
+                                                 alt="Cercle des Ambassadeurs Logo" class="{programRes.style.third}"/></a>
+                                        <a href="http://www.arcbees.com/" target="_blank">
+                                            <ui:attribute name="href" description="Href > Arcbees"/>
+                                            <img src="{programRes.img_tradeShow_2.getSafeUri}" alt="ArcBees"
+                                                 class="{programRes.style.third}"/>
                                         </a>
                                     </p>
                                 </div>
@@ -1168,7 +1289,7 @@
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
                                         <ui:msg description="Program > Content > TradeShowByCircle">Trade Show presented
-                                            by Cercle des Ambassadeurs
+                                            by Cercle des Ambassadeurs, in collaboration with Arcbees.
                                         </ui:msg>
                                     </h2>
                                     <p>
@@ -1196,7 +1317,11 @@
                                     <p>
                                         <a href="http://www.cercledesambassadeurs.com/" target="_blank">
                                             <img src="{programRes.img_tradeShow_1.getSafeUri}"
-                                                 alt="Cercle des Ambassadeurs Logo" class="{programRes.style.third}"/>
+                                                 alt="Cercle des Ambassadeurs Logo" class="{programRes.style.third}"/></a>
+                                        <a href="http://www.arcbees.com/" target="_blank">
+                                            <ui:attribute name="href" description="Href > Arcbees"/>
+                                            <img src="{programRes.img_tradeShow_2.getSafeUri}" alt="ArcBees"
+                                                 class="{programRes.style.third}"/>
                                         </a>
                                     </p>
                                 </div>
@@ -1259,7 +1384,7 @@
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
                                         <ui:msg description="Program > Content > TradeShowByCircle">Trade Show presented
-                                            by Cercle des Ambassadeurs
+                                            by Cercle des Ambassadeurs, in collaboration with Arcbees.
                                         </ui:msg>
                                     </h2>
                                     <p>
@@ -1287,7 +1412,11 @@
                                     <p>
                                         <a href="http://www.cercledesambassadeurs.com/" target="_blank">
                                             <img src="{programRes.img_tradeShow_1.getSafeUri}"
-                                                 alt="Cercle des Ambassadeurs Logo" class="{programRes.style.third}"/>
+                                                 alt="Cercle des Ambassadeurs Logo" class="{programRes.style.third}"/></a>
+                                        <a href="http://www.arcbees.com/" target="_blank">
+                                            <ui:attribute name="href" description="Href > Arcbees"/>
+                                            <img src="{programRes.img_tradeShow_2.getSafeUri}" alt="ArcBees"
+                                                 class="{programRes.style.third}"/>
                                         </a>
                                     </p>
                                 </div>
@@ -1904,7 +2033,7 @@
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
                                         <ui:msg description="Program > Content > EffectiveSpeaking">Effective speaking
-                                            presented by Chaire Stephen-A.-Jarislowsky
+                                            presented by Stephen-A.-Jarislowsky Chair
                                         </ui:msg>
                                     </h2>
                                     <p>
@@ -2606,7 +2735,7 @@
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
                                         <ui:msg description="Program > Content > TradeShowByCircle">Trade Show presented
-                                            by Cercle des Ambassadeurs
+                                            by Cercle des Ambassadeurs, in collaboration with Arcbees.
                                         </ui:msg>
                                     </h2>
                                     <p>
@@ -2634,7 +2763,11 @@
                                     <p>
                                         <a href="http://www.cercledesambassadeurs.com/" target="_blank">
                                             <img src="{programRes.img_tradeShow_1.getSafeUri}"
-                                                 alt="Cercle des Ambassadeurs Logo" class="{programRes.style.third}"/>
+                                                 alt="Cercle des Ambassadeurs Logo" class="{programRes.style.third}"/></a>
+                                        <a href="http://www.arcbees.com/" target="_blank">
+                                            <ui:attribute name="href" description="Href > Arcbees"/>
+                                            <img src="{programRes.img_tradeShow_2.getSafeUri}" alt="ArcBees"
+                                                 class="{programRes.style.third}"/>
                                         </a>
                                     </p>
                                 </div>
@@ -2696,7 +2829,7 @@
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
                                         <ui:msg description="Program > Content > TradeShowByCircle">Trade Show presented
-                                            by Cercle des Ambassadeurs
+                                            by Cercle des Ambassadeurs, in collaboration with Arcbees.
                                         </ui:msg>
                                     </h2>
                                     <p>
@@ -2724,7 +2857,11 @@
                                     <p>
                                         <a href="http://www.cercledesambassadeurs.com/" target="_blank">
                                             <img src="{programRes.img_tradeShow_1.getSafeUri}"
-                                                 alt="Cercle des Ambassadeurs Logo" class="{programRes.style.third}"/>
+                                                 alt="Cercle des Ambassadeurs Logo" class="{programRes.style.third}"/></a>
+                                        <a href="http://www.arcbees.com/" target="_blank">
+                                            <ui:attribute name="href" description="Href > Arcbees"/>
+                                            <img src="{programRes.img_tradeShow_2.getSafeUri}" alt="ArcBees"
+                                                 class="{programRes.style.third}"/>
                                         </a>
                                     </p>
                                 </div>
@@ -2745,7 +2882,7 @@
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
                                         <ui:msg description="Program > Content > TradeShowByCircle">Trade Show presented
-                                            by Cercle des Ambassadeurs
+                                            by Cercle des Ambassadeurs, in collaboration with Arcbees.
                                         </ui:msg>
                                     </h2>
                                     <p>
@@ -2773,7 +2910,11 @@
                                     <p>
                                         <a href="http://www.cercledesambassadeurs.com/" target="_blank">
                                             <img src="{programRes.img_tradeShow_1.getSafeUri}"
-                                                 alt="Cercle des Ambassadeurs Logo" class="{programRes.style.third}"/>
+                                                 alt="Cercle des Ambassadeurs Logo" class="{programRes.style.third}"/></a>
+                                        <a href="http://www.arcbees.com/" target="_blank">
+                                            <ui:attribute name="href" description="Href > Arcbees"/>
+                                            <img src="{programRes.img_tradeShow_2.getSafeUri}" alt="ArcBees"
+                                                 class="{programRes.style.third}"/>
                                         </a>
                                     </p>
                                 </div>
@@ -2833,9 +2974,10 @@
                                 </div>
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
+
                                     <h2>
                                         <ui:msg description="Program > Content > TradeShowByCircle">Trade Show presented
-                                            by Cercle des Ambassadeurs
+                                            by Cercle des Ambassadeurs, in collaboration with Arcbees.
                                         </ui:msg>
                                     </h2>
                                     <p>
@@ -2863,7 +3005,11 @@
                                     <p>
                                         <a href="http://www.cercledesambassadeurs.com/" target="_blank">
                                             <img src="{programRes.img_tradeShow_1.getSafeUri}"
-                                                 alt="Cercle des Ambassadeurs Logo" class="{programRes.style.third}"/>
+                                                 alt="Cercle des Ambassadeurs Logo" class="{programRes.style.third}"/></a>
+                                        <a href="http://www.arcbees.com/" target="_blank">
+                                            <ui:attribute name="href" description="Href > Arcbees"/>
+                                            <img src="{programRes.img_tradeShow_2.getSafeUri}" alt="ArcBees"
+                                                 class="{programRes.style.third}"/>
                                         </a>
                                     </p>
                                 </div>
@@ -3010,7 +3156,9 @@
                                                 <a href="https://maps.google.ca/maps?q=2450,+Boulevard+Laurier+blvd,+Qu%C3%A9bec+(Qc),+Canada,+G1V+2L1&amp;um=1&amp;ie=UTF-8&amp;hl=en&amp;sa=N&amp;tab=wl&amp;authuser=0">
                                                     <ui:attribute name="href" description="Href > Maps SteFoy"/>
                                                     <ui:msg description="Program > SteFoy > Address">
-                                                        2450, Laurier Blvd, Quebec City (QC), G1V 2L1</ui:msg></a>
+                                                        2450, Laurier Blvd, Quebec City (QC), G1V 2L1
+                                                    </ui:msg>
+                                                </a>
                                             </p>
                                         </div>
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
@@ -3972,7 +4120,7 @@
                                     addStyleNames="{programRes.style.event} {programRes.style.l3} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                                 <div>
                                     <h2>
-                                        Tune up your Work/Life Balance
+                                        Tune up your Work/Life
                                     </h2>
                                     <p>
                                         <ui:msg description="Program > Ui > Hours > 10:30">10:30</ui:msg>
@@ -4250,7 +4398,7 @@
                                     addStyleNames="{programRes.style.event} {programRes.style.l4} {programRes.style.t1050} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                                 <div>
                                     <h2>
-                                        <ui:msg description="Program > Content > Training">Training</ui:msg>
+                                        <ui:msg description="Program > Content > Training">Agile Projects</ui:msg>
                                     </h2>
                                     <p>
                                         <ui:msg description="Program > Ui > Hours > 10:30">10:30</ui:msg>
@@ -4258,43 +4406,133 @@
                                         <ui:msg description="Program > Ui > Hours > 11:45">11:45</ui:msg>
                                     </p>
                                 </div>
-                                <div class="{programRes.style.tooltip}">
-                                    <span class="{programRes.style.arrow}"/>
-                                    <h2>
-                                        <ui:msg description="Program > Content > Training > TBDBy">To be determined by
-                                        </ui:msg>
-                                        <ui:msg description="Program > Ui > TBD">To be determined</ui:msg>
-                                    </h2>
-                                    <p>
-                                        <b>Date:</b>
-                                        <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21, 2013
-                                        </ui:msg>
-                                        <br/>
+                                <div class="{programRes.style.tooltip} {programRes.style.pagerContainer}">
+                                    <div class="{programRes.style.pagerCommons}">
+                                        <span class="{programRes.style.arrow}"/>
+                                        <h2>
+                                            <ui:msg description="Program > Content > Training > AgileProjects">
+                                                Agile Projects Across the Enterprise by
+                                            </ui:msg>
+                                            Christian Goudreau
+                                        </h2>
+                                        <p>
+                                            <b>Date:</b>
+                                            <ui:msg description="Program > Ui > DateFull > 21">Saturday, September 21,
+                                                2013
+                                            </ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Time">Time:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > Hours > 10h30">10:30 am</ui:msg>
+                                            -
+                                            <ui:msg description="Program > Ui > Hours > 11h45">11:45 am</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Room">Room</ui:msg>:
+                                            </b>
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>
+                                            H
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                                Casual
+                                            </ui:msg>
+                                            <br/>
+                                            <b>
+                                                <ui:msg description="Program > Ui > Language">Language:</ui:msg>
+                                            </b>
+                                            <ui:msg description="Program > Ui > DressCode > English">English only
+                                            </ui:msg>
+                                        </p>
+                                    </div>
+                                    <div class="{programRes.style.pagerDivContainer}">
+                                        <div class="{programRes.style.pagerDiv}">
+                                            <p>
+                                                <ui:msg description="Program > Content > Training > AgileProjects > p1">
+                                                    For over a decade, a movement has gathered momentum, releasing
+                                                    software engineers from inadequate, outdated ways of managing
+                                                    projects. After many painful decades, it became clear that earlier
+                                                    project management methods did not apply to the craft of software
+                                                    engineering. Lightweight iterative practices began displacing older
+                                                    models, until 66 years after John von Neumann conceived of the
+                                                    stored-program computer, the Agile Manifesto was declared.
+                                                </ui:msg>
+                                            </p>
+                                            <p>
+                                                <ui:msg
+                                                        description="Program > Content > Training > AgileProjects > p2">
+                                                    BUT, Agile methodologies aren’t just for IT anymore. Used
+                                                    effectively, the feedback-driven practices of Agile can boost speed
+                                                    and enhance execution for all kinds of projects. This
+                                                    conference explores how. It invites you to join the growing
+                                                    conversation about Agile across the enterprise. Agile methodologies
+                                                    can bring new efficiencies in every domain of organizational life.
+
+                                                </ui:msg>
+                                            </p>
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
+                                            <p>
+                                                <img src="{programRes.img_training_christianGoudreau.getSafeUri}"
+                                                     alt="Christian Goudreau"
+                                                     class="{programRes.style.third} {programRes.style.bio}"/>
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Content > Bio > Christian Goudreau > p1">
+                                                    A young entrepreneur with a passion for new technologies, Christian
+                                                    Goudreau mans the helm at ArcBees, a company that has been
+                                                    specializing in the development of high performance and high quality
+                                                    web applications since it was founded in 2010. The Quebec City-based
+                                                    firm takes pride in the fact that it can count on renowned clients
+                                                    from all over the world.
+                                                </ui:msg>
+                                            </p>
+                                            <p>
+                                                <ui:msg
+                                                        description="Program > Content > Bio > Christian Goudreau > p2">
+                                                    ArcBees was launched following the creation of a GWT-platform, based
+                                                    on the Google Web Toolkit (GWT), which is now used by tens of
+                                                    thousands of developers worldwide to facilitate the development of
+                                                    web applications. Moreover, at the age of just 29, Christian was
+                                                    appointed to the GWT Steering Committee.
+                                                </ui:msg>
+                                            </p>
+                                            <p>
+                                                <ui:msg
+                                                        description="Program > Content > Bio > Christian Goudreau > p3">
+                                                    A talented guest speaker, his services are much sought-after, not
+                                                    only in Quebec but also in Europe and the United States, where he
+                                                    takes great pleasure in sharing his technical knowledge and his
+                                                    passion for business.
+                                                </ui:msg>
+                                            </p>
+                                            <p>
+                                                <ui:msg
+                                                        description="Program > Content > Bio > Christian Goudreau > p4">
+                                                    Christian is an inspiring communicator and in 2012 won an award at
+                                                    the Jeune personnalité d’affaires Banque Nationale competition
+                                                    organized by the Jeune chambre de commerce de Québec (JCCQ) in the
+                                                    “Technology and Research” category.
+                                                </ui:msg>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="{programRes.style.pagerButtonContainer}">
                                         <b>
-                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
+                                            <ui:msg description="Program > Ui > MoreInfo">More informations:
+                                            </ui:msg>
                                         </b>
-                                        <ui:msg description="Program > Ui > Hours > 10h30">10:30 am</ui:msg>
-                                        -
-                                        <ui:msg description="Program > Ui > Hours > 11h45">11:45 am</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
-                                        </b>
-                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
-                                        H
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
-                                            Casual
-                                        </ui:msg>
-                                    </p>
+                                        <a class="{programRes.style.pagerButton} {programRes.style.pagerButtonActive}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
+                                    </div>
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
@@ -4407,7 +4645,7 @@
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
                                         <ui:msg description="Program > Content > TradeShowByCircle">Trade Show presented
-                                            by Cercle des Ambassadeurs
+                                            by Cercle des Ambassadeurs, in collaboration with Arcbees.
                                         </ui:msg>
                                     </h2>
                                     <p>
@@ -4435,7 +4673,11 @@
                                     <p>
                                         <a href="http://www.cercledesambassadeurs.com/" target="_blank">
                                             <img src="{programRes.img_tradeShow_1.getSafeUri}"
-                                                 alt="Cercle des Ambassadeurs Logo" class="{programRes.style.third}"/>
+                                                 alt="Cercle des Ambassadeurs Logo" class="{programRes.style.third}"/></a>
+                                        <a href="http://www.arcbees.com/" target="_blank">
+                                            <ui:attribute name="href" description="Href > Arcbees"/>
+                                            <img src="{programRes.img_tradeShow_2.getSafeUri}" alt="ArcBees"
+                                                 class="{programRes.style.third}"/>
                                         </a>
                                     </p>
                                 </div>
@@ -4497,7 +4739,7 @@
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
                                         <ui:msg description="Program > Content > TradeShowByCircle">Trade Show presented
-                                            by Cercle des Ambassadeurs
+                                            by Cercle des Ambassadeurs, in collaboration with Arcbees.
                                         </ui:msg>
                                     </h2>
                                     <p>
@@ -4525,7 +4767,11 @@
                                     <p>
                                         <a href="http://www.cercledesambassadeurs.com/" target="_blank">
                                             <img src="{programRes.img_tradeShow_1.getSafeUri}"
-                                                 alt="Cercle des Ambassadeurs Logo" class="{programRes.style.third}"/>
+                                                 alt="Cercle des Ambassadeurs Logo" class="{programRes.style.third}"/></a>
+                                        <a href="http://www.arcbees.com/" target="_blank">
+                                            <ui:attribute name="href" description="Href > Arcbees"/>
+                                            <img src="{programRes.img_tradeShow_2.getSafeUri}" alt="ArcBees"
+                                                 class="{programRes.style.third}"/>
                                         </a>
                                     </p>
                                 </div>
@@ -4674,7 +4920,9 @@
                                                 <a href="https://maps.google.ca/maps?q=2450,+Boulevard+Laurier+blvd,+Qu%C3%A9bec+(Qc),+Canada,+G1V+2L1&amp;um=1&amp;ie=UTF-8&amp;hl=en&amp;sa=N&amp;tab=wl&amp;authuser=0">
                                                     <ui:attribute name="href" description="Href > Maps SteFoy"/>
                                                     <ui:msg description="Program > SteFoy > Address">
-                                                        2450, Laurier Blvd, Quebec City (QC), G1V 2L1</ui:msg></a>
+                                                        2450, Laurier Blvd, Quebec City (QC), G1V 2L1
+                                                    </ui:msg>
+                                                </a>
                                             </p>
                                         </div>
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">

@@ -11,9 +11,9 @@
 
     <!-- Other module inherits                                      -->
     <inherits name='com.gwtplatform.dispatch.Dispatch'/>
-    <inherits name="com.arcbees.core.Mvp"/>
     <inherits name='com.google.gwt.query.Query'/>
     <inherits name="org.fusesource.restygwt.RestyGWT"/>
+    <inherits name="com.gwtplatform.mvp.MvpWithEntryPoint"/>
 
     <entry-point class='com.jci.client.Website'/>
 
