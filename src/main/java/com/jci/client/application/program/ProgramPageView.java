@@ -18,7 +18,6 @@ package com.jci.client.application.program;
 
 import javax.inject.Inject;
 
-import com.arcbees.core.client.mvp.ViewImpl;
 import com.google.gwt.dom.client.DivElement;
 import com.google.gwt.dom.client.Element;
 import com.google.gwt.event.logical.shared.AttachEvent;
@@ -28,6 +27,7 @@ import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.user.client.ui.HTMLPanel;
 import com.google.gwt.user.client.ui.Widget;
+import com.gwtplatform.mvp.client.ViewImpl;
 import com.jci.client.resource.CommonResource;
 import com.jci.client.resource.program.ProgramResource;
 
