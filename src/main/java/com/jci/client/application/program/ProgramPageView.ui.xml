@@ -4474,7 +4474,6 @@
                                                     conference explores how. It invites you to join the growing
                                                     conversation about Agile across the enterprise. Agile methodologies
                                                     can bring new efficiencies in every domain of organizational life.
-
                                                 </ui:msg>
                                             </p>
                                         </div>
@@ -4497,7 +4496,7 @@
                                             <p>
                                                 <ui:msg
                                                         description="Program > Content > Bio > Christian Goudreau > p2">
-                                                    ArcBees was launched following the creation of a GWT-platform, based
+                                                    ArcBees was launched following the creation of GWT-platform, based
                                                     on the Google Web Toolkit (GWT), which is now used by tens of
                                                     thousands of developers worldwide to facilitate the development of
                                                     web applications. Moreover, at the age of just 29, Christian was
