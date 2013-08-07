@@ -1042,7 +1042,7 @@
                                                     responsibility of the active citizen), JCI Networking, JCI Presenter
                                                     (effective presentations) and JCI Trainer (planning and delivering
                                                     adult learning courses), plus several courses of his own. He has
-                                                    trained in various countries in western Europe, and in Canada and
+                                                    trained in various countries in western Europe, in Canada and
                                                     throughout the United States.
                                                 </ui:msg>
                                             </p>
@@ -1126,7 +1126,7 @@
                                                     establish the local organization’s identity, its purpose and what to
                                                     do to accomplish JCI’s Mission, effectively adopt and use
                                                     recognizable and appreciated activities, understand the existing
-                                                    demographic groups and their characteristics and how to build a
+                                                    demographic groups and their characteristics and how to build an
                                                     attractive organization that will bring in new members who are
                                                     looking for the development opportunities and want to create
                                                     positive change as active citizens.
@@ -1163,7 +1163,7 @@
                                                     responsibility of the active citizen), JCI Networking, JCI Presenter
                                                     (effective presentations) and JCI Trainer (planning and delivering
                                                     adult learning courses), plus several courses of his own. He has
-                                                    trained in various countries in western Europe, and in Canada and
+                                                    trained in various countries in western Europe, in Canada and
                                                     throughout the United States.
                                                 </ui:msg>
                                             </p>
@@ -2974,7 +2974,6 @@
                                 </div>
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
-
                                     <h2>
                                         <ui:msg description="Program > Content > TradeShowByCircle">Trade Show presented
                                             by Cercle des Ambassadeurs, in collaboration with Arcbees.
