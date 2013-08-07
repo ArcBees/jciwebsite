@@ -16,12 +16,13 @@
 
 package com.jci.client.application;
 
-import com.arcbees.core.client.mvp.ViewImpl;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.user.client.ui.HTMLPanel;
+import com.google.gwt.user.client.ui.IsWidget;
 import com.google.gwt.user.client.ui.SimplePanel;
 import com.google.gwt.user.client.ui.Widget;
+import com.gwtplatform.mvp.client.ViewImpl;
 import com.jci.client.application.ui.FooterView;
 import com.jci.client.application.ui.SponsorsView;
 
@@ -51,7 +52,7 @@ public class ApplicationView extends ViewImpl implements ApplicationPresenter.My
     }
 
     @Override
-    public void setInSlot(Object slot, Widget content) {
+    public void setInSlot(Object slot, IsWidget content) {
         if (content != null) {
             if (slot == ApplicationPresenter.TYPE_SetMainContent) {
                 main.clear();

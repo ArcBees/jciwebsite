@@ -34,6 +34,9 @@
             <a href="http://www4.fsa.ulaval.ca/cms/accueil/recherche/chairescentrerecherche/chairesderecherche/stephenjarislowsky" target="_blank">
                 <g:Image resource="{sponsRes.chaire}" altText="Chaire Stephen-A.-Jarislowsky"/>
             </a>
+            <a href="http://www.penteractconsulting.com/" target="_blank">
+                <g:Image resource="{sponsRes.penteract}" altText="Penteract"/>
+            </a>
         </div>
     </g:HTMLPanel>
 </ui:UiBinder>

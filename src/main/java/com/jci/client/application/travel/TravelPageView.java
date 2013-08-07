@@ -16,7 +16,6 @@
 
 package com.jci.client.application.travel;
 
-import com.arcbees.core.client.mvp.ViewImpl;
 import com.google.gwt.dom.client.AnchorElement;
 import com.google.gwt.dom.client.DivElement;
 import com.google.gwt.event.logical.shared.AttachEvent;
@@ -24,6 +23,7 @@ import com.google.gwt.query.client.Function;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.user.client.ui.Widget;
+import com.gwtplatform.mvp.client.ViewImpl;
 import com.jci.client.resource.CommonResource;
 
 import javax.inject.Inject;
