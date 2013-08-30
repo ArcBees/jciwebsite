@@ -2017,6 +2017,64 @@
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
+                                    addStyleNames="{programRes.style.event} {programRes.style.l1} {programRes.style.t1550} {programRes.style.h050} {programRes.style.w1} {programRes.style.cGreen}">
+                                <div>
+                                    <h2>
+                                        <ui:msg description="Program > Content > WorldPresidentForum">
+                                            World president forum
+                                        </ui:msg>
+                                    </h2>
+                                    <p>
+                                        <ui:msg description="Program > Ui > Hours > 15:30">3:30</ui:msg>
+                                        -
+                                        <ui:msg description="Program > Ui > Hours > 16:00">4:00</ui:msg>
+                                    </p>
+                                </div>
+                                <div class="{programRes.style.tooltip}">
+                                    <span class="{programRes.style.arrow}"/>
+                                    <h2>
+                                        <ui:msg description="Program > Content > WorldPresidentForum">
+                                            World president forum
+                                        </ui:msg>
+                                    </h2>
+                                    <p>
+                                        <b>Date:</b>
+                                        <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20, 2013
+                                        </ui:msg>
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > Hours > 15h30">3:30 pm</ui:msg>
+                                        -
+                                        <ui:msg description="Program > Ui > Hours > 16h00">4:00 pm</ui:msg>
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
+                                        </b>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
+                                        AB
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                            Casual
+                                        </ui:msg>
+                                    </p>
+                                    <p>
+                                        <ui:msg description="Program > Content > WorldPresidentForum > p1">
+                                            All you wanted to know about the life of a world president!
+                                        </ui:msg>
+                                    </p>
+                                </div>
+                            </g:HTMLPanel>
+                            <g:HTMLPanel
                                     addStyleNames="{programRes.style.event} {programRes.style.l1} {programRes.style.t1375} {programRes.style.h125} {programRes.style.w1} {programRes.style.cGreen}">
                                 <div>
                                     <h2>
@@ -4534,23 +4592,23 @@
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
-                                    addStyleNames="{programRes.style.event} {programRes.style.l5} {programRes.style.t1200} {programRes.style.h100} {programRes.style.w1} {programRes.style.cRed}">
+                                    addStyleNames="{programRes.style.event} {programRes.style.l5} {programRes.style.t800} {programRes.style.h100} {programRes.style.w1} {programRes.style.cRed}">
                                 <div>
                                     <h2>
                                         <ui:msg description="Program > Content > SenatorsLunch" meaning="short">
-                                            Senators' Lunch
+                                            Breakfast
                                         </ui:msg>
                                     </h2>
                                     <p>
-                                        <ui:msg description="Program > Ui > Hours > 12:00">12:00</ui:msg>
+                                        <ui:msg description="Program > Ui > Hours > 8:00">8:00</ui:msg>
                                         -
-                                        <ui:msg description="Program > Ui > Hours > 13:00">1:00</ui:msg>
+                                        <ui:msg description="Program > Ui > Hours > 9:00">9:00</ui:msg>
                                     </p>
                                 </div>
                                 <div class="{programRes.style.tooltip}">
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
-                                        <ui:msg description="Program > Content > SenatorsLunch">Senators' Lunch
+                                        <ui:msg description="Program > Content > SenatorsLunch">Senators' Breakfast
                                         </ui:msg>
                                     </h2>
                                     <p>
@@ -4561,9 +4619,9 @@
                                         <b>
                                             <ui:msg description="Program > Ui > Time">Time:</ui:msg>
                                         </b>
-                                        <ui:msg description="Program > Ui > Hours > 12h00">12:00 am</ui:msg>
+                                        <ui:msg description="Program > Ui > Hours > 8h00">8:00 am</ui:msg>
                                         -
-                                        <ui:msg description="Program > Ui > Hours > 13h00">1:00 pm</ui:msg>
+                                        <ui:msg description="Program > Ui > Hours > 9h00">9:00 am</ui:msg>
                                         <br/>
                                         <b>
                                             <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>

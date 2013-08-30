@@ -89,6 +89,8 @@ public interface ProgramResource extends ClientBundle {
 
         String h025();
 
+        String h050();
+
         String h300();
 
         String t1700();
@@ -158,6 +160,8 @@ public interface ProgramResource extends ClientBundle {
         String noMarginP();
 
         String content();
+
+        String t1550();
     }
 
     @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.Both)
