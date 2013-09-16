@@ -259,6 +259,12 @@ public interface ProgramResource extends ClientBundle {
 
     ImageResource img_opening_1();
 
+    ImageResource img_dxDesign_1();
+
+    ImageResource img_mortgageArchitect_1();
+
+    ImageResource img_mortgageArchitect_1_fr();
+
     ImageResource img_opening_2();
 
     ImageResource img_awards_1();

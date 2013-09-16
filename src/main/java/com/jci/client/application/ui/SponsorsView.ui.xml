@@ -37,6 +37,22 @@
             <a href="http://www.penteractconsulting.com/" target="_blank">
                 <g:Image resource="{sponsRes.penteract}" altText="Penteract"/>
             </a>
+            <a href="http://www.dxdesign.ca/en/" target="_blank">
+                <ui:attribute name="href" description="Href > DxDesign"/>
+                <g:Image resource="{sponsRes.dxDesign}" altText="Dx Design"/>
+            </a>
+            <a href="http://www.mortgagearchitects.ca/Home/Lan?l=en-ca" target="_blank">
+                <ui:attribute name="href" description="Href > Architect"/>
+                <g:Image resource="{sponsRes.mortgageArchitect}" altText="Mortgage Architect"/>
+            </a>
+            <a href="http://www.solotech.com/en/home.aspx" target="_blank">
+                <ui:attribute name="href" description="Href > Solotech"/>
+                <g:Image resource="{sponsRes.solotech}" altText="Solotech"/>
+            </a>
+            <a href="http://www.gouv.qc.ca/portail/quebec/pgs/commun/?lang=en" target="_blank">
+                <ui:attribute name="href" description="Href > Quebec"/>
+                <g:Image resource="{sponsRes.quebec}" altText="Gouvernement du Quebec"/>
+            </a>
         </div>
     </g:HTMLPanel>
 </ui:UiBinder>
