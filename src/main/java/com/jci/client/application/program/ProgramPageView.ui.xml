@@ -4992,6 +4992,62 @@
                                             </p>
                                         </div>
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
+                                            <h2>
+                                                <ui:msg description="Program > Excursions > Tours > Title">Guided Tour
+                                                </ui:msg>
+                                            </h2>
+                                            <p>
+                                                <b>Date:</b>
+                                                <ui:msg description="Program > Ui > DateFull > 21">Saturday, September
+                                                    21,
+                                                    2013
+                                                </ui:msg>
+                                                <br/>
+                                                <b>
+                                                    <ui:msg description="Program > Ui > Time">Time:</ui:msg>
+                                                </b>
+                                                <ui:msg description="Program > Ui > Hours > 13h30">1:30 pm</ui:msg>
+                                                -
+                                                <ui:msg description="Program > Ui > Hours > 16h30">4:30 pm</ui:msg>
+                                                <br/>
+                                                <b>
+                                                    <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
+                                                </b>
+                                                <ui:msg description="Program > Excursions > Tours > Location">Old Quebec
+                                                    City
+                                                </ui:msg>
+                                                <br/>
+                                                <b>
+                                                    <ui:msg description="Program > Ui > Price">Price:</ui:msg>
+                                                </b>
+                                                <ui:msg description="Program > Ui > Price > 20">$20 CAN</ui:msg>
+                                                <br/>
+                                                <b>
+                                                    <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                                </b>
+                                                <ui:msg description="Program > Ui > DressCode > Casual">Casual</ui:msg>
+                                            </p>
+                                            <p>
+                                                <img class="{programRes.style.half}"
+                                                     src="{programRes.img_excursionTours_1.getSafeUri}"
+                                                     alt="Old Quebec City Guided Tours"/>
+                                                <img class="{programRes.style.half}"
+                                                     src="{programRes.img_excursionTours_2.getSafeUri}"
+                                                     alt="Old Quebec City Guided Tours"/>
+                                            </p>
+                                            <p>
+                                                <ui:msg description="Program > Excursions > Tours > p1">
+                                                    Quebec has the perfect setting for history amateurs. Come and
+                                                    discover
+                                                    the magnificent
+                                                    city of Quebec on a walking guided tour that will take you inside
+                                                    the
+                                                    deepest secrets on
+                                                    this 400 years old town.
+                                                </ui:msg>
+                                            </p>
+                                        </div>
+                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <h2>Karting</h2>
                                             <p>
                                                 <b>Date:</b>
@@ -5168,6 +5224,7 @@
                                             </ui:msg>
                                         </b>
                                         <a class="{programRes.style.pagerButton} {programRes.style.pagerButtonActive}"/>
+                                        <a class="{programRes.style.pagerButton}"/>
                                         <a class="{programRes.style.pagerButton}"/>
                                         <a class="{programRes.style.pagerButton}"/>
                                         <a class="{programRes.style.pagerButton}"/>
