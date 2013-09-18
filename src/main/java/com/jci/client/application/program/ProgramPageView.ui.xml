@@ -346,6 +346,80 @@
                                 </div>
                             </g:HTMLPanel>
                             <g:HTMLPanel
+                                    addStyleNames="{programRes.style.event} {programRes.style.l1} {programRes.style.t1200} {programRes.style.h150} {programRes.style.w1} {programRes.style.cGreen}">
+                                <div>
+                                    <h2>
+                                        Hugo Germain
+                                    </h2>
+                                    <p>
+                                        <ui:msg description="Program > Ui > Hours > 12:00">12:00</ui:msg>
+                                        -
+                                        <ui:msg description="Program > Ui > Hours > 13:30">1:30</ui:msg>
+                                    </p>
+                                </div>
+                                <div class="{programRes.style.tooltip}">
+                                    <span class="{programRes.style.arrow}"/>
+                                    <h2>
+                                        Hugo Germain
+                                    </h2>
+                                    <p>
+                                        <b>Date:</b>
+                                        <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
+                                        </ui:msg>
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > Hours > 12h00">12:00 am</ui:msg>
+                                        -
+                                        <ui:msg description="Program > Ui > Hours > 13h30">1:30 pm</ui:msg>
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Common > TrypQhp">TRYP Quebec Hotel Pur</ui:msg>
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > Room">Room</ui:msg>:
+                                        </b>
+                                        <ui:msg description="Program > Ui > Room">Room</ui:msg>
+                                        AB
+                                        <br/>
+                                        <b>
+                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
+                                        </b>
+                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
+                                            Casual
+                                        </ui:msg>
+                                    </p>
+                                    <p>
+                                        <ui:msg description="Program > HugoGermain > Bio > p1>">
+                                            With experience in business development in the retail trade, and an MBA
+                                            from Queen’s University, Hugo officially joined Groupe Germain’s operations
+                                            in January 2006.
+                                        </ui:msg>
+                                    </p>
+                                    <p>
+                                        <ui:msg description="Program > HugoGermain > Bio > p2>">
+                                            Involved from the outset in the creation of the ALT concept, Hugo actively
+                                            participated in the design, construction, start-up and operations of the
+                                            first ALT property, holding the position of General Manager of ALT Hotel
+                                            Quartier DIX30 in its first year of operation. He is dedicated to making
+                                            this banner a leader in its niche in Canada.
+                                        </ui:msg>
+                                    </p>
+                                    <p>
+                                        <ui:msg description="Program > HugoGermain > Bio > p3>">
+                                            In 2009, Hugo moved to Québec City and took on the responsibility of
+                                            sourcing, planning and overseeing new hotel development opportunities
+                                            for the brand across the country. Hugo is also the President of the
+                                            Séminaire Saint-François Foundation and member of the Chaudière-Appalaches
+                                            division of Junior Achievement’s Board of Directors.
+                                        </ui:msg>
+                                    </p>
+                                </div>
+                            </g:HTMLPanel>
+                            <g:HTMLPanel
                                     addStyleNames="{programRes.style.event} {programRes.style.l2} {programRes.style.t900} {programRes.style.h275} {programRes.style.w1} {programRes.style.cBlue}">
                                 <div>
                                     <h2>
@@ -1426,75 +1500,6 @@
                                             <img src="{programRes.img_tradeShow_2.getSafeUri}" alt="ArcBees"
                                                  class="{programRes.style.third}"/>
                                         </a>
-                                    </p>
-                                </div>
-                            </g:HTMLPanel>
-                            <g:HTMLPanel
-                                    addStyleNames="{programRes.style.event} {programRes.style.l6} {programRes.style.t1200} {programRes.style.h150} {programRes.style.w1} {programRes.style.cGreen}">
-                                <div>
-                                    <h2>
-                                        Hugo Germain
-                                    </h2>
-                                    <p>
-                                        <ui:msg description="Program > Ui > Hours > 12:00">12:00</ui:msg>
-                                        -
-                                        <ui:msg description="Program > Ui > Hours > 13:30">1:30</ui:msg>
-                                    </p>
-                                </div>
-                                <div class="{programRes.style.tooltip}">
-                                    <span class="{programRes.style.arrow}"/>
-                                    <h2>
-                                        Hugo Germain
-                                    </h2>
-                                    <p>
-                                        <b>Date:</b>
-                                        <ui:msg description="Program > Ui > DateFull > 19">Thursday, September 19, 2013
-                                        </ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Time">Time:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > Hours > 12h00">12:00 am</ui:msg>
-                                        -
-                                        <ui:msg description="Program > Ui > Hours > 13h30">1:30 pm</ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Content > ImperialTheatre">Imperial Theatre
-                                        </ui:msg>
-                                        <br/>
-                                        <b>
-                                            <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
-                                        </b>
-                                        <ui:msg description="Program > Ui > DressCode > BusinessCasual">Business
-                                            Casual
-                                        </ui:msg>
-                                    </p>
-                                    <p>
-                                        <ui:msg description="Program > HugoGermain > Bio > p1>">
-                                            With experience in business development in the retail trade, and an MBA
-                                            from Queen’s University, Hugo officially joined Groupe Germain’s operations
-                                            in January 2006.
-                                        </ui:msg>
-                                    </p>
-                                    <p>
-                                        <ui:msg description="Program > HugoGermain > Bio > p2>">
-                                            Involved from the outset in the creation of the ALT concept, Hugo actively
-                                            participated in the design, construction, start-up and operations of the
-                                            first ALT property, holding the position of General Manager of ALT Hotel
-                                            Quartier DIX30 in its first year of operation. He is dedicated to making
-                                            this banner a leader in its niche in Canada.
-                                        </ui:msg>
-                                    </p>
-                                    <p>
-                                        <ui:msg description="Program > HugoGermain > Bio > p3>">
-                                            In 2009, Hugo moved to Québec City and took on the responsibility of
-                                            sourcing, planning and overseeing new hotel development opportunities
-                                            for the brand across the country. Hugo is also the President of the
-                                            Séminaire Saint-François Foundation and member of the Chaudière-Appalaches
-                                            division of Junior Achievement’s Board of Directors.
-                                        </ui:msg>
                                     </p>
                                 </div>
                             </g:HTMLPanel>
