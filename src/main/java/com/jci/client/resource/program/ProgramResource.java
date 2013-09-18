@@ -203,8 +203,6 @@ public interface ProgramResource extends ClientBundle {
 
     ImageResource img_presidentGala_2();
 
-    ImageResource img_excursionArbraska_1();
-
     ImageResource img_excursionShopping_1();
 
     ImageResource img_excursionShopping_2();
@@ -218,12 +216,6 @@ public interface ProgramResource extends ClientBundle {
     ImageResource img_excursionTours_2();
 
     ImageResource img_excursionBeer_1();
-
-    ImageResource img_excursionKarting_1();
-
-    ImageResource img_excursionFerrari_1();
-
-    ImageResource img_excursionFerrari_2();
 
     ImageResource btn_exc_dn();
 
