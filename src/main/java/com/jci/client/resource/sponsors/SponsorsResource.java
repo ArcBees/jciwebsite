@@ -30,6 +30,8 @@ import com.google.gwt.resources.client.ImageResource;
 public interface SponsorsResource extends ClientBundle {
     public interface Style extends CssResource {
         String sponsorWrapper();
+
+        String secondLine();
     }
 
     ImageResource lavery();
@@ -57,6 +59,8 @@ public interface SponsorsResource extends ClientBundle {
     ImageResource solotech();
 
     ImageResource mortgageArchitect();
+
+    ImageResource musiquegagne();
 
     ImageResource mortgageArchitect_fr();
 

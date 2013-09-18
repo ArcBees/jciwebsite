@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module rename-to='myproject'>
+    <inherits name="com.jci.MyProject"/>
+
+    <set-configuration-property name="CssResource.style" value="pretty"/>
+</module>
