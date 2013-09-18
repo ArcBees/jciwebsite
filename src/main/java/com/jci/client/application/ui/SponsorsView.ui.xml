@@ -34,24 +34,28 @@
             <a href="http://www4.fsa.ulaval.ca/cms/accueil/recherche/chairescentrerecherche/chairesderecherche/stephenjarislowsky" target="_blank">
                 <g:Image resource="{sponsRes.chaire}" altText="Chaire Stephen-A.-Jarislowsky"/>
             </a>
-            <a href="http://www.penteractconsulting.com/" target="_blank">
+            <a href="http://www.penteractconsulting.com/" target="_blank" class="{sponsRes.style.secondLine}">
                 <g:Image resource="{sponsRes.penteract}" altText="Penteract"/>
             </a>
-            <a href="http://www.dxdesign.ca/en/" target="_blank">
+            <a href="http://www.dxdesign.ca/en/" target="_blank" class="{sponsRes.style.secondLine}">
                 <ui:attribute name="href" description="Href > DxDesign"/>
                 <g:Image resource="{sponsRes.dxDesign}" altText="Dx Design"/>
             </a>
-            <a href="http://www.mortgagearchitects.ca/Home/Lan?l=en-ca" target="_blank">
+            <a href="http://www.mortgagearchitects.ca/Home/Lan?l=en-ca" target="_blank" class="{sponsRes.style.secondLine}">
                 <ui:attribute name="href" description="Href > Architect"/>
                 <g:Image resource="{sponsRes.mortgageArchitect}" altText="Mortgage Architect"/>
             </a>
-            <a href="http://www.solotech.com/en/home.aspx" target="_blank">
+            <a href="http://www.solotech.com/en/home.aspx" target="_blank" class="{sponsRes.style.secondLine}">
                 <ui:attribute name="href" description="Href > Solotech"/>
                 <g:Image resource="{sponsRes.solotech}" altText="Solotech"/>
             </a>
-            <a href="http://www.gouv.qc.ca/portail/quebec/pgs/commun/?lang=en" target="_blank">
+            <a href="http://www.gouv.qc.ca/portail/quebec/pgs/commun/?lang=en" target="_blank" class="{sponsRes.style.secondLine}">
                 <ui:attribute name="href" description="Href > Quebec"/>
                 <g:Image resource="{sponsRes.quebec}" altText="Gouvernement du Quebec"/>
+            </a>
+            <a href="http://www.musiquegagne.com" target="_blank" class="{sponsRes.style.secondLine}">
+                <ui:attribute name="href" description="Href > MusiqueGagne"/>
+                <g:Image resource="{sponsRes.musiquegagne}" altText="Musique Gagné &amp; Frères"/>
             </a>
         </div>
     </g:HTMLPanel>

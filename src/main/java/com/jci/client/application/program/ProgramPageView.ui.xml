@@ -186,7 +186,8 @@
                                     <span class="{programRes.style.arrow}"/>
                                     <h2>
                                         <ui:msg description="Program > Content > OpenCeremonies">Opening Ceremonies
-                                            presented by Mortgage Architect.
+                                            presented by Mortgage Architect, in collaboration with Musique Gagné &amp;
+                                            Frères
                                         </ui:msg>
                                     </h2>
                                     <p>
@@ -227,6 +228,12 @@
                                             <ui:attribute name="href" description="Href > Architect"/>
                                             <img src="{programRes.img_mortgageArchitect_1.getSafeUri}"
                                                  alt="Mortgage Architect Logo" class="{programRes.style.third}"/>
+                                        </a>
+                                        <a href="http://www.musiquegagne.com" target="_blank">
+                                            <ui:attribute name="href" description="Href > MusiqueGagne"/>
+                                            <img src="{programRes.musiquegagne.getSafeUri}"
+                                                 alt="Musique Gagné &amp; Frères Logo"
+                                                 class="{programRes.style.third}"/>
                                         </a>
                                     </p>
                                 </div>

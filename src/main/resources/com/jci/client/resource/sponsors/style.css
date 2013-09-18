@@ -15,6 +15,10 @@ div.sponsorWrapper {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha"(Opacity = 100 );
 }
 
+.sponsorWrapper a.secondLine {
+    margin: 10px 17px;
+}
+
 .sponsorWrapper a:last-child {
     margin-right: 0;
 }
