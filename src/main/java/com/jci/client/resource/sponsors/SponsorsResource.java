@@ -50,5 +50,15 @@ public interface SponsorsResource extends ClientBundle {
 
     ImageResource penteract();
 
+    ImageResource quebec();
+
+    ImageResource dxDesign();
+
+    ImageResource solotech();
+
+    ImageResource mortgageArchitect();
+
+    ImageResource mortgageArchitect_fr();
+
     Style style();
 }

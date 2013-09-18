@@ -6,8 +6,10 @@ div.sponsorWrapper {
 }
 
 .sponsorWrapper a {
-    margin: 0 15px;
-    display: inline-block;
+    margin: 10px 25px;
+    height: 34px;
+    display: block;
+    float: left;
     moz-opacity: 1;
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha"(Opacity = 100 );
