@@ -1516,6 +1516,14 @@
                                                     <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
                                                 </b>
                                                 <ui:msg description="Program > Ui > DressCode > Casual">Casual</ui:msg>
+                                                <br/>
+                                                <b>
+                                                    <ui:msg description="Program > Ui > Registration">Registration
+                                                        :</ui:msg>
+                                                </b>
+                                                <a href="http://jciunlimited2013excursions.eventbrite.ca/" target="_blank">
+                                                    Eventbrite
+                                                </a>
                                             </p>
                                             <p>
                                                 <img class="{programRes.style.half}"
@@ -1581,6 +1589,14 @@
                                                     <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
                                                 </b>
                                                 <ui:msg description="Program > Ui > DressCode > Casual">Casual</ui:msg>
+                                                <br/>
+                                                <b>
+                                                    <ui:msg description="Program > Ui > Registration">Registration
+                                                        :</ui:msg>
+                                                </b>
+                                                <a href="http://jciunlimited2013excursions.eventbrite.ca/" target="_blank">
+                                                    Eventbrite
+                                                </a>
                                             </p>
                                             <p>
                                                 <img class="{programRes.style.half}"
@@ -1604,8 +1620,7 @@
                                         </div>
                                         <div class="{programRes.style.pagerDiv}" style="display: none;">
                                             <h2>
-                                                <ui:msg description="Program > Excursions > Beers > Title">Beer and
-                                                    cheese tasting
+                                                <ui:msg description="Program > Excursions > Beers > Title">Beer tasting
                                                 </ui:msg>
                                             </h2>
                                             <p>
@@ -1638,6 +1653,14 @@
                                                     <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
                                                 </b>
                                                 <ui:msg description="Program > Ui > DressCode > Casual">Casual</ui:msg>
+                                                <br/>
+                                                <b>
+                                                    <ui:msg description="Program > Ui > Registration">Registration
+                                                        :</ui:msg>
+                                                </b>
+                                                <a href="http://jciunlimited2013excursions.eventbrite.ca/" target="_blank">
+                                                    Eventbrite
+                                                </a>
                                             </p>
                                             <p>
                                                 <img src="{programRes.img_excursionBeer_1.getSafeUri}"
@@ -1647,7 +1670,6 @@
                                                 <ui:msg description="Program > Excursions > Beers > p1">La Barberie, a
                                                     Quebec microbrewery proposes to explain its unique way of
                                                     making beer.
-                                                    Come and see how cheese and beer can marry their flavors together!
                                                 </ui:msg>
                                             </p>
                                             <p>
@@ -3119,6 +3141,14 @@
                                                     <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
                                                 </b>
                                                 <ui:msg description="Program > Ui > DressCode > Casual">Casual</ui:msg>
+                                                <br/>
+                                                <b>
+                                                    <ui:msg description="Program > Ui > Registration">Registration
+                                                        :</ui:msg>
+                                                </b>
+                                                <a href="http://jciunlimited2013excursions.eventbrite.ca/" target="_blank">
+                                                    Eventbrite
+                                                </a>
                                             </p>
                                             <p>
                                                 <img class="{programRes.style.half}"
@@ -3252,6 +3282,14 @@
                                                     <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
                                                 </b>
                                                 <ui:msg description="Program > Ui > DressCode > Casual">Casual</ui:msg>
+                                                <br/>
+                                                <b>
+                                                    <ui:msg description="Program > Ui > Registration">Registration
+                                                        :</ui:msg>
+                                                </b>
+                                                <a href="http://jciunlimited2013excursions.eventbrite.ca/" target="_blank">
+                                                    Eventbrite
+                                                </a>
                                             </p>
                                             <p>
                                                 <img class="{programRes.style.half}"
@@ -3273,56 +3311,6 @@
                                                 </ui:msg>
                                             </p>
                                         </div>
-                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
-                                            <h2>Karting</h2>
-                                            <p>
-                                                <b>Date:</b>
-                                                <ui:msg description="Program > Ui > DateFull > 20">Friday, September 20,
-                                                    2013
-                                                </ui:msg>
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > Time">Time:</ui:msg>
-                                                </b>
-                                                <ui:msg description="Program > Ui > Hours > 13h30">1:30 pm</ui:msg>
-                                                -
-                                                <ui:msg description="Program > Ui > Hours > 16h30">4:30 pm</ui:msg>
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
-                                                </b>
-                                                Karting Extreme
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > Price">Price:</ui:msg>
-                                                </b>
-                                                <ui:msg description="Program > Ui > Price > 40">$40 CAN</ui:msg>
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
-                                                </b>
-                                                <ui:msg description="Program > Ui > DressCode > Casual">Casual</ui:msg>
-                                            </p>
-                                            <p>
-                                                <img src="{programRes.img_excursionKarting_1.getSafeUri}"
-                                                     alt="Karting Extreme"/>
-                                            </p>
-                                            <p>
-                                                <ui:msg description="Program > Excursions > Karting > p1">
-                                                    Here’s the activity to compete with your fellow JCI members. Behind
-                                                    the
-                                                    wheel of your
-                                                    kart, try to beat records and friends. Be careful though, having the
-                                                    first line at the start,
-                                                    does not guarantee victory!
-                                                </ui:msg>
-                                            </p>
-                                            <p>
-                                                <a href="www.laurierquebec.com" target="_blank">
-                                                    www.kartingextreme.com
-                                                </a>
-                                            </p>
-                                        </div>
                                     </div>
                                     <div class="{programRes.style.pagerButtonContainer}">
                                         <b>
@@ -3330,7 +3318,6 @@
                                             </ui:msg>
                                         </b>
                                         <a class="{programRes.style.pagerButton} {programRes.style.pagerButtonActive}"/>
-                                        <a class="{programRes.style.pagerButton}"/>
                                         <a class="{programRes.style.pagerButton}"/>
                                         <a class="{programRes.style.pagerButton}"/>
                                     </div>
@@ -4881,6 +4868,14 @@
                                                     <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
                                                 </b>
                                                 <ui:msg description="Program > Ui > DressCode > Casual">Casual</ui:msg>
+                                                <br/>
+                                                <b>
+                                                    <ui:msg description="Program > Ui > Registration">Registration
+                                                        :</ui:msg>
+                                                </b>
+                                                <a href="http://jciunlimited2013excursions.eventbrite.ca/" target="_blank">
+                                                    Eventbrite
+                                                </a>
                                             </p>
                                             <p>
                                                 <img class="{programRes.style.half}"
@@ -4981,176 +4976,6 @@
                                                 </a>
                                             </p>
                                         </div>
-                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
-                                            <h2>Karting</h2>
-                                            <p>
-                                                <b>Date:</b>
-                                                <ui:msg description="Program > Ui > DateFull > 21">Saturday, September
-                                                    21,
-                                                    2013
-                                                </ui:msg>
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > Time">Time:</ui:msg>
-                                                </b>
-                                                <ui:msg description="Program > Ui > Hours > 13h30">1:30 pm</ui:msg>
-                                                -
-                                                <ui:msg description="Program > Ui > Hours > 16h30">4:30 pm</ui:msg>
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
-                                                </b>
-                                                Karting Extreme
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > Price">Price:</ui:msg>
-                                                </b>
-                                                <ui:msg description="Program > Ui > Price > 40">$40 CAN</ui:msg>
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
-                                                </b>
-                                                <ui:msg description="Program > Ui > DressCode > Casual">Casual</ui:msg>
-                                            </p>
-                                            <p>
-                                                <img src="{programRes.img_excursionKarting_1.getSafeUri}"
-                                                     alt="Karting Extreme"/>
-                                            </p>
-                                            <p>
-                                                <ui:msg description="Program > Excursions > Karting > p1">
-                                                    Here’s the activity to compete with your fellow JCI members. Behind
-                                                    the
-                                                    wheel of your
-                                                    kart, try to beat records and friends. Be careful though, having the
-                                                    first line at the start,
-                                                    does not guarantee victory!
-                                                </ui:msg>
-                                            </p>
-                                            <p>
-                                                <a href="http://www.kartingextreme.com/" target="_blank">
-                                                    www.kartingextreme.com
-                                                </a>
-                                            </p>
-                                        </div>
-                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
-                                            <h2>
-                                                <ui:msg description="Program > Excursions > Ziplining > Title">High-Wire
-                                                    and Zip-Line adventure
-                                                </ui:msg>
-                                            </h2>
-                                            <p>
-                                                <b>Date:</b>
-                                                <ui:msg description="Program > Ui > DateFull > 21">Saturday, September
-                                                    21,
-                                                    2013
-                                                </ui:msg>
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > Time">Time:</ui:msg>
-                                                </b>
-                                                <ui:msg description="Program > Ui > Hours > 13h30">1:30 pm</ui:msg>
-                                                -
-                                                <ui:msg description="Program > Ui > Hours > 16h30">4:30 pm</ui:msg>
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
-                                                </b>
-                                                Arbraska Duchesnay
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > Price">Price:</ui:msg>
-                                                </b>
-                                                <ui:msg description="Program > Ui > Price > 40">$40 CAN</ui:msg>
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
-                                                </b>
-                                                <ui:msg description="Program > Ui > DressCode > Casual">Casual</ui:msg>
-                                            </p>
-                                            <p>
-                                                <img src="{programRes.img_excursionArbraska_1.getSafeUri}"
-                                                     alt="High-Wire and Zip-Line adventure"/>
-                                            </p>
-                                            <p>
-                                                <ui:msg description="Program > Excursions > Ziplining > p1">
-                                                    Want a real challenge? The Arbre en arbre activity has just the one
-                                                    for
-                                                    you! In the heart
-                                                    of the Jacques Cartier river’s park, you will stroll from one tree
-                                                    to
-                                                    another on courses
-                                                    ranging from easy to very hard. Register and test your limits. Do
-                                                    not
-                                                    register if you’ve
-                                                    experienced vertigo in the past.
-                                                </ui:msg>
-                                            </p>
-                                            <p>
-                                                <a href="http://www.arbraskaduchesnay.com/" target="_blank">
-                                                    www.arbraskaduchesnay.com
-                                                </a>
-                                            </p>
-                                        </div>
-                                        <div class="{programRes.style.pagerDiv}" style="display: none;">
-                                            <h2>
-                                                <ui:msg description="Program > Excursions > Ferrari > Title">Drive a
-                                                    Ferrari
-                                                </ui:msg>
-                                            </h2>
-                                            <p>
-                                                <b>Date:</b>
-                                                <ui:msg description="Program > Ui > DateFull > 21">Saturday, September
-                                                    21,
-                                                    2013
-                                                </ui:msg>
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > Time">Time:</ui:msg>
-                                                </b>
-                                                <ui:msg description="Program > Ui > Hours > 13h30">1:30 pm</ui:msg>
-                                                -
-                                                <ui:msg description="Program > Ui > Hours > 16h30">4:30 pm</ui:msg>
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > Venue">Venue:</ui:msg>
-                                                </b>
-                                                Circuit ICAR
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > Price">Price:</ui:msg>
-                                                </b>
-                                                <ui:msg description="Program > Ui > Price > 250">$250 CAN</ui:msg>
-                                                <br/>
-                                                <b>
-                                                    <ui:msg description="Program > Ui > DressCode">Dress code:</ui:msg>
-                                                </b>
-                                                <ui:msg description="Program > Ui > DressCode > FormalBond">Formal
-                                                    (James Bond style)
-                                                </ui:msg>
-                                            </p>
-                                            <p>
-                                                <img class="{programRes.style.half}"
-                                                     src="{programRes.img_excursionFerrari_1.getSafeUri}"
-                                                     alt="Ferrari F430"/>
-                                                <img class="{programRes.style.half}"
-                                                     src="{programRes.img_excursionFerrari_2.getSafeUri}"
-                                                     alt="Ferrari F430"/>
-                                            </p>
-                                            <p>
-                                                <ui:msg description="Program > Excursions > Ferrari > p1">
-                                                    A dream come true ! Come live that unforgettable experience behind
-                                                    the
-                                                    wheel of a legendary car and show what you’re worth on aclosed
-                                                    circuit!
-                                                </ui:msg>
-                                            </p>
-                                            <p>
-                                                <a href="http://www.circuiticar.com/academie/15-forfait-top-speed-f430.html"
-                                                   target="_blank">
-                                                    www.circuiticar.com
-                                                </a>
-                                            </p>
-                                        </div>
                                     </div>
                                     <div class="{programRes.style.pagerButtonContainer}">
                                         <b>
@@ -5158,9 +4983,6 @@
                                             </ui:msg>
                                         </b>
                                         <a class="{programRes.style.pagerButton} {programRes.style.pagerButtonActive}"/>
-                                        <a class="{programRes.style.pagerButton}"/>
-                                        <a class="{programRes.style.pagerButton}"/>
-                                        <a class="{programRes.style.pagerButton}"/>
                                         <a class="{programRes.style.pagerButton}"/>
                                     </div>
                                 </div>
